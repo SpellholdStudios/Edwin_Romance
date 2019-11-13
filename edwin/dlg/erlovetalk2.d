@@ -21,12 +21,15 @@
 APPEND BEDWIN
 
 ///Edwin Lovetalk 16
-IF WEIGHT #-85 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",32) Gender("Edwin",MALE) !StateCheck(Player1,STATE_SLEEPING)~
+IF WEIGHT #-85 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",32)~
 THEN BEGIN E87
    SAY @0
-   IF ~~ THEN REPLY @1 GOTO E88
-   IF ~~ THEN REPLY @2 GOTO E88
-   IF ~~ THEN REPLY @3 GOTO E88
+   IF ~~ THEN REPLY @1 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E88
+   IF ~~ THEN REPLY @2 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E88
+   IF ~~ THEN REPLY @3 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E88
 END
 
 IF ~~ THEN BEGIN E88
@@ -301,10 +304,11 @@ IF ~~ THEN BEGIN E98
 END
 
 ///Edwin Lovetalk 17
-IF WEIGHT #-84 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",34) Gender("Edwin",MALE) !StateCheck(Player1,STATE_SLEEPING)~
+IF WEIGHT #-84 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",34)~
 THEN BEGIN E99
    SAY @116
-   IF ~~ THEN REPLY @117 GOTO E100
+   IF ~~ THEN REPLY @117 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E100
 END
 
 IF ~~ THEN BEGIN E100
@@ -516,12 +520,15 @@ IF ~~ THEN DO ~SetGlobal("EdwinRomanceActive","GLOBAL",3)LeaveParty() Attack(Pla
 END
 
 ///Edwin Lovetalk 18 (Condition, party resting)
-IF WEIGHT #-83 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",36) Gender("Edwin",MALE) !StateCheck(Player1,STATE_SLEEPING)~
+IF WEIGHT #-83 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",36)~
 THEN BEGIN E110
    SAY @225
-   IF ~~ THEN REPLY @226 GOTO E110WAKEUP
-   IF ~~ THEN REPLY @227 GOTO E110WAKEUP
-   IF ~~ THEN REPLY @228 GOTO E110WAKEUP
+   IF ~~ THEN REPLY @226 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E110WAKEUP
+   IF ~~ THEN REPLY @227 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E110WAKEUP
+   IF ~~ THEN REPLY @228 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E110WAKEUP
 END
 
 IF ~~ THEN BEGIN E110WAKEUP
@@ -712,13 +719,17 @@ IF ~~ THEN BEGIN E121
 END
 
 ///Edwin Lovetalk 19 (Condition, waking up after Lovetalk 18)
-IF WEIGHT #-82 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",38) Gender("Edwin",MALE) Global("EdwinNightTogether","GLOBAL",1) !StateCheck(Player1,STATE_SLEEPING)~
+IF WEIGHT #-82 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",38)~
 THEN BEGIN E122
    SAY @316
-   IF ~~ THEN REPLY @317 GOTO E123
-   IF ~~ THEN REPLY @318 GOTO E124
-   IF ~~ THEN REPLY @319 GOTO E125
-   IF ~~ THEN REPLY @320 GOTO E126
+   IF ~~ THEN REPLY @317 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E123
+   IF ~~ THEN REPLY @318 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E124
+   IF ~~ THEN REPLY @319 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E125
+   IF ~~ THEN REPLY @320 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E126
 END
 
 IF ~~ THEN BEGIN E123
@@ -860,10 +871,11 @@ IF ~~ THEN DO ~SetGlobal("EdwinRomanceActive","GLOBAL",3)~ EXIT
 END
 
 ///Edwin Lovetalk 20
-IF WEIGHT #-81 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",40) Gender("Edwin",MALE) !StateCheck(Player1,STATE_SLEEPING) Global("EdwinTerl","GLOBAL",0)~
+IF WEIGHT #-81 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",40) Global("EdwinTerl","GLOBAL",0)~
 THEN BEGIN E130
    SAY @390
-   IF ~~ THEN REPLY @391 GOTO E131
+   IF ~~ THEN REPLY @391 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E131
 END
 
 IF ~~ THEN BEGIN E131
@@ -996,10 +1008,11 @@ IF ~~ THEN BEGIN E150
 END
 
 ///Edwin Lovetalk 21   /* after Terl */
-IF WEIGHT #-80 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",42) Gender("Edwin",MALE) !StateCheck(Player1,STATE_SLEEPING)~
+IF WEIGHT #-80 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",42)~
 THEN BEGIN E151
    SAY @446
-   IF ~~ THEN REPLY @447 GOTO E152
+   IF ~~ THEN REPLY @447 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO E152
 END
 
 IF ~~ THEN BEGIN E152
@@ -1062,13 +1075,18 @@ IF ~~ THEN BEGIN E160
 END
 
 //Edwin LT 25
-IF WEIGHT #-79 ~Global("BeginEdElDek","LOCALS",0) Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",44) Gender("Edwin",MALE) !StateCheck(Player1,STATE_SLEEPING)~ E161
+IF WEIGHT #-79 ~Global("BeginEdElDek","LOCALS",0) Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",44)~ E161
   SAY @496
-  ++ @497 + E162
-  ++ @498 + E162
-  ++ @499 + E162
-  ++ @500 + E162
-  ++ @501 + E162
+  ++ @497 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ + E162
+  ++ @498 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ + E162
+  ++ @499 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ + E162
+  ++ @500 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ + E162
+  ++ @501 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ + E162
 END
 
 IF ~~ E162

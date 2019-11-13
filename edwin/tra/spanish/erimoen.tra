@@ -8,7 +8,7 @@
 @5    = ~Sí, sí, lo que vos digáis. Así queeee... ¿la amáis? ¿La amáis de verdad de la buena?~
 @6    = ~Ehm... yo... ¡como ya os dije, meteos en vuestros asuntos, patética simia!~
 @7    = ~*risita* Vale, Edwin. Estáis lo bastante ruborizado como para tomarlo como un 'sí'.~
-@8    = ~Niña entrometida... ¿qué queréis que haga si estas túnicas son tan calurosas? (¿Por qué no pudo ser <CHARNAME> hijo único?)~ ~Niña entrometida... ¿qué queréis que haga si estas túnicas son tan calurosas? (¿Por qué no pudo ser <CHARNAME> hija única?)~
+@8    = ~Niña entrometida... ¿qué queréis que haga si estas túnicas son tan calurosas? (¿Por qué no pudo ser <CHARNAME> hijo único?)~ ~Niña entrometida... ¿qué queréis que haga si estas túnicas son tan calurosas?~
 @9    = ~Eh, Eddie, ¿cuándo es la serenata?~
 @10   = ~(Alguien le ha estado dando azúcar otra vez. Averiguaré quién fue y lo mataré. Lentamente. A no ser que fuera <CHARNAME>, en cuyo caso se lo haré pagar de un modo más placentero.) Mi nombre es Edwin, niña chillona. Seguro que incluso vuestro minúsculo cerebro puede recordar dos sílabas seguidas. (<CHARNAME> puede llamarme así si quiere, pero *nadie más*.) ¿De qué serenata estáis hablando?~
 @11   = ~¡Bueno, pensaba que todo chico que quisiera impresionar a su chica le cantaba serenatas! ¿No queréis ser romántico? Y con lo que fanfarr... ehm... habláis... pensé que igual querríais hacer alarde de vuestra voz un poco más.~
@@ -24,3 +24,4 @@
 @21	= ~El final de toda persona es la muerte, es algo inherente a ser mortal. Tal vez Bodhi pensó que era tan débil que esta muerte me impediría reclamar lo que me pertenece, pero se equivocó. Nada me impedirá que recupere mi alma y el poder que acarrea. Ni siquiera esto.~
 @22	= ~¡Bah! Puede que esté muerto, ¿y qué? Hay muchos chicos detrás de mí, y los que no lo están son *muy* estúpidos.~
 @23	= ~Sí, hermanito. Es sólo que no puedo dejar de pensar si hay algo que podamos hacer. Edwin no llevaba mucho tiempo muerto, y dudo que se completara su transformación vampiro, así que quizás no sea demasiado tarde. No sé que podemos hacer - pero tenemos que registrar este lugar. Tal vez haya algún hechizo anti-vampirismo o algo así por aquí. Pensad que tenían una Maza de Disrupción y un montón de estacas...~ ~Sí, hermanita. Es sólo que no puedo dejar de pensar si hay algo que podamos hacer. Edwin no llevaba mucho tiempo muerto, y dudo que se completara su transformación vampiro, así que quizás no sea demasiado tarde. No sé que podemos hacer - pero tenemos que registrar este lugar. Tal vez haya algún hechizo anti-vampirismo o algo así por aquí. Pensad que tenían una Maza de Disrupción y un montón de estacas...~
+@24   = ~(¿Por qué no pudo ser <CHARNAME> hija única?)~

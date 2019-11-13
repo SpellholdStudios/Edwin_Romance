@@ -25,3 +25,22 @@ For languages that can not be encoded in ASCII, the regular file
 As of version 2.0.3, the strings @0, @31, @32, @33, @34, @108 and @201
 are displayed during the installation. All other strings are displayed
 in the game.
+
+
+In v2.08 missing translations:
+
+-Chinese:
+--TFLIRTS.TRA
+
+-Russian:
+--TFLIRTS.TRA
+
+-Polish
+--ERLOVETALK25.TRA
+--ERTOBLO.TRA
+--FINSOL.TRA
+--FLIRTS.TRA
+--game.tra starting from line @105
+--SUMMON.TRA
+--TFLIRTS.TRA
+

@@ -1,5 +1,7 @@
 IF
   InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("EdwinRomanceActive","GLOBAL",2)
   OR(2)
   Global("AnomenRomanceActive","GLOBAL",1)
@@ -10,23 +12,107 @@ THEN
 END
 
 IF
+    InParty(Myself)
+    CombatCounter(0)
+    !See([ENEMY])
+    Global("EdwinRomanceActive","GLOBAL",2)
+    Global("RasaadRomanceActive","GLOBAL",1)
+    Global("ED_DeactivateRomRasaad","LOCALS",0)
+THEN
+    RESPONSE #100
+        SetGlobal("RasaadRomanceActive","GLOBAL",3)
+	SetGlobal("ED_DeactivateRomRasaad","LOCALS",1)
+END
+
+IF
+    InParty(Myself)
+    CombatCounter(0)
+    !See([ENEMY])
+    Global("EdwinRomanceActive","GLOBAL",2)
+    Global("DornRomanceActive","GLOBAL",1)
+    Global("ED_DeactivateRomDorn","LOCALS",0)
+THEN
+    RESPONSE #100
+        SetGlobal("DornRomanceActive","GLOBAL",3)
+	SetGlobal("ED_DeactivateRomDorn","LOCALS",1)
+END
+
+IF
+    InParty(Myself)
+    CombatCounter(0)
+    !See([ENEMY])
+    Global("EdwinRomanceActive","GLOBAL",2)
+    Global("HexxatRomanceActive","GLOBAL",1)
+    Global("ED_DeactivateRomHexxat","LOCALS",0)
+THEN
+    RESPONSE #100
+        SetGlobal("HexxatRomanceActive","GLOBAL",3)
+	SetGlobal("ED_DeactivateRomHexxat","LOCALS",1)
+END
+
+
+//No Romance if there is a serious one going on: EE NPCs
+IF
+    InParty(Myself)
+    InParty("Rasaad")
+    CombatCounter(0)
+    !See([ENEMY])
+    Global("RasaadRomanceActive","GLOBAL",2)
+    OR(2)
+	Global("EdwinRomanceActive","GLOBAL",1)
+	Global("EdwinRomanceActive","GLOBAL",2)
+THEN
+    RESPONSE #100
+       SetGlobal("EdwinRomanceActive","GLOBAL",3)
+END
+
+IF
+    InParty(Myself)
+    InParty("Dorn")
+    CombatCounter(0)
+    !See([ENEMY])
+    Global("DornRomanceActive","GLOBAL",2)
+    OR(2)
+	Global("EdwinRomanceActive","GLOBAL",1)
+	Global("EdwinRomanceActive","GLOBAL",2)
+THEN
+    RESPONSE #100
+       SetGlobal("EdwinRomanceActive","GLOBAL",3)
+END
+
+IF
+    InParty(Myself)
+    InParty("Hexxat")
+    CombatCounter(0)
+    !See([ENEMY])
+    Global("HexxatRomanceActive","GLOBAL",2)
+    OR(2)
+	Global("EdwinRomanceActive","GLOBAL",1)
+	Global("EdwinRomanceActive","GLOBAL",2)
+THEN
+    RESPONSE #100
+       SetGlobal("EdwinRomanceActive","GLOBAL",3)
+END
+
+/* mod NPCs */
+
+IF
+  InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   OR(2)
   Global("EdwinRomanceActive","GLOBAL",1)
   Global("EdwinRomanceActive","GLOBAL",2)
-  OR(7)
-  Global("E3FadeRomanceActive","GLOBAL",2)
-  Global("ChloeRomanceActiveCR","GLOBAL",2)
-  Global("J#KelseyRomanceActive","GLOBAL",2)
-  Global("TsujathaRomanceActive","GLOBAL",2)
-  Global("imoenromanceactive","GLOBAL",2)
-  Global("H#ValygarRomanceActive","GLOBAL",2)
-  Global("SolaTalk","GLOBAL",9)
+  %ACTIVE_MOD_NPC_ROMANCE%
 THEN
   RESPONSE #100
     SetGlobal("EdwinRomanceActive","GLOBAL",3)
 END
 
 IF
+  InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("EdwinRomanceActive","GLOBAL",2)
   OR(2)
   Global("TsujathaRomanceActive","GLOBAL",1)
@@ -55,7 +141,44 @@ THEN
     SetGlobal("EdwinMatch","GLOBAL",1)
 END
 
+/* after Nether scroll change, romance case */
+
 IF
+  InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
+  GlobalGT("AfterChange","LOCALS",0)
+  Global("EdwinRomanceActive","GLOBAL",1)
+  Global("ED_AfterChange","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinRomanceNetherScroll", "GLOBAL", 2)
+    RealSetGlobalTimer("EdwinRomance","GLOBAL",2800)
+    TakePartyItem("scrlnet")
+    DestroyItem("scrlnet")
+    SetGlobal("ED_AfterChange","LOCALS",1)
+END
+
+/* Player male */
+
+IF
+  InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
+  GlobalGT("AfterChange","LOCALS",0)
+  Global("CheckEdwinaMatch","GLOBAL",0)
+  Gender(Player1,MALE)
+  Global("ED_AfterChange","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("EdwinFlirt","GLOBAL",TWO_DAYS)
+    SetGlobal("ED_AfterChange","LOCALS",1)
+END
+
+IF
+  InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   GlobalTimerExpired("JonDream1","GLOBAL")
   Global("HadJonDream2","GLOBAL",0)
   Global("EddieCantGetDrunk","GLOBAL",0)
@@ -65,6 +188,9 @@ THEN
 END
 
 IF
+  InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("EddieCantGetDrunk","GLOBAL",1)
   Global("HadJonDream2","GLOBAL",1)
 THEN
@@ -74,6 +200,9 @@ THEN
 END
 
 IF
+  InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   GlobalTimerExpired("AfterJonDreams","GLOBAL")
   Global("EddieCantGetDrunk","GLOBAL",2)
 THEN
@@ -83,6 +212,8 @@ END
 
 IF
   InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("EdwinLoveTalk","LOCALS",0)
   Dead("MaeVar")
   Global("EdwinMatch","GLOBAL",1)
@@ -101,9 +232,9 @@ IF
   !Global("EdwinRomanceActive","GLOBAL",0)
   !Global("EdwinRomanceActive","GLOBAL",3)
   Global("EdwinMatch","GLOBAL",1)
-  !Global("Chapter","GLOBAL",4)
-  !Global("Chapter","GLOBAL",5)
-  !Global("Chapter","GLOBAL",7)
+  !Global("Chapter","GLOBAL",%bg2_chapter_4%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_7%)
   OR(9)
   Global("EdwinLoveTalk","LOCALS",1)
   Global("EdwinLoveTalk","LOCALS",3)
@@ -129,9 +260,11 @@ IF
   !AreaType(DUNGEON)
   See(Player1)
   CombatCounter(0)
-  !Global("Chapter","GLOBAL",4)
-  !Global("Chapter","GLOBAL",5)
-  !Global("Chapter","GLOBAL",7)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !Global("Chapter","GLOBAL",%bg2_chapter_4%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_7%)
   !See([ENEMY])
   !Range([NEUTRAL],10)
   OR(9)
@@ -142,15 +275,31 @@ IF
   Global("EdwinLoveTalk","LOCALS",13)
   Global("EdwinLoveTalk","LOCALS",15)
   Global("EdwinLoveTalk","LOCALS",17)
-  Global("EdwinLoveTalk","LOCALS",33)
-  Global("EdwinLoveTalk","LOCALS",39)
+  Global("EdwinLoveTalk","LOCALS",33) //Gender("Edwin",MALE)
+  Global("EdwinLoveTalk","LOCALS",39) //Gender("Edwin",MALE) Global("EdwinTerl","GLOBAL",0)
 THEN
   RESPONSE #100
-    MoveViewObject("Edwin",INSTANT)
     IncrementGlobal("EdwinLoveTalk","LOCALS",1)
     IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
-    PlaySong(999990)
-    Interact(Player1)
+END
+/* Morning after dialogue */
+IF
+  InParty(Myself)
+  Gender("Edwin",MALE) 
+  Global("EdwinNightTogether","GLOBAL",1)
+  !Global("EdwinRomanceActive","GLOBAL",0)
+  !Global("EdwinRomanceActive","GLOBAL",3)
+  Global("EdwinMatch","GLOBAL",1)
+  See(Player1)
+  CombatCounter(0)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  Global("EdwinLoveTalk","LOCALS",37) 
+THEN
+  RESPONSE #100
+    IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
 END
 
 IF
@@ -161,16 +310,14 @@ IF
   Global("EdwinMatch","GLOBAL",1)
   See(Player1)
   CombatCounter(0)
-  OR(2)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
   Global("EdwinLoveTalk","LOCALS",11)
-  Global("EdwinLoveTalk","LOCALS",37)
 THEN
   RESPONSE #100
-    MoveViewObject("Edwin",INSTANT)
     IncrementGlobal("EdwinLoveTalk","LOCALS",1)
     IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
-    PlaySong(999990)
-    Interact(Player1)
 END
 
 IF
@@ -184,9 +331,9 @@ IF
   See(Player1)
   !AreaType(DUNGEON)
   CombatCounter(0)
-  !Global("Chapter","GLOBAL",4)
-  !Global("Chapter","GLOBAL",5)
-  !Global("Chapter","GLOBAL",7)
+  !Global("Chapter","GLOBAL",%bg2_chapter_4%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_7%)
   OR(4)
   Global("EdwinLoveTalk","LOCALS",19)
   Global("EdwinLoveTalk","LOCALS",23)
@@ -207,9 +354,12 @@ IF
   !AreaType(DUNGEON)
   See(Player1)
   CombatCounter(0)
-  !Global("Chapter","GLOBAL",4)
-  !Global("Chapter","GLOBAL",5)
-  !Global("Chapter","GLOBAL",7)
+  !See([ENEMY])
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !Global("Chapter","GLOBAL",%bg2_chapter_4%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_7%)
   OR(4)
   Global("EdwinLoveTalk","LOCALS",19)
   Global("EdwinLoveTalk","LOCALS",23)
@@ -217,54 +367,55 @@ IF
   Global("EdwinLoveTalk","LOCALS",29)
 THEN
   RESPONSE #100
-    MoveViewObject("Edwin",INSTANT)
     IncrementGlobal("EdwinLoveTalk","LOCALS",1)
     IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
-    PlaySong(999991)
-    Interact(Player1)
 END
 
 IF
   InParty(Myself)
   RealGlobalTimerExpired("EdwinRomance","GLOBAL")
   Global("TalkedDegardan","GLOBAL",1)
+  Global("EdwinRomanceDegardan","GLOBAL",2)
   !Gender("Edwin",MALE)
   !Global("EdwinRomanceActive","GLOBAL",0)
   !Global("EdwinRomanceActive","GLOBAL",3)
   Global("EdwinMatch","GLOBAL",1)
   See(Player1)
   CombatCounter(0)
+  !See([ENEMY])
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
   Global("EdwinLoveTalk","LOCALS",27)
 THEN
   RESPONSE #100
-    MoveViewObject("Edwin",INSTANT)
     IncrementGlobal("EdwinLoveTalk","LOCALS",1)
     IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
-    PlaySong(999991)
-    Interact(Player1)
 END
 
 IF
   InParty(Myself)
+  Gender("Edwin",MALE)
   RealGlobalTimerExpired("EdwinRomance","GLOBAL")
   !Global("EdwinRomanceActive","GLOBAL",0)
   !Global("EdwinRomanceActive","GLOBAL",3)
   Global("EdwinMatch","GLOBAL",1)
   See(Player1)
   CombatCounter(0)
+  !See([ENEMY])
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
   Global("EdwinDekkieLetter","GLOBAL",2)
   Global("EdwinLoveTalk","LOCALS",41)
 THEN
   RESPONSE #100
-    MoveViewObject("Edwin",INSTANT)
     IncrementGlobal("EdwinLoveTalk","LOCALS",1)
     IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
-    PlaySong(999990)
-    Interact(Player1)
 END
 
 IF
   InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("EdwinMatch","GLOBAL",1)
   OR(4)
   Global("EdwinLoveTalk","LOCALS",10)
@@ -280,9 +431,11 @@ END
 
 IF
   InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   RealGlobalTimerExpired("EdwinRomance","GLOBAL")
   Global("EdwinMatch","GLOBAL",1)
-  Global("EdwinLoveTalk","LOCALS",40)
+  Global("EdwinLoveTalk","LOCALS",41)
   Global("EdwinTerl","GLOBAL",0)
 THEN
   RESPONSE #100
@@ -292,59 +445,40 @@ END
 
 IF
   InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   GlobalTimerExpired("SpawnTerlEdwin","GLOBAL")
-  !Global("Chapter","GLOBAL",4)
-  !Global("Chapter","GLOBAL",5)
-  !Global("Chapter","GLOBAL",7)
+  !Global("Chapter","GLOBAL",%bg2_chapter_4%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_7%)
   !AreaCheck("AR1900")
   !AreaCheck("AR2500")
   !AreaCheck("AR2600")
   AreaType(OUTDOOR)
   !Exists("Terl02")
+  See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
   Global("EdwinRomanceActive","GLOBAL",2)
   Global("EdwinDekkieLetter","GLOBAL",0)
 THEN
   RESPONSE #100
     SetGlobal("EdwinDekkieLetter","GLOBAL",1)
-    IncrementGlobal("EdwinLoveTalk","LOCALS",1)
-    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
     RealSetGlobalTimer("EdwinRomance","GLOBAL",10)
     CreateCreatureObjectOffScreen("TERL02",Myself,0,0,0)
 END
 
-IF
-  InParty(Myself)
-  RealGlobalTimerExpired("EdwinRomance","GLOBAL")
-  Global("EdwinMatch","GLOBAL",1)
-  OR(16)
-  Global("EdwinLoveTalk","LOCALS",2)
-  Global("EdwinLoveTalk","LOCALS",4)
-  Global("EdwinLoveTalk","LOCALS",6)
-  Global("EdwinLoveTalk","LOCALS",8)
-  Global("EdwinLoveTalk","LOCALS",12)
-  Global("EdwinLoveTalk","LOCALS",14)
-  Global("EdwinLoveTalk","LOCALS",16)
-  Global("EdwinLoveTalk","LOCALS",18)
-  Global("EdwinLoveTalk","LOCALS",20)
-  Global("EdwinLoveTalk","LOCALS",24)
-  Global("EdwinLoveTalk","LOCALS",28)
-  Global("EdwinLoveTalk","LOCALS",30)
-  Global("EdwinLoveTalk","LOCALS",32)
-  Global("EdwinLoveTalk","LOCALS",34)
-  Global("EdwinLoveTalk","LOCALS",38)
-  Global("EdwinLoveTalk","LOCALS",42)
-THEN
-  RESPONSE #100
-    IncrementGlobal("EdwinLoveTalk","LOCALS",1)
-    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
-    RealSetGlobalTimer("EdwinRomance","GLOBAL",2800)
-END
+
+
 
 IF
   InParty(Myself)
   Global("DekkieLetter","GLOBAL",1)
   AreaCheck("AR0300")
   See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
   CombatCounter(0)
   !Exists("barvon")
   Global("EdwinRomanceActive","GLOBAL",2)
@@ -361,12 +495,48 @@ IF
   GlobalTimerExpired("MeetingWithDekaras","GLOBAL")
   AreaCheck("AR0500")
   Range(Player1,45)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
   CombatCounter(0)
   Global("EdwinRomanceActive","GLOBAL",2)
 THEN
   RESPONSE #100
     SetGlobal("DekkieLetter","GLOBAL",4)
     CreateCreatureObjectOffScreen("dekaras1",Myself,0,0,0)
+END
+
+
+IF
+  InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
+  RealGlobalTimerExpired("EdwinRomance","GLOBAL")
+  Global("EdwinMatch","GLOBAL",1)
+  OR(16)
+  Global("EdwinLoveTalk","LOCALS",2)
+  Global("EdwinLoveTalk","LOCALS",4)
+  Global("EdwinLoveTalk","LOCALS",6)
+  Global("EdwinLoveTalk","LOCALS",8)
+  Global("EdwinLoveTalk","LOCALS",12)
+  Global("EdwinLoveTalk","LOCALS",14)
+  Global("EdwinLoveTalk","LOCALS",16)
+  Global("EdwinLoveTalk","LOCALS",18)
+  Global("EdwinLoveTalk","LOCALS",20)
+  Global("EdwinLoveTalk","LOCALS",24)
+  Global("EdwinLoveTalk","LOCALS",26)
+  Global("EdwinLoveTalk","LOCALS",28)
+  Global("EdwinLoveTalk","LOCALS",30)
+  Global("EdwinLoveTalk","LOCALS",34) 
+  Global("EdwinLoveTalk","LOCALS",38) 
+  Global("EdwinLoveTalk","LOCALS",40) 
+  Global("EdwinLoveTalk","LOCALS",42)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("EdwinRomance","GLOBAL",2800)
+    MoveViewObject("Edwin",INSTANT)
+    PlaySong(999990)
+    Interact(Player1)
 END
 
 IF
@@ -379,6 +549,7 @@ THEN
 END
 
 IF
+  InParty(Myself)
   RealGlobalTimerExpired("EdwinWantsToBeFeminine","GLOBAL")
   !Global("EdwinRomanceActive","GLOBAL",0)
   !Global("EdwinRomanceActive","GLOBAL",3)
@@ -397,11 +568,14 @@ IF
   !AreaCheck("AR0812")
   !AreaCheck("AR0813")
   See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
   CombatCounter(0)
   Global("EdwinRomanceWarning","GLOBAL",1)
-  !Global("Chapter","GLOBAL",4)
-  !Global("Chapter","GLOBAL",5)
-  !Global("Chapter","GLOBAL",7)
+  !Global("Chapter","GLOBAL",%bg2_chapter_4%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_7%)
 THEN
   RESPONSE #100
     MoveViewObject("Edwin",INSTANT)
@@ -409,6 +583,7 @@ THEN
 END
 
 IF
+  InParty(Myself)
   RealGlobalTimerExpired("EdwinWantsToBeFeminine","GLOBAL")
   !Global("EdwinRomanceActive","GLOBAL",0)
   !Global("EdwinRomanceActive","GLOBAL",3)
@@ -427,11 +602,14 @@ IF
   !AreaCheck("AR0812")
   !AreaCheck("AR0813")
   See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
   CombatCounter(0)
   Global("EdwinRomanceWarning","GLOBAL",2)
-  !Global("Chapter","GLOBAL",4)
-  !Global("Chapter","GLOBAL",5)
-  !Global("Chapter","GLOBAL",7)
+  !Global("Chapter","GLOBAL",%bg2_chapter_4%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_7%)
 THEN
   RESPONSE #100
     MoveViewObject("Edwin",INSTANT)
@@ -439,15 +617,19 @@ THEN
 END
 
 IF
+  InParty(Myself)
   GlobalTimerExpired("MeetingWithDekaras","GLOBAL")
   Global("DekkieLetter","GLOBAL",1)
   Global("EdwinRomanceActive","GLOBAL",2)
   !AreaCheck("AR0300")
   See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
   CombatCounter(0)
-  !Global("Chapter","GLOBAL",4)
-  !Global("Chapter","GLOBAL",5)
-  !Global("Chapter","GLOBAL",7)
+  !Global("Chapter","GLOBAL",%bg2_chapter_4%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
+  !Global("Chapter","GLOBAL",%bg2_chapter_7%)
   OR(2)
   Global("DekarasComplain","GLOBAL",0)
   Global("DekarasComplain","GLOBAL",1)
@@ -458,6 +640,9 @@ THEN
 END
 
 IF
+  InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("CheckEdwinaMatch","GLOBAL",0)
   Gender(Player1,MALE)
 THEN
@@ -467,8 +652,15 @@ THEN
 END
 
 IF
+  InParty(Myself)
+  See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
   GlobalTimerExpired("EdwinFlirt","GLOBAL")
   Global("EdwinaFlirt","GLOBAL",1)
+  !Gender("Edwin",MALE)
 THEN
   RESPONSE #100
     SetGlobal("EdwinaFlirt","GLOBAL",2)
@@ -478,8 +670,15 @@ THEN
 END
 
 IF
+  InParty(Myself)
+  See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
   GlobalTimerExpired("EdwinFlirt","GLOBAL")
   Global("EdwinaFlirt","GLOBAL",3)
+  !Gender("Edwin",MALE)
 THEN
   RESPONSE #100
     SetGlobal("EdwinaFlirt","GLOBAL",4)
@@ -488,6 +687,12 @@ THEN
 END
 
 IF
+  InParty(Myself)
+  See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
   AreaCheck("AR0527")
   Global("EdwinRomanceActive","GLOBAL",2)
   Global("EdwinLichQuest","GLOBAL",1)
@@ -504,15 +709,23 @@ THEN
 END
 
 IF
+  InParty(Myself)
+  See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
   GlobalTimerExpired("Eddiedekkiedelaymad","GLOBAL")
   !Global("EdwinLichQuest","GLOBAL",2)
-  InParty(Myself)
 THEN
   RESPONSE #100
     Dialog(Player1)
 END
 
 IF
+  InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   AreaCheck("AR0500")
   Global("EdCreatedInvis","LOCALS",0)
   Global("EdwinRomanceActive","GLOBAL",2)
@@ -524,6 +737,12 @@ THEN
 END
 
 IF
+  InParty(Myself)
+  See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("Edwinmentionedthesmell","LOCALS",0)
   Global("EdwinRomanceActive","GLOBAL",2)
   Global("EdwinLichQuest","GLOBAL",1)
@@ -535,9 +754,17 @@ THEN
 END
 
 IF
+  InParty(Myself)
+  See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("TalkedDegardan","GLOBAL",1)
   !Global("EdwinaFlirt","GLOBAL",0)
   Global("Edwinahaddegdia","LOCALS",0)
+  !Global("PainfullBurns","LOCALS",1)
+  !Gender("Edwin",MALE)
 THEN
   RESPONSE #100
     SetGlobal("Edwinahaddegdia","LOCALS",1)
@@ -546,6 +773,12 @@ THEN
 END
 
 IF
+  InParty(Myself)
+  See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("TalkedDegardan","GLOBAL",4)
   !Global("EdwinaFlirt","GLOBAL",0)
   Global("Edwinahaddegdia","LOCALS",2)
@@ -562,6 +795,8 @@ IF
   AreaCheck("arbase")
   Global("Edwattpc","GLOBAL",0)
   Global("Dekattpc","GLOBAL",0)
+  !StateCheck("dekaras3",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
 THEN
   RESPONSE #100
     SetGlobal("Edwattpc","GLOBAL",1)
@@ -579,6 +814,13 @@ END
 
 IF
   PartyRested()
+  Gender("Edwin",MALE)
+  InParty(Myself)
+  See(Player1)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("BancoDead","GLOBAL",1)
   Global("DekkieBye","GLOBAL",1)
   Global("EdwinLoveTalk","LOCALS",43)

@@ -316,7 +316,7 @@
         <p class="about">
           <a href="http://www.spellholdstudios.net/ie/edwin">Mod Website</a> &#8226;
           <a href="http://www.shsforums.net/forum/69-edwin-romance/">Mod Forum</a> &#8226;
-          Version: 2.0.7
+          Version: 2.0.8
         </p>
         <hr />
         <p class="menu">
@@ -353,7 +353,7 @@ installation.</p>
           <p>Please note that the 'Female Edwina' component of Ease of Use may potentially cause conflict with the Edwin Romance's Female Edwina, so you
 will not be able to install Edwin Romance if you have that component installed.</p>
 
-          <p>So far incompatible: BGT, Big Picture. May be made compatible in a later version.</p>
+          <p>So far incompatible: Big Picture. May be made compatible in a later version.</p>
 
           <p>Most likely, other Weidu mods will also work well.</p>
 
@@ -493,6 +493,28 @@ Anybody I have forgotten, please let me know and I will include you.</span><br /
         <a name="version" id="version"></a>
         <div class="content">
           <h2>Version history</h2>
+
+          <h6>Version 2.0.8:</h6>
+          <ul>
+            <li>EET compatibility added.</li>
+            <li>Fixed mistyped "Myself" in redlich.baf.</li>
+            <li>(All BWPFixpack fixes integrated.)</li>
+            <li>Removed "Edwin sound fix" dialogue with True() trigger.</li>
+            <li>Added SUPPORT tag with link to the Edwin Romance forum.</li>
+            <li>Component "Edwin Flirts" will be deinstalled automatically if the main romance component is deinstalled.</li>
+            <li>added Inparty(), See(), CombatCounter(0), !See([ENEMY]), !StateCheck("Edwin",CD_STATE_NOTVALID) to script blocks where appropriate</li>
+            <li>added "romance kill" script blocks for Rasaad, Dorn, Hexxat's romances</li>
+            <li>removed redundant triggers from the dialogues</li>
+            <li>morning after dialogue: will fire directly after wakeup</li>
+            <li>PC should not have to sail to Brynnlaw immediately when talking to Aran if Edwin's quest is finished (fixed misplaced A_T_T)</li>
+            <li>optimized dialogue patching (no more REPLACE to EdwinJ and Degard.dlg)</li>
+            <li>tree of life and final solar talk interjection compatible (no more skipping of other NPCs, no accidental call of the original Edwin interjection in romance case)</li>
+            <li>no romance dialogues should be missed (romance dialogues scripted like Kulyok's <a href="http://forums.pocketplane.net/index.php/topic,23822.0.html">"How to ensure your banters always run when you want them to"</a></li>
+			<li>compatibility with Imoen 4 Ever added</li>
+			<li>new lines translated by: Austin (Russian), angel_c4 (Chinese), Cykuta (Polish)</li>
+            <li>Polish, Russian, Chinese: English version for missing tra files added</li>
+            <li>Update to WeiDU v246.</li>
+          </ul>
 
           <h6>Version 2.0.7:</h6>
           <ul>

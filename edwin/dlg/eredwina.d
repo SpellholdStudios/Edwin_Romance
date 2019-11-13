@@ -3,15 +3,21 @@ APPEND BEDWIN
 
 //Edwin Lovetalk 10
 
-IF WEIGHT #-91 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",20) !Gender("Edwin",MALE) !StateCheck(Player1,STATE_SLEEPING)~
+IF WEIGHT #-91 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",20)~
 THEN BEGIN EDWINA1_1
    SAY @0
-   IF ~~ THEN REPLY @1 GOTO EDWINA1_2
-   IF ~~ THEN REPLY @2 GOTO EDWINA1_2
-   IF ~~ THEN REPLY @3 GOTO EDWINA1_3
-   IF ~~ THEN REPLY @4 GOTO EDWINA1_3
-   IF ~~ THEN REPLY @5 GOTO EDWINA1_2
-   IF ~IsValidForPartyDialog("Anomen")~ THEN EXTERN BANOMEN ANOEDWINA1
+   IF ~~ THEN REPLY @1 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA1_2
+   IF ~~ THEN REPLY @2 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA1_2
+   IF ~~ THEN REPLY @3 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA1_3
+   IF ~~ THEN REPLY @4 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA1_3
+   IF ~~ THEN REPLY @5 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA1_2
+   IF ~IsValidForPartyDialog("Anomen")~ THEN DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ EXTERN BANOMEN ANOEDWINA1
 END
 
 IF ~~ THEN BEGIN EDWINA_ANOMEN_EXIT1
@@ -107,12 +113,15 @@ END
 
 //Edwin Lovetalk 11
 
-IF WEIGHT #-90 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",22) !Gender("Edwin",MALE) !StateCheck(Player1,STATE_SLEEPING)~
+IF WEIGHT #-90 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",22)~
 THEN BEGIN EDWINA2_1
   SAY @45
-  IF ~~ THEN REPLY @46 GOTO EDWINA2_2
-  IF ~~ THEN REPLY @47 GOTO EDWINA2_2
-  IF ~~ THEN REPLY @48 GOTO EDWINA2_2
+  IF ~~ THEN REPLY @46 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA2_2
+  IF ~~ THEN REPLY @47 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA2_2
+  IF ~~ THEN REPLY @48 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA2_2
 END
 
 IF ~~ THEN BEGIN EDWINA2_2
@@ -238,14 +247,19 @@ END
 
 //Edwin Lovetalk 12
 
-IF WEIGHT #-89 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",24) !Gender("Edwin",MALE) !StateCheck(Player1,STATE_SLEEPING)~
+IF WEIGHT #-89 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",24)~
 THEN BEGIN EDWINA3_1
    SAY @106
-   IF ~~ THEN REPLY @107 GOTO EDWINA3_2
-   IF ~~ THEN REPLY @108 GOTO EDWINA3_4
-   IF ~~ THEN REPLY @109 GOTO EDWINA3_3
-   IF ~~ THEN REPLY @110 GOTO EDWINA3_2
-   IF ~IsValidForPartyDialog("Anomen")~ THEN EXTERN BANOMEN ANOEDWINA2
+   IF ~~ THEN REPLY @107 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA3_2
+   IF ~~ THEN REPLY @108 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA3_4
+   IF ~~ THEN REPLY @109 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA3_3
+   IF ~~ THEN REPLY @110 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA3_2
+   IF ~IsValidForPartyDialog("Anomen")~ THEN DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ EXTERN BANOMEN ANOEDWINA2
 END
 
 IF ~~ THEN BEGIN EDWINA_ANOMEN_EXIT2
@@ -392,12 +406,15 @@ IF ~~ THEN BEGIN EDWINA3_6_5
 END
 
 //Edwin Lovetalk 13
-IF WEIGHT #-88 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",26) !Gender("Edwin",MALE) !StateCheck(Player1,STATE_SLEEPING)~
+IF WEIGHT #-88 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",26)~
 THEN BEGIN EDWINA4_1
    SAY @175
-   IF ~~ THEN REPLY @176 GOTO EDWINA4_1_1
-   IF ~~ THEN REPLY @177 GOTO EDWINA4_1_6
-   IF ~~ THEN REPLY @178 GOTO EDWINA4_1_6
+   IF ~~ THEN REPLY @176 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA4_1_1
+   IF ~~ THEN REPLY @177 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA4_1_6
+   IF ~~ THEN REPLY @178 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA4_1_6
 END
 
 IF ~~ THEN BEGIN EDWINA4_1_1
@@ -620,13 +637,18 @@ IF ~~ THEN BEGIN EDWINA4_8_2
 END
 
 // Edwin Lovetalk 14
-IF WEIGHT #-87 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",28) !Gender("Edwin",MALE) Global("EdwinRomanceDegardan", "GLOBAL", 2) !StateCheck(Player1,STATE_SLEEPING)~ THEN BEGIN EDWINA5_1
+IF WEIGHT #-87 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",28)~ THEN BEGIN EDWINA5_1
    SAY @285
-   IF ~~ THEN REPLY @286 GOTO EDWINA5_2
-   IF ~~ THEN REPLY @287 GOTO EDWINA5_2
-   IF ~~ THEN REPLY @288 GOTO EDWINA5_3
-   IF ~~ THEN REPLY @289 GOTO EDWINA5_4
-   IF ~IsValidForPartyDialog("Anomen")~ THEN EXTERN BANOMEN ANOEDWINA3
+   IF ~~ THEN REPLY @286 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA5_2
+   IF ~~ THEN REPLY @287 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA5_2
+   IF ~~ THEN REPLY @288 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA5_3
+   IF ~~ THEN REPLY @289 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA5_4
+   IF ~IsValidForPartyDialog("Anomen")~ THEN DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ EXTERN BANOMEN ANOEDWINA3
 END
 
 IF ~~ THEN BEGIN EDWINA_ANOMEN_EXIT3
@@ -775,11 +797,14 @@ END
 
 // Edwin Lovetalk 15
 
-IF WEIGHT #-86 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",30) !Gender("Edwin",MALE) Global("EdwinRomanceDegardan", "GLOBAL", 2) !StateCheck(Player1,STATE_SLEEPING)~ THEN BEGIN EDWINA6_1
+IF WEIGHT #-86 ~Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",30)~ THEN BEGIN EDWINA6_1
    SAY @355
-   IF ~~ THEN REPLY @356 GOTO EDWINA6_2
-   IF ~~ THEN REPLY @357 GOTO EDWINA6_2
-   IF ~~ THEN REPLY @358 GOTO EDWINA6_2
+   IF ~~ THEN REPLY @356 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA6_2
+   IF ~~ THEN REPLY @357 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA6_2
+   IF ~~ THEN REPLY @358 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)~ GOTO EDWINA6_2
 END
 
 IF ~~ THEN BEGIN EDWINA6_2

@@ -8,7 +8,7 @@
 @5    = ~Ta, jasne. Nooo, ale... kochasz j¹? Naprawdê, naprawdê kochasz?~
 @6    = ~Ee... ja... jak mówi³em, zajmij siê swoimi sprawami, ma³poludko!~
 @7    = ~*Uœmiech* W porz¹dku, Edwin. Przyjmê, ¿e ten rumieniec oznacza 'tak'.~
-@8    = ~Ty wkurzaj¹ca ma³a zmoro... co poradzê, ¿e ta szata jest za ciep³a? (Dlaczego <CHARNAME> nie mog³a byæ jedynaczk¹?)~
+@8    = ~Ty wkurzaj¹ca ma³a zmoro... co poradzê, ¿e ta szata jest za ciep³a?~
 @9    = ~Hej Eddie, kiedy bêdzie serenada?~
 @10   = ~(Ktoœ znowu pozwoli³ jej jeœæ cukier. Dowiem siê kto, i zabijê go. Powoli. Chyba, ¿e to by³a <CHARNAME>, co do której zastosujê przyjemniejsz¹ formê kary.) Mam na imiê Edwin, ty piskliwa ró¿owa fretko. Nawet twój miniaturowy mózg powinien byæ w stanie przyswoiæ dwie sylaby? (<CHARNAME> mo¿e tak do mnie mówiæ, jeœli ma ochotê, ale na tym *koniec*.) O czym ty w ogóle be³koczesz?~
 @11   = ~No, myœla³am, ¿e wszyscy faceci, którzy chc¹ zrobiæ wra¿enie na swoich dziewczynach, œpiewaj¹ im serenady. Nie chcesz byæ romantyczny? Poza tym, ci¹gle siê przechwalasz... um, ci¹gle tyle mówisz, wiêc myœla³am, ¿e spodoba ci siê mo¿liwoœæ  zaprezentowania g³osu raz jeszcze.~
@@ -24,3 +24,4 @@
 @21	= ~Ludzie umieraj¹. To los ka¿dego œmiertelnika. Byæ mo¿e Bodhi uwa¿a³a mnie za s³abeusza, którego czyjaœ œmieræ mo¿e powstrzymaæ przed zabraniem, co mu siê nale¿y. Ale myli³a siê. Nic mnie nie powstrzyma przed odzyskaniem mojej duszy, i nale¿nej mi mocy. Nic. Nawet to.~
 @22	= ~A co tam! No, umar³. Wielkie rzeczy. Jest pe³no innych facetów, którym siê podobam, a ci, którym siê nie podobam, to straszni frajerzy.~
 @23	= ~Jasne, siostrzyczko. Po prostu zastanawiam siê, czy czegoœ nie da³oby siê zrobiæ. Nie jest d³ugo martwy, i nie by³ chyba jeszcze ca³kiem wampirem, wiêc mo¿e nie byæ za póŸno. Nie wiem, co robiæ, ale powinnyœmy dobrze przeszukaæ tê dziurê. Mo¿e jest tu gdzieœ zwój Odwrócenia Wampiryzmu, albo coœ w tym stylu? No co, przecie¿ trzymali tu Wekierê Zniszczeñ i ko³ki, nie?~
+@24   = ~(Dlaczego <CHARNAME> nie mog³a byæ jedynaczk¹?)~

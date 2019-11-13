@@ -7,11 +7,10 @@ IF ~Global("EdwinRomanceActive","GLOBAL",2) GlobalGT("EdwinVampire","GLOBAL",0)~
 END
 
 APPEND IMOEN2J
-IF ~GlobalGT("EdwinVampire","GLOBAL",0)
-    See(Player1)
-    Global("CommentEdvamp","LOCALS",0)~ CommentEdwin
+IF WEIGHT #-1
+~Global("CommentEdvamp","LOCALS",1)~ CommentEdwin
   SAY @15 = @16
-  IF ~~ DO ~SetGlobal("CommentEdvamp","LOCALS",1)~ EXIT
+  IF ~~ DO ~SetGlobal("CommentEdvamp","LOCALS",2)~ EXIT
 END
 
 IF ~~ CommentEdwin2
@@ -30,12 +29,8 @@ END
 END
 
 CHAIN
-IF
-~InParty("Edwin")
-See("Edwin")
-!StateCheck("Edwin",STATE_SLEEPING)
-Global("EdwinRomanceActive","GLOBAL",2)
-Global("Beddim1","LOCALS",2)~ THEN IMOEN2J Imoeddiechain1
+IF WEIGHT #-1
+~Global("Beddim1","LOCALS",2)~ THEN IMOEN2J Imoeddiechain1
 @0
 DO ~SetGlobal("Beddim1","LOCALS",3)~
 == BEDWIN
@@ -54,15 +49,13 @@ DO ~SetGlobal("Beddim1","LOCALS",3)~
 @7
 == BEDWIN
 @8
+== BEDWIN IF ~GlobalGT("Chapter","GLOBAL",3) !Global("C#IM_ImoenStays","GLOBAL",1)~ THEN 
+@24
 EXIT
 
 CHAIN
-IF
-~InParty("Edwin")
-See("Edwin")
-!StateCheck("Edwin",STATE_SLEEPING)
-Global("EdwinRomanceActive","GLOBAL",2)
-Global("Beddim1","LOCALS",4)~ THEN IMOEN2J Imoeddiechain2
+IF WEIGHT #-1
+~Global("Beddim1","LOCALS",4)~ THEN IMOEN2J Imoeddiechain2
 @9
 DO ~SetGlobal("Beddim1","LOCALS",5)~
 == BEDWIN

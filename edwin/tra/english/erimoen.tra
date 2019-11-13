@@ -8,7 +8,7 @@
 @5    = ~Yeah, yeah, whatever. Soooo... d'you love her then? Really, really love her?~
 @6    = ~Er...I... as I said, mind your own business, you pitiful simian!~
 @7    = ~*Grin* That's all right, Edwin. You're blushing hard enough that I'll take that for a 'yes'.~
-@8    = ~Aggravating little busybody... can I help it if these robes are a bit too hot? (Why couldn't <CHARNAME> have been an only child?)~
+@8    = ~Aggravating little busybody... can I help it if these robes are a bit too hot?~
 @9    = ~Hey Eddie, when's the serenade?~
 @10   = ~(Somebody has been giving her sugar again. I will find out who, and then I will kill them. Slowly. Unless it is <CHARNAME>, in which case I will limit myself to a more pleasant form of retribution.) My name is Edwin, you constantly squealing ninny. Surely even your minuscule brain can keep track of two simple syllables? (<CHARNAME> might call me that if she wants to, but that is * it *.) What serenade are you blabbing about?~
 @11   = ~Why, I thought that all guys who wanted to impress their girlfriend sang serenades! Don't you want to be romantic? And what with how much you brag... er... talk... I figured you'd like showing off your voice some more.~
@@ -24,3 +24,4 @@
 @21	= ~People die all the time, it happens to any mortal. Perhaps Bodhi thought me weak enough that this particular death would stop me from taking what is mine, but she was wrong. I will let nothing stop me from taking my soul back, and the power that goes with it. Not even this.~
 @22	= ~Like duh! So maybe he's dead, big deal. There are lots of other boys who want me, and the ones that don't, they're like *so* stupid.~
 @23	= ~I hear you, sis. It's just that I can't help wondering if there might be something we can do. Edwin's not been dead long, and I don't think he was a full vampire yet either, so it may not be too late. I'm not sure what we can do - but I think we should search this place real good. Maybe there's an Anti Vamp spell around or something. Heck, they did keep a Mace of Disruption and lots of stakes lying about...~
+@24     = ~(Why couldn't <CHARNAME> have been an only child?)~

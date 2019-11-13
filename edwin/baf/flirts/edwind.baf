@@ -4,6 +4,8 @@
 IF
   See(Player1)
   CombatCounter(0)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
   Global("ERCook", "GLOBAL", 1)
   !Global("EdwinRomanceActive","GLOBAL",3)
   !Global("EdwinromanceActive","GLOBAL",0)

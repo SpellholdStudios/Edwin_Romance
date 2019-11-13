@@ -25,7 +25,7 @@ APPEND BEDWIN25
 //Edwin Throne of Bhaal Lovetalk 1
 //HOW TO CHECK FOR MELISSAN?
 
-IF WEIGHT #-100 ~Global("EdwinRomanceActive","GLOBAL",2) Global("ExpLoveTalk","LOCALS",2) !StateCheck(Player1,STATE_SLEEPING)~ THEN BEGIN E1
+IF WEIGHT #-100 ~Global("EdwinRomanceActive","GLOBAL",2) Global("ExpLoveTalk","LOCALS",2)~ THEN BEGIN E1
 	SAY @0
 	IF ~~ THEN REPLY @1 GOTO E3
 	IF ~~ THEN REPLY @2 GOTO E3
