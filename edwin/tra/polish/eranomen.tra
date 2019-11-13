@@ -1,0 +1,34 @@
+// -*- coding: cp1250 -*-
+
+@0    = ~A co powinna wiedzieæ, cymbale? ¯e jest tam wiêcej pompatycznych, prymitywnych bigotów ni¿ much na gnij¹cych zw³okach? (I prêdzej mo¿na liczyæ na muchy, jeœli chce siê odbyæ ciekaw¹ rozmowê.)~
+@1    = ~Nic dziwnego, ¿e Zakon nie zdobywa twojej aprobaty, magu. Jego idea³y, szlachetnoœæ i sprawiedliwoœæ, nie mog¹ podobaæ siê tobie podobnym.~
+@2    = ~Sprawiedliwoœæ? Czy to amnijskie s³owo na upierdliwych, zadufanych w sobie hipokrytów?~
+@3    = ~To logiczne, ¿e do nich przysta³eœ. Niewiele jest zawodów odpowiednich dla cz³owieka o mózgu wielkoœci fasolki, i takcie ostrygi.~
+@4    = ~*Ty* bêdziesz poucza³ *mnie* w dziedzinie taktu? Cz³owiek, który wszêdzie pluje obelgami, tak jak smok wszêdzie pluje ogniem?~
+@5    = ~*Moje* obelgi s¹ inteligentne, celowe i odpowiednio przemyœlane. *Twoje* to niezdarne gafy prostaka, który powinien raczej wsadziæ sobie stopê do ust, by je wreszcie zatkaæ.~
+@6    = ~Skoro o stopach mowa...~
+@7    = ~AU! Moja stopa! Nadepn¹³eœ mnie! Specjalnie to zrobi³eœ!~
+@8    = ~Po co czekaæ? Mogê ciê os¹dziæ ju¿ teraz. Jesteœ aroganckim, marudnym g³upkiem, który ³udzi siê, ¿e jakakowiek zdrowa kobieta chcia³aby s³u¿yæ ci bez przerwy za terapeutkê. Niniejszym mianujê ciê Sir U¿alaczem-Nad-Sob¹ z Niezdecydowa. ( Niesamowite, ¿e nie pytasz <CHARNAME> co masz jeœæ na obiad.)~
+@9    = ~Jak œmiesz? Ty zapewne wolisz gnuœnieæ w swojej niegodziwoœci, i atakowaæ ka¿dego, kto siê zbli¿y? Tak bardzo boisz siê, ¿e ktoœ pomyœli, ¿e zale¿y ci na jakiejkolwiek innej osobie?~
+@10   = ~Nie gnuœniejê!~
+@11   = ~Nie? Wiêc dlaczego tak cieszy ciê cierpienie innych? Niegodziwoœæ i upadek? Byæ mo¿e nawet mnie zarazi³o twoje z³o, bo czujê potrzebê, by uczestniczyæ w *twoim* cierpieniu, i Helmie pomó¿ mi, je¿eli nie zamilkniesz,  zrobiê to!~
+@12   = ~Tylko na tyle ciê staæ? Wiêdn¹cy, brzydki kwiatek? Gdzie go zerwa³eœ, na œmietniku? Czy po prostu wyci¹gn¹³eœ sobie z buta?~
+@13   = ~Doœæ. <CHARNAME>, ze wzglêdu na ciebie znosi³em wiele ze strony tego obmierz³ego maga, ale nie bêdê tego d³u¿ej tolerowa³. NajwyraŸniej jest tak og³upia³y, ¿e wydaje mu siê, i¿ mog³abyœ mieæ dla niego cokolwiek poza wspó³czuciem. Nie mo¿e znieœæ, jak obecnoœæ lepszego rywala obna¿a jego bezwartoœciowoœæ.~
+@14   = ~Niby czemu mia³aby chcieæ? To jak pytaæ, czy jest zainteresowana myœlami ameby. Wiêc doradzê ci, jednokomórkowcu: spadaj.~
+@15   = ~Paplaj sobie, jeœli musisz. Pamiêtaj tylko, ¿e od tego gadania mo¿esz nabawiæ siê powa¿nej kontuzji czaszki, jeœli Ÿle dobierzesz s³owa. Mówi³em do  <CHARNAME>.~
+@16   = ~S¹dzi³em, ze doradza³eœ mi wiêksze zdecydowanie? Moja Pani, pozwól mi wróciæ do tak nieprzyjemnie przerwanej rozmowy. Zastanawia³em siê, czy mówi³em ci ju¿, jak zosta³em kap³anem?~
+@17   = ~Przykro mi, <CHARNAME>. Tak jak mówi³em, moja nadchodz¹ca Próba sprawia, ¿e jestem ostatnio nerwowy.~
+@18   = ~Dziêkujê, moja pani. Co do tego kwiatu...~
+@19   = ~Mnie równie¿ przykro, pani. ¯e zbyt wiele... za³o¿y³em. W taki razie chyba muszê ust¹piæ pola.~
+@20   = ~Ani te¿ oddania i lojalnoœci, które równie¿ móg³bym ci daæ. Niech i tak bêdzie.~
+@21   = ~Dziêkujê ci, moja pani. A teraz, pozwól, ¿e wrócê do tematu twojej cudnej osoby...~
+@22   = ~Masz na myœli siebie? <CHARNAME>, powinnaœ rozwiaæ z³udzenia tej opancerzonej ma³py. NajwyraŸniej s¹dzi, ¿e jest dla ciebie czymœ wiêcej ni¿ tylko Ÿród³em rozrywki.~
+@23   = ~Nie, Edwin. Polubi³am Anomena. A nawet wiêcej. Nie mogê zrobiæ tego, o co prosisz.~
+@24   = ~Nie b¹dŸ œmieszny! Jeœli ktokolwiek jest tu Ÿród³em rozrywki, to ty! Potrzebny mi prawdziwy mê¿czyzna, nie w sukience.~
+@25   = ~Anomenie... zale¿y mi na tobie. Ale myœlê, ¿e potrzebujesz wiêcej, wiêcej ni¿ mogê ci daæ. Przykro mi, jeœli niechc¹cy wprowadzi³am ciê w b³¹d.~
+@26   = ~Tak! Spadaj, Anomen! I zabierz ze sob¹ ten g³upi kwiatek, nie potrzebujê go.~
+@27   = ~Rozumiem... najwyraŸniej masz gorszy gust ni¿ myœla³em, <CHARNAME>, i mniej intelektu. Cieszê siê, ¿e w porê siê o tym dowiedzia³em.~
+@28   = ~W takim razie, <CHARNAME>, postaram siê pokazaæ moj¹ mniej humorystyczn¹ stronê. (Kiedy najmniej bêd¹ siê tego spodziewaæ...)~
+@29   = ~Tak! Spadaj, Anomen! I zatrzymaj sobie swoje myœli, nie potrzebujê ich.~
+@30   = ~Rozumiem... najwyraŸniej masz gorszy gust ni¿ myœla³em, <CHARNAME>, i mniej intelektu. Cieszê siê, ¿e w porê siê o tym dowiedzia³em.~
+@31   = ~W takim razie, <CHARNAME>, postaram siê pokazaæ moj¹ mniej humorystyczn¹ stronê. (Kiedy najmniej bêd¹ siê tego spodziewaæ...)~

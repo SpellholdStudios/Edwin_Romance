@@ -1,0 +1,622 @@
+/*****************************************************************************************************************************
+* Edwin Romance, by Laufey
+******************************************************************************************************************************/
+
+BACKUP ~edwin/backup~
+AUTHOR ~laufeygreen@hotmail.com~
+
+README ~Edwin/edwinromance-readme.html~
+VERSION ~v2.0.7~
+
+AUTO_TRA ~edwin/tra/%s~
+
+ALWAYS
+  /*
+   * For the purposes of HANDLE_CHARSETS, disregard this variable. It is used elsewhere.
+   */
+  OUTER_SPRINT tra_path ~%MOD_FOLDER%/tra~
+
+  /*
+   * An array of the TRA files which should not be converted.
+   * The .tra file extension is implied and should not be explicitly added.
+   * The array can be named anything.
+   */
+  ACTION_DEFINE_ARRAY fl#noconvert BEGIN setup setup-osx setup-unix setup-win32 END
+
+  /*
+   * An array of the TRA files which should be reloaded after being converted.
+   * These are typically TRA files loaded by LANGUAGE.
+   * The .tra file extension is implied and should not be explicitly added.
+   * The array can be named anything.
+   */
+  ACTION_DEFINE_ARRAY fl#reload BEGIN game END
+
+  /*
+   * This array is included for illustrative purposes.
+   * It is a mapping of language-directory names to the charsets used
+   * by that language. Using an array like this is not necessary when
+   * you use %infer_charset%. However, in some situations it holds
+   * advantages over %infer_charset%, such as when your
+   * language-directory name is not recognised by %infer_charset%,
+   * or when the actual charset used is different from what
+   * %infer_charset% thinks is used.
+   */
+/*
+  ACTION_DEFINE_ASSOCIATIVE_ARRAY fl#charsets BEGIN
+    english => cp1252
+    french => cp1252
+    spanish => cp1252
+    russian => cp1251
+    german => cp1252
+    polish => cp1250
+    schinese => cp936
+  END
+*/
+
+  /*
+   * If the game is of an EE-type, this function will convert all
+   * specified or all but the specified TRA files into UTF-8 and
+   * optionally reload some of the TRA files it converted (typically
+   * the same TRA files as loaded by LANGUAGE).
+   *
+   * This function requires that %infer_charset% is set to 1 OR it
+   * requires a valid declaration for %charset_table%.
+   * It additionally requires that %tra_path% is specified such that
+   * %tra_path%/%LANGUAGE% is a valid directory containing TRA files.
+   * Furthermore, if iconv.exe is not located in %tra_path%/iconv, you must
+   * specify the location of iconv.exe with the variable %iconv_path%.
+   *
+   * You can EITHER specify the array %noconvert_array% OR the array
+   * %convert_array%. The former should contain all those TRA files
+   * which should not be converted and the latter should contain all
+   * those TRA files which should be converted. You can optionally
+   * specify %reload_array%, which should contain all those TRA files
+   * that should be reloaded through LOAD_TRA after being converted.
+   * Any TRA file already loaded before being converted would still
+   * contain unconverted text, unless reloaded.
+   */
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charsets = 1
+    STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%/tra~
+      // charset_table = fl#charsets // Included for illustrative purposes.
+      noconvert_array = fl#noconvert
+      reload_array = fl#reload
+      default_language = english
+  END
+END
+
+LANGUAGE ~American English~
+         ~english~
+         ~edwin/tra/english/game.tra~
+         ~edwin/tra/english/setup.tra~
+
+LANGUAGE ~Francaise~
+         ~french~
+         ~edwin/tra/english/game.tra~
+         ~edwin/tra/english/setup.tra~
+         ~edwin/tra/french/game.tra~
+         ~edwin/tra/french/setup-%WEIDU_OS%.tra~
+
+LANGUAGE ~Espanol~
+         ~spanish~
+         ~edwin/tra/english/game.tra~
+         ~edwin/tra/english/setup.tra~
+         ~edwin/tra/spanish/game.tra~
+         ~edwin/tra/spanish/setup-%WEIDU_OS%.tra~
+
+LANGUAGE ~Russian~
+         ~russian~
+         ~edwin/tra/english/game.tra~
+         ~edwin/tra/english/setup.tra~
+         ~edwin/tra/russian/game.tra~
+         ~edwin/tra/russian/setup-%WEIDU_OS%.tra~
+
+LANGUAGE ~Deutsch~
+         ~german~
+         ~edwin/tra/english/game.tra~
+         ~edwin/tra/english/setup.tra~
+         ~edwin/tra/german/game.tra~
+         ~edwin/tra/german/setup-%WEIDU_OS%.tra~
+
+LANGUAGE Polish
+         polish
+         ~edwin/tra/english/game.tra~
+         ~edwin/tra/english/setup.tra~
+         ~edwin/tra/polish/game.tra~
+         ~edwin/tra/polish/setup-%WEIDU_OS%.tra~
+
+LANGUAGE ~Simplified Chinese~
+         schinese
+         ~edwin/tra/english/game.tra~
+         ~edwin/tra/english/setup.tra~
+         ~edwin/tra/schinese/game.tra~
+         ~edwin/tra/schinese/setup-%WEIDU_OS%.tra~
+
+
+
+BEGIN @0 //Edwin Romance
+FORBID_COMPONENT ~setup-ease.tp2~ ~20~ @31 //Edwin Romance is not compatible with Ease of Use's Female Edwina Component. It must be uninstalled in order to install Edwin Romance.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee~ @34
+DESIGNATED 0
+
+COPY_EXISTING sw1h01.itm "override/EdwinRomanceV2.mrk"
+
+UNINSTALL edwinflirts.tp2 0
+UNINSTALL edwintob.tp2 1
+UNINSTALL edwintob.tp2 0
+
+APPEND ~STATE.IDS~ ~0x00000FC0 STATE_REALLY_DEAD~ UNLESS ~STATE_REALLY_DEAD~
+
+
+
+//Dialogues
+COMPILE
+~edwin/dlg/eredwinp.d~
+~edwin/dlg/eredwinj.d~
+~edwin/dlg/ervicon.d~
+~edwin/dlg/ermazzy.d~
+~edwin/dlg/eranomen.d~
+~edwin/dlg/erelvira.d~
+~edwin/dlg/erlovetalk2.d~
+~edwin/dlg/erterl02.d~
+~edwin/dlg/eredwina2.d~
+~edwin/dlg/eredwina.d~
+~edwin/dlg/erlovetalk.d~
+~edwin/dlg/erimoen.d~
+
+COMPILE
+~edwin/dlg/barvon.d~
+~edwin/dlg/erdekaras.d~
+~edwin/dlg/eredwin_dekkie.d~
+
+COMPILE
+~edwin/dlg/banco.d~
+
+COMPILE
+~edwin/dlg/ertol.d~
+~edwin/dlg/erslayer.d~
+~edwin/dlg/talkfix.d~
+
+
+// Journals for BGII:EE
+ADD_JOURNAL EXISTING TITLE (#74337) @17 @20 @34 USING ~%tra_path%/english/er_bodhi.tra~ ~%tra_path%/%LANGUAGE%/er_bodhi.tra~
+ADD_JOURNAL @32 @37 @77 @95 USING ~%tra_path%/english/erdekaras.tra~ ~%tra_path%/%LANGUAGE%/erdekaras.tra~
+ADD_JOURNAL EXISTING @469 @471 USING ~%tra_path%/english/erlovetalk2.tra~ ~%tra_path%/%LANGUAGE%/erlovetalk2.tra~
+
+// Copy, assorted
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+  COPY ~edwin/bmp/ee~ override
+  COPY ~edwin/bam/ee~ override
+END ELSE BEGIN
+  COPY ~edwin/bmp/bg2~ ~override~
+  COPY ~edwin/bam/bg2~ ~override~
+END
+COPY ~edwin/phylact/phylact.eff~ ~override/phylact.eff~
+COPY ~edwin/spl/spin662.spl~ ~override/spin662.spl~
+COPY ~edwin/spl/spin916.spl~ ~override/spin916.spl~
+  FOR (i = LONG_AT 0x6a; i < SOURCE_SIZE; i += 0x30) BEGIN
+    READ_SHORT i type
+    PATCH_IF type = 103 BEGIN //change name
+      SAY i + 0x4 @5
+    END
+  END
+
+MKDIR ~music/MxEdwin~
+MKDIR ~music/MxDwina~
+COPY ~edwin/music/MxEdwin.mus~ ~music/MxEdwin.mus~
+COPY ~edwin/music/MxEdwin/MxEdwinA.acm~ ~music/MxEdwin/MxEdwinA.acm~
+COPY ~edwin/music/MxDwina.mus~ ~music/MxDwina.mus~
+COPY ~edwin/music/MxDwina/MxDwinaA.acm~ ~music/MxDwina/MxDwinaA.acm~
+
+//add music
+ADD_MUSIC ~MxEdwin~ ~edwin/music/MxEdwin.mus~
+ADD_MUSIC ~MxDwina~ ~edwin/music/MxDwina.mus~
+
+
+
+//Areas
+COPY ~edwin/are~ override
+
+
+
+// Scripts
+COMPILE ~edwin/baf/compile~
+
+//Cut-scenes
+COMPILE ~edwin/baf/ermother.baf~
+        ~edwin/baf/erhappyf.baf~
+        ~edwin/baf/erupsetf.baf~
+        ~edwin/baf/EdwinFix.baf~
+        ~Edwin/baf/EdwinaFi.baf~
+
+EXTEND_BOTTOM ~baldur.bcs~ ~edwin/baf/BALDUR_edwin_romance.baf~
+EXTEND_TOP ~ar0301.bcs~ ~edwin/baf/ar0301_edwin_romance.baf~
+EXTEND_TOP ~anomen.bcs~ ~edwin/baf/ANOMEN_edwin_romance.baf~
+EXTEND_TOP ~edwin.bcs~ ~edwin/baf/EDWIN_romance_fix.baf~
+EXTEND_BOTTOM ~anomen.bcs~ ~edwin/baf/romfix.baf~
+EXTEND_BOTTOM ~imoen2.bcs~ ~edwin/baf/er_imoen.baf~ //This is for the Imoen banters. Necessary because Imoen doesn't have a banter file.
+EXTEND_BOTTOM edwind.bcs ~edwin/baf/edwind.baf~
+EXTEND_BOTTOM edwin.bcs ~edwin/baf/edwin.baf~
+
+COPY_EXISTING ~edwinD.bcs~ ~override/edwinD.bcs~
+  REPLACE_TEXTUALLY 999990 ~%MxEdwin%~
+  REPLACE_TEXTUALLY 999991 ~%MxDwina%~
+
+COPY_EXISTING ~ar0802.bcs~ ~override/ar0802.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~\(Global("SpawnLich","GLOBAL",0)[ %LNL%%TAB%]+InParty("Edwin")\)~
+                      ~\1 OR(2) !Global("EdwinRomanceActive","GLOBAL",1) Global("EdwinRomanceNetherScroll","GLOBAL",1)~
+  END
+  BUT_ONLY
+
+COPY_EXISTING ~DPLAYER2.bcs~ ~override/DPLAYER2.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~\(BreakingPoint()\)~
+                      ~\1 !CharName("Edwin",Myself) !CharName("Edwina",Myself)~
+  END
+
+COPY_EXISTING dplayer2.bcs override
+  DECOMPILE_AND_PATCH BEGIN
+    APPEND_FILE ~edwin/baf/dplayer2.baf~
+  END
+BUT_ONLY
+UNLESS ~EdwinRomanceActive~ //Tsujatha appends the same block
+
+COPY_EXISTING ~edwin.bcs~ ~override/edwin.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~\(Global("DegardanComes","LOCALS",0)\)~
+                      ~\1 OR(2) Global("EdwinRomanceDegardan","GLOBAL",1) !Global("EdwinRomanceActive","GLOBAL",1)~
+    REPLACE_TEXTUALLY ~\(Global("DegardanComesAgain","LOCALS",0)\)~
+                      ~\1 OR(2) Global("EdwinRomanceDegardan","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",1)~
+    REPLACE_TEXTUALLY ~\(AreaCheck("AR0800")\)[ %LNL%%TAB%]+\(Global("EdwinTalkedAboutScroll","GLOBAL",0)[ %LNL%%TAB%]+Global("EdwinMentionsOnce","LOCALS",0)\)~
+                      ~OR(6) \1 AreaCheck("AR0801") AreaCheck("AR0802") AreaCheck("AR0804") AreaCheck("AR0805") AreaCheck("AR0806") \2 OR(2) !Global("EdwinRomanceActive","GLOBAL",1) Global("EdwinRomanceNetherScroll","GLOBAL",1)~
+    REPLACE_TEXTUALLY 999990 ~%MxEdwin%~
+    REPLACE_TEXTUALLY 999991 ~%MxDwina%~
+  END
+BUT_ONLY
+
+COPY_EXISTING ~cut57c.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~ApplySpell("Edwin",EDWINA_IN_HELL)~
+                      ~ApplySpell("Edwin", EDWIN_CHANGE_BACK)
+                       ChangeGender("edwin",MALE)
+                       ActionOverride("edwin",Polymorph(MAGE_MALE_HUMAN))~
+  END
+BUT_ONLY
+
+
+// Creatures
+COPY_EXISTING ~Terl.cre~ ~override/Terl02.cre~
+  WRITE_ASCII 0x258 ~terl02~ #8
+  WRITE_ASCII 0x2CC ~terl02~ #8
+  WRITE_ASCII 0x280 ~Terl02~ #32
+
+COPY ~edwin/cre/barvon.cre~ ~override/barvon.cre~
+  SAY NAME1 @7
+  SAY NAME2 @7
+  WRITE_ASCII 0x34 ~barvon~ #8
+  WRITE_ASCII 0x258 ~barvon~ #8 // race script
+  WRITE_ASCII 0x2CC ~barvon~ #8 // dialog
+  WRITE_ASCII 0x280 ~barvon~ #32 // death variable
+
+COPY ~edwin/cre/DEKARAS.cre~ ~override/DEKARAS.cre~
+  SAY NAME1 @8
+  SAY NAME2 @8
+  WRITE_ASCII 0x34 ~DekkieS~ #8
+  WRITE_ASCII 0x3C ~DekkieL~ #8
+  WRITE_ASCII 0x258 ~dekaras~ #8 // race script
+  WRITE_ASCII 0x2CC ~dekaras~ #8 // dialog
+  WRITE_ASCII 0x280 ~dekaras~ #32 // death variable
+  LPF ADD_CRE_ITEM_FLAGS
+    STR_VAR
+      item_to_change = "edwxbo01\|edwdag01"
+      flags = "unstealable"
+  END
+
+COPY ~override/DEKARAS.cre~ ~override/DEKARAS1.cre~
+  WRITE_ASCII 0x2CC ~dekaras1~ #8 // dialog
+  WRITE_ASCII 0x280 ~dekaras1~ #32 // death variable
+
+COPY ~override/DEKARAS.cre~ ~override/DEKARAS2.cre~
+  WRITE_ASCII 0x258 ~dekaras2~ #8 // race script
+  WRITE_ASCII 0x2CC ~dekaras2~ #8 // dialog
+  WRITE_ASCII 0x280 ~dekaras2~ #32 // death variable
+
+COPY ~override/DEKARAS.cre~ ~override/DEKARAS3.cre~
+  WRITE_ASCII 0x258 ~dekaras3~ #8 // race script
+  WRITE_ASCII 0x2CC ~dekaras3~ #8 // dialog
+  WRITE_ASCII 0x280 ~dekaras3~ #32 // death variable
+
+COPY ~override/DEKARAS.cre~ ~override/DEKARAS4.cre~
+  WRITE_ASCII 0x258 ~dekaras4~ #8 // race script
+  WRITE_ASCII 0x2CC ~dekaras4~ #8 // dialog
+  WRITE_ASCII 0x280 ~dekaras4~ #32 // death variable
+
+COPY ~edwin/cre/redw1.cre~ ~override/redw1.cre~
+  SAY NAME1 @9
+  SAY NAME2 @9
+  WRITE_ASCII 0x34 ~Red1sm~ #8
+  WRITE_ASCII 0x250 ~redw1~ #8 // class script
+  WRITE_ASCII 0x2CC ~redw1~ #8 // dialog
+  WRITE_ASCII 0x280 ~redw1~ #32 // death variable
+
+COPY ~edwin/cre/redw2.cre~ ~override/redw2.cre~
+  SAY NAME1 @10
+  SAY NAME2 @10
+  WRITE_ASCII 0x34 ~Red2sm~ #8
+  WRITE_ASCII 0x250 ~redw2~ #8 // class script
+  WRITE_ASCII 0x2CC ~redw2~ #8 // dialog
+  WRITE_ASCII 0x280 ~redw2~ #32 // death variable
+
+COPY ~edwin/cre/redw3.cre~ ~override/redw3.cre~
+  SAY NAME1 @11
+  SAY NAME2 @11
+  WRITE_ASCII 0x34 ~Red3sm~ #8
+  WRITE_ASCII 0x250 ~redw3~ #8 // class script
+  WRITE_ASCII 0x2CC ~redw3~ #8 // dialog
+  WRITE_ASCII 0x280 ~redw3~ #32 // death variable
+
+COPY ~edwin/cre/banco.cre~ ~override/banco.cre~
+  SAY NAME1 @12
+  SAY NAME2 @12
+  WRITE_ASCII 0x34 ~redlich~ #8
+  WRITE_ASCII 0x250 ~redlich~ #8 // class script
+  WRITE_ASCII 0x258 ~erbanco~ #8 // race script
+  WRITE_ASCII 0x2CC ~banco~ #8 // dialog
+  WRITE_ASCII 0x280 ~banco~ #32 // death variable
+
+COPY ~edwin/cre/tknight1.cre~ ~override/tknight1.cre~
+  SAY NAME1 @19
+  SAY NAME2 @19
+  WRITE_ASCII 0x250 ~thaysht~ #8 // class script
+  WRITE_ASCII 0x268 ~thaypotn~ #8 // default script
+  WRITE_ASCII 0x280 ~tknight1~ #32 // death variable
+
+
+COPY ~edwin/cre/tknight2.cre~ ~override/tknight2.cre~
+  SAY NAME1 @19
+  SAY NAME2 @19
+  WRITE_ASCII 0x250 ~thaysht~ #8 // class script
+  WRITE_ASCII 0x268 ~thaypotn~ #8 // default script
+  WRITE_ASCII 0x280 ~tknight2~ #32 // death variable
+
+COPY ~edwin/cre/tknight3.cre~ ~override/tknight3.cre~
+  SAY NAME1 @19
+  SAY NAME2 @19
+  WRITE_ASCII 0x250 ~thaysht~ #8 // class script
+  WRITE_ASCII 0x268 ~thaypotn~ #8 // default script
+  WRITE_ASCII 0x280 ~tknight3~ #32 // death variable
+
+COPY ~edwin/cre/Eddekfhi.CRE~ ~override/Eddekfhi.CRE~ //The .cre file contains the necessary information
+
+COPY ~edwin/cre/elvira.cre~ ~override~
+  SAY NAME1 @30
+  SAY NAME2 @30
+
+
+
+// Items
+COPY ~edwin/itm/EDPOTN.itm~ ~override~
+  SAY NAME2 @1
+  SAY DESC @2
+
+COPY  ~edwin/itm/edhair.itm~ ~override~
+  SAY NAME1 @3
+  SAY NAME2 @3
+  SAY DESC @4
+
+COPY  ~edwin/itm/scrlnet.itm~ ~override/scrlnet.itm~
+  SAY NAME1 #33318
+  SAY NAME2 #33318
+  SAY DESC @6
+
+COPY  ~edwin/itm/lichring.itm~ ~override~
+  SAY NAME1 @13
+  SAY NAME2 @13
+  SAY DESC @14
+
+COPY  ~edwin/itm/telering.itm~ ~override~
+  SAY NAME1 @15
+  SAY NAME2 @15
+  SAY DESC @16
+
+COPY ~edwin/itm/telring2.itm~ ~override~
+  SAY NAME1 @15
+  SAY NAME2 @15
+  SAY DESC @34
+
+COPY ~edwin/itm/lichim2.itm~ override
+
+COPY ~edwin/phylact/phylact1.itm~ ~override/phylact1.itm~
+  SAY NAME1 @23
+  SAY NAME2 @23
+  SAY DESC @24
+
+COPY ~edwin/phylact/phylact2.itm~ ~override/phylact2.itm~
+  SAY NAME1 @23
+  SAY NAME2 @23
+  SAY DESC @25
+
+COPY ~edwin/itm/EDWDAG01.itm~ ~override~
+  SAY NAME2 @26
+  SAY DESC @27
+
+COPY ~edwin/itm/EDWXBO01.itm~ ~override~
+  SAY NAME2 @28
+  SAY DESC @29
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME leat24.itm BEGIN // Grandmaster Armor
+  COPY ~edwin/Dek_armor~ ~override~
+END
+
+
+
+// Bodhi abduction
+COMPILE ~edwin/dlg/er_bodhi.d~
+
+COPY  ~edwin/cre/Vampedd.cre~ ~override/Vampedd.cre~
+  SAY NAME1 @20
+  SAY NAME2 @20
+
+COPY ~edwin/itm/ER_edbod.itm~ ~override/ER_edbod.itm~
+  SAY NAME1 @21
+  SAY NAME2 @21
+  SAY DESC @22
+  WRITE_ASCII 0x58 ~cedbody~ #8
+
+EXTEND_TOP ~Ar0809.bcs~ ~edwin/baf/ER_Ar0809.baf~
+USING ~edwin/tra/%s/er_bodhi.tra~
+
+EXTEND_TOP ~Cleanse.bcs~ ~edwin/baf/ER_cleanse.baf~
+EXTEND_TOP ~Vampamb.bcs~ ~edwin/baf/ER_vampamb.baf~
+EXTEND_BOTTOM ~bodhiamb.bcs~ ~edwin/baf/er_bodhiamb.baf~
+
+LAF HANDLE_AUDIO END
+
+
+
+// ToB Portion
+ACTION_IF GAME_IS ~tob bgt bg2ee~ BEGIN
+
+  COPY_EXISTING ~AR6200.bcs~ ~override~
+    REPLACE_BCS_BLOCK ~edwin/baf/tob/erfiold.baf~ ~edwin/baf/tob/erfinew.baf~
+
+
+  EXTEND_TOP ~edwi25.bcs~ ~edwin/baf/tob/edwin25.baf~
+  EXTEND_BOTTOM ~cut218g.bcs~ ~edwin/baf/tob/er_loc2.baf~
+
+  COPY_EXISTING edwi25.bcs override
+    DECOMPILE_AND_PATCH BEGIN
+      REPLACE 999999 "%MxEdwin%"
+    END
+  BUT_ONLY
+
+  COPY ~edwin/cre/er_love1.cre~ ~override/er_love1.cre~
+    SAY NAME1 @103
+    SAY NAME2 @103
+    WRITE_ASCII 0x2cc ~er_love1~ #8
+    WRITE_ASCII 0x280 ~er_love1~ #32
+    WRITE_ASCII 0x258 ~~ #8
+    WRITE_ASCIIL 0x34 ~~ ~~
+
+  COPY ~edwin/cre/er_calld.cre~ ~override~
+    SAY NAME1 @103
+    SAY NAME2 @103
+    WRITE_ASCII 0x280 ~er_calld~ #32
+    WRITE_ASCII 0x2cc ~ercallde~ #8
+    WRITE_SHORT 0x28 32556
+    WRITE_ASCII 0x248 ~~ #8
+
+  COPY_EXISTING ~sarmag01.cre~ ~override/er_jadda.cre~
+    SAY NAME1 @104
+    SAY NAME2 @104
+    WRITE_ASCIIL 0x248 ~~ ~~ ~~ ~~ ~~
+    WRITE_ASCII 0x280 ~er_jadda~ #32 //death variable
+    WRITE_ASCII 0x2cc ~er_jadda~ #8 //dialog
+    WRITE_SHORT 0x28 25092 //animation
+    WRITE_ASCII 0x34 ~~ #8   //small portrait
+    WRITE_ASCII 0x3c ~~ #8   //medium portrait
+    WRITE_BYTE 0x272 6
+    WRITE_BYTE 0x2f 69
+
+
+  COPY_EXISTING ~edwin/dlg/Edwintxt.2da~ ~override/ErEdwin1.2da~
+    REPLACE ~73928~ @105
+
+  COPY_EXISTING ~edwin/dlg/Edwintxt.2da~ ~override/ErEdwin2.2da~
+    REPLACE ~73928~ @106
+
+  COPY_EXISTING ~edwin/dlg/Edwintxt.2da~ ~override/Edwinnd.2da~
+    REPLACE ~73928~ @110
+
+  COMPILE ~edwin/dlg/erlovetalk25.d~ USING
+          ~%tra_path%/english/erlovetalk25.tra~
+          ~%tra_path%/%LANGUAGE%/erlovetalk25.tra~
+  COMPILE ~edwin/dlg/ertoblo.d~ USING
+          ~%tra_path%/english/ertoblo.tra~
+          ~%tra_path%/%LANGUAGE%/ertoblo.tra~
+  COMPILE ~edwin/dlg/finsol.d~ USING
+          ~%tra_path%/english/erfinsol.tra~
+          ~%tra_path%/%LANGUAGE%/erfinsol.tra~
+  COMPILE ~edwin/baf/tob/er_loc1.baf~
+  COMPILE ~edwin/baf/tob/er_loc3.baf~
+  COMPILE ~edwin/baf/tob/er_loc4.baf~
+  COMPILE ~edwin/dlg/summon.d~ USING
+          ~%tra_path%/english/summon.tra~
+          ~%tra_path%/%LANGUAGE%/summon.tra~
+
+  ACTION_IF FILE_EXISTS_IN_GAME ~balth2.dlg~ BEGIN // Ascension
+    OUTER_SET fl#balth2state = 13
+    ACTION_IF !FILE_EXISTS_IN_GAME finbalth.cre AND // Ascension but hopefully nothing else
+              MOD_IS_INSTALLED wheels.tp2 0 BEGIN // Wheels of Prophecy
+      OUTER_SET fl#balth2state = 6
+    END
+    COMPILE EVAL ~edwin/dlg/asccomp.d~
+  END
+
+END
+
+
+
+BEGIN @32 //Restore Edwin's BG1 portrait; will only work if Edwin hasn't been in party yet.
+REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @33 //This component requires Edwin Romance to be installed.
+DESIGNATED 1
+
+ACTION_FOR_EACH edwin IN edwin7 edwin9 edwin11 edwin12 edwin13 edwin15 BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
+    COPY_EXISTING "%edwin%.cre" override
+      WRITE_ASCII 0x3c ~EDWINM~ #8
+      WRITE_ASCII 0x34 ~EDWINS~ #8
+    BUT_ONLY
+  END
+END
+
+COPY_EXISTING ~spin662.spl~ ~override~
+  FOR (i = LONG_AT 0x6a; i < SOURCE_SIZE; i += 0x30) BEGIN
+    READ_SHORT i       fx
+    READ_LONG  i + 0x8 p2
+    PATCH_IF fx = 107 BEGIN //change portrait
+      PATCH_IF p2 = 1 BEGIN
+        WRITE_ASCII i + 0x14 edwinm #8
+      END ELSE PATCH_IF p2 = 0 BEGIN
+        WRITE_ASCII i + 0x14 edwins #8
+      END
+    END
+  END
+BUT_ONLY
+
+ACTION_FOR_EACH file IN edwinnd eredwin1 eredwin2 BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME "%file%.2da" BEGIN
+    COPY_EXISTING "%file%.2da" override
+      REPLACE_TEXTUALLY ~NEDWINL~ ~EDWINL~
+  END
+END
+
+
+
+BEGIN @201 //Edwin flirts
+REQUIRE_PREDICATE MOD_IS_INSTALLED ~Setup-EdwinRomance.tp2~ 0 @33 //This component requires Edwin Romance to be installed.
+DESIGNATED 2
+
+COMPILE ~edwin/dlg/flirts.d~ USING ~edwin/tra/english/flirts.tra~ ~edwin/tra/%s/flirts.tra~
+
+EXTEND_BOTTOM ~Edwin.bcs~ ~edwin/baf/flirts/edwin.baf~
+
+EXTEND_BOTTOM ~Edwind.bcs~ ~edwin/baf/flirts/edwind.baf~
+
+ACTION_IF FILE_EXISTS_IN_GAME ~er_jadda.cre~ BEGIN
+  COMPILE ~edwin/dlg/tflirts.d~ USING ~edwin/tra/english/tflirts.tra~ ~edwin/tra/%s/tflirts.tra~
+END
+
+
+
+BEGIN @108 //New ending for Viconia Romance by Laufey
+DESIGNATED 3
+
+COPY_EXISTING ~edwin/dlg/erviconi.2da~ ~override/ervicoen.2da~
+  REPLACE ~86249~ @109
+
+COPY_EXISTING ~AR6200.bcs~ ~override~
+  REPLACE_BCS_BLOCK ~edwin/baf/tob/NNVico.baf~ ~edwin/baf/tob/YNVico.baf~

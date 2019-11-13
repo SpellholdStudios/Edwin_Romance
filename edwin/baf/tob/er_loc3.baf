@@ -1,0 +1,10 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("er_jadda")
+    ForceSpell(Myself,SAR_DIVINATION)
+    Wait(1)
+    CreateCreatureObjectOffset("er_calld","Edwin",[15.15])
+    StartDialogueNoSet(Player1)
+END

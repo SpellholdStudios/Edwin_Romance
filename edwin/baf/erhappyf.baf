@@ -1,0 +1,15 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Edwin")
+    SetInterrupt(FALSE)
+    ActionOverride("dekaras4",ReallyForceSpell("dekaras4",DRYAD_TELEPORT))
+    ActionOverride("Elvira",ReallyForceSpell("Elvira",DRYAD_TELEPORT))
+    Wait(2)
+    ActionOverride("Elvira",DestroySelf())
+    ActionOverride("dekaras4",DestroySelf())
+    EndCutSceneMode()
+    SetInterrupt(TRUE)
+    Interact(Player1)
+END

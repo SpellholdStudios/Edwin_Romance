@@ -1,0 +1,19 @@
+// -*- coding: cp1250 -*-
+
+@0    = ~Poza tym... Zastanawiam siê, w co tutaj grasz, Edwinie. Nie s¹dzê, by by³ to przypadek, ¿e mówisz tak do mnie tylko wtedy, gdy <CHARNAME> akurat przechodzi na tyle blisko, by wszystko s³yszeæ.~
+@1    = ~Lecz ja jestem Drowem, i nie bêdziesz mn¹ manipulowa³, magu. I coœ mi mówi, ¿e <CHARNAME> te¿ wcale nie jest zadowolona z twojego ma³ego spisku. Mylê siê, <CHARNAME>?~
+@2    = ~Nie, Viconio, nie mylisz siê. Mo¿e jakieœ sugestie odnoœnie sposobu, w jaki wyrazimy nasze niezadowolenie?~
+@3    = ~W³aœciwie wydawa³o mi siê to ca³kiem œmieszne. Ale to nie znaczy, ¿e ma mu to ujœæ na sucho. Jakieœ pomys³y?~
+@4    = ~Zapewniam ciê, ¿e...~
+@5    = ~Bez k³opotu mog³eœ podejœc do mnie bez œwiadków. To, ¿e tego nie zrobi³eœ, sugeruje chêæ u¿ycia mnie by zwróciæ na siebie uwagê innej.~
+@6    = ~Co za niedorzeczny pomys³. Œmiechu warte. Doprawdy. (Niech to. Przejrza³a mój misterny plan. Tê partiê chyba przegra³em.)~
+@7    = ~Có¿, nie mamy mackowatych rózg...~
+@8    = ~Zaraz, chwileczkê...~
+@9    = ~... i szkoda by³oby uszkodziæ go na sta³e. Myœlê, ¿e sprawny bêdzie nam obydwóm du¿o bardziej przydatny~
+@10   = ~O-o-bydwóm?!~
+@11   = ~Najlepiej naraz. Musimy postawiæ go przed godnym wyzwaniem.~
+@12   = ~*krztusi siê*  NARAZ?!  Ee...to znaczy... chêtnie bêdê paniom s³ug¹...~
+@13   = ~To znaczy s³u¿y³ paniom najlepiej, jak bêdê potrafi³. (To siê nie dzieje naprawdê. Zaraz siê obudzê. Za chwilê.)~
+@14   = ~Doskonale. Trzymaj.~
+@15   = ~Co to jest? Uuff! Wa¿y chyba z tonê!~
+@16   = ~Mój plecak. A tu masz plecak <CHARNAME>. Powiedzia³eœ przecie¿, ¿e chêtnie bêdziesz nam s³u¿y³, i twoje ¿yczenie w³aœnie siê spe³nia. I nieœ je ostro¿nie, jeœli coœ zniszczysz bêdzimy bardzo niezadowolone. * chichot * ChodŸ, <CHARNAME>. Myœlê, ¿e przyda ci siê kilka lekcji odpowiedniego traktowania mê¿czyzn...~

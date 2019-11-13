@@ -1,0 +1,27 @@
+For languages that can not be encoded in ASCII, the regular file
+"setup.tra" has been split into 4 different files:
+
+* game.tra - This file holds all strings that are displayed in the
+  game and need to be encoded in the character set used by the game
+  (cp1252 for western-European languages, cp1251 for Russian and
+  cp1250 for Polish).
+
+* setup-win32.tra - This file holds all strings that are displayed
+  during the installation on Windows and need to be encoded in the
+  character set used by Windows terminals. However, to complicate
+  matters, Microsoft changed the encoding with Windows Vista. Recent
+  versions of Windows use cp1252 for western-European languages,
+  cp1251 for Russian and cp1250 for Polish. Versions older than Vista
+  use cp850, cp866 and cp852, respectively. Unfortunately there is no
+  way to accommodate this change, so you have to choose whether to
+  cater to older or newer Windows versions.
+
+* setup-unix.tra - Like setup-win32.tra, except used for installations
+  on Linux. Encoding should be UTF-8.
+
+* setup-osx.tra - Like setup-win32.tra, except used for installations
+  on Macs. Encoding should be in UTF-8.
+
+As of version 2.0.3, the strings @0, @31, @32, @33, @34, @108 and @201
+are displayed during the installation. All other strings are displayed
+in the game.

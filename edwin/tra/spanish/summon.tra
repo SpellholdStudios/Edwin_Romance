@@ -1,0 +1,22 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~Deseo convocar a mi amante Edwin, el Mago Rojo.~
+@1    = ~¡Ah, es bueno veros de nuevo, mi deva! Debería haber sabido que no podríais resistir la ausencia de mi encantadora presencia por mucho tiempo. (Aunque los alrededores dejan mucho que desear. Nunca hubiera imaginado que sus gustos fueran tan extremistas.) Entonces, ¿se ha adueñado de vos el irrefrenable deseo de gozar de mi erótica embestida?~
+@2    = ~Yo también os he echado mucho de menos, Edwin, y necesito que os unáis a mi grupo una vez más, si deseáis hacerlo.~
+@3    = ~Eddie, esta es la bolsa planar, que es básicamente mi propio rincón privado del Abismo. Está oscuro, es inhóspito, y está plagado de alimañas horripilantes. Por mucho que os adore, me temo que vuestra 'erótica embestida' tendrá que esperar. Ah, y tenemos que enfrentarnos a una oscura profecía, y a numerosas personas que desean mi muerte.~
+@4    = ~Ehm... todavía no, Edwin, por muy tentador que suene. Esperad un segundo, de acuerdo, hablaré con vos más tarde.~
+@5    = ~Bien, por supuesto que sí. ¿Cómo podríais sobrevivir ni siquiera una dekhana sin la ayuda de mis supremas habilidades mágicas? Porque, al ritmo al que aumentan mis poderes, pronto seré capaz de desafiar a los propios dioses, si es que lo necesitarais.~
+@6    = ~*sonreís* Una oferta tentadora, pero sólo busco vuestra presencia en el grupo.~
+@7    = ~Me gusta esa idea... mi poder ha crecido enormemente también, y la idea de ambos gobernando el universo juntos me resulta atractiva. Aunque por ahora, lo único que necesito es que os unáis a mi grupo.~
+@8    = ~Hablaremos de eso más tarde - mientras tanto, esperadme aquí.~
+@9    = ~Bien, eso no es nada fuera de lo común en lo que a vos respecta, ¿verdad, <CHARNAME>? Aquellos que han intentado enfrentarse a vos, desde Sarevok hasta Irenicus pasando por su hermana nocturna, todos han pagado por ello, y os prometo que si alguien intenta haceros daño, lo lamentará profundamente. (No es que haya mucho tiempo para lamentar nada durante el milisegundo que tarda un cuerpo en volatilizarse, pero la intención es lo que cuenta.) ¿Seguro que me queréis a vuestro lado cuando triunféis?~
+@10   = ~Por supuesto, Edwin. Os he echado mucho de menos, espero que nunca más tengamos que se separarnos de nuevo.~
+@11   = ~Claro, y cuando lo haya conquistado todo, os prometo que aún tendréis un sitio a mi lado. La cumbre es muy solitaria... pero con vos allí lo será menos.~
+@12   = ~Hablaremos de eso después - esperadme aquí, mientras me decido.~
+@13   = ~Oh, muy bien, pero no tardéis mucho en decidiros. (Después de todo, ni siquiera mi legendaria paciencia es inagotable.)~
+@14   = ~En tal caso tendréis lo que deseáis. Me uniré a vos, y con mucho gusto desgarraré la piel y derretiré los huesos de cualquiera que intente volver a separarnos.~
+@15   = ~¡Ah, <CHARNAME>! Veo que por fin habéis recobrado el sentido común, y que deseáis suplicar mi perdón por haberme dejado esperando en este inhóspito lugar. (Es intolerable que el diablillo ni siquiera sepa jugar al ajedrez. Y pensar que el gran Edwin Odesseiron tenga que rebajarse a jugar al colgado para no acabar volviéndose loco por el aburrimiento.)~
+@16   = ~Sí, Edwin, he vuelto a por vos. ¿Os uniréis a mi grupo, mi amor?~
+@17   = ~Lo siento, Edwin, aún hay cosas que debo hacer antes. Esperadme aquí, ¿de acuerdo?~
+@18   = ~Bien, por supuesto que sí, mi deva. Aunque creo que merecéis un cierto castigo por el tiempo que me habéis hecho esperar. Puede que hablemos de eso esta noche. (Cosquillas, eso servirá. Después de todo, es adorable cuando se retuerce.)~
+@19   = ~Hmpf... como queráis, pero dado que tengo numerosos asuntos en mente, puede que la próxima vez que os paséis por aquí tengáis que hacer cola. (Me pregunto si podría enseñar al diablillo a jugar al Scrabble.)~

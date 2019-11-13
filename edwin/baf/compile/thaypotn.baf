@@ -1,0 +1,122 @@
+IF
+  HPPercentLT(Myself,50)
+  !GlobalTimerNotExpired("DrankPotionTimer","LOCALS")
+  HasItem("POTN52",Myself)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("DrankPotionTimer","LOCALS",6)
+    DisplayStringHead(Myself,46150)
+    UseItem("POTN52",Myself)
+END
+
+IF
+  HPPercentLT(Myself,50)
+  !GlobalTimerNotExpired("DrankPotionTimer","LOCALS")
+  HasItem("POTN08",Myself)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("DrankPotionTimer","LOCALS",6)
+    DisplayStringHead(Myself,46150)
+    UseItem("POTN08",Myself)
+END
+
+IF
+  HitBy([ANYONE],CRUSHING)
+  Global("GiantStrengthPotion","LOCALS",0)
+  !GlobalTimerNotExpired("DrankPotionTimer","LOCALS")
+  HasItem("POTN05",Myself)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("DrankPotionTimer","LOCALS",6)
+    SetGlobal("GiantStrengthPotion","LOCALS",1)
+    DisplayStringHead(Myself,46150)
+    UseItem("POTN05",Myself)
+END
+
+IF
+  HPPercentLT(Myself,60)
+  Global("InvulnerabilityPotion","LOCALS",0)
+  !GlobalTimerNotExpired("DrankPotionTimer","LOCALS")
+  HasItem("POTN11",Myself)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("DrankPotionTimer","LOCALS",6)
+    SetGlobal("InvulnerabilityPotion","LOCALS",1)
+    DisplayStringHead(Myself,46150)
+    UseItem("POTN11",Myself)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,ENEMY)
+  Global("HastePotion","LOCALS",0)
+  !GlobalTimerNotExpired("DrankPotionTimer","LOCALS")
+  HasItem("POTN14",Myself)
+THEN
+  RESPONSE #100
+    SetGlobal("HastePotion","LOCALS",1)
+    SetGlobalTimer("SawEnemy","LOCALS",3)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Allegiance(Myself,ENEMY)
+  Global("HastePotion","LOCALS",1)
+  GlobalTimerExpired("SawEnemy","LOCALS")
+  !GlobalTimerNotExpired("DrankPotionTimer","LOCALS")
+  HasItem("POTN14",Myself)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("DrankPotionTimer","LOCALS",6)
+    SetGlobal("HastePotion","LOCALS",2)
+    DisplayStringHead(Myself,46150)
+    UseItem("POTN14",Myself)
+END
+
+IF
+  HPPercentLT(Myself,25)
+  HPGT(Myself,1)
+  !StateCheck(Myself,STATE_REALLY_DEAD)
+  Global("Whined","LOCALS",0)
+  See(NearestMyGroupOfType)
+  Allegiance(Myself,ENEMY)
+  !StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
+THEN
+  RESPONSE #100
+    SetGlobal("Whined","LOCALS",1)
+    Shout(153)
+    DisplayStringHead(Myself,46151)
+END
+
+IF
+  Heard([ANYONE],153)
+THEN
+  RESPONSE #100
+    RunAwayFrom(NearestEnemyOf(Myself),45)
+END
+
+IF
+  Heard([ANYONE],154)
+THEN
+  RESPONSE #100
+    AttackReevaluate([PC.0.0.MAGE],45)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),7)
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Range(NearestEnemyOf(Myself),7)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+

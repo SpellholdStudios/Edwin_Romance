@@ -1,0 +1,19 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~Además... no puedo dejar de preguntarme a qué estáis jugando, Edwin. Sin duda, no es una coincidencia que elijáis hablarme justo cuando <CHARNAME> está lo bastante cerca como para escucharos.~
+@1    = ~Pero soy drow, y no me manipularéis para vuestros propósitos, mago. Y algo me dice que a <CHARNAME> vuestro pequeño plan no le hace más gracia que a mí. ¿Me equivoco, <CHARNAME>?~
+@2    = ~No, Viconia, claro que no. ¿Se os ocurre algo para demostrar nuestro disgusto?~
+@3    = ~En realidad, me pareció bastante divertido. Aunque eso no quiere decir que pueda salirse con la suya. ¿Alguna sugerencia?~
+@4    = ~Os aseguro que...~
+@5    = ~Os podríais haber acercado a mí en privado. El que no lo hayáis hecho me hace pensar que es porque queréis atraer la atención de otra.~
+@6    = ~Qué idea más ridícula. Risible. Totalmente risible. (Maldición, ha descubierto mi plan maestro. Parece ser que ya no me sirve esta táctica.)~
+@7    = ~Bueno, no tenemos ningún cetro tentacular a mano...~
+@8    = ~Esperad un segundo...~
+@9    = ~... y sería una lástima incapacitarlo de forma permanente. Puede ser mucho más útil para ciertos menesteres. Para ambas.~
+@10   = ~¡¿A-a-ambas?!~
+@11   = ~Puede que mejor a la vez. Queremos darle un desafío que esté a su altura.~
+@12   = ~*ahogado*  ¡¿A LA VEZ?!  Ehm... eso es... por supuesto, estaré muy complacido...~
+@13   = ~Es decir, por serviros a vosotras dos, dando lo mejor de mí. (Esto no puede estar pasando. Me despertaré en cualquier momento.)~
+@14   = ~Excelente. Aquí tenéis.~
+@15   = ~¿Pero qué es esto? ¡Esto *uuuf* debe de pesar una tonelada!~
+@16   = ~Mi mochila. Y aquí tenéis la de <CHARNAME>. Dijisteis que queríais servirnos a las dos, y vais a ver vuestro deseo cumplido. Llevadlas con cuidado, si rompéis algo nos disgustaréis. *risita* Venid, <CHARNAME>. Creo que os gustará que os dé un par de lecciones sobre cómo manejar a los hombres...~

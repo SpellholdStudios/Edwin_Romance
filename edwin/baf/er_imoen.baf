@@ -1,0 +1,35 @@
+IF
+  InParty(Myself)
+  Global("Beddim1","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Beddim1","LOCALS",1)
+    RealSetGlobalTimer("Imoedwinbanter","LOCALS",3000)
+END
+
+IF
+  OR(2)
+  Global("Beddim1","LOCALS",1)
+  Global("Beddim1","LOCALS",3)
+  RealGlobalTimerExpired("Imoedwinbanter","LOCALS")
+  InParty("Edwin")
+  InParty(Myself)
+  See("Edwin")
+  !StateCheck("Edwin",STATE_SLEEPING)
+  Global("EdwinRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    IncrementGlobal("Beddim1","LOCALS",1)
+    RealSetGlobalTimer("Imoedwinbanter","LOCALS",3000)
+    StartDialogNoSet("Edwin")
+END
+
+IF
+  Global("CommentEdvamp","LOCALS",0)
+  GlobalGT("EdwinVampire","GLOBAL",0)
+  AreaCheck("AR0800")
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+

@@ -1,0 +1,50 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Edwin")
+    SetName(~Edwin~)
+    SetPlayerSound(Myself,3966,MORALE) //  I'll not die to incompetence!
+    SetPlayerSound(Myself,3968,HAPPY) //  I had not thought this group capable of pleasing me, but I am impressed.
+    SetPlayerSound(Myself,3969,UNHAPPY_ANNOYED) //  Could my opinion of this group drop ANY lower? Evidently so.
+    SetPlayerSound(Myself,3970,UNHAPPY_SERIOUS) //   I warn you, I cannot abide this charity. It is not to my tastes at all.
+    SetPlayerSound(Myself,3971,UNHAPPY_BREAKING_POINT) //  No, I do not feel this is working out.You waste opportunity after opportunity. I will stand no more.
+    SetPlayerSound(Myself,3972,LEADER) //  It is about time you monkeys realized who should be leader.
+    SetPlayerSound(Myself,3973,TIRED) //  I require rest. I demand we stop.
+    SetPlayerSound(Myself,3974,BORED) //  Inactive outward, inactive inward. Why do I suffer these fools?
+    SetPlayerSound(Myself,3967,BATTLE_CRY1) //  Your worthless lives end here!
+    SetPlayerSound(Myself,30694,BATTLE_CRY2) //  Cry for your lives, they are over!
+    SetPlayerSound(Myself,30706,BATTLE_CRY3) //  You can do nothing but die!
+    SetPlayerSound(Myself,5350,DAMAGE) //
+    SetPlayerSound(Myself,5351,DYING) //
+    SetPlayerSound(Myself,3975,HURT) //  I could use some help here, fools.
+    SetPlayerSound(Myself,5345,AREA_FOREST) //  I find the 'great outdoors' chaotic and dirty It needs a shaping will to slap the beasts into proper order.
+    SetPlayerSound(Myself,5346,AREA_CITY) //  The city changes, but the fools within are always the same.
+    SetPlayerSound(Myself,5347,AREA_DUNGEON) //  Could we not have hired some poor fools to do this for us? This is no place for a man of my stature.
+    SetPlayerSound(Myself,5348,AREA_DAY) //  Another day and more aimless stumbling about.
+    SetPlayerSound(Myself,5349,AREA_NIGHT) //  Intelligent peoples do not wander about looking for trouble in the evening hours.
+    SetPlayerSound(Myself,3976,SELECT_COMMON1) //  Yes?
+    SetPlayerSound(Myself,3977,SELECT_COMMON2) //  What is it now!
+    SetPlayerSound(Myself,3978,SELECT_COMMON3) //  Go bother someone else.
+    SetPlayerSound(Myself,30709,SELECT_COMMON4) //  I'm busy.
+    SetPlayerSound(Myself,30710,SELECT_COMMON5) //  Have you nothing else to do but bother me?
+    SetPlayerSound(Myself,30711,SELECT_COMMON6) //  Yes master, what should I fetch now?
+    SetPlayerSound(Myself,30712,SELECT_ACTION1) //  Oh all right!
+    SetPlayerSound(Myself,30713,SELECT_ACTION2) //  Yes, yes, I see.
+    SetPlayerSound(Myself,30714,SELECT_ACTION3) //  One day...one day...
+    SetPlayerSound(Myself,30716,SELECT_ACTION4) //  Very well.
+    SetPlayerSound(Myself,30717,SELECT_ACTION5) //  Edwin do this, Edwin do that. Somebody get this jerk a banana.
+    SetPlayerSound(Myself,30718,SELECT_ACTION6) //  Fear me!
+    SetPlayerSound(Myself,30719,SELECT_ACTION7) //  Bah, useless weapon!
+    SetPlayerSound(Myself,30716,SELECT_RARE1) //  Very well.
+    SetPlayerSound(Myself,30717,SELECT_RARE2) //  Edwin do this, Edwin do that. Somebody get this jerk a banana.
+    SetPlayerSound(Myself,30718,CRITICAL_HIT) //  Fear me!
+    SetPlayerSound(Myself,30719,CRITICAL_MISS) //  Bah, useless weapon!
+    SetPlayerSound(Myself,30720,TARGET_IMMUNE) //  This weapon is worthless.
+    SetPlayerSound(Myself,30721,INVENTORY_FULL) //  I will carry no more. Find your trinket upon the ground.
+    SetPlayerSound(Myself,30722,PICKED_POCKET) //  The fool saw nothing. Such simple larceny.
+    SetPlayerSound(Myself,30723,EXISTANCE1) //  I am concealed, though I see no need.
+    SetPlayerSound(Myself,30724,EXISTANCE2) //  My spell disrupted? Argh!!
+    SetPlayerSound(Myself,30725,EXISTANCE3) //  I prefer to attack more directly, but a trap will do for now.
+    EndCutSceneMode()
+END

@@ -1,0 +1,18 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneID("dekaras4")
+    SetInterrupt(FALSE)
+    SetGlobal("EdwinRomanceActive","GLOBAL",3)
+    ActionOverride("Edwin",GivePartyAllEquipment())
+    ActionOverride("Edwin",ReallyForceSpell("Edwin",DRYAD_TELEPORT))
+    ReallyForceSpell(Myself,DRYAD_TELEPORT)
+    ActionOverride("Elvira",ReallyForceSpell("Elvira",DRYAD_TELEPORT))
+    Wait(2)
+    ActionOverride("Elvira",DestroySelf())
+    ActionOverride("Edwin",LeaveParty())
+    ActionOverride("Edwin",DestroySelf())
+    EndCutSceneMode()
+    DestroySelf()
+END

@@ -1,0 +1,29 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~En realidad, Mazzy, sólo... ¡¿<CHARNAME>?! No... ¡no sabía que estabais ahí! (¡Maldición, demonios y fuego infernal! Seguro que piensa mal.)~
+@1    = ~Sí, Edwin. Era bastante obvio que no me habíais visto, viendo cómo colmabais de elogios a Mazzy. Pero por favor, por mí no os cortéis, seguro que estabais a punto de llegar a la parte más jugosa.~
+@2    = ~Oh, cuánto lo siento, Edwin. ¿Era una conversación privada? ¿Debo dejaros solos para elegir anillos y decidir si queréis que os case un sharraní o un helmita?~
+@3    = ~Puede que os sorprenda, Edwin, pero confío en vos. Sé que aquí no ha pasado nada que no podáis contarme. Venga, empezad cuando queráis.~
+@4    = ~¿Qué, esperabais que me importara? Significáis menos para mí que la mugre de mis suelas, y si queréis hacer el ridículo aún más de lo habitual, no me importa hacerme a un lado y observar.~
+@5    = ~Mazzy, o dejáis de guiñarle el ojo ahora mismo o apuntaré tan bajo con mi puño que dará de lleno contra vuestra sonriente carita.~
+@6    = ~<CHARNAME>, espero que esto sirva para convenceros de que mis intenciones con la Señora Hipocresía son de todo menos... ehm... amorosas.~
+@7    = ~Ya... ya lo creo, Edwin. Sí, no... me cabe la menor duda.~
+@8    = ~Oh, claro que ha servido, sí. ¿Pero realmente teníais que ser tan duro con ella?~
+@9    = ~¡Claro! ¡Y chico, no puedo estar más de acuerdo con vos! Ni yo lo hubiera expresado mejor. ¡Vamos, soltadle más cosas! ¿Porfa? ¿Por mí? ¿Porfaaaa?~
+@10   = ~No, aún no os creo. ¡Creo que estáis intentando encubrirla!~
+@11   = ~Me alegra oír eso, <CHARNAME>. Ya deberíais saber que los necios no son mi compañía favorita. Prefiero a la gente con la que se puede tener una conversación. ¿Qué me decís?~
+@12   = ~Como diría la que va para paladín, tuvo lo que se merecía. Pero olvidémonos de ella, y hablemos de algo más interesante... como reventar ampollas o los hábitos alimenticios de los ilícidos...~
+@13   = ~*risita* Tal vez luego, <CHARNAME>. Ahora prefiero usar mi tiempo para conversar un poco con vos...~
+@14   = ~Si eso no fue suficiente para convenceros, <CHARNAME>, entonces me temo que nada de lo que pueda deciros lo hará. Yo... no volveré a molestaros. Nunca más.~ [EDWIN34]
+@15   = ~En ese caso haced lo que debáis, <CHARNAME>, por favor. Pensaba que significábamos más el uno para el otro, pero parece ser que cometí un triste error. Mazzy, como os estaba diciendo...~
+@16   = ~<CHARNAME>, no lo entendéis. A menudo la compañía de los medianos me ha parecido entretenida, así que decidí investigar si esta era algo más que una lata en miniatura, tan satisfecha de la 'pureza perfecta' de su alma que se engaña pensando que nos quedamos atónitos en su presencia, siempre esperando su juicio divino.~
+@17   = ~Incluso es probable que trate de eliminar sus excrementos transformándolos en agua de rosas y dejando que se evaporen a través de su piel, en vez de haciéndolo como los simples mortales. (Nota mental: no caminar cerca de ella para evitar exposiciones no deseadas. Alto riesgo de contraer un caso severo de Quiero-ser-Paladinitis aguda.)~
+@18   = ~¡Villano! ¿Cómo osáis decir semejantes cosas de una sierva de la bondad? ¡Acabaré con vos por esta insolencia! ¡Enviaré vuestra negra alma gritando de dolor al tormento que os espera en el Infierno! ¡Porque es el Infierno el que reclamará algún día vuestra maldad, mientras que yo, una recta sierva de Arvorin, obtendré mi justa recompensa, sabiendo que mi mente y mi alma están limpias de toda mancha, y que he llevado una vida de honor y virtud!~ [MAZZY84]
+@19   = ~Oh, vaya. Ya estamos otra vez. Teniendo en cuenta todo lo que habláis sobre el honor, no os cortáis lo más mínimo en cuanto a amenazas de muerte, en especial cuando parece ser que vuestro único motivo es que no os gustan mis palabras y mi conducta. Qué extraño... en otros juzgaríais ese comportamiento de 'vileza' o una tontería de esas, pero en vos sí es aceptable. ¿Acaso tenéis una nota de vuestra diosa que os exime de toda culpa?~
+@20   = ~¿Cómo OSÁIS...?~
+@21   = ~Oh, claro que oso, necia. (¿Por qué siempre creen que uno se va a impresionar con esa frase?) Y considerando el inmaculado estado de vuestra mente y vuestra alma, haríais bien en recordar que las únicas cosas en la vida que no están manchadas son las que no se usan.~
+@22   = ~¿<CHARNAME>? ¿Qué estáis diciendo? ¿Estáis insinuando que yo sería capaz de tener algún tipo de... relación íntima con ese... malvado pedazo de escoria? ¡Eso deshonraría a cualquier mujer virtuosa!~ [MAZZY84]
+@23   = ~¡Mazzy, lo que estoy insinuando es que si no os calláis y mantenéis el pico cerrado, no me haré responsable de mis actos!~
+@24   = ~¡Si volvéis a insultar a Edwin una vez más, os afeitaré la cabeza y los pies y os meteré el pelo que obtenga en la boca para que os calléis! Yo lo puedo insultar. Vos no. ¡Os sugiero que lo tengáis en cuenta, a menos que os queráis convertir en una mujer 'virtuosa y calva'!~
+@25   = ~Ya basta. Os mataría por ese comentario, pero no quiero 'deshonrarme' por tener que tocaros. ¡Perdeos y rezad a vuestra diosa para que nuestros caminos no se vuelvan a cruzar jamás!~
+@26   = ~Haré lo que me pedís, <CHARNAME>. Y rezaré por que vuestra corrupción sea solo temporal...~

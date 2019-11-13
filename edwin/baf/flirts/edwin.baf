@@ -1,0 +1,13 @@
+
+IF
+  OR(2)
+    Global("EdwinRomanceActive", "GLOBAL", 1)
+    Global("EdwinRomanceActive", "GLOBAL", 2)
+  Global("ERFlirt", "GLOBAL", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ERFlirt", "GLOBAL", 1)
+END
+
+
+

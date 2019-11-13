@@ -1,0 +1,50 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Edwin")
+    SetName(~Edwina~)
+    SetPlayerSound(Myself,61302,MORALE) //   I'll not die like this!  Not like this!
+    SetPlayerSound(Myself,61303,HAPPY) //   This is all well and good but could we get back to fixing my little problem now?
+    SetPlayerSound(Myself,61304,UNHAPPY_ANNOYED) //   You are doing nothing for my morale, you know.  Wasteful behavior and leaving me like this.
+    SetPlayerSound(Myself,61305,UNHAPPY_SERIOUS) //   Yes, yes, you are all a bunch of goodie two-shoes, and yet I am left like this!
+    SetPlayerSound(Myself,61306,UNHAPPY_BREAKING_POINT) //   I can see I am going to get no help from the likes of you.  I shall find my own *cure*.
+    SetPlayerSound(Myself,61307,LEADER) //   Do not patronize me, I am in no shape to lead.
+    SetPlayerSound(Myself,61308,TIRED) //   I tire of walking, I tire of talking, and I tire of the laughable body.  I wish to rest now.
+    SetPlayerSound(Myself,61309,BORED) //   Every moment idle is another moment I brood in this dispicable form.  Let's get moving!
+    SetPlayerSound(Myself,61310,BATTLE_CRY1) //   Your worthless lives end here!
+    SetPlayerSound(Myself,61311,BATTLE_CRY2) //   A death for every second I am in this form!
+    SetPlayerSound(Myself,61312,BATTLE_CRY3) //   I feel your stares!  Die!  Die!!
+    SetPlayerSound(Myself,61313,DAMAGE) //
+    SetPlayerSound(Myself,61314,DYING) //
+    SetPlayerSound(Myself,61315,HURT) //   If I must wear this form the least you could do is keep it in good health!
+    SetPlayerSound(Myself,61316,AREA_FOREST) //   This place is less constricting than the city, though I no more wish the company of nature than people.
+    SetPlayerSound(Myself,61317,AREA_CITY) //   I feel the stares of each and every person here.  They mock me with their eyes.
+    SetPlayerSound(Myself,61318,AREA_DUNGEON) //   Another dank hole with which to improve my mood.  Joy.
+    SetPlayerSound(Myself,61319,AREA_DAY) //   I would see as few days in this form as possible.
+    SetPlayerSound(Myself,61321,AREA_NIGHT) //   I would rather spend my nights dreaming of being normal again.
+    SetPlayerSound(Myself,61322,SELECT_COMMON1) //   Leave me be.
+    SetPlayerSound(Myself,61323,SELECT_COMMON2) //   What is it now?!
+    SetPlayerSound(Myself,61324,SELECT_COMMON3) //   I will tolerate only so much.
+    SetPlayerSound(Myself,-1,SELECT_COMMON4) // No such index
+    SetPlayerSound(Myself,-1,SELECT_COMMON5) // No such index
+    SetPlayerSound(Myself,-1,SELECT_COMMON6) // No such index
+    SetPlayerSound(Myself,61325,SELECT_ACTION1) //   If I must.
+    SetPlayerSound(Myself,61326,SELECT_ACTION2) //   Oh, labor will help.
+    SetPlayerSound(Myself,61327,SELECT_ACTION3) //   A waste of my talents.
+    SetPlayerSound(Myself,61328,SELECT_ACTION4) //   Stop looking at me.
+    SetPlayerSound(Myself,61329,SELECT_ACTION5) //   Very well.
+    SetPlayerSound(Myself,61330,SELECT_ACTION6) //   If I must live like this your life shall be as much a hell as mine.
+    SetPlayerSound(Myself,-1,SELECT_ACTION7) // No such index
+    SetPlayerSound(Myself,-1,SELECT_RARE1) // No such index
+    SetPlayerSound(Myself,-1,SELECT_RARE2) // No such index
+    SetPlayerSound(Myself,61331,CRITICAL_HIT) //   Even hand to hand I am dangerous.
+    SetPlayerSound(Myself,61332,CRITICAL_MISS) //   My talents are wasted on physical blows!
+    SetPlayerSound(Myself,61333,TARGET_IMMUNE) //   My spells would serve better, this weapon is useless.
+    SetPlayerSound(Myself,61334,INVENTORY_FULL) //   I'll be no packhorse!  Pick up your garbage where I dropped it!
+    SetPlayerSound(Myself,61335,PICKED_POCKET) //   I have succeeded, but I despise being reduced to this.
+    SetPlayerSound(Myself,61336,EXISTANCE1) //   I am hidden, though I still see this ridiculous form myself.
+    SetPlayerSound(Myself,61337,EXISTANCE2) //   Do the outrages never end?  My spell has failed!
+    SetPlayerSound(Myself,61338,EXISTANCE3) //   I have set your trap, but my wrath prefers direct combat.
+    EndCutSceneMode()
+END

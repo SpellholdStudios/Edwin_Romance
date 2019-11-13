@@ -1,0 +1,26 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    Wait(1)
+    ActionOverride("dekaras2",DestroySelf())
+    ScreenShake([537.365],5)
+    SmallWait(1)
+    DisplayStringNoName(Myself,@17)
+    SmallWait(2)
+    FadeToColor([20.0],0)
+    StorePartyLocations()
+    LeaveAreaLUAPanic("ARBASE","",[285.555],12)
+    LeaveAreaLUA("ARBASE","",[285.555],12)
+    ActionOverride(Player2,LeaveAreaLUA("ARBASE","",[351.553],12))
+    ActionOverride(Player3,LeaveAreaLUA("ARBASE","",[342.603],12))
+    ActionOverride(Player4,LeaveAreaLUA("ARBASE","",[261.502],12))
+    ActionOverride(Player5,LeaveAreaLUA("ARBASE","",[257.505],12))
+    ActionOverride(Player6,LeaveAreaLUA("ARBASE","",[336.512],12))
+    MultiPlayerSync()
+    SmallWait(1)
+    FadeFromColor([20.0],0)
+    EndCutSceneMode()
+END
+

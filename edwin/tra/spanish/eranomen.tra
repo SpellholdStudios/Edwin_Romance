@@ -1,0 +1,34 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~¿Qué más *necesita* saber, imbécil? ¿Que allí hay más idiotas intolerantes, presumidos e ignorantes que moscas en un cadáver putrefacto? (Además, seguro que las moscas son más capaces de llevar una conversación.)~
+@1    = ~No me sorprende que la Orden no sea de vuestro agrado, mago. Sus ideales de nobleza y rectitud no concuerdan con alguien como vos.~
+@2    = ~¿Rectitud, decís? ¿Así que esa es la palabra que se usa en Amn para designar la actitud de un hipócrita déspota y engreído?~
+@3    = ~Es lógico que no hayáis podido ser otra cosa. Hay muy pocas profesiones al alcance de un hombre que tiene un cerebro del tamaño de un guisante y las habilidades sociales de un molusco.~
+@4    = ~¿*Vos* me vais a dar clases a *mí* de habilidades sociales? ¿El hombre que escupe insultos dondequiera que vaya, como un dragón arroja fuego?~
+@5    = ~*Mis* insultos son inteligentes, decididos y pensados cuidadosamente. Los *vuestros* son errores torpes y al azar de un zoquete que se mete el pie en la boca el tiempo suficiente para que le salgan hongos del pie en la lengua.~
+@6    = ~Hablando de pies...~
+@7    = ~¡AY! ¡Mi *pie*! ¡Me habéis *pisado*! ¡Lo habéis hecho *adrede*!~
+@8    = ~¿Por qué esperar? Os puedo juzgar ahora. Juzgo que sois un estúpido quejica y arrogante que padece el error de pensar que una mujer cuerda estaría interesada en hacer de vuestra Tía Angustias. Yo os nombro 'Sir Autocompasión de los Indecisos'. (Es un milagro que le no preguntéis a <CHARNAME> qué debéis almorzar.)~
+@9    = ~¡¿Cómo os *atrevéis*?! Supongo que *vos* pensáis que es mucho mejor revolcaros en vuestra propia maldad, lanzar flechas venenosas a todo aquel que se os acerque por miedo a que otra persona se preocupe por vos.~
+@10   = ~¡Yo no me revuelco!~
+@11   = ~¿No? ¿Entonces por qué os produce un obvio placer el dolor de los demás? ¿Y la corrupción? ¡Bueno, puede que incluso me hayáis podido corromper a mí, ya que siento la necesidad de alimentarme de vuestro dolor, y que Helmo me perdone, a no ser que cerréis esa bocaza!~
+@12   = ~¿Eso es lo mejor que sabéis hacer? ¿Una flor horrenda y marchita? ¿De dónde la habéis sacado? ¿De un montón de basura? ¿O acaso la habéis creado vos mismo tras poneros en cuclillas?~
+@13   = ~Ya está. <CHARNAME>, por vos he tolerado los insultos de ese repugnante mago, pero ya no aguanto más. Es obvio que está desquiciado al pensar que sois capaz de sentir algo más que lástima por él, y se ofende cuando intento hacerle ver que no tiene ninguna posibilidad frente a un pretendiente digno de vos.~
+@14   = ~¿Por qué debería? Es como preguntarle si le interesan los pensamientos de una ameba. Así que os daré un consejo, ser unicelular: dividios.~
+@15   = ~Parlotead cuanto queráis. Pero recordad que vuestras palabras pueden costaros una fractura de cráneo grave un día de estos si no las elegís con cuidado. Ahora mismo me estaba dirigiendo a <CHARNAME>.~
+@16   = ~Pensaba que queríais que tuviera más carácter. Y ahora, mi señora, volvamos a nuestra anterior conversación. Me preguntaba si os he contado ya cómo me convertí en un clérigo.~
+@17   = ~Lo... lo siento, <CHARNAME>. Como os he dicho, estoy un poco nervioso a causa de mi próxima prueba últimamente.~
+@18   = ~Gracias, mi señora. Lo que os decía de esta flor...~
+@19   = ~Yo también lo siento, mi señora. Por... por suponer demasiado. Parece ser que debo retirarme del campo de batalla.~
+@20   = ~Os hubiera entregado mi lealtad y mi devoción, <CHARNAME>, pero ya no importa. Así sea, pues.~
+@21   = ~Gracias, mi señora. Mi conclusión sobre vuestra dulce persona...~
+@22   = ~¿Debo suponer que os referís a vos? <CHARNAME>, deberíais decirle a este mono enlatado que no es más que una fuente de diversión cómica.~
+@23   = ~No, Edwin. Con el tiempo le he cogido cariño a Anomen. Más de lo que imaginaba. No puedo hacer lo que me pedís.~
+@24   = ~¡No seáis ridículo, Edwin! ¡Aquí la única diversión cómica sois vos! Quiero un hombre de verdad, no uno con un vestido.~
+@25   = ~Anomen... os aprecio. Pero sospecho que queréis algo más, más de lo que yo os puedo ofrecer. Lamento haberos engañado sin querer.~
+@26   = ~¡Sí! ¡Tomad esa, Anomen! Y quedaos con esa estúpida flor, no la necesito.~
+@27   = ~Ya... ya veo. Es obvio que tenéis un gusto aún peor del que imaginaba, <CHARNAME>, y mucha menos inteligencia. Me alegra haberlo descubierto a tiempo.~
+@28   = ~<CHARNAME>, en ese caso supongo que tendréis que ver mi lado menos cómico. (Un día, cuando menos se lo esperen...)~
+@29   = ~¡Sí! ¡Tomad esa, Anomen! Y quedaos con vuestras estúpidas ideas, no las necesito.~
+@30   = ~Ya... ya veo. Es obvio que tenéis un gusto aún peor del que imaginaba, <CHARNAME>, y mucha menos inteligencia. Me alegra haberlo descubierto a tiempo.~
+@31   = ~<CHARNAME>, supongo que tendréis que ver mi lado menos cómico. (Un día, cuando menos se lo esperen...)~

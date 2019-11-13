@@ -1,0 +1,26 @@
+IF
+  InParty("Edwin")
+  OR(2)
+  !See("Edwin")
+  !Range("Edwin",7)
+  NumberOfTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    Wait(1)
+    MoveToObject("Edwin")
+    Wait(1)
+    ActionOverride("Edwin",FaceObject(Myself))
+    SetInterrupt(TRUE)
+END
+
+IF
+  InParty("Edwin")
+  See("Edwin")
+  Range("Edwin",7)
+  NumberOfTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    Dialog("Edwin")
+END
+

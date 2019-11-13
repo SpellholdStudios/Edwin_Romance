@@ -1,0 +1,48 @@
+IF
+  Global("DekkieBye","GLOBAL",1)
+  Global("Escape","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("Escape","LOCALS",1)
+    EscapeArea()
+END
+
+IF
+  AttackedBy([PC],DEFAULT)
+  Global("Dekattpc","GLOBAL",0)
+  Global("Edwattpc","GLOBAL",0)
+  !Dead("Edwin")
+THEN
+  RESPONSE #100
+    SetGlobal("Dekattpc","GLOBAL",1)
+    StartDialogNoSet(Player1)
+END
+
+IF
+  OR(2)
+  Global("Dekattpc","GLOBAL",2)
+  Global("Edwattpc","GLOBAL",2)
+  OR(2)
+  HPLT("Dekaras3",20)
+  HPLT("Edwin",20)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  InPartyAllowDead("Edwin")
+  OR(2)
+  See("Edwin")
+  Dead("Edwin")
+  Global("BancoDead","GLOBAL",1)
+  !See([ENEMY])
+  Dead("redw1")
+  Dead("redw2")
+  Dead("redw3")
+THEN
+  RESPONSE #100
+    Dialog(Player1)
+END
+

@@ -1,0 +1,10 @@
+// -*- coding: cp1252 -*-
+//This file is encoded in cp1252 (aka windows-1252), the encoding used by Windows terminals in more recent Windows versions
+//Windows XP and earlier use cp850
+
+@0    = ~Romance de Edwin~
+@31   = ~El Romance de Edwin no es compatible con el componente de Edwina del Ease of Use. Se debe desinstalar antes de instalar el Romance de Edwin.~
+@32   = ~Restaurar el portrait de Edwin en BG1~
+@33   = ~Este componente requiere que el Romance de Edwin este instalado.~
+
+@108    = ~Nuevo final para el romance de Viconia por Laufey~

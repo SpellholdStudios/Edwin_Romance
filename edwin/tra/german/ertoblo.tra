@@ -1,0 +1,28 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~Was ist mit dem unerträglichen Schmerz, welchen Ihr jenem bereiten müsst, den Ihr liebt? Dem Magier, den Ihr “Edwin” nennt.~
+@1    = ~Was nun?~
+@2    = ~Ah, mein Lieblingsschüler. Ihr seid es, nehme ich an, junger Edwin?~ [er_dek5]
+@3    = ~M-Meister Dekaras? Nein, das kann nicht sein. Ihr seid nach Thay zurück gekehrt, ich weiß es!~
+@4    = ~Das tat ich, Junge. Das tat ich. Und es war in Thay, wo ich starb.~
+@5    = ~St-starb?! Nein! Ich weigere mich, das zu glauben! Das... das ist eine Art Trick, eine Falle... es muss so sein!~
+@6    = ~Habe ich Euch je belogen, Junge? Wie Ihr mich belogen habt? Tief in Euch wisst Ihr, dass es wahr ist. Ich bin tot, so tot, wie die gebleichten Knochen der Horden von Thay, vergraben tief im Boden von Rashemen. Und es ist allein Eure Schuld.~
+@7    = ~M-meine Schuld? Nein! Ich würde nie... ~
+@8    = ~Ihr habt die Mission, die uns aus Thay geführt hat, verraten und betrogen, und indem Ihr das tatet, habt Ihr mich verraten und betrogen. Wie sehr passend, dass es zum Schutz von <CHARNAME> geschah, einem weiteren undankbaren Kind, das den Schwanz einzog und davonrannte, während sein Mentor zu seinem Schutz starb .~
+@9    = ~A-aber ich musste! Ich konnte <CHARNAME> nicht im Stich lassen, Ihr wisst das. Und Ihr habt mir vergeben, das habt Ihr gesagt! Ihr... Ihr müsst mir vergeben!~
+@10   = ~Muss ich? Muss ich wirklich? Soll ich Euch sagen, mein Schüler, was Ihr mich zu vergeben auffordert? Nachdem wir uns wieder getroffen hatten, ging ich zurück nach Thay, soweit ist es wahr. Ich hatte etwas Hoffnung, die traurigen Überreste Eurer Karriere retten zu können, soviel, wie davon übrig war, nachdem Ihr bei Eurem Auftrag gescheitert wart, <CHARNAME> entweder zu rekrutieren oder zu eliminieren.~
+@11   = ~Aber ich... ~
+@12   = ~Unglücklicherweise waren die Roten Magier sogar noch mehr wegen Euch aufgebracht, als wir erwartet hatten. Und, da ich Euer Partner war, entschieden sie, dass ich ebenfalls Euer Komplize beim Hochverrat gewesen sein musste. Es stellte sich heraus, dass sie ausgesprochen desinteressiert an Erklärungen waren, aber um so begieriger auf Geständnisse.~
+@13   = ~Nicht... nicht... Folter? (Mir wird schlecht werden. Jeden Moment jetzt.)~
+@14   = ~Oh, ja. Ein einziges Mal seid Ihr auf die richtige Antwort gekommen, ohne mit dem Finger der Offensichtlichkeit darauf gestoßen worden zu sein. Folter. Grausamste Folter, die sich letztlich als fatal erwies.~
+@15   = ~Die Menge an Schmerz, die der menschliche Körper ertragen kann, ehe er die Funktion einstellt, ist wirklich erstaunlich. Und wusstet Ihr, dass ein Magier die gefolterte Person mehr oder weniger uneingeschränkt daran hindern kann, das Bewusstsein zu verlieren? So eine Behandlung war das.~
+@16   = ~Nein! Nicht mehr! Ihr wart immer mein Freund, ich würde das nie wollen! Bitte, ich kann das nicht ertragen!~
+@17   = ~Ihr könnt das nicht ertragen? Ihr? Begreift Ihr, was ich ertragen musste, um sie daran zu hindern, Euren Verbleib aus mir herauszuholen? Begreift Ihr? Sie weigerten sich, mich sterben zu lassen, versteht Ihr, ehe ich Euch ihnen nicht auslieferte. Aber ich widerstand ihnen bis zum Ende, sogar als ich praktisch wahnsinnig war von dem Leid.~
+@18   = ~Ich habe mich stets um Euch gekümmert, wisst Ihr? Ich liebte Euch wie meinen eigenen Sohn. Ich hätte alles getan, damit Ihr in Sicherheit seid. Aber Ihr, mit Eurem beiläufigen kleinen Verrat, Eurer Unzucht mit einem verdammten Weib, Ihr habt mich so gewiss gemordet, als hättet Ihr die Messer und die Brandeisen selbst geschwungen.~
+@19   = ~NEEIIIN! Genug! <CHARNAME>, beendet das, ich flehe Euch an!~
+@20   = ~Das war nicht seine Schuld und Ihr wisst das, Meuchelmörder! Hört sofort damit auf!~
+@21   = ~Beendet das, Gorion!  Das hat er nicht verdient!~
+@22   = ~Genug!  Ich werde nicht gestatten, dass das weitergeht!~
+@23   = ~Es sind alles Lügen, Edwin! Es ist nicht wirklich!~
+@24   = ~Glaubt ihm nicht, Eddie! Er ist nicht, was er zu sein scheint, nicht mehr, als es Gorion war!~
+@25   = ~Hört nicht auf ihn, Edwin! Er versucht Euch zu vernichten! Ihr müsst zuerst zuschlagen!~

@@ -1,0 +1,262 @@
+IF
+  Detect(NearestEnemyOf(Myself))
+  Global("Prep","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Prep","LOCALS",1)
+    ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_NORMAL_MISSILES)
+    DisplayString(Myself,26328)
+    ReallyForceSpell(Myself,WIZARD_SPELL_TURNING)
+    ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_ENERGY)
+    ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+    DisplayString(Myself,25942)
+    ReallyForceSpell(Myself,WIZARD_FIRE_SHIELD_RED)
+    DisplayString(Myself,39969)
+    ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+    ReallyForceSpell(Myself,WIZARD_SPIRIT_ARMOR)
+    ReallyForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
+    DisplayString(Myself,39968)
+    ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+    ReallyForceSpell(Myself,WIZARD_SPELL_IMMUNITY_DIVINATION)
+    ReallyForceSpell(Myself,WIZARD_SPELL_IMMUNITY_ABJURATION)
+    SetGlobalTimer("Spellimmunity","LOCALS",114)
+    SetGlobalTimer("Nobuffsyet","LOCALS",40)
+END
+
+IF
+  OR(3)
+  SpellCast([PC],WIZARD_TRUE_SIGHT)
+  SpellCast([PC],CLERIC_TRUE_SIGHT)
+  SpellCast([PC],INQUIS_TRUE_SIGHT)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Noillusions","LOCALS",60)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  StateCheck(Myself,STATE_SILENCED)
+  HaveSpell(WIZARD_VOCALIZE)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_VOCALIZE)
+END
+
+IF
+  !HasImmunityEffects(Myself)
+  HaveSpell(WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  See(NearestEnemyOf(Myself))
+  GlobalTimerExpired("Nobuffsyet","LOCALS")
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+END
+
+IF
+  CheckStatLT(Myself,1,STONESKINS)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_STONE_SKIN)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_STONE_SKIN)
+END
+
+IF
+  !StateCheck(Myself,STATE_MIRRORIMAGE)
+  See(NearestEnemyOf(Myself))
+  OR(2)
+  !GlobalTimerNotExpired("Noillusions","LOCALS")
+  GlobalTimerNotExpired("Spellimmunity","LOCALS")
+  HaveSpell(WIZARD_MIRROR_IMAGE)
+  GlobalTimerExpired("Nobuffsyet","LOCALS")
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_MIRROR_IMAGE)
+END
+
+IF
+  !StateCheck(Myself,STATE_BLUR)
+  See(NearestEnemyOf(Myself))
+  OR(2)
+  !GlobalTimerNotExpired("Noillusions","LOCALS")
+  GlobalTimerNotExpired("Spellimmunity","LOCALS")
+  GlobalTimerExpired("Nobuffsyet","LOCALS")
+  HaveSpell(WIZARD_BLUR)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_BLUR)
+END
+
+IF
+  See([GOODCUTOFF])
+  Allegiance(Myself,ENEMY)
+  OR(4)
+  HasBounceEffects(LastSeenBy(Myself))
+  HasImmunityEffects(LastSeenBy(Myself))
+  CheckStatGT(LastSeenBy(Myself),0,MINORGLOBE)
+  CheckStatGT(LastSeenBy(Myself),0,SHIELDGLOBE)
+  !StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
+  HaveSpell(WIZARD_RUBY_RAY_OF_REVERSAL)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_RUBY_RAY_OF_REVERSAL)
+END
+
+IF
+  See([ENEMY])
+  InMyGroup(LastSeenBy(Myself))
+  OR(4)
+  StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+  StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+  StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+  StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+  HaveSpell(WIZARD_DISPEL_MAGIC)
+THEN
+  RESPONSE #100
+    SpellNoDec(LastSeenBy(Myself),WIZARD_TRUE_DISPEL_MAGIC)
+    RemoveSpell(WIZARD_DISPEL_MAGIC)
+END
+
+IF
+  See([GOODCUTOFF])
+  Allegiance(Myself,ENEMY)
+  CheckStatGT(LastSeenBy(Myself),0,STONESKINS)
+  HaveSpell(WIZARD_BREACH)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_BREACH)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_SLOW)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_SLOW)
+END
+
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  HaveSpell(WIZARD_ABI_DALZIMS_HORRID_WILTING)
+  !HasItemEquiped("CLCK26",LastSeenBy(Myself))
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MORDENKAINENS_SWORD)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_MORDENKAINENS_SWORD)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHAIN_LIGHTNING)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_CHAIN_LIGHTNING)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CONE_OF_COLD)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_CONE_OF_COLD)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_ICE_STORM)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_ICE_STORM)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_LIGHTNING_BOLT)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_LIGHTNING_BOLT)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_FIREBALL)
+THEN
+  RESPONSE #100
+    SpellNoDec(NearestEnemyOf(Myself),WIZARD_SKULL_TRAP)
+    RemoveSpell(WIZARD_FIREBALL)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+  !HasItemEquiped("CLCK26",LastSeenBy(Myself))
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_AGANNAZAR_SCORCHER)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+  !HasItemEquiped("CLCK26",LastSeenBy(Myself))
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHROMATIC_ORB)
+  !HasItemEquiped("CLCK26",LastSeenBy(Myself))
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_CHROMATIC_ORB)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_BURNING_HANDS)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_BURNING_HANDS)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MELF_METEOR)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_MELF_METEOR)
+END
+
+IF
+  See(Nearest([GOODCUTOFF]))
+  HasItem("melfmet",Myself)
+  Allegiance(Myself,ENEMY)
+  ActionListEmpty()
+  !HasBounceEffects(LastSeenBy(Myself))
+THEN
+  RESPONSE #100
+    EquipItem("melfmet")
+    AttackReevaluate(LastSeenBy(Myself),15)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !HasItem("melfmet",Myself)
+  !HaveSpell(WIZARD_MELF_METEOR)
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastSeenBy(Myself),15)
+END
+

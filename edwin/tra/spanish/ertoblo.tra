@@ -1,0 +1,28 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~¿Qué dolor inevitable debéis ocasionarle a quien amáis? El mago al que llamáis 'Edwin'.~
+@1    = ~¿Y ahora qué?~
+@2    = ~Ah, mi estudiante favorito. ¿Sois vos, joven Edwin?~ [er_dek5]
+@3    = ~¿M-maestro Dekaras? No, esto no puede ser. ¡Regresasteis a Thay, estoy seguro!~
+@4    = ~Así fue, muchacho. Así fue. Y fue en Thay donde morí.~
+@5    = ~¡¿M-muerto?! ¡No! ¡Me niego a creerlo! Esto... esto es algún tipo de truco, un engaño... ¡Tiene que serlo!~
+@6    = ~¿Alguna vez os he mentido, muchacho? ¿Como vos me mentisteis? En el fondo de vuestro ser sabéis que esto es verdad. Estoy muerto, tan muerto como los deteriorados huesos de las hordas de Thay enterrados en las tierras de Rashemen. Y todo es culpa vuestra.~
+@7    = ~¿Culpa m-mía? ¡NO! Yo nunca...~
+@8    = ~Abandonasteis y traicionasteis la misión que nos trajo de Thay, y al hacerlo, me abandonasteis y me traicionasteis a mí. Qué adecuado hacerlo por <CHARNAME>, otro niño desagradecido que huyó cuando su propio mentor murió por él.~ ~Abandonasteis y traicionasteis la misión que nos trajo de Thay, y al hacerlo, me abandonasteis y me traicionasteis a mí. Qué adecuado hacerlo por <CHARNAME>, otra niña desagradecida que huyó cuando su propio mentor murió por ella.~
+@9    = ~¡P-pero no tuve elección! No podía hacerle eso a <CHARNAME>, vos lo sabéis. ¡Y ya me perdonasteis por ello, lo dijisteis! Vos... ¡tenéis que perdonarme!~
+@10   = ~¿Ah, sí? ¿De verdad? ¿Entonces debo deciros, estudiante mío, qué me estáis pidiendo que os perdone esta vez? Tras nuestro reencuentro regresé a Thay, cierto. Tenía la esperanza de salvar los tristes restos de vuestra carrera, lo poco que quedaba tras fracasar en vuestra misión de reclutar o eliminar a <CHARNAME>.~
+@11   = ~Pero yo...~
+@12   = ~Por desgracia, los Magos Rojos estaban más enfadados con vos de lo que me esperaba. Y como yo había sido vuestro compañero, resolvieron que yo era cómplice de alta traición. Se mostraron especialmente indiferentes ante posibles explicaciones, pero muy ansiosos de confesiones.~
+@13   = ~No... no... ¿tortura? (Voy a caer enfermo. En cualquier momento.)~
+@14   = ~Oh, sí. Por una vez habéis hallado la respuesta correcta sin que sea señalada por el Dedo de la Obviedad. Tortura. Una tortura insoportable que finalmente resultó fatal.~
+@15   = ~La cantidad de dolor que puede soportar el cuerpo humano antes de detener sus funciones es asombroso. ¿Y sabíais que un mago puede evitar que el torturado pierda la conciencia más o menos indefinidamente? Esa fue vuestra traición.~
+@16   = ~¡No! ¡Ya basta! ¡Siempre fuisteis mi amigo, yo nunca querría eso! ¡Por favor, no puedo resistirlo!~
+@17   = ~¿No podéis resistirlo? ¿Vos? ¿Os dais cuenta de lo que yo tuve que resistir para evitar que me sonsacaran vuestro paradero? ¿Os dais cuenta? No me dejaban morir, sabéis, no hasta que os entregara. Pero me negué hasta el final, incluso cuando prácticamente me había vuelto loco a causa del sufrimiento.~
+@18   = ~Sabéis, siempre cuidé de vos. Siempre os traté como a mi propio hijo. Hubiera hecho cualquier cosa por manteneros a salvo. Pero vos, con vuestra pequeña traición fortuita, vuestro flirteo con un engendro maldito, sin duda alguna me asesinasteis como si vos mismo hubierais empuñado los cuchillos y los hierros candentes.~
+@19   = ~¡NOOOO! ¡Ya es suficiente! ¡<CHARNAME>, haced que pare, os lo suplico!~
+@20   = ~¡No fue culpa suya y lo sabéis, asesino! ¡Detened esto ya!~
+@21   = ~¡Detened esto, Gorion! ¡Él no se lo merece!~
+@22   = ~¡Ya es suficiente! ¡No permitiré que esto continúe!~
+@23   = ~¡Todo es mentira Edwin! ¡Esto no es real!~
+@24   = ~¡No le creáis, Eddie! ¡No es quien parece ser, al igual que Gorion!~
+@25   = ~¡No le escuchéis Edwin! ¡Está intentando destruiros! ¡No sucumbáis!~

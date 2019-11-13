@@ -1,0 +1,63 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~The altar hums softly for a moment, but then it grows silent once more. It seems to be expecting something more. You try desperately to think of what else could be used to draw Edwin's spirit back to you. Perhaps his suspicious nature will not trust entirely in the benevolence of a strange God, but if he could feel your own presence that might help...~
+@1    = ~A faint glow startles you. It seems to be coming from the talisman that Edwin gave you as a token of his love. Your hair entangled with his own like two souls entwined in love. As you touch the hair you know what to do. You can feel Edwin's presence through the talisman, reaching for your own. The charm will be a beacon to guide him home, if you choose to give it up. It could be dangerous, however. A part of you will travel outside your body to the lands of the dead. You don't want to lose it permanently.~
+@2    = ~Place <CHARNAME>'s Lock of Hair on Altar.~
+@3    = ~Choose to keep talisman for yourself.~
+@4    = ~The lock of hair that Edwin enchanted might have been enough to guide his spirit home. That is not an option, but could there be another way? Edwin wasn't fully turned into a vampire, but part of those instincts should have been transmitted. And your blood carries the spark of divinity, enough to lure any vampire closer. It will be risky however, and suddenly you know that if you want Edwin back you will need to give up a part of your own strength.~
+@5    = ~Cut yourself, let a few drops of your blood flow onto the altar.~
+@6    = ~Step away from the altar.~
+@7    = ~You have taken too much already!  You will return both Imoen's soul and Edwin!~
+@8    = ~And you have delivered on that promise. Return Edwin and perhaps I will be merciful.~
+@9    = ~I would have hunted you for your theft of Edwin alone.  He is very important to me.~
+@10   = ~You place too much confidence in sentiment.  The theft of Edwin will not save you.~
+@11   = ~See this sharp, pointy thing? It's called a S-T-A-K-E. Now release Edwin or I'll give you a practical demonstration as well as a theoretical one.~
+@12   = ~Hand over Edwin at once, Bodhi, or you'll be sucking your blood through a straw due to serious lack of teeth.~
+@13   = ~Oh, Boo-hoo. The Big Bad Vampire is trying to be scary. Look at me shaking. Now hand over my boyfriend and maybe I'll content myself with staking you rather than nailing you to the floor and going to work on you with a dull fork and a barrel of hot oil.~
+@14   = ~Great loss? Like your loss of your clothes? I mean, sure you're a vampire, but that skimpy, see-through look is so...cheap. Now give me Edwin and I'll spare your unlife, maybe even give you some free fashion advice.~
+@15   = ~You follow in the hopes of retrieving something dear to you. I say that the longer you keep this up, the more you will lose.~
+@16   = ~I was not speaking of her sacrifice, but of yours, little wizard. Keep following me, <CHARNAME>, and you will lose more than you ever dreamed possible! Starting now!~
+@17   = ~The Final Battle with Bodhi.
+
+Bodhi ambushed me before I reached her graveyard hideout, doing her best to taunt me into a blind rage, her every word designed to enflame my senses. With the loss of my soul the taint of Bhaal is closer to the surface than ever. Perhaps she was counting on that, perhaps not. Whatever the case she has gained the upper hand for now, and my losses continue to mount. My hand shakes with murderous fury as I write this, for Bodhi has stolen Edwin away from me, no doubt planning to use him as a pawn in her gambit against me. I see no choice but to continue on my chosen path, but I fear terribly for my beloved's life and soul. I wish I could believe he will be careful not to provoke her into hurting him, but I know him too well to dare entertain those hopes...~
+@18   = ~An interesting ploy, though I am sure his fate will still serve as an example, whether you wish him back or not.~
+@19   = ~His will is mine, even though he is not fully turned.  He will carve your heart out with but a word I say, and there is nothing you can do while I live.~
+@20   = ~The Final Battle with Bodhi
+
+Bodhi has turned Edwin into a vampire!  Or... or very nearly.  The process may not have been completed in the short time Bodhi has had him.  Hopefully something can be done or I will have lost him.  Perhaps the elven war sage might know some way of restoration... or Elhan...
+
+I don't know. My mind is gray with despair. I had already lost my soul. But now...now I fear I may have lost my heart as well. Seeing him like that was terrible. There was such pain in his eyes, and confusion. And a dullness, as if the thing that made him Edwin had been lost forever. He always wanted powers from beyond the grave, and immortality. The irony of it is hard and cruel. I...I can write no further at this time.~
+@21   = ~You...you came for me. I could feel you there, through the cold and the pain, reaching out for me. It...it was what kept me sane, I think. And...and you were prepared to sacrifice something that important...for me?~
+@22   = ~<CHARNAME>, I hardly know what to say. Part of me wants to berate your stupidity in risking yourself for my sake,  but the greater part of me wants nothing less than to kiss you senseless and spend the rest of my life making it all up to you.~
+@23   = ~Don't you ever think yourself unworthy of any sacrifice I may choose to make for you, Edwin. I love you. I thought losing my soul was the worst that could ever happen to me, but that was before I lost you.~
+@24   = ~*sniff* Now...now don't you go all mushy on me, Eddie. I...I'm not sure I can handle that right now. I love you and I  missed you so terribly, I need to be certain you're really you and not just a dream.~
+@25   = ~The only stupidity here was on your part. How could you let Bodhi kidnap you like that? Are you a complete incompetent moron?~
+@26   = ~I love you too, my deva, and I will continue to do so for as long as you let me. Your love drew me back from...no, I will not describe it. It was a nightmare, full of darkness, despair and pain. May you never see its like. And it made me doubt my own previous goals.~
+@27   = ~I always thought power would be worth any sacrifice. I wouldn't have risked the Nether Scroll otherwise. But now I have seen what undeath is really like, and I wonder if I may have been mistaken. (Don't make too much of it. It won't be a common occurrence.)~
+@28   = ~I feel I need your advice on this. Bodhi was prepared to destroy me, simply in order to get to you. And it would be so easy for me to become like her, or her brother. Could it be that there are some ambitions better left unfulfilled? That winning isn't everything?~
+@29   = ~I think you have made an important discovery, and I agree with you. I love you, and I want you to succeed at whatever you do, but not at the price of you turning into another Irenicus.~
+@30   = ~Yes. Winning is certainly important, and so is power. But what use is it to become omnipotent if you give up all your friends and loved ones in the process?~
+@31   = ~No, of course not. You shouldn't worry about it. I fully intend to harness any power I can get my hands on, at any cost. And so should you. All else is folly.~
+@32   = ~It appears I have been stupid about many things, deceiving myself. Will you at least accept me back into the group? It is rather cold and damp here, and I would prefer some company rather than traversing this place on my own.~
+@33   = ~Fine, you may rejoin the group. Just watch your step in the future, loser.~
+@34   = ~The Final Battle with Bodhi
+
+While I had feared for some time that Bodhi's final revenge on me would be to take away Edwin forever, it seems that the information in the lorebook was right... Amaunator's idol has restored Edwin not only to life, but has removed the vampiric curse from him, as well.
+
+As for Bodhi, I almost feel like resurrecting her as well, if only to be able to say 'Take that, sucker.' Oh, well. At least she will be good for something now. I only had to use the heart, and I think Edwin is going to be quite happy about his growing collection of disgusting vampiric spell components.
+~
+@35   = ~Forget it. I have no room for you at the moment.~
+@36   = ~I see. You have made yourself abundantly clear, <CHARNAME>. Should you ever need me I will probably be at the Copper Coronet.~
+@37   = ~I feel...different inside. Different in a good way. Your words may have changed me, my deva, but my feelings for you remain constant. I would remain at your side, to prove that every day. (And every night. Yes indeed.) Will you have me back?~
+@38   = ~Of course I will. I love you, and I wouldn't be able to carry on without you, you know.~
+@39   = ~*grin* Don't be silly. I just carried your lifeless body all the way from Athkatla and into this dreary old dungeon. I'm not about to give you up that easily.~
+@40   = ~Er...actually the party is pretty much complete at the moment. Maybe later.~
+@41   = ~Yes, I see your point, my deva. It was a temporary weakness, no doubt caused by Resurrection Sickness. * cough * I should be myself in a moment or so. I want nothing more than to return to my proper place at your side. (And absolute and total power, as well as a pointy hat,  but that will have to wait for later.) Will you have me back?~
+@42   = ~Then we should get going. Oh, and <CHARNAME>? I hope you haven't got any fixed plans for tonight. I was hoping to exchange a few love-bites of the more pleasant variety. Did you keep any vampire parts, by the way? I really could use some for spell components...~
+@43   = ~Later? LATER?! But I thought that... Oh, never mind. I'm going back to the Copper Coronet, if you care. You should be able to find me there later, but don't expect me to wait up for you.~
+@44	= ~~
+@45   = ~Consider young Edwin, there. The wizard, always so ambitious, so hungry for the dark powers that I possess. How great a sacrifice would that one be willing to make for the secrets that I can provide, I wonder?~
+@46   = ~Your remains will provide me with powerful spell components for years to come, vampire, and I shall take great pleasure in cataloguing and removing them while you still twitch and shriek. I would never sacrifice my deva to your plots and machinations.~
+@47   = ~Yesss.... The clever little wizard. Such a naughty pet. So ungrateful. He actually tried to resist me, rather than accept my gift graciously as I would have expected him to. And you wouldn't believe some of the words he used. But no matter. I have my - methods - after all.~
+@48   = ~You may have what remains of him, though I doubt your fumbling could inspire the loyalty I have taken with a bite and a gaze.~
+@49   = ~It is as you say, mistress. I...I  am yours, body and soul.~

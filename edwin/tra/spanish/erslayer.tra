@@ -1,0 +1,22 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~¿Tenéis frío, <CHARNAME>? Estáis temblando... Esperad... avivaré un poco el fuego.~
+@1    = ~¡Alejaos de mí, Edwin! ¡Me está pasando algo malo y no sé si podré protegeros!~
+@2    = ~¡Salid de aquí, Edwin, si apreciáis vuestra vida!~
+@3    = ~¡Largo de aquí, mago! ¡No puedo controlarlo! ¿Os es que queréis que os despedace?~
+@4    = ~¿A qué estáis jugando? Movéis los labios pero no decís nada. Ah, ya veo. Queréis que use el lenguaje corporal. De acuerdo, esto... ¿<CHARNAME>? ¿Eso son escamas? Estáis... ¡NO!~
+@5    = ~Vaya, qué interesante. Si no os importa, la próxima vez avisadme antes de que estáis en esos días del mes y me iré a dormir a otra habitación.~
+@6    = ~Edwin, ¿podréis perdonarme? ¡Casi os mato! Debéis odiarme...~
+@7    = ~Oooh, mi pobre cabeza... ¿Qué ha pasado?~
+@8    = ~¡Gracias a mi difunto padre he obtenido el PODER! ¡Muajajaja! ¡Ha sido glorioso!~
+@9    = ~*sonrisa de satisfacción* Aunque os merezcáis unos buenos azotes por haberme desgarrado mi mejor túnica, yo no diría tanto como que os odio. Después de todo, recuerdo cómo es convertirse en algo en contra de la propia voluntad.~
+@10   = ~Claro, así es. ¡Eh, esperad un momento! ¿Estáis comparando transformarse en mujer con transformarse en un monstruo con forma de langosta, gigante y desbocado?~
+@11   = ~Bueno, os habéis convertido en un monstruo enorme y parecido a una langosta. Las escamas y los ojos brillantes ya eran bastante malos de por sí, pero al acercarme a vos para besaros me encontré con dos mandíbulas babeantes, por lo que deduje que no estabais de humor para un poco de romanticismo.~
+@12   = ~Oh, no. Ahora lo recuerdo. Lo siento mucho, Edwin.~
+@13   = ~Antes de que os entusiasméis, me gustaría recordaros el hecho de que no os habéis transformado precisamente en una princesa guerrera mágica con una espada brillante y un caballo volador. Corregidme si me equivoco, pero creo que convertiros en una monstruosidad gigantesca no estaba en vuestra lista de actividades programadas. (Y si lo estaba, no quiero ver el resto de la lista.)~
+@14   = ~Sí, bueno...~
+@15   = ~Es algo meramente simbólico, ya me entendéis. (Después de todo, no debo provocar su ira.) Y vos me ayudasteis cuando más lo necesitaba. Os lo debo. (Aunque creo que de ahora en adelante dibujaré un pentagrama de protección antes de acostarme.)~
+@16   = ~Entonces me arrancasteis la ropa, y pensé que tal vez me había equivocado. Por desgracia, resultó que habíais adquirido los hábitos de apareamiento de una viuda negra, obviando la parte del romance y pasando directamente a la de 'devorar al desventurado macho'.~
+@17   = ~*os estremecéis* Lo siento mucho, mucho, mucho. Tenéis todo el derecho de odiarme. No soy más que un bicho raro.~
+@18   = ~No podíais controlar vuestras acciones, ¿verdad? ¿Cómo queréis asumir el poder divino si vais a enseñar las mandíbulas cuando menos os lo esperéis? (Y casi me destrozáis en mil pedazos de Mago Rojo, algo que parecía no importaros mucho.)~
+@19   = ~¡Ah, vale! Tengo que aprender a controlar esta habilidad. ¿Así que ahora me odiáis o qué?~

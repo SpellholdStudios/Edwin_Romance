@@ -1,0 +1,34 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~Was *muss* sie denn noch wissen, Geck? Dass darin mehr pompöse, selbstgefällige und aufgeblasene Dummköpfe zu finden sind, als Fliegen über einem verrottenden Kadaver?  (Und mit den Fliegen lässt sich höchstwahrscheinlich eher ein vernünftiges Gespräch führen.)~
+@1    = ~Es ist keine Überraschung, Magier, dass der Orden nicht Euren Gefallen findet. Seine Ideale von Edelmut und Rechtschaffenheit können Einem wie Euch nicht zusagen.~
+@2    = ~Rechtschaffenheit, sagt Ihr? Ist das das amnische Wort dafür, ein überheblicher Heuchler zu sein?~
+@3    = ~Logischerweise konntet Ihr nichts anderes werden. Es gibt nun einmal nur eine begrenzte Anzahl an Berufen, die einem Mann offen stehen, der über ein Hirn von der Größe einer kleinen Erbse und die sozialen Fähigkeiten einer Muschel verfügt.~
+@4    = ~*Ihr* wollt *mich* über soziale Fähigkeiten belehren? Der Mann, der wo er geht und steht, Beleidigungen ausspuckt, wie ein Drachen Feuer bläst?~
+@5    = ~*Meine* Beleidigungen sind intelligent, treffend und sorgfältig ausgewählt. *Eure* sind die zufälligen, unbeholfenen Fehler eines Rüpels, der oft genug an seinen Zehen lutscht, um Fußpilz auf der Zunge zu haben.~
+@6    = ~Wo wir von Füßen sprechen... ~
+@7    = ~Aua! Mein *Fuß*! Ihr seid darauf *getreten*! Das habt Ihr mit *Absicht* getan!~
+@8    = ~Warum warten? Ich kann Euch schon jetzt beurteilen. Ich halte Euch für einen arroganten, heulenden Narren, der an dem Wahn leidet, eine geistig gesunde Frau wäre daran interessiert, auf Dauer sein Kindermädchen zu spielen. Hiermit taufe ich Euch “Sir Jämmerlich von Unentschlossen“. (Es ist ein Wunder, dass er <CHARNAME> nicht um Hilfe bittet, ihm sein Mittagessen auszusuchen.)~
+@9    = ~Ihr *wagt* es?! Ich nehme an, *Ihr* suhlt Euch lieber in Eurer eigenen Bosheit, vergiftete Pfeile auf jeden zu schießen, der Euch nahe kommt, aus Furcht, tatsächlich einmal zu lernen, was es bedeutet, sich um einen anderen Menschen zu sorgen?~
+@10   = ~Ich suhle mich nicht!~
+@11   = ~Nein? Warum habt Ihr dann so offensichtliches Vergnügen an den Schmerzen, die Ihr verursacht? In Korruption? Hm, womöglich ist es Euch gar gelungen, selbst mich zu korrumpieren. Ich verspüre das dringende Bedürfnis, mich an Eurem Schmerz zu erfreuen und, Helm steh mir bei, wenn Ihr nicht den Mund haltet, dann werde ich das!~
+@12   = ~Das ist das Beste, was Euch einfällt? Eine welkende, hässliche Blume? Wo habt Ihr sie gepflückt? Inmitten eines Müllhaufens? Oder habt Ihr sie einfach ausgerülpst?~
+@13   = ~Das war’s. <CHARNAME>, um Euretwillen habe ich zahllose Beleidigungen von diesem verachtenswerten Magier ertragen, aber das werde ich nicht länger. Er ist offenbar wahnsinnig genug anzunehmen, Ihr wäret imstande, mehr als Mitleid für ihn zu empfinden und erträgt es nicht, sich seine eigene Wertlosigkeit einzugestehen, verglichen mit einem weitaus würdigeren Verehrer.~
+@14   = ~Warum sollte sie? Das ist, als fragtet Ihr sie, ob sie an den Gedanken einer Amöbe interessiert ist. Mein Rat an Euch, Ihr Einzeller, ist folgender: Teilt Euch einfach.~
+@15   = ~Lästert weiter, wenn Ihr müsst. Aber bedenkt, wenn Ihr Eure Worte nicht sorgfältig wählt, werden sie Euch eines Tages eine böse Schädelfraktur einbringen. Ich sprach gerade mit <CHARNAME>.~
+@16   = ~Ich dachte, ich solle absichtlicher handeln? Und nun, meine Dame, lasst uns unser so traurig unterbrochenes Gespräch fortsetzen. Ich frage mich, ob ich Euch je erzählt habe, wie ich zum Priester wurde?~
+@17   = ~Ich... ich entschuldige mich, <CHARNAME>. Wie ich sagte, mein anstehender Test bedrückt mich dieser Tage.~
+@18   = ~Ich danke Euch, meine Dame. Und nun zu dieser Blume... ~
+@19   = ~Mir tut es auch Leid, meine Dame. Ich... ich habe zuviel angenommen. Es scheint also, ich muss mich vom Schlachtfeld zurückziehen.~
+@20   = ~Genauso wenig scheint es, Ihr legtet Wert auf die Loyalität und Treue, die ich Euch obendrein geboten hätte, <CHARNAME>. So sei es denn.~
+@21   = ~Ich danke Euch, meine Dame. Und nun zu meiner Meinung über Euer absolut bezauberndes Wesen... ~
+@22   = ~Ihr meint Euch, nehme ich an? <CHARNAME>, Ihr solltet diesen schwer gerüsteten Affen von dem Wahn befreien, er sei für Euch mehr als eine Karikatur.~
+@23   = ~Nein, Edwin. Mit der Zeit habe ich Gefallen an Anomen gefunden. Mehr als Gefallen. Ich kann nicht tun, was Ihr wollt.~
+@24   = ~Seid nicht albern, Edwin! Wenn jemand eine Karikatur ist, dann seid Ihr das! Ich will einen richtigen Mann, nicht einen, der ein Kleid trägt.~
+@25   = ~Anomen… Ihr bedeutet mir viel. Aber ich befürchte, Ihr wollt mehr als das, mehr als ich Euch geben kann. Es tut mir Leid, wenn ich Euch unbeabsichtigt getäuscht habe.~
+@26   = ~Ja! Macht einen Spaziergang, Anomen! Und nehmt diese dumme Blume mit Euch. Ich kann sie nicht brauchen.~
+@27   = ~Ich... ich verstehe. Offensichtlich habt Ihr weit weniger Geschmack, als ich dachte, <CHARNAME>, und bemerkenswert weniger Intelligenz. Ich bin nur froh, dass ich das rechtzeitig bemerkt habe.~
+@28   = ~Dann <CHARNAME>, nehme ich an, muss ich meine weniger humorvolle Seite zeigen. (Eines Tages, wenn sie es am wenigsten erwarten... )~
+@29   = ~Ja! Macht einen Spaziergang, Anomen! Und behaltet Eure dummen Gedanken für Euch. Ich will sie nicht hören.~
+@30   = ~Ich… ich verstehe. Offensichtlich habt Ihr weit weniger Geschmack, als ich dachte, <CHARNAME>, und bemerkenswert wenig Intelligenz. Ich bin nur froh, dass ich das rechtzeitig bemerkt habe.~
+@31   = ~<CHARNAME>, ich nehme an, ich muss fortan meine weniger humorvolle Seite zeigen. (Eines Tages, wenn sie es am wenigsten erwarten... )~

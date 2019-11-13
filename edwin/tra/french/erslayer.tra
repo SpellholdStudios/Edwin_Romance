@@ -1,0 +1,22 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~As-tu froid, <CHARNAME> ? Tu trembles... Attends, permets-moi de... te réchauffer un peu.~
+@1    = ~Ne reste pas là Edwin ! Quelque chose d'anormal m'arrive et je ne sais pas si je peux t'en protéger !~
+@2    = ~Ne reste pas là Edwin, si tu tiens à ta peau !~
+@3    = ~Dégage, mage ! Je ne peux pas contrôler ce qui m'arrive ! Tu veux te faire découper en morceaux ?~
+@4    = ~Quelle est cette plaisanterie ? Tes lèvres bougent sans qu'un son en sorte. Ah, je vois. Tu veux que j'utilise le langage du corps à la place. Très bien, je... <CHARNAME> ? N'est-ce pas des écailles ? Est-ce que tu... NON !~
+@5    = ~Eh bien, c'était intéressant. La prochaine fois, peut-être pourrais-tu me prévenir à l'avance que c'est ce moment du mois et j'irai dormir dans une autre pièce.~
+@6    = ~Edwin, pourras-tu jamais me pardonner ? Je t'ai presque tué ! Tu dois vraiment me haïr...~
+@7    = ~Oooh, ma pauvre tête... Que s'est-il passé ?~
+@8    = ~Par mon Père mort, j'avais le POUVOIR ! Muahahaha ! C'était glorieux !~
+@9    = ~*sourire ironique* Même si tu mérites bien de t'humilier un peu pour avoir déchiré ma meilleure robe, je n'irais pas jusqu'à dire que je te hais. Je me souviens bien après tout de ce que c'est d'être changé en quelque chose contre son gré.~
+@10   = ~Oui, tu en as fait l'expérience, c'est vrai. Hé ! Attends une minute ! Tu compares ta transformation en femme avec le fait de se transformer en un gigantesque monstre-homard homicide ?~
+@11   = ~Eh bien tu t'es transformée en une gigantesque monstruosité qui ressemblait à un homard. Les écailles et les yeux phosphorescents n'étaient déjà pas beaux à voir, mais c'est de me pencher vers toi pour t'embrasser et me retrouver soudain en face d'une paire de mandibules baveuses qui m'a fait réaliser que tu n'étais pas d'humeur à te faire compter fleurette.~
+@12   = ~Oh, non, je commence à m'en souvenir. Je suis vraiment désolée, Edwin.~
+@13   = ~Avant que tu n'exagères, j'aimerais te rappeler que tu ne t'es pas vraiment transformée en une princesse guerrière magique avec une épée brillante et un cheval volant. Corrige-moi si je me trompe mais je ne pense pas que "se transformer en un gigantesque monstre homard effrayant" était sur ta liste de choses à faire dans la journée. (Et si c'est le cas, alors je ne veux pas voir le reste de cette liste.)~
+@14   = ~Oui, enfin...~
+@15   = ~Symboliquement parlant, bien sûr. (Je ne veux pas de nouveau la mettre en colère, après tout.) Et tu m'as bien aidé quand j'en avais besoin. Je me dois de te rendre la pareille. (Bien que je pense que je dessinerai un pentagramme de protection avant d'aller dormir à partir de maintenant.)~
+@16   = ~Puis tu as commencé à m'arracher mes vêtements et je me suis dit que peut-être je m'étais trompé. Malheureusement j'ai compris que tu avais pris les habitudes d'accouplement de la veuve noire, sautant directement de la partie amoureuse à celle où on consomme le mâle sans défense.~
+@17   = ~*Grimace* Je suis vraiment, vraiment, vraiment désolée. Tu as tout à fait le droit de me haïr. Je ne suis rien d'autre qu'un monstre.~
+@18   = ~Tu ne pouvais absolument pas contrôler tes actions, pas vrai ? Comment peux-tu un jour espérer d'obtenir le pouvoir d'un dieu si des mandibules n'arrêtent pas de te pousser dessus toutes les cinq minutes ? (Et tu m'as presque réduit en tous petits morceaux de Sorcier Rouge, même si tu as l'air de t'en moquer.)~
+@19   = ~Oh, très bien ! Je devrais apprendre à contrôler ça un peu mieux. Alors, tu me hais maintenant, ou quoi ?~

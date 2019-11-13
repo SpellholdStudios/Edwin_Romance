@@ -1,0 +1,12 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~<CHARNAME>, je me dois d'insister pour que nous allions immédiatement nous rendre à notre rendez-vous sur les Docks. J'ai été patient jusque-là mais ma patience a des limites. (Tout comme celle de mon tuteur.)~
+@1    = ~Je suis désolée Edwin. Nous y allons tout de suite.~
+@2    = ~Oui, très bien. Je suppose que nous ferions mieux d'y aller. Ça ne me dit rien d'avoir un assassin irrité après nous.~
+@3    = ~Edwin, j'ai bien plus important à faire que de m'occuper de ça maintenant. Arrête de m'ennuyer avec cette histoire.~
+@4    = ~D'accord, d'accord. J'ai juste à faire quelque petites choses avant... Comme me laver les cheveux.~
+@5    = ~C'est bon à entendre. Mais souviens-toi que je garderai ta promesse en mémoire.~
+@6    = ~Important ? IMPORTANT ? *C'est* important, important pour *moi*. Mais apparamment, tu ne pourrais moins t'en soucier. J'irais seul, donc, et bon débarras.~
+@7    = ~Edwin a reçu une lettre de son vieil ami et mentor, l'assassin Dekaras, demandant un rendez-vous pour parler d'un problème très important. Je ne pouvais pas accompagner Edwin à son rendez-vous avec son ami alors il a quitté le groupe et est parti tout seul pour le District des Docks.~
+@8    = ~Très amusant, <CHARNAME>. Mais souviens-toi que mon sens de l'humour disparaîtra bien vite à moins que tu tiennes parole.~
+@9    = ~<CHARNAME>, tu m'as trahi, gâchant mon temps pour des broutilles. Je t'ai soigneusement expliqué l'importance de respecter notre rendez-vous et tu as ignoré ce que je t'ai dit. J'irais donc seul et je n'oublierai jamais cette trahison.~

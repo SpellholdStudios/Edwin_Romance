@@ -1,0 +1,14 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Edwin")
+    SetInterrupt(FALSE)
+    Wait(1)
+    ForceSpell(Player1,WIZARD_FLAME_ARROW)
+    Wait(1)
+    EndCutSceneMode()
+    SetInterrupt(TRUE)
+    ActionOverride("Edwin",StartDialogNoSet(Player1))
+END
+

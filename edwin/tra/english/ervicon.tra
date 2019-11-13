@@ -1,0 +1,19 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~Besides...I can't help but wonder what game you are playing here, Edwin. Surely it is no coincidence that you choose to speak to me thus when <CHARNAME> just happens to be walking close enough to hear you.~
+@1    = ~But I am Drow, and not to be manipulated for your purposes, wizard. And something tells me <CHARNAME> is no more amused by your little ploy than I am. Are you, <CHARNAME>?~
+@2    = ~No Viconia, I'm certainly not. Any thoughts on how we can best demonstrate our displeasure?~
+@3    = ~Actually I thought it was all kind of funny. Doesn't mean that I think he should get away with it though. Got any suggestions?~
+@4    = ~I assure you that...~
+@5    = ~You might easily have approached me privately. That you do not leads me to believe that you seek to use me in order to attract the attention of another.~
+@6    = ~What an utterly ridiculous idea. Laughable. Really laughable. (Damn. She's onto my master plan. Looks like this gambit has been lost.)~
+@7    = ~Well, we haven't got any tentacle rods...~
+@8    = ~Now wait just a minute...~
+@9    = ~... and it would be a shame to incapacitate him permanently. He can be far more useful in another capacity. To us both.~
+@10   = ~B-b-both?!~
+@11   = ~Preferably at the same time, I think. We want to give him a proper challenge.~
+@12   = ~*strangled choke*  SAME TIME?!  Er...that is...I would of course be happy to service...~
+@13   = ~I mean serve you two ladies to the best of my capacity. (This can't be happening. I'll wake up at any moment now.)~
+@14   = ~Excellent. Here you go.~
+@15   = ~What's this? It *ooof* must weigh a ton!~
+@16   = ~My pack. And here is <CHARNAME>'s as well. You did say you wanted to serve us both, and you are about to get your wish. Do carry them carefully, if you break anything we shall both be most displeased. * chuckle * Come, <CHARNAME>. I think you could benefit from a few lessons on the proper handling of males...~

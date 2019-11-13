@@ -1,0 +1,10 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Er_Jadda")
+    ActionOverride("er_calld",DestroySelf())
+    Wait(1)
+    EndCutSceneMode()
+    ActionOverride("Edwin",Interact(Player1))
+END

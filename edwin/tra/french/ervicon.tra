@@ -1,0 +1,19 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~De plus... Je ne peux m'empêcher de me demander à quel jeu tu joues, Edwin. Ce n'est certainement pas une coïncidence si tu as choisi de me parler de cela alors que <CHARNAME> marche juste assez près de nous pour t'entendre.~
+@1    = ~Mais je suis une drow et je ne me laisserai pas être manipulée selon tes plans, mage. Et quelque chose me dit que <CHARNAME> n'est pas plus amusée par ta petite manigance que je ne le suis. N'est-ce pas, <CHARNAME> ?~
+@2    = ~Non Viconia, je ne le suis certainement pas. Tu as une idée de comment nous pourrions au mieux lui montrer notre déplaisir ?~
+@3    = ~En fait j'ai trouvé ça plutôt drôle, mais ça ne veut pas dire que je pense qu'il devrait s'en tirer sans conséquences. Tu as une suggestion ?~
+@4    = ~Je vous assure que...~
+@5    = ~Tu aurais aussi bien pu m'en parler en privé. Que tu ne l'aies pas fait m'amène à penser que tu veux m'utiliser pour attirer l'attention d'une autre.~
+@6    = ~Quelle idée complètement ridicule. Risible. Vraiment risible. (Zut, elle a compris mon plan génial. On dirait que ma tentative a échoué.)~
+@7    = ~Eh bien nous n'avons pas de bâtons à tentacules...~
+@8    = ~Attendez une minute...~
+@9    = ~... Et ce serait dommage de l'abîmer définitivement. Il peut être bien plus utile dans un autre domaine. Pour nous deux.~
+@10   = ~V-vous deux ?!~
+@11   = ~De préférence en même temps, je pense. Il faut lui donner un défi à sa mesure.~
+@12   = ~*Gargouillement étranglé* EN MEME TEMPS ?! Euh, c'est-à-dire... Je serais bien sûr heureux de vous rendre service...~
+@13   = ~Je veux dire, vous servir toutes deux au mieux de mes capacités. (Cela ne peut pas arriver, je vais me réveiller dans un instant.)~
+@14   = ~Excellent. Prends ça.~
+@15   = ~Qu'est-ce que c'est ? Cela *oooof* doit peser une tonne !~
+@16   = ~Mon sac. Et voici également celui de <CHARNAME>. Tu as bien dit que tu voulais nous servir toutes les deux et tu es sur le point de voir ton souhait réalisé. Porte-les avec soin, si tu brises quoi que ce soit nous serons toutes les deux extrêmement mécontentes. *Rire* Viens, <CHARNAME>. Je pense que tu pourrais avoir besoin de quelques leçons pour apprendre comment manier les mâles...~

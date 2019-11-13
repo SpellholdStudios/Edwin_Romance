@@ -1,0 +1,87 @@
+IF
+  !Global("EdwinRomanceActive","GLOBAL",0)
+  !Global("EdwinRomanceActive","GLOBAL",3)
+  Global("EdwinMatch","GLOBAL",1)
+  See(Player1)
+  !AreaType(DUNGEON)
+  CombatCounter(0)
+  !Global("Chapter","GLOBAL",5)
+  Global("EdwinLoveTalk","LOCALS",9)
+  OR(2)
+  Global("EddieCantGetDrunk","GLOBAL",0)
+  Global("EddieCantGetDrunk","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    GiveItemCreate("EDPOTN",Myself,0,0,0)
+    MoveViewObject("Edwin",INSTANT)
+    Wait(2)
+    SetGlobal("EdwinDrunk","GLOBAL",1)
+    UseItem("EDPOTN",Myself)
+    Wait(2)
+    IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
+    PlaySong(999990)
+    SetInterrupt(TRUE)
+    Interact(Player1)
+END
+
+IF
+  Global("TalkedDegardan","GLOBAL",4)
+  Gender("Edwin",MALE)
+  Global("EdwinKiss","GLOBAL",1)
+  !Global("EdwinRomanceActive","GLOBAL",0)
+  !Global("EdwinRomanceActive","GLOBAL",3)
+  Global("EdwinMatch","GLOBAL",1)
+  See(Player1)
+  CombatCounter(0)
+  Global("EdwinLoveTalk","LOCALS",31)
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinKiss","GLOBAL",2)
+    MoveViewObject("Edwin",INSTANT)
+    IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
+    PlaySong(999990)
+    Interact(Player1)
+END
+
+IF
+  Gender("Edwin",MALE)
+  !Global("EdwinRomanceActive","GLOBAL",0)
+  !Global("EdwinRomanceActive","GLOBAL",3)
+  Global("EdwinMatch","GLOBAL",1)
+  See(Player1)
+  CombatCounter(0)
+  Global("EdwinLoveTalk","LOCALS",35)
+THEN
+  RESPONSE #100
+    MoveViewObject("Edwin",INSTANT)
+    IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
+    PlaySong(999990)
+    Interact(Player1)
+END
+
+IF
+  InParty(Myself)
+  !Gender("Edwin",MALE)
+  !Global("EdwinRomanceActive","GLOBAL",0)
+  !Global("EdwinRomanceActive","GLOBAL",3)
+  Global("EdwinMatch","GLOBAL",1)
+  See(Player1)
+  !AreaType(DUNGEON)
+  CombatCounter(0)
+  Global("EdwinLoveTalk","LOCALS",21)
+  !Global("Chapter","GLOBAL",4)
+  !Global("Chapter","GLOBAL",5)
+  !Global("Chapter","GLOBAL",7)
+THEN
+  RESPONSE #100
+    MoveViewObject("Edwin",INSTANT)
+    IncrementGlobal("EdwinLoveTalk","LOCALS",1)
+    IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
+    PlaySong(999991)
+    Interact(Player1)
+END
+

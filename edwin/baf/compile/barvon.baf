@@ -1,0 +1,27 @@
+IF
+  InParty("Edwin")
+  IfValidForPartyDialogue("Edwin")
+  OR(2)
+  !See("Edwin")
+  !Range("Edwin",7)
+THEN
+  RESPONSE #100
+    MoveToObject("Edwin")
+END
+
+IF
+  InParty("Edwin")
+  See("Edwin")
+  Range("Edwin",7)
+THEN
+  RESPONSE #100
+    Dialog("Edwin")
+END
+
+IF
+  !InParty("Edwin")
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+

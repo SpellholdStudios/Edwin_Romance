@@ -1,0 +1,25 @@
+
+
+
+IF
+  See(Player1)
+  CombatCounter(0)
+  Global("ERCook", "GLOBAL", 1)
+  !Global("EdwinRomanceActive","GLOBAL",3)
+  !Global("EdwinromanceActive","GLOBAL",0)
+  OR(9)
+    AreaCheck("AR0313")
+    AreaCheck("AR0406")
+    AreaCheck("AR0509")
+    AreaCheck("AR0513")
+    AreaCheck("AR0709")
+    AreaCheck("AR0704")
+    AreaCheck("AR1602")
+    AreaCheck("AR2010")
+    AreaCheck("AR2202") //Ust Natha
+THEN
+  RESPONSE #100
+    IncrementGlobal("ERcook", "GLOBAL", 1)
+    ActionOverride(Player1, SetDialogue("ERPlayer"))
+    ActionOverride(Player1, StartDialogueNoSet(Player1))
+END

@@ -1,0 +1,30 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Edwin")
+    CreateCreatureObjectEffect("VAMPAMB","SPFLESHS","Edwin")
+    SetGlobal("EdwinVampire","GLOBAL",1)
+    Wait(1)
+    CreateVisualEffectObject("SPDISPMA",Myself)
+    DropInventory()
+    SetLeavePartyDialogueFile()
+    ChangeAIScript("VAMPAMB",OVERRIDE)
+    ChangeAIScript("",DEFAULT)
+    DialogueInterrupt(FALSE)
+    LeaveParty()
+    EndCutSceneMode()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("bodhiamb")
+    DialogueInterrupt(FALSE)
+    CreateCreatureObject("VAMPIM01",Myself,0,0,0)
+    CreateCreatureObject("VAMPIM01",Myself,0,0,0)
+    CreateCreatureObject("VAMPIM01",Myself,0,0,0)
+    CreateCreatureObject("VAMPIM01",Myself,0,0,0)
+END
+

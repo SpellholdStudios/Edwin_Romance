@@ -1,0 +1,13 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("dekaras3")
+    MoveToObject(Player1)
+    SmallWait(2)
+    Ally()
+    GiveItemCreate("phylact1",Player1,0,0,0)
+    SmallWait(2)
+    EndCutSceneMode()
+END
+

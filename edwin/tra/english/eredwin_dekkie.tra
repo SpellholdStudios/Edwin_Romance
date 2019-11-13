@@ -1,0 +1,12 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~<CHARNAME>, I must insist that we head for our appointed meeting at the Docks with all haste. I have been patient so far, but my patience is not without limits. (And neither is that of my tutor.)~
+@1    = ~I'm sorry, Edwin. We will go right away.~
+@2    = ~Yes, all right. I suppose we'd better go. Wouldn't do to have an irritated assassin come looking for us.~
+@3    = ~Edwin, I have far more important matters to deal with at this time. I cannot be bothered with this.~
+@4    = ~OK, OK. I just need to do a couple of other things first...like wash my hair.~
+@5    = ~That is good to hear. But remember that I will hold you to your promise.~
+@6    = ~Important? IMPORTANT? This *is* important, important to *me*. But obviously you couldn't care less. I shall go on my own then, and good riddance to you.~
+@7    = ~Edwin received a letter from his old friend and mentor, the assassin Dekaras, requesting a meeting on the matter of utmost importance. I couldn't accompany Edwin to the meeting with his friend, so he has left the group and gone to the Docks District of Athkatla on his own.~
+@8    = ~Very amusing, <CHARNAME>. But kindly remember that my sense of humor will rapidly deteriorate unless you keep your promise.~
+@9    = ~<CHARNAME>, you have betrayed me, wasting my time with trifles. I carefully explained the importance of keeping our set appointment, and you ignore my words. I shall go on my own, and I will never forget this treason.~

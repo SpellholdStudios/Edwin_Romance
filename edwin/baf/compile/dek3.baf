@@ -1,0 +1,11 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("dekaras3")
+    SmallWait(2)
+    MoveToObject(Player1)
+    StartDialogue("dekaras3",Player1)
+    EndCutSceneMode()
+END
+

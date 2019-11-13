@@ -1,0 +1,30 @@
+IF
+  Global("EdwinKeldornFight","GLOBAL",1)
+  OR(2)
+  Global("EdwinRomanceActive","GLOBAL",1)
+  Global("EdwinRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinKeldornFight","GLOBAL",0)
+END
+
+IF
+  Global("EdwinValygarFight","GLOBAL",1)
+  OR(2)
+  Global("EdwinRomanceActive","GLOBAL",1)
+  Global("EdwinRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinValygarFight","GLOBAL",0)
+END
+
+IF
+  Global("EdwinMinscFight","GLOBAL",1)
+  OR(2)
+  Global("EdwinRomanceActive","GLOBAL",1)
+  Global("EdwinRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinMinscFight","GLOBAL",0)
+END
+

@@ -1,0 +1,14 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneID("Edwin")
+    SetInterrupt(FALSE)
+    Wait(1)
+    CreateCreatureObjectDoor("Elvira",Player1,0,0,0)
+    CreateCreatureObjectDoor("Dekaras4","Edwin",0,0,0)
+    Wait(5)
+    EndCutSceneMode()
+    SetInterrupt(TRUE)
+    ActionOverride("Edwin",Interact(Player1))
+END

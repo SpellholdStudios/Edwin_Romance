@@ -1,0 +1,18 @@
+IF
+  Contains("ER_EDBOD",Myself)
+  Global("CleanseVampire","AR1401",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CleanseVampire","AR1401",1)
+END
+
+IF
+  Contains("ER_EDBOD",Myself)
+  Contains("MISCBP",Myself)
+THEN
+  RESPONSE #100
+    DestroyItem("ER_EDBOD")
+    DestroyItem("MISCBP")
+    ActionOverride(Player1,StartDialogue("Player1",Player1))
+END
+

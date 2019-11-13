@@ -1,0 +1,29 @@
+// -*- coding: cp1250 -*-
+
+@0    = ~Mazzy, tak w zasadzie, chcia³em tylko...<CHARNAME>?! Nie wiedzia³em, ¿e tu stoisz! (Niech to wszystkie ognie Baator! Oczywiœcie ¿e zrozumie wszystko opacznie!)~
+@1    = ~Tak, Edwin. Te¿ mi siê wydawa³o, ¿e mnie nie widzisz, skoro tak by³eœ zajêty wylewaniem swoich tanich komplementów na Mazzy. Nie przeszkadzaj sobie, jestem pewna ¿e w³aœnie robi³o siê ciekawie.~
+@2    = ~Och, przepraszam Edwin, to by³a jedna z rozmów prywatnych? Czy mam was zostawiæ, byœcie w spokoju wybrali model pierœcionka? I pok³ócili siê, czy braæ œlub w œwi¹tyni Helma czy Shar?~
+@3    = ~Byæ mo¿e bêdzie to dla ciebie niespodziank¹, Edwin, ale ufam ci. I jestem pewna, ¿e nie dzieje siê tu nic, o czym nie móg³byœ mi powiedzieæ. Jestem tu, i chêtnie pos³ucham.~
+@4    = ~Co? Spodziewasz siê, ¿e mnie to obchodzi? Znaczysz dla mnie mniej, ni¿ kurz na moich podeszwach, i jeœli chcesz zrobiæ z siebie jeszcze wiêkszego g³upka ni¿ zazwyczaj, to chêtnie siê poprzygl¹dam.~
+@5    = ~Mazzy, albo przestaniesz robiæ do niego s³odkie oczka, albo opuszczê moj¹ piêœæ wystarczaj¹co nisko, by wesz³a w kontakt z twoj¹ têp¹ twarzyczk¹.~
+@6    = ~<CHARNAME>, mam nadziejê, ¿e uda³o mi siê przekonaæ ciê, ¿e moje intencje wobec Pani Hipokrytki bynajmniej nie by³y... um... uczuciowe.~
+@7    = ~Tak... wydaje mi siê, ¿e rzeczywiœcie nie by³y... ~
+@8    = ~Tak, jestem przekonana. Ale czy naprawdê musia³eœ byæ dla niej taki ostry?~
+@9    = ~Jasne! Rany, zgadzam siê z tob¹ ca³kowicie! Sama bym tego lepiej nie ujê³a. Przygadaj jej jeszcze! Proszê? Specjalnie dla mnie? Proooszê?~
+@10   = ~Nie, nie wierzê ci. Myœlê, ¿e próbujesz zamydliæ mi oczy!~
+@11   = ~Mi³o mi to s³yszeæ <CHARNAME>. Powinnaœ ju¿ wiedzieæ, ¿e towarzystwo g³upków nie jest moim ulubionym. Preferujê osoby zdolne do partnerowania w rozmowie. Pozwolisz?~
+@12   = ~Jak by to ujê³a nasza niedosz³a paladynka, dosta³a to, na co zas³u¿y³a. Ale zapomnijmy o niej, i przejdŸmy mo¿e na jakiœ przyjemniejszy temat? Na przyk³ad usuwanie czyraków, albo zwyczaje ¿erowania Illithidów...~
+@13   = ~*chichot* Mo¿e póŸniej, <CHARNAME>. Chwilowo preferowa³bym trochê rozmowy z tob¹...~
+@14   = ~Jeœli ciê to nie przekonuje, <CHARNAME>, to obawiam siê, ¿e nigdy nie bêdê w stanie do niczego ciê przekonaæ. Pozwolê sobie opuœciæ twoje towarzystwo. Na sta³e.~ [EDWIN34]
+@15   = ~W takim razie, CHARNAME, proszê uprzejmie. S¹dzi³em, ¿e znaczymy dla siebie wiêcej, ale najwyraŸniej pomyli³em siê. Tak, Mazzy, chcia³em w³aœnie  powiedzieæ...~
+@16   = ~<CHARNAME>, nie rozumiesz. Zawsze odpowiada³o mi towarzystwo nizio³ków, i chcia³em przekonaæ siê, czy ta konkretna osoba jest kimœ wiêcej, ni¿ tylko miniaturow¹ konserw¹, zakochan¹ w 'cnotliwej czystoœci' w³asnej duszy tak bardzo, ¿e z pewnoœci¹ ³udzi siê, i¿ my wszyscy stoimy przed ni¹ jak przed œwiêt¹ figur¹, oczekuj¹c na jej boski os¹d.~
+@17   = ~Jestem pewien, ¿e nawet nie wydala w sposób przyjêty przez zwyk³ych œmiertelników, ale zapewne transmutuje zbêdne substancje w wodê ró¿an¹ i pozwala im parowaæ przez skórê. (Zapamiêtaæ: nie podchodziæ zbyt blisko. Du¿e ryzyko zara¿enia siê powa¿nym przypadkiem Paladynitozy Niedosz³owatej.)~
+@18   = ~Nêdzniku! Pozwalasz sobie mówiæ takie plugastwa do s³u¿ki prawoœci? Powinnam ciê ukaraæ ciê za to zuchwalstwo! Wys³aæ twoj¹ czarn¹ duszê w otch³añ piekie³, gdzie oczekuj¹ na ciebie wieczne mêki! Gdy¿ to w³aœnie jest los przeznaczony tobie podobnym niegodziwcom, podczas gdy ja, szlachetna s³u¿ka Arvoreen, zostanê nagrodzona za moje ¿ycie, niesplamione ani odrobin¹ niegodziwoœci, lecz honorowe i prawe!~ [MAZZY84]
+@19   = ~Ach, tak. Oto nadchodzi nieuniknione. W œwietle twoich s³ów o prawoœci, ciekawe jest to, jak chêtnie grozisz mi œmierci¹, szczególnie, ¿e jedyn¹ podstaw¹ takiego zachowania jest fakt, i¿ nie podoba ci siê to, co mówiê i robiê. Dziwne... postêpowanie, które u innych nazwa³abyœ 'ca³kowit¹ niesprawiedliwoœci¹' czy czymœ tam, u siebie widzisz zupe³nie poprawnym. Masz mo¿e dokument od swojej bogini, przyznaj¹cy ci odpuszczenie absolutne? ~
+@20   = ~Jak ŒMIESZ...~
+@21   = ~Ale¿ œmiem, g³upcze. (Dlaczego zawsze myœl¹, ¿e zrobi¹ wra¿enie tym tekstem?) A co do œwiêcie czystego stanu twojej duszy i umys³u, chcia³bym ci jedynie przypomnieæ, ¿e jedyne rzeczy w tym œwiecie, które pozostaj¹ bez skazy, to te, których nigdy nie u¿ywano.~
+@22   = ~<CHARNAME>? Có¿ ty mówisz? Czy implikujesz, ¿e ja... ja nawi¹za³abym jakiœ osobisty kontakt z tym... tym niegodziwcem? Sama myœl by³aby ohydna dla ka¿dej kobiety cnotliwej i czystej!~ [MAZZY84]
+@23   = ~Mazzy, implikujê, ¿e jeœli nie siê nie zamkniesz, i nie pozostaniesz zamkniêta, nie odpowiadam za moje czyny!~
+@24   = ~Jeœli powiesz jeszcze jedno obraŸliwe s³owo pod adresem Edwina, osobiœcie ogolê ci g³owê i stopy, a nastêpnie wepchnê ci powsta³y k³¹b do gard³a! Mnie wolno go obra¿aæ. Tobie nie. Pamiêtaj o tym, jeœli nie chcesz zostaæ kobiet¹ 'cnoltiw¹ i ³ys¹'!~
+@25   = ~Doœæ tego. Zabi³abym ciê za to, ale nie mam ochoty 'kalaæ' mojej osoby dotykaniem ciê. Zje¿d¿aj, i módl siê do swojej bogini, byœmy siê nigdy nie spotka³y!~
+@26   = ~Zrobiê, jak chcesz, <CHARNAME>. Bêdê siê modliæ, aby twój upadek by³ jedynie chwilowy...~

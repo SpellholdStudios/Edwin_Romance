@@ -1,0 +1,106 @@
+IF
+  Global("BancoDead","GLOBAL",1)
+  PartyHasItem("phylact1")
+THEN
+  RESPONSE #100
+    SetGlobal("Phyla2","ARBASE",1)
+    GiveItemCreate("phylact2",Player1,1,0,0)
+    TakePartyItem("phylact1")
+    DestroyItem("phylact1")
+END
+
+IF
+  Global("EnteredARBASE","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredARBASE","GLOBAL",1)
+    CreateCreature("BANCO",[710.283],4)
+    CreateCreature("REDW1",[637.131],4)
+    CreateCreature("REDW2",[778.257],4)
+    CreateCreature("REDW3",[696.187],4)
+END
+
+IF
+  Global("LichTalkedToEdwin1","ARBASE",0)
+  InParty("Edwin")
+THEN
+  RESPONSE #100
+    SetGlobal("LichTalkedToEdwin1","ARBASE",1)
+    StartCutSceneMode()
+    Wait(3)
+    Explore()
+    Wait(1)
+    ActionOverride("Edwin",JumpToPoint([380.393]))
+    ActionOverride("Edwin",FaceObject("Banco"))
+    MoveViewObject("Edwin",INSTANT)
+    ActionOverride("Banco",StartDialogue("BANCO","Edwin"))
+    EndCutSceneMode()
+END
+
+IF
+  Global("LichTalkedToEdwin","ARBASE",2)
+THEN
+  RESPONSE #100
+    SetGlobal("LichTalkedToEdwin","ARBASE",3)
+    CreateCreature("tknight1",[715.288],4)
+    CreateCreature("tknight2",[783.262],4)
+    CreateCreature("tknight3",[701.192],4)
+    ActionOverride("tknight1",Enemy())
+    ActionOverride("tknight2",Enemy())
+    ActionOverride("tknight3",Enemy())
+    ActionOverride("BANCO",JumpToPoint([370.383]))
+    ActionOverride("BANCO",Enemy())
+    ActionOverride("REDW1",Enemy())
+    ActionOverride("REDW2",Enemy())
+    ActionOverride("REDW3",Enemy())
+    DisplayStringNoName(Myself,50771)
+END
+
+IF
+  InPartyAllowDead("Edwin")
+  Dead("Edwin")
+  !Global("EdwinDead","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinDead","GLOBAL",1)
+END
+
+IF
+  Global("DekkieHasPhylactery","GLOBAL",0)
+  OR(3)
+  Dead("redw1")
+  Dead("redw2")
+  Dead("redw3")
+THEN
+  RESPONSE #100
+    SetGlobal("DekkieHasPhylactery","GLOBAL",1)
+END
+
+IF
+  Global("DekkieHasPhylactery","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("DekkieHasPhylactery","GLOBAL",2)
+    ClearAllActions()
+    StartCutSceneMode()
+    CreateCreature("dekaras3",[170.485],7)
+    SmallWait(2)
+    StartCutScene("dek3")
+END
+
+IF
+  Global("BackAgain","ARBASE",0)
+  Global("Edektri1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("BackAgain","ARBASE",1)
+    DisplayStringHead(Myself,@18)
+    StartCutSceneMode()
+    CutSceneId(Player1)
+    ClearAllActions()
+    Wait(1)
+    MultiPlayerSync()
+    RestorePartyLocations()
+    EndCutSceneMode()
+END
+

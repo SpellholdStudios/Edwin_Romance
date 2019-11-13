@@ -1,0 +1,19 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~Dabei... ich muss mich wundern, was für ein Spiel Ihr hier spielt, Edwin. Sicherlich ist es kein Zufall, dass Ihr mich ausgerechnet dann ansprecht, wenn <CHARNAME> gerade nahe genug bei uns läuft, um jedes Wort zu hören.~
+@1    = ~Aber ich bin eine Drow und lasse mich nicht zu Euren Zwecken manipulieren, Magier. Und etwas sagt mir, <CHARNAME> ist von Eurem kleinen Spiel kaum mehr amüsiert, als ich es bin. Wie sieht’s aus, <CHARNAME>?~
+@2    = ~Nein Viconia, das bin ich bestimmt nicht. Habt Ihr einen Einfall, wie wir am besten unsere Verstimmung zum Ausdruck bringen können?~
+@3    = ~Tatsächlich fand ich es schon ziemlich lustig. Das heißt nicht, dass er damit davonkommen sollte. Irgendwelche Vorschläge?~
+@4    = ~Ich versichere Euch...~
+@5    = ~Ihr hättet mich mit Leichtigkeit unter vier Augen ansprechen können. dass Ihr das nicht tut, macht mich glauben, dass Ihr mich benutzen wollt, um die Aufmerksamkeit jemand anderes zu erwecken.~
+@6    = ~Was für eine völlig absurde Idee. Wirklich lächerlich. (Verdammt. Sie ist mir auf die Schliche gekommen. Sieht so aus, als hätte ich dieses Spiel verloren.)~
+@7    = ~Tja, wir haben keine Tentakelpeitschen...~
+@8    = ~Jetzt wartet mal eine Minute...~
+@9    = ~... und es wäre eine Schande, ihn dauerhaft zu beschädigen. Er kann auf andere Weise weitaus nützlicher sein. Für uns beide.~
+@10   = ~B-b-beide?!~
+@11   = ~Vorzugsweise gleichzeitig, denke ich. Wir wollen ihm eine angemessene Herausforderung bieten.~
+@12   = ~*würgendes Keuchen*  GLEICHZEITIG?! Uh... Das ist... Ich wäre natürlich hocherfreut zu Diensten...~
+@13   = ~Ich meine, Euch beiden Damen nach besten Kräften zu dienen. (Das kann nicht wahr sein. Ich werde jetzt jeden Moment aufwachen.)~
+@14   = ~Ausgezeichnet. Da habt Ihrs.~
+@15   = ~Was ist das? Das *uff* muss eine Tonne wiegen!~
+@16   = ~Mein Gepäck. Und hier ist auch das von <CHARNAME>. Ihr sagtet, Ihr wolltet uns beiden dienen, und Euer Wunsch wird erfüllt werden. Tragt es mit Vorsicht. Wenn Ihr etwas zerbrecht, werden wir beide ausgesprochen verstimmt sein. *schmunzel * Kommt, <CHARNAME>. Ich denke, Ihr könntet einige Ratschläge zum angemessenen Umgang mit Männern gut gebrauchen...~

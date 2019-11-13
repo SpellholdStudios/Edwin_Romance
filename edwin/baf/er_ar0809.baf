@@ -1,0 +1,17 @@
+IF
+  Global("EdwinVampire","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinVampire","GLOBAL",2)
+    CreateCreature("Vampedd",[1473.332],2)
+END
+
+IF
+  Dead("C6Bodhi")
+  GlobalLT("udMind","GLOBAL",41)
+  Global("Erc6bodjour","AR0809",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Erc6bodjour","AR0809",1)
+    EraseJournalEntry(@17)
+END

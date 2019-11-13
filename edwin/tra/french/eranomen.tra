@@ -1,0 +1,34 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~Mais qu'a-t'elle vraiment *besoin* de savoir, imbécile ? Qu'il y a plus d'andouilles à front bas bigotes et pompeuses dans l'Ordre qu'il n'y a de mouches sur une carcasse en décomposition ? (Et les mouches elles au moins ont des chances d'être capables de soutenir une conversation.)~
+@1    = ~Cela ne me surprend pas vraiment que tu n'approuves pas l'Ordre, mage. Ses idéaux de noblesse et de vertu ne peuvent certainement pas plaire à quelqu'un comme que toi.~
+@2    = ~Vertu, hein ? Est-ce le mot amnien qui signifie être un insupportable hypocrite suffisant ?~
+@3    = ~Logiquement, tu ne pouvais rien devenir d'autre. Il n'y a que peu de professions ouvertes à un homme possédant un cerveau de la taille d'un petit pois et la sociabilité d'un mollusque.~
+@4    = ~Et c'est *toi* qui me fais la leçon sur *ma* sociabilité ? Toi qui craches des insultes où que tu ailles, comme un dragon crache le feu ?~
+@5    = ~*Mes* insultes son intelligentes, ont un but et sont soigneusement pesées. Les *tiennes* sont les fautes hasardeuses et maladroites d'un lourdaud qui met suffisamment souvent les pieds dans le plat pour avoir des champignons de pieds qui poussent sur sa langue grasse.~
+@6    = ~En parlant de pieds...~
+@7    = ~AIE ! Mon *pied* ! Tu as *marché* dessus ! Tu l'as fait *exprès* !~
+@8    = ~Pourquoi attendre ? Je peux te juger tout de suite. Je pense que tu es un imbécile arrogant et larmoyant, qui pense que n'importe quelle femme saine d'esprit serait contente de devoir en permanence t'écouter t'apitoyer sur toi-même. Je t'adoube donc présentement "Sir L'indécis Je Me Lamente Sur Moi-même" (C'est un miracle que tu ne demandes pas à <CHARNAME> de t'aider à choisir ce que tu vas manger au déjeuner.)~
+@9    = ~Comment *oses*-tu ?! J'imagine que *tu* penses que cela vaut mieux de te complaire dans ta propre malfaisance, de lancer des piques empoisonnées à tous ceux qui t'approchent de peur qu'on ne pense que tu es capable de tenir à quelqu'un ?~
+@10   = ~Je ne me complais pas !~
+@11   = ~Ah non ? Alors pourquoi prends-tu un tel plaisir aux souffrances des autres et dans la corruption ? Eh bien, peut-être as-tu réussi à corrompre jusqu'à moi car je ressens l'envie irrépressible de t'infliger de la douleur et que Helm me vienne en aide, à moins que tu ne te taises, je le ferai !~
+@12   = ~C'est tout ce que tu peux faire ? Une horrible fleur fanée ? Où l'as-tu ramassée, au milieu d'un tas de déchets ? Ou t'es-tu accroupi pour la cueillir ?~
+@13   = ~Ça suffit. <CHARNAME>, pour toi j'ai supporté les insultes de ce mage détestable, mais ça n'ira pas plus loin. Il est clairement assez fou pour penser que tu pourrais ressentir plus que de la pitié pour lui et il s'offusque donc quand on l'oblige à percevoir son manque de valeur, comparé à un soupirant plus méritoire.~
+@14   = ~Pourquoi devrait-elle le faire ? C'est comme demander si les pensées d'une amibe l'intéressent. Donc, mon conseil est le suivant, créature unicellulaire : divise-toi.~
+@15   = ~Continue à caqueter si ça te fait plaisir, mais souviens-toi que tes paroles pourraient bien te valoir une mauvaise fracture du crâne un de ces jours si tu ne les choisis pas mieux. Je m'adressais à <CHARNAME>.~
+@16   = ~Je croyais que tu voulais que je sois plus réfléchi ? Et à présent ma dame, continuons notre conversation tristement interrompue. Je me demandais si je t'avais raconté comment j'étais devenu prêtre ?~
+@17   = ~Je... Je suis désolé, <CHARNAME>. Comme je l'ai dit, l'imminence de mon test me met sur les nerfs en ce moment.~
+@18   = ~Merci, ma dame. Et maintenant, en ce qui concerne cette fleur...~
+@19   = ~Je suis également désolé, ma dame, de m'être fait des idées. Il semble donc que je doive me retirer du champ de bataille.~
+@20   = ~Pas plus, il semble, que de la loyauté et de la dévotion que je t'aurais voué avec, <CHARNAME>. Qu'il en soit ainsi.~
+@21   = ~Merci, ma dame. Et à présent, en ce qui concerne ce que je pense de ta charmante personne...~
+@22   = ~Tu veux dire toi, je suppose ? <CHARNAME>, tu devrais ôter ses illusions à ce singe en armure et lui dire que la seule chose qu'il te procure, c'est de l'amusement.~
+@23   = ~Non Edwin. Au fil du temps je me suis attachée à Anomen. Plus qu'attachée, en fait. Je ne peux pas faire ce que tu me demandes.~
+@24   = ~Ne sois pas ridicule, Edwin ! Si quelqu'un m'amuse ici, c'est bien toi ! Je veux un homme, un vrai, pas un qui porte une robe.~
+@25   = ~Anomen... Je tiens à toi. Mais je crois que tu veux plus que cela, que tu veux quelque chose que je ne peux pas te donner. Je suis désolée si je t'ai involontairement conduit à penser le contraire.~
+@26   = ~Oui ! Elle t'a envoyé promener, Anomen ! Et prends cette fleur idiote avec toi, je n'en ai aucune utilité.~
+@27   = ~Je... je vois. Il est clair que tu as plus mauvais goût que je ne l'aurais cru, <CHARNAME>, et beaucoup moins d'intelligence. Je suis heureux de m'en être rendu compte à temps.~
+@28   = ~Alors, <CHARNAME>, je suppose que je devrais te montrer mon coté le moins drôle. (Un jour, quand elle s'y attendra le moins...)~
+@29   = ~Oui ! Elle t'a envoyé promener, Anomen ! Et garde tes réflexions pour toi, elles ne me sont d'aucune utilité.~
+@30   = ~Je... je vois. Il est clair que tu as plus mauvais goût que je ne l'aurais cru, <CHARNAME>, et beaucoup moins d'intelligence. Je suis heureux de m'en être rendu compte à temps.~
+@31   = ~<CHARNAME>, je suppose que je devrais te montrer mon coté le moins drôle. (Un jour, quand elle s'y attendra le moins...)~

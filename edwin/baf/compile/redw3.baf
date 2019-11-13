@@ -1,0 +1,293 @@
+IF
+  Detect(NearestEnemyOf(Myself))
+  Global("Prep","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Prep","LOCALS",1)
+    DisplayString(Myself,26328)
+    ReallyForceSpell(Myself,WIZARD_SPELL_TURNING)
+    ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_ENERGY)
+    ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+    DisplayString(Myself,25942)
+    ReallyForceSpell(Myself,WIZARD_FIRE_SHIELD_RED)
+    DisplayString(Myself,39969)
+    ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+    ReallyForceSpell(Myself,WIZARD_SPIRIT_ARMOR)
+    ReallyForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
+    DisplayString(Myself,39968)
+    ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+    ReallyForceSpell(Myself,WIZARD_SPELL_IMMUNITY_DIVINATION)
+    ReallyForceSpell(Myself,WIZARD_SPELL_IMMUNITY_ABJURATION)
+    SetGlobalTimer("Spellimmunity","LOCALS",114)
+    SetGlobalTimer("Nobuffsyet","LOCALS",40)
+END
+
+IF
+  OR(3)
+  SpellCast([PC],WIZARD_TRUE_SIGHT)
+  SpellCast([PC],CLERIC_TRUE_SIGHT)
+  SpellCast([PC],INQUIS_TRUE_SIGHT)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Noillusions","LOCALS",60)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  StateCheck(Myself,STATE_SILENCED)
+  HaveSpell(WIZARD_VOCALIZE)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_VOCALIZE)
+END
+
+IF
+  OR(2)
+  Detect([PC])
+  Detect(NearestEnemyOf(Myself))
+  !See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_TRUE_SIGHT)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_TRUE_SIGHT)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_REVEAL_MAGIC)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_REVEAL_MAGIC)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_GREATER_MALISON)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_GREATER_MALISON)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_ABI_DALZIMS_HORRID_WILTING)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+END
+
+IF
+  See(Nearest([GOODCUTOFF.0.0.0.0.SUMMONED]))
+  Allegiance(Myself,ENEMY)
+  HaveSpell(WIZARD_DEATH_SPELL)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_DEATH_SPELL)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_PRISMATIC_SPRAY)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_PRISMATIC_SPRAY)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_DOMINATION)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_DOMINATION)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_FEEBLEMIND)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_FEEBLEMIND)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHAOS)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_CHAOS)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_TELEPORT_FIELD)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_TELEPORT_FIELD)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_EMOTION_HOPELESSNESS)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_EMOTION_HOPELESSNESS)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_DIRE_CHARM)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_DIRE_CHARM)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_HOLD_PERSON)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_HOLD_PERSON)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_SLOW)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_SLOW)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_RAY_OF_ENFEEBLEMENT)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_RAY_OF_ENFEEBLEMENT)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHARM_PERSON)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_CHARM_PERSON)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_BLINDNESS)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_BLINDNESS)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_SPOOK)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_SPOOK)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_SLEEP)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_SLEEP)
+END
+
+IF
+  !HasImmunityEffects(Myself)
+  HaveSpell(WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  See(NearestEnemyOf(Myself))
+  GlobalTimerExpired("Nobuffsyet","LOCALS")
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+END
+
+IF
+  CheckStatLT(Myself,1,STONESKINS)
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_STONE_SKIN)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_STONE_SKIN)
+END
+
+IF
+  !StateCheck(Myself,STATE_MIRRORIMAGE)
+  See(NearestEnemyOf(Myself))
+  OR(2)
+  !GlobalTimerNotExpired("Noillusions","LOCALS")
+  GlobalTimerNotExpired("Spellimmunity","LOCALS")
+  HaveSpell(WIZARD_MIRROR_IMAGE)
+  GlobalTimerExpired("Nobuffsyet","LOCALS")
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_MIRROR_IMAGE)
+END
+
+IF
+  !StateCheck(Myself,STATE_BLUR)
+  See(NearestEnemyOf(Myself))
+  OR(2)
+  !GlobalTimerNotExpired("Noillusions","LOCALS")
+  GlobalTimerNotExpired("Spellimmunity","LOCALS")
+  HaveSpell(WIZARD_BLUR)
+  GlobalTimerExpired("Nobuffsyet","LOCALS")
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_BLUR)
+END
+
+IF
+  !StateCheck(Myself,STATE_INVISIBLE)
+  OR(2)
+  !GlobalTimerNotExpired("Noillusions","LOCALS")
+  GlobalTimerNotExpired("SpellImmunity","LOCALS")
+  HaveSpell(WIZARD_INVISIBILITY)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_INVISIBILITY)
+END
+
+IF
+  See([GOODCUTOFF])
+  Allegiance(Myself,ENEMY)
+  OR(4)
+  HasBounceEffects(LastSeenBy(Myself))
+  HasImmunityEffects(LastSeenBy(Myself))
+  CheckStatGT(LastSeenBy(Myself),0,MINORGLOBE)
+  CheckStatGT(LastSeenBy(Myself),0,SHIELDGLOBE)
+  !StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
+  HaveSpell(WIZARD_RUBY_RAY_OF_REVERSAL)
+THEN
+  RESPONSE #100
+    Spell(LastSeenBy(Myself),WIZARD_RUBY_RAY_OF_REVERSAL)
+END
+
+IF
+  See([ENEMY])
+  InMyGroup(LastSeenBy(Myself))
+  OR(4)
+  StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+  StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+  StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+  StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
+  HaveSpell(WIZARD_DISPEL_MAGIC)
+THEN
+  RESPONSE #100
+    SpellNoDec(LastSeenBy(Myself),WIZARD_TRUE_DISPEL_MAGIC)
+    RemoveSpell(WIZARD_DISPEL_MAGIC)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+

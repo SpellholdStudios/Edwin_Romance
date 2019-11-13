@@ -1,0 +1,12 @@
+IF
+  InParty(Myself)
+  Global("EdwinRomanceWorkaround","GLOBAL",1)
+  Global("AnomenRomanceActive","GLOBAL",2)
+  OR(2)
+  Global("EdwinRomanceActive","GLOBAL",1)
+  Global("EdwinRomanceActive","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinRomanceActive","GLOBAL",3)
+END
+

@@ -1,0 +1,28 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~Que fais-tu de la douleur inévitable que tu causes à ceux que tu aimes ? Le mage que tu appelles "Edwin".~
+@1    = ~Quoi encore ?~
+@2    = ~Ah, mon élève préféré. Dois-je comprendre que c’est toi, jeune Edwin ?~
+@3    = ~M-Maître Dekaras ? Non, c’est impossible. Vous êtes retourné à Thay, je le sais !~
+@4    = ~Effectivement, mon garçon. Je l’ai fait. Et c’est à Thay que je suis mort.~
+@5    = ~M-mort ?! Non, je refuse de le croire ! C’est... C’est forcément un mensonge, une ruse ! C’est obligé !~
+@6    = ~T’ai-je jamais menti, mon garçon ? Comme tu l’as fait ? Au plus profond de toi tu sais que c’est vrai. Je suis mort, aussi mort que les os blanchis des hordes de Thay, profondément enfouis dans le sol de la Rashéménie. Et c’est de ta faute.~
+@7    = ~De ma faute ? NON ! Je ne ferais jamais...~
+@8    = ~Tu as abandonné et trahi la mission qui nous a mené hors de Thay et ce faisant, tu en as fait autant pour moi. Quelle ironie que tu l’aies fait pour <CHARNAME>, une autre enfant ingrate qui tourna le dos à son propre mentor et s’enfuit pendant qu’il mourrait pour elle.~
+@9    = ~M-mais je n’avais pas le choix ! Je ne pouvais pas abandonner <CHARNAME>, vous le savez. Et vous m’avez pardonné pour ça, vous me l’avez dit ! Vous... Vous devez me pardonner !~
+@10   = ~Vraiment ? Je dois ? Devrais-je te dire alors, mon élève, ce que tu me demandes de pardonner ? Après que nous nous soyons rencontrés, je suis retourné à Thay, en effet. J’avais quelques espoirs de sauver les maigres restes de ta carrière, le peu qui en restait après que tu aies échoué à accomplir ta mission qui consistait à recruter ou à éliminer <CHARNAME>.~
+@11   = ~Mais je...~
+@12   = ~Malheureusement, les Sorciers Rouges t’en voulaient encore plus que je ne l’avais pensé. Et puisque j’avais été ton partenaire, ils ont décidé que j’avais aussi dû être ton complice en haute trahison. Ils se sont révélés singulièrement peu intéressés par des explications mais très pressés d’avoir des confessions.~
+@13   = ~Pas... Pas la torture ? (Je vais être malade. Dans un instant.)~
+@14   = ~Oh, oui. Pour une fois tu as trouvé la bonne réponse sans que le Doigt de l’Evidence te l’ait indiqué. La torture. Une horrible torture qui s’est au final révélée fatale.~
+@15   = ~C’est vraiment étonnant la quantité de douleur que le corps humain peut supporter avant de cesser de fonctionner. Et savais-tu qu’un mage peut empêcher la victime de perdre conscience à peu près indéfiniment ? C’était un vrai plaisir.~
+@16   = ~Non ! N’en dites pas plus ! Vous avez toujours été mon ami, je n’ai jamais voulu cela ! Pitié, je ne peux en supporter davantage !~
+@17   = ~Tu ne peux en supporter davantage ? Toi ? Réalises-tu ce que j’ai dû supporter pour éviter qu’ils ne me fassent révéler l’endroit où tu te trouves ? Le réalises-tu ? Ils ont refusé de me laisser mourir, tu vois, tant que je ne te trahissais pas. Mais je ne leur ai rien avoué jusqu’au bout, même si j’étais presque devenu fou à cause de toute cette souffrance.~
+@18   = ~J’ai toujours tenu à toi, tu sais. Je t’ai toujours considéré comme mon propre fils. J’aurais tout fait pour assurer ta sécurité. Mais toi, avec ta petite trahison banale, ta liaison avec une femme vouée à mourir, tu m’as assassiné, aussi sûrement que si tu avais toi-même tenu les couteaux et fait brûler les tisonniers.~
+@19   = ~NOOON ! Assez ! <CHARNAME>, fais-le cesser, je t’en supplie !~
+@20   = ~Ce n’était pas sa faute et vous le savez, assassin ! Arrêtez immédiatement !~
+@21   = ~Cesse cela, Gorion. Il ne le mérite pas !~
+@22   = ~Assez ! Ça ne durera pas plus longtemps !~
+@23   = ~Ce ne sont que des mensonges, Edwin ! Ce n’est pas réel !~
+@24   = ~Ne le crois pas, Eddy ! Il n’est pas ce qu’il semble être, pas plus que Gorion !~
+@25   = ~Ne l’écoute pas Edwin ! Il essaye de te détruire ! Tu dois frapper le premier !~

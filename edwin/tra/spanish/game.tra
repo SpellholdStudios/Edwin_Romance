@@ -1,0 +1,102 @@
+// -*- coding: cp1252 -*-
+//This file is encoded in cp1252 (aka windows-1252), the encoding used by the game
+
+@1    = ~*Poción de amor* de Edwin~
+@2    = ~Esto es un mejunje de varias pociones y alcohol que Edwin mezcló cuando no estabais mirando.~
+@3    = ~Mechón de <CHARNAME>~
+@4    = ~Mechón de <CHARNAME>
+
+Este es un mechón del pelo de <CHARNAME>, encantado por Edwin como muestra de su afecto y entrelazado con un pelo suyo. Aunque puede usarse para controlar otras mentes, también protege de las atenciones no deseadas de otras personas. Esto se debe en parte al poderoso hechizo que protege al portador de la magia que afecte a la mente, y en parte a la habilidad de ocultarlo de los hambrientos ojos de posibles pretendientes. (Sin embargo, esto no funciona con el Mago Rojo. Incluso cuando es más generoso, no es tan estúpido.) Edwin también  dijo que el talismán fortalecería el vínculo entre ambos, y ciertamente os sentís aún más cerca de él. Intuís que debéis llevar este talismán con vos siempre.
+
+ESTADÍSTICAS:
+
+Al equipar:
+Escudo mental permanente
+
+Habilidades especiales:
+Puede lanzar Dominar tres veces al día
+Puede lanzar Invisibilidad una vez al día~
+@5    = ~Edwina~
+@6    = ~Pergamino Sombrío
+
+Este es el Pergamino Sombrío que Edwin ansiaba poseer. El pergamino es viejo y quebradizo, y debe ser manejado con sumo cuidado. Está plagado de símbolos y letras extrañas que hacen que os duelan y os lloren los ojos duelan si lo miráis demasiado tiempo. Algo aún más perturbador es que cuando intentáis leerlo, tenéis la sensación de que algo os está leyendo a vos. Tampoco es que Edwin deje que nadie lo toque por mucho tiempo.
+
+También hay una nota en lengua común. Está escrita con letras muy pequeñas y dice:
+
+"Conformidad de Compra:
+
+Este Pergamino Sombrío no es vuestro. No creáis que lo es sólo por haber pagado todo el dinero que teníais por él, hipotecando vuestra casa y vendiendo a todos vuestros parientes (vivos y muertos) como esclavos para pagar el primer mes. Sólo habéis comprado vuestro derecho a usarlo, a pesar de que sois un incompetente. No se os permite hacer copias de él, ni siquiera en la seguridad de vuestra biblioteca. De hacerlo, esperad una visita de nuestro Departamento Legal Baatoriano, que incluye látigos y brasas ardientes. Tampoco se os permite modificarlo, o venderlo, o alquilarlo, o siquiera pensar en tales acciones. Al Departamento Legal le encanta su trabajo.
+
+Tampoco tenéis derecho a reclamar por este Pergamino Sombrío si funcionara mal, causando daños irreparables a vos, a vuestra familia, a vuestro perro o al continente entero en que os encontréis. ¡Eh, lo habéis comprado! ¿Es culpa nuestra si sois tan ingenuo como para pensar que lanzaríamos una versión sin ningún error cuando podemos amasar grandes cantidades de dinero vendiendo las actualizaciones luego? Pues claro que no lo es, como os indicará nuestro Departamento Legal con mucho gusto. De hecho, tendréis que pagarnos por atreveros a insinuar tal cosa.
+
+Por último, una vez obtengáis vuestro primer Mensaje de Error encriptado (y lo obtendréis, os lo aseguramos), no esperéis que tenga sentido. Los creamos de un modo tan ininteligible como pudimos adrede, sólo porque nos encanta hacer que vuestro minúsculo cerebro se recaliente al intentar entenderlo. (Casi todo son palabras cifradas al azar.) ¡MUAJAJAJAJA!"~
+@7    = ~Barvon~
+@8    = ~Vadrak Dekaras~
+@9    = ~Monferion Palas~
+@10   = ~Orlo Ravonar~
+@11   = ~Ekaterina Drosor~
+@12   = ~Banco~
+@13   = ~Anillo de Banco~
+@14   = ~Este anillo perteneció una vez al liche Banco. Gracias a él, era capaz de dominar a los muertos vivientes de menor nivel que había a su alrededor, anulando su voluntad y haciendo que le sirvieran como esclavos. Según la leyenda, su cabaret de Esqueletos Strippers era de muy mal gusto, en especial los movimientos indecorosos de los huesos de la pelvis.~
+@15   = ~Anillo de Teletransporte~
+@16   = ~Este es el anillo mágico que Vadrak Dekaras os entregó para teletransportar a vuestro grupo al escondrijo del mago rojo. Parece ser que se le han acabado las cargas.~
+@17   = ~La magia os arrastra, transportándoos a otro lugar, sin que haya ningún modo de regresar. Deberíais buscar uno de estos anillos poco comunes entre las posesiones del mago rojo para volver.~
+@18   = ~Parece ser que el anillo que encontrasteis en el bolsillo del liche ha funcionado - os teletransportáis al vestíbulo de la casa. Argh - ¡aún huele a pescado!~
+@19   = ~Caballero Thayino~
+@20   = ~Edwin~
+@21   = ~Cadáver de Edwin~
+@22   = ~Edwin fue capturado por Bodhi y contagiado del vampirismo, los cual os obligó a matarlo. Quizá haya algún modo de revivirlo, pero lo desconocéis. Además, tenéis el presentimiento de que debéis hallarlo pronto, antes de que su familia se entere.~
+@23   = ~Filacteria de Banco~
+@24   = ~Filacteria de Banco
+
+Este extraño objeto es la filacteria que contiene una parte del alma del liche Uramses Banco. Lo mantiene anclado a su cuerpo muerto viviente, pero un mago con la habilidad y el conocimiento suficientes podría usarla contra él, aprisionándolo para siempre en su interior.~
+@25   = ~Filacteria de Banco
+
+Esta es la filacteria que una vez contuvo el alma del liche Banco. Ahora aprisiona al propio liche, por lo que está muy enfadado. No obstante, el aventurero temerario puede usar la filacteria para intentar servirse de los poderes del nigromante muerto viviente.
+
+ESTADÍSTICAS
+
+Habilidades Especiales:
+Puede lanzar Conjuro de Muerte una vez al día
+Puede lanzar Dedo de la Muerte una vez al día
+Hay un 10% de posibilidades de liberar al liche cada vez que se lanza un hechizo. Hay que matar a Banco para que regrese a la filacteria, sin ganar experiencia cuando muere.~
+@26   = ~Daga de Dekaras~
+@27   = ~Daga de Dekaras
+
+Esta es una de las armas del asesino Dekaras. A juzgar por sus conocimientos del encantamiento de objetos, es muy probable que la haya creado él mismo según sus necesidades. Su característica más importante es su gran filo, ya que es probable que pueda cortar el hueso como si fuera mantequilla con la habilidad necesaria. De no tenerla, es fácil perder algún que otro dedo.~
+@28   = ~Ballesta de Dekaras~
+@29   = ~Ballesta de Dekaras
+
+Esta es una de las armas del asesino Dekaras. Ha sido sujeta a varias modificaciones mecánicas y mágicas, que la hacen capaz de disparar desde largas distancias con gran precisión. También tiene un suministro inagotable de virotes mágicos, pero el único inconveniente es que con tantas adiciones tarda mucho en recargarse. Sin embargo, si le preguntáis a su dueño os dirá que es una desventaja razonable. En especial cuando rara vez necesita más de un disparo.~
+@30   = ~Elvira~
+@34   = ~Anillo de Teletransporte
+
+Este es uno de los anillos de teletransporte que usan los subordinados del liche Banco para entrar y salir de su escondrijo secreto sin caer por accidente en el tanque de los tiburones oculto o ser aplastados por la roca que cae. Después de todo, los matones de hoy día prefieren unas mínimas medidas de seguridad laborales. Parece ser que al anillo aún le queda una carga, y debería servir para llevaros de vuelta al lugar del que vinisteis.~
+
+@103    = ~Dekaras~
+@104    = ~Jadda~
+@105    = ~<CHARNAME> y Edwin prosiguieron sus aventuras juntos, enfrentándose a muchos peligros y convirtiendo sus nombres en leyenda. Su relación siguió siendo muy emocionante, sazonada por las incesantes discusiones que ambos amaban casi tanto como se amaban el uno al otro, y las reconciliaciones siguieron siendo tan apasionadas como siempre. Juntos también se embarcaron en un viaje épico a Thay, donde Edwin pudo finalmente acabar con su reputación de fugitivo de una vez por todas.
+Pero su mayor aventura comenzó cuando finalmente se unieron en matrimonio, durante una espléndida ceremonia que duró tres días y atrajo a invitados de muchas partes de Faerun, incluyendo a todos sus amigos y familia. Probablemente no sea una gran sorpresa que requirió los esfuerzos combinados de la madre de Edwin, el maestro y la futura esposa conseguir que antes de la boda se quitara el pendiente de la nariz que todos aborrecían. La madre de Edwin, Elvira, lloró durante toda la ceremonia, diciendo a todo aquél que quisiera escuchar y a muchos que no tanto lo orgullosa que se sentía al ver a su bebé tan guapo y crecido. Luego les dio a los novios algunos consejos muy prácticos sobre los puntos más sutiles de crear bebés, insinuándoles que esperaba que le dieran varios nietos tan pronto como les fuera físicamente posible, y que si fallaban se sentiría muy decepcionada. El hecho de que entre sus regalos de boda se encontrara un libro de magia de fertilidad sirvió para remarcar su anhelo. Al menos Edwin logró evitar que les leyera en voz alta los capítulos más directos a él y a <CHARNAME> en el banquete. Esos los dejó para más adelante.
+Respecto a la novia, fue un gran alivio para la feliz pareja que su padre fuera incapaz de asistir, debido a estar permanentemente muerto. <CHARNAME> había dejado esa parte de su vida atrás para siempre, y sin arrepentirse. Elminster el Sabio asistió, aunque en realidad no había sido invitado, y siguió insistiendo en querer impartir la ceremonia. Esto molestó a Edwin en gran medida, ya que nunca había podido aguantar al anciano mago. Manifestó que prefería que le casara un mono rabioso en vez de un viejo infernal y entrometido, y estuvo a punto de decírselo al propio Elminster a la cara.
+Las cosas se hubieran puesto muy feas en ese punto si no hubiera sido porque Elminster rápidamente se emborrachó hasta las cejas, mucho más de lo que hubiera podido con las pequeñas cantidades que había ingerido. Era casi como si alguien se hubiera divertido añadiendo alcohol a las bebidas del viejo mago. Más humillante resultó cuando una misteriosa voz de entre la multitud le retó a que divirtiera a la novia. El mal humor de Edwin se disipó rápidamente cuando vio a Elminster balanceándose colgado de la rama de un árbol, cantando canciones tan vulgares como 'Un Mago Es Sólo Tan Bueno Como Su Bastón', 'Señorita Mystra' y la favorita de todos los tiempos, 'Suéltalo De Una Vez', completada por todos los gestos manuales. La diversión continuó cuando el sabio y viejo mago se cayó de cabeza en la tarta nupcial e inmediatamente se quedó dormido. Ni siquiera se dio cuenta de que alguien le birló sigilosamente su sombrero puntiagudo, cambiándoselo por un gorro de encaje muy elegante.
+Cuando un tanto aturdido se hubo marchado Elminster, con una cabeza a punto de estallar y preguntándose dónde habría dejado su sombrero, el asesino Dekaras informó en privado a Edwin y a <CHARNAME> de que toda la broma había sido idea suya, un regalo nupcial extra para complementar el práctico Pergamino Sombrío que ya les había regalado. Un Pergamino Sombrío, cabe añadir, que funcionaba de una manera mucho más satisfactoria que el anterior usado por Edwin, y que convirtió la noche de bodas de Edwin y <CHARNAME> en leyenda. No obstante, <CHARNAME> no le dejó que se pusiera el sombrero puntiagudo en la cama.
+Y después todos vivieron de una manera extraordinaria, dichosa, magnífica, mágica, ingeniosa, maravillosa, animada, superlativa, inteligente, exitosa y sobre todo feliz para siempre. (O por lo menos durante mucho, mucho tiempo.)~
+@106    = ~Tras la ascensión de <CHARNAME>, Edwin viajó solo durante un tiempo, aventurándose en tierras muy diversas y convirtiendo su nombre en leyenda. A pesar de toda la fama que adquirió, era tan temido como admirado, debido a su temperamento inestable y su ingenio sarcástico. Evidentemente, los pocos valientes que osaron intentar sonsacarle información de <CHARNAME> vivieron para lamentarlo. Y 'vivieron' supuso los cinco segundos que pasaron como sapos vivos antes de convertirse en sapos tostados.
+Finalmente aburrido de sus viajes, Edwin regresó a Thay. Descubrió con gran alivio que su reputación entre los Magos Rojos había mejorado mucho en su ausencia, debido a los rumores de sus hazañas que se habían difundido por la región. Incluso logró llegar hasta la cima de la jerarquía de los Magos Rojos, obteniendo el título de Zulkir de Conjuración. Claro que sólo lo disfrutó por un día antes de que le asestaran otro duro golpe, aunque aun así fue un logro encomiable.
+Se dice que cuando los Magos agresores se preparaban para echar la puerta abajo de la habitación donde Edwin se había atrincherado, él dijo el nombre de <CHARNAME> en voz alta por primera vez desde hacía más de un año, llamando a su amor perdido en su hora de mayor necesidad. También se dice que en cuanto los Magos irrumpieron en la habitación fueron cegados por una luz brillante y oyeron una Voz que dijo estas palabras: ¿VEIS? OS DIJE QUE OS ESCUCHARÍA Y VENDRÍA SI ME NECESITARAIS.
+Cuando los sorprendidos Magos recobraron la vista, no quedaba ni rastro de Edwin. De hecho, no hubo pruebas de haber sido visto desde ese día, pero hay un rumor según el cual la amada Diosa del Mago Rojo podría haberle concedido algo más que una simple ayuda.
+También se dice que Elminster el Sabio fue retado a un duelo mágico por un misterioso mago de túnica roja que salió de la nada. El extraño mago se mofó de él cruelmente, diciendo que 'su sombrero puntiagudo sin duda servía para cubrir su calva y para compensar sus otras taras físicas' y que 'no debía pensar que era el único mago con amigos de alto rango.' Cuando los conjuros cesaron y el polvo se asentó, Elminster aún estaba vivo, pero desgraciadamente había sido transformado en un monito gris con un trasero morado hinchado. La maldición expiró tras cosa de un mes, pero aún conserva el ansia de plátanos y la lamentable tendencia de rascarse en público.
+El supuesto Edwin robó el sombrero puntiagudo del confuso mono, se lo puso y desapareció tras un destello de luz. Antes de partir dijo: 'Os veré en dos mil años, vieja cacatúa, y entonces os patearé el culo de verdad. (Ahora mismo tengo una cita.)'~
+@109    = ~Tras los eventos acontecidos en el trono de Bhaal, <CHARNAME> y Viconia viajaron juntos durante un tiempo, de aventuras. La gloria y el triunfo les seguían allá a donde iban, ya que durante sus viajes anteriores se habían convertido en una pareja verdaderamente formidable.
+Pero más importante para <CHARNAME> que dinero o gloria, más importante que nada más en la faz de Toril, era el amor que compartía con su amada oscura. Había rechazado la divinidad por quedarse a su lado, y fue una decisión que nunca tuvo que lamentar. A través del dolor y el sufrimiento, la oscuridad y la desesperación, ella encontró la luz del día, y ahora su viaje juntos empezaba de verdad.
+Puede que a veces Viconia aún se refiera a su alma gemela como 'varón domado', pero últimamente hablaba más en broma, a no ser que <CHARNAME> la ofendiera de verdad. Y aunque su temperamento era tan impredecible como siempre, esto añadió aún más sabor a su relación, las reconciliaciones les aproximaban aún más. Los dos amantes llegaron a estar tan unidos que finalmente decidieron hacer público su amor casándose. Muchas de las entidades más poderosas de Faerun asistieron a la ceremonia, todos ellos cuidándose de no decir nada que pudiera disgustar a la novia. En realidad, Viconia nunca había estado tan radiante, serena o controlada. Incluso mientras se dijeron los votos, el invitado observador podía ver una sola lágrima en la comisura de su ojo, aportando un testimonio mudo de sus sentimientos más profundos por la feliz ocasión. No obstante, sólo el valiente o el suicida se hubiera atrevido a decírselo a la novia, por temor a una Tormenta de Venganza aparecida misteriosamente en su ropa interior.
+Lo único que pudo haber ensombrecido los días de la feliz pareja fue la venganza de Lolth. La Reina Araña aún quería la vida de Viconia, y tras numerosos intentos de asesinato fallidos, los dos legendarios aventureros ya habían tenido suficiente. En una búsqueda épica a través de la Infraoscuridad y los Planos, retaron al poder de la diosa maligna. Ninguno de ellos reveló jamás la naturaleza exacta de su victoria aparte de a su familia y sus amigos más cercanos, pero se sabe con seguridad que jamás volvieron a ser molestados por los habitantes de la Infraoscuridad, ni por la propia diosa. Ciertas fuentes incluso indican que la Diosa Araña se enfadó sumamente por todo lo sucedido, con un mal humor patente, y que se la oyó murmurar que era inaceptable que otras deidades ayudaran a una ex seguidora suya en su contra. Los diviesos cósmicos de su faz inmortal aún no han desaparecido del todo.
+El legendario temperamento de Viconia se volvió incluso más tempestuoso durante el embarazo de su primer hijo con <CHARNAME>. El hijo de Bhaal pronto se vio buscando por todo Faerun fresas frescas, puré de contemplador, o pimienta negra de Rashemen. Pero pensó que todos los agravios habían merecido la pena cuando finalmente fue testigo del milagro que supuso el nacimiento de su primera hija, una niña que con el tiempo se volvería tan poderosa como sus padres, y que se labraría un asombroso destino por sí misma. Pero eso, como se suele decir, es otra historia.~
+@110   = ~Cuando el asunto de la herencia divina de <CHARNAME> se hubo solucionado satisfactoriamente, Edwin decidió realizar el tan demorado viaje de vuelta a Thay. Mediante dudosas artimañas, y con la ayuda de amigos y familiares, finalmente consiguió no sólo limpiar su nombre ante los Magos Rojos, sino que también ascendió en rango. Con los poderes arcanos conseguidos durante sus viajes con <CHARNAME>, incluso pudo llegar a convertirse en su gobernador supremo. No obstante, cuando hubo alcanzado su tan ansiado objetivo, resultó no ser suficiente para satisfacer su ambición.
+Aunque el poder político pudiera ser grandioso, el peso de sus funciones le alejó de su búsqueda de un poder mágico personal incluso mayor, un poder para poder competir con los mismos dioses. ¿Pero cómo conseguir semejante poder? Edwin abandonó Thay una vez más, buscando respuestas a su cuestión.
+Durante este atípico periodo de reflexión de su vida, Edwin se encontró con Elminster el Sabio una vez más. Habiendo despreciado siempre la vanidad y la condescendencia del viejo mago, Edwin no tardó en sacarlo de quicio. Según testigos inocentes dijo: 'Bien, al menos yo he conseguido mis poderes mediante los esfuerzos de mi excepcional mente, y no por ser el chico de placer de la diosa de la magia. (Y además he oído que fue poco satisfactorio. Quizás ese sombrero ridículo sea una burda manera de compensar alguna tara física.)'
+La represalia de Elminster hubiera sido sin duda cruel y sádica, de haber tenido tiempo de lanzar un conjuro. Pero no contaba con que Edwin usara un disparador de conjuros, y no sólo un simple disparador de conjuros, sino el conjuro de convocación más extraño y temido de todos, el temible Vaca Mortal.
+Parece ser que ni el consentido elegido de Mystra es inmune por completo a los efectos de que le caiga una vaca enorme en la cabeza desde una gran altura. Aunque no lo mató, dejó a Elminster sin sentido durante muchos días, y nunca más pudo volver a mirar a una vaca sin ponerse nervioso. Antes de partir, también se dice que Edwin hizo algo muy cruel con el famoso sombrero puntiagudo de Elminster. Quizás es mejor omitir los detalles, ya que desde entonces Elminster parece haber cambiado su antes sombrero favorito por una gorra de lana suave y blanda.
+Complacido con esta victoria, y quizás inspirado por ella, Edwin se marcó un nuevo objetivo, uno merecedor de sus mayores aspiraciones. El Valle de los Dioses, el fabuloso y legendario lugar de recreo de los dioses, escondido más allá del Espinazo del Mundo. Es un lugar tan sagrado que incluso si entrara el mortal más humilde se convertiría de inmediato en una divinidad. Muchos lo han buscado, pero ninguno jamás ha regresado. No se ha vuelto a ver a Edwin desde que emprendió su viaje, hace poco más de un año, y por ello se supone que también pereció.
+Y una vez más, últimamente se han oído rumores inquietantes en los Reinos. Rumores sobre una nueva deidad cuyo poder aumenta en el este, una hasta ahora conocida como el dios del sarcasmo.
+Quizás sea cierto el viejo dicho que dice: 'Todo lo que tenéis que hacer para tener éxito es creer en vos mismo y amaros.'~

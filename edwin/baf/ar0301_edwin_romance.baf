@@ -1,0 +1,10 @@
+IF
+  Dead("maevar")
+  Global("MaeVarCheck","GLOBAL",0)
+  !InPartyAllowDead("Edwin")
+THEN
+  RESPONSE #100
+    SetGlobal("MaeVarCheck","GLOBAL",1)
+    SetGlobal("EdwinRomanceActive","GLOBAL",3)
+END
+

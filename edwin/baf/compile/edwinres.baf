@@ -1,0 +1,13 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("dekaras3")
+    SetInterrupt(FALSE)
+    MoveToObject(Player1)
+    Wait(1)
+    ReallyForceSpell("Edwin",CLERIC_RESURRECTION)
+    EndCutSceneMode()
+    SetInterrupt(True)
+END
+

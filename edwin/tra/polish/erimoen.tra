@@ -1,0 +1,26 @@
+// -*- coding: cp1250 -*-
+
+@0    = ~No, Eddie... ty i <CHARNAME>, co? NieŸle! Powiedz mi, jak siê czuje Wielki Z³y Czarodziej, kiedy z Prawdziwej Mi³oœci dr¿¹ mu kolana i serce ³omocze? ~
+@1    = ~Zajmij siê sob¹, natarczywa katarynko! (Mo¿e powinienem zmieniæ j¹ w wiewiórkê. *Ró¿ow¹* wiewiórkê. Ciekawe, czy <CHARNAME> mia³aby jakieœ obiekcje... ) I moje imiê brzmi Edwin!~
+@2    = ~Oj, nie b¹dŸ taki, Eddie! Nie mo¿esz mieæ do mnie pretensji, w koñcu chodzi i moj¹ siostrê. Chcê siê upewniæ, ¿e j¹ uszczêœliwisz, i bêdziesz dla niej dobry i tak dalej.~
+@3    = ~Naturalnie! Jestem Edwin Odesseiron, najwspanialszy okaz mêskoœci jaki kiedykolwiek bêdziesz mia³a honor spotkaæ!~
+@4    = ~Jestem magiem o niezrównanej mocy, i wkrótce z pewnoœci¹ bêdê na tyle potê¿ny, by rzuciæ wyzwanie samym bogom! A moje umiejêtnoœci w dziedzinie sztuk erotycznych mog¹ sprawiæ, ¿e nawet pos¹g rozpuœci siê z rozkoszy pod moim perfekcyjnym dotykiem.~
+@5    = ~Ta, jasne. Nooo, ale... kochasz j¹? Naprawdê, naprawdê kochasz?~
+@6    = ~Ee... ja... jak mówi³em, zajmij siê swoimi sprawami, ma³poludko!~
+@7    = ~*Uœmiech* W porz¹dku, Edwin. Przyjmê, ¿e ten rumieniec oznacza 'tak'.~
+@8    = ~Ty wkurzaj¹ca ma³a zmoro... co poradzê, ¿e ta szata jest za ciep³a? (Dlaczego <CHARNAME> nie mog³a byæ jedynaczk¹?)~
+@9    = ~Hej Eddie, kiedy bêdzie serenada?~
+@10   = ~(Ktoœ znowu pozwoli³ jej jeœæ cukier. Dowiem siê kto, i zabijê go. Powoli. Chyba, ¿e to by³a <CHARNAME>, co do której zastosujê przyjemniejsz¹ formê kary.) Mam na imiê Edwin, ty piskliwa ró¿owa fretko. Nawet twój miniaturowy mózg powinien byæ w stanie przyswoiæ dwie sylaby? (<CHARNAME> mo¿e tak do mnie mówiæ, jeœli ma ochotê, ale na tym *koniec*.) O czym ty w ogóle be³koczesz?~
+@11   = ~No, myœla³am, ¿e wszyscy faceci, którzy chc¹ zrobiæ wra¿enie na swoich dziewczynach, œpiewaj¹ im serenady. Nie chcesz byæ romantyczny? Poza tym, ci¹gle siê przechwalasz... um, ci¹gle tyle mówisz, wiêc myœla³am, ¿e spodoba ci siê mo¿liwoœæ  zaprezentowania g³osu raz jeszcze.~
+@12   = ~Hmmm... mo¿esz mieæ trochê racji. Mój g³os jest oczywiœcie doskona³y. Gdybym nie zosta³ magiem, móg³bym bez problemu zostaæ zawodowym œpiewakiem, oczarowuj¹cym oszo³omione t³umy piêknymi, œpiewnymi tonami. Ale nie bêdê marnowa³ mojego talentu na jak¹œ marn¹ ³zaw¹ balladkê. <CHARNAME> nale¿y siê to, co najlepsze.~
+@13   = ~Hi hi... Co powiesz na to? 'Zakochana paraaa! Edwin i Pomiot Bhaalaaa!'~
+@14   = ~Doœæ! Natychmiast przestañ meczeæ! Jeszcze ciê us³yszy! (S³owa wymagaj¹ starannego przemyœlenia, i stanowczo mniej prymitywizmu.)~
+@15	= ~Och, <CHARNAME>... Siostrzyczko, tak mi przykro! Na pewno strasznie siê martwisz, i w ogóle, ale nie pozwolimy tej zêbatej poczwarze tak nas za³twiæ.~
+@16	= ~Pójdziemy, i... i bêdziemy z ni¹ walczyæ, a¿ j¹ pokonamy, a wtedy odbierzemy jej i Edwina, i moj¹ duszê. He, mo¿e ju¿ zagada³ j¹ na œmieræ? A potem odbierzemy *twoj¹* duszê Irenicusowi. Jakoœ to zrobimy. Musimy w to wierzyæ, prawda? Bo inaczej... wszystko jest bez sensu.~
+@17	= ~<CHARNAME>... ja... nie wiem, co powiedzieæ. Chyba nie bardzo jest cokolwiek, co mo¿naby zrobiæ. To tak jak wtedy, kiedy umar³ Gorion... i chcê ci pomóc, ale po prostu nie wiem jak.~
+@18	= ~Dziêkujê, Imoen. Obawiam siê, ¿e masz racjê. Nikt nie mo¿e nam pomóc... ani mnie, ani Edwinowi, ale jesteœ kochana, ¿e próbujesz.~
+@19	= ~Edwin... nie... to siê nie mia³o tak skoñczyæ! Nie w ten sposób! Powinnam móc go uratowaæ...~
+@20	= ~Milcz, Imoen. Zabójca wo³a do mnie, ¿¹daj¹c krwi, i w ka¿dej chwili mogê go us³uchaæ. Po prostu zostaw mnie z nim. Chcê go ostatni raz przytuliæ.~
+@21	= ~Ludzie umieraj¹. To los ka¿dego œmiertelnika. Byæ mo¿e Bodhi uwa¿a³a mnie za s³abeusza, którego czyjaœ œmieræ mo¿e powstrzymaæ przed zabraniem, co mu siê nale¿y. Ale myli³a siê. Nic mnie nie powstrzyma przed odzyskaniem mojej duszy, i nale¿nej mi mocy. Nic. Nawet to.~
+@22	= ~A co tam! No, umar³. Wielkie rzeczy. Jest pe³no innych facetów, którym siê podobam, a ci, którym siê nie podobam, to straszni frajerzy.~
+@23	= ~Jasne, siostrzyczko. Po prostu zastanawiam siê, czy czegoœ nie da³oby siê zrobiæ. Nie jest d³ugo martwy, i nie by³ chyba jeszcze ca³kiem wampirem, wiêc mo¿e nie byæ za póŸno. Nie wiem, co robiæ, ale powinnyœmy dobrze przeszukaæ tê dziurê. Mo¿e jest tu gdzieœ zwój Odwrócenia Wampiryzmu, albo coœ w tym stylu? No co, przecie¿ trzymali tu Wekierê Zniszczeñ i ko³ki, nie?~

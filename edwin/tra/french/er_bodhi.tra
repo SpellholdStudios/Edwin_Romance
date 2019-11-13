@@ -1,0 +1,62 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~L'autel bourdonne doucement durant un instant puis redevient silencieux. Il semble attendre quelque chose de plus. Vous essayez désespérément de penser à une chose qui pourrait être utilisée pour vous ramener l'esprit d'Edwin. Peut-être sa nature méfiante ne fait-elle pas vraiment confiance à la bienveillance d'un Dieu étrange, mais s'il pouvait sentir votre présence, cela pourrait aider...~
+@1    = ~Une faible lumière vous surprend. Elle semble venir du talisman qu'Edwin vous a donné comme preuve de son amour, vos cheveux mêlés aux siens comme deux âmes amoureuses. Au moment où vous touchez les cheveux, vous savez quoi faire. Vous pouvez sentir la présence d'Edwin au travers du talisman, essayant d'atteindre la vôtre. Le talisman sera le phare qui le guidera vers vous, si vous choisissez de le sacrifier. Cela pourrait être dangereux, cependant. Une part de vous-même voyagera hors de votre corps vers le royaume des morts. Vous ne voulez pas la perdre en permanence.~
+@2    = ~Vous placez la Mèche de Cheveux de <CHARNAME> sur l'autel.~
+@3    = ~Vous choisissez de conserver le talisman.~
+@4    = ~La mèche de cheveux qu'Edwin a enchanté pourrait suffire à ramener son esprit à vous. Ce n'est pas une option, mais n'y aurait-il pas un autre moyen ? Edwin n'était pas complètement transformé en vampire, mais une part de ces instincts on dû lui être transmis, et votre sang porte l'étincelle de la divinité, assez pour attirer n'importe quel vampire. C'est risqué cependant, et soudainement vous savez que si vous voulez revoir Edwin vivant, vous devez abandonner une part de votre force.~
+@5    = ~Vous vous coupez et laissez quelques gouttes de votre sang couler sur l'autel.~
+@6    = ~Vous reculez de l'autel.~
+@7    = ~Tu en as déjà trop pris ! Tu vas nous rendre l'âme d'Imoen et Edwin !~
+@8    = ~Et tu as tenu parole. Rends-moi Edwin et peut-être serai-je plus clémente.~
+@9    = ~Je t'aurais pourchassé ne serait-ce que pour récupérer Edwin. Je tiens beaucoup à lui.~
+@10   = ~Tu as trop confiance en mes sentiments. Le vol d'Edwin ne te sauvera pas.~
+@11   = ~Tu vois ce truc pointu et aiguisé ? On appelle ça un P-I-E-U. Relâche tout de suite Edwin ou je n'en resterai pas à la théorie et te ferai une démonstration pratique de comment on l'utilise.~
+@12   = ~Rends-moi tout de suite Edwin, Bodhi, ou il te manquera tellement de dents que tu devras sucer le sang avec une paille.~
+@13   = ~Oh j'ai peur. Le Grand Méchant Vampire essaye d'être effrayant. J'en tremblerais presque. Rends-moi tout de suite mon petit ami et peut-être que je me contenterai de t'enfoncer un pieu dans le coeur au lieu de te clouer au sol et d'y aller à la fourchette émoussée et au baril d'huile bouillante.~
+@14   = ~Une grande perte ? Comme celle de tes habits ? Je veux dire, bien sûr, tu es une vampire, mais ton style déshabillé-on-voit-à-travers est tellement... dépassé. Maintenant rends-moi Edwin et j'épargnerai ta non-vie et peut-être même que je te donnerai quelques conseils de mode.~
+@15   = ~Tu arrives avec l'espoir de récupérer quelque chose de cher à ton coeur. Je dirais que plus tu continueras dans cette voie et plus de choses tu perdras.~
+@16   = ~Je ne parlais pas de son sacrifice mais du tien, petit mage. Continue à me suivre, <CHARNAME> et tu perdras plus que tu ne l'aurais cru possible. Et ça commence tout de suite !~
+@17   = ~La Bataille Finale avec Bodhi
+
+Bodhi m'a tendu une embuscade avant que je n'atteigne son repaire du cimetière, faisant de son mieux pour me mettre en colère, chacun de ses mots n'ayant pour but que de me tourmenter. Avec la perte de mon âme, la souillure de Bhaal est plus proche de la surface que jamais. Peut-être comptait-elle là-dessus, ou peut-être pas. Quoi qu'il en soit, elle a pris l'avantage pour l'instant et mes pertes continuent d'augmenter. Ma main tremble de furie homicide en écrivant cela, car Bodhi m'a volé Edwin en comptant sans aucun doute s'en servir comme d'un pion dans son plan contre moi. Je n'ai pas d'autre choix que de continuer ma route, mais j'ai terriblement peur pour la vie et l'âme de mon aimé. J'aimerais pouvoir croire qu'il sera prudent et qu'il ne la provoquera pas, mais je le connais trop bien pour entretenir un tel espoir...~
+@18   = ~C'est un plan intéressant, même si je suis sûre que son sort servira d'exemple, que tu souhaites le récupérer ou pas.~
+@19   = ~Sa volonté est mienne, même s'il n'est pas entièrement transformé. Il suffira d'un mot de ma part pour qu'il t'arrache le coeur et il n'y a rien que tu puisses y faire tant que je suis en vie.~
+@20   = ~La Bataille Finale avec Bodhi
+
+Bodhi a transformé Edwin en vampire ! Ou... Ou presque. Le processus n'a peut-être pas été achevé dans le court laps de temps ou Bodhi l'a eu avec elle. Avec un peu de chance, il y a une solution ou alors je l'aurais perdu. Peut-être le sage de guerre elfique connaîtra-il un moyen de le restaurer... Ou Elhan...
+
+Je l'ignore. Le désespoir obscurcit mon esprit. J'ai déjà perdu mon âme. Mais à présent... A présent j'ai bien peur d'avoir également perdu mon coeur. Le voir ainsi était terrible. Il y avait une telle douleur dans ses yeux, une telle confusion. Et tant d'obscurité, comme si la chose qui faisait de lui Edwin était perdue pour toujours. L'ironie de tout ceci est dure et cruelle... Je... Je ne peux rien écrire de plus pour l'instant.~
+@21   = ~Tu... Tu es venue me chercher. Je pouvais te sentir présente, à travers le froid et la douleur, cherchant à m'atteindre. C'est... C'est ce qui ma permis de conserver ma santé mentale, je pense. Et... Et tu étais prête à sacrifier quelque chose d'aussi important... Pour moi ?~
+@22   = ~<CHARNAME>, je ne sais pas quoi dire. Une part de moi-même veut te reprocher la stupidité d'avoir risqué ta vie pour me sauver, mais la plus grande part de moi-même ne veut rien d'autre que de t'embrasser sauvagement et passer le reste de sa vie à te remercier.~
+@23   = ~Ne pense jamais que tu ne mérites pas tous les sacrifices que je pourrais faire pour toi, Edwin. Je t'aime. Je pensais que perdre mon âme était la pire chose qui puisse m'arriver, mais c'était avant que je ne te perde.~
+@24   = ~*sniff* Ne... Ne sois pas aussi sentimental, Eddy. Je... Je ne suis pas sûre de ne pas éclater en sanglots. Je t'aime et tu m'as terriblement manqué, j'ai besoin d'être sûre que c'est vraiment toi et pas juste un rêve.~
+@25   = ~La seule stupidité dans cette histoire est la tienne. Comment as-tu pu laisser Bodhi t'enlever ainsi ? Es-tu un imbécile totalement incapable ?~
+@26   = ~Je t'aime également, ma déva, et je continuerai ainsi aussi longtemps que tu me le permettras. Ton amour m'a tiré de... Non, je ne le décrirai pas. C'était un cauchemar, plein de ténèbres, de désespoir et de douleur. Puisses-tu ne jamais savoir à quoi cela ressemble. Et cela m'a fait douter de mes anciens buts dans la vie.~
+@27   = ~J'ai toujours pensé que le pouvoir valait tous les sacrifices. Je n'aurais jamais tenté ma chance avec le parchemin néthère si ça n'avait pas été le cas, mais à présent que j'ai vu l'envers de la médaille, je me demande si je ne me suis pas trompé. (N'en faisons pas une histoire. Cela ne se reproduira pas.)~
+@28   = ~J'ai le sentiment d'avoir besoin de ton avis à ce sujet. Bodhi était prête à me détruire, juste pour t'influencer. Et cela aurait été si facile pour moi de devenir comme elle ou son frère. Cela signifie-t'il qu'il y a des ambitions qu'il ne vaut mieux pas réaliser ? Que gagner ne fait pas tout ?~
+@29   = ~Je pense que tu as fait une importante découverte et je suis d'accord avec toi. Je t'aime et je souhaite que tu réussisses tout ce que tu entreprends, mais pas au prix de te transformer en un autre Irenicus.~
+@30   = ~Oui. Gagner est certainement important, tout comme l'est le pouvoir. Mais à quoi cela sert-il de devenir omnipotent si tu renonces à tous tes amis et à ceux que tu aimes dans le processus ?~
+@31   = ~Non, bien sûr que non. Tu ne devrais plus y penser. J'ai pleinement l'intention d'amasser le pouvoir sur lequel je peux mettre la main, quel que soit le prix à payer et tu devrais faire de même. Tout le reste n'est que folie.~
+@32   = ~Il semble que j'aie été stupide sur bien des choses, m'abusant moi-même. Accepteras-tu au moins que je revienne dans le groupe ? Il fait plutôt froid et humide ici et je préfèrerais avoir de la compagnie plutôt que de devoir traverser cet endroit seul.~
+@33   = ~Très bien, tu peux rejoindre le groupe. Mais regarde où tu vas à l'avenir, raté.~
+@34   = ~La Bataille Finale avec Bodhi
+
+Alors que je croyais durant un moment que le dernier coup que Bodhi m'avait porté m'arracherait Edwin à jamais, il semble que l'information du livre ait été juste... La statue d'Amaunator a non seulement rendu la vie à Edwin, mais elle lui a également ôté la malédiction vampirique.
+
+Quant à Bodhi, j'aurais presque aimé lui rendre la vie également, ne serait-ce que pour pouvoir lui dire "je t'ai eu, idiote". Oh, bon, tant pis. Au moins elle sera bonne à quelque chose dans l'état où elle est. Je n'ai eu à utiliser que le coeur et je pense qu'Edwin va être très content de pouvoir ajouter à sa collection d'ingrédients de dégoûtants morceaux de vampire.~
+@35   = ~Oublie ça. Il n'y a pas de place pour toi en ce moment.~
+@36   = ~Je vois. Ce que tu veux dire est très clair, <CHARNAME>. Si jamais tu as besoin de moi, je serai probablement à la Couronne de Cuivre.~
+@37   = ~Je me sens... Différent à l'intérieur. Différent, mais en mieux. Tes mots m'ont peut-être changé, ma déva, mais mes sentiments pour toi restent les mêmes. J'aimerais rester à tes cotés, pour le prouver chaque jour. (Et chaque nuit. Oui, tout a fait.) Me reprendras-tu avec toi ?~
+@38   = ~Bien sûr. Je t'aime et je ne pourrais pas aller très loin sans toi, tu sais.~
+@39   = ~*sourire* Ne sois pas idiot. Je viens juste de trimballer ton corps inerte d'Athkatla à ce vieux donjon miteux. Je ne vais pas t'abandonner aussi facilement.~
+@40   = ~Euh... En fait, l'équipe est assez complète pour le moment. Peut-être plus tard.~
+@41   = ~Oui, je vois ce que tu veux dire, ma déva. C'était une faiblesse temporaire, sans aucun doute causée par le malaise de la Résurrection. *tousse* Je devrais redevenir moi-même d'un moment à l'autre. Je ne souhaite rien de plus que de regagner ma place à tes cotés. (Et le pouvoir absolu et total, ainsi qu'un chapeau pointu, mais cela devra attendre un moment.) Me reprendras-tu avec toi ?~
+@42   = ~Alors nous devrions y aller. Oh, et <CHARNAME> ? J'espère que tu n'as pas de projet pour ce soir. J'espérais pouvoir échanger quelques morsures d'amour des plus plaisantes. Au fait, as-tu gardé quelques morceaux de vampire ? Cela me serait bien utile en tant qu'ingrédient pour mes sorts...~
+@43   = ~Plus tard ? PLUS TARD ? Mais je pensais que... Oh, oublie ça. Je retourne à la Couronne de Cuivre, si ça t'intéresse. Tu devrais pouvoir m'y retrouver plus tard, mais ne pense pas que je t'attendrai très longtemps.~
+@44	= ~~
+@45   = ~Regarde le jeune Edwin à tes cotés. Ce mage, toujours si ambitieux, si affamé de ces sombres pouvoirs que je possède. Jusqu'où serait-il capable d'aller pour les secrets que je peux révéler, je me le demande.~
+@46   = ~Tes restes me procureront de puissants ingrédients pour mes sorts dans les années à venir, vampire, et je prendrai grand plaisir à les cataloguer et à te les enlever pendant que tu es encore en train de te tordre et de hurler. Je ne sacrifierai jamais ma déva à tes intrigues et à tes machinations.~
+@47   = ~Oui... L'intelligent petit mage. Une si méchante petite bête, si ingrate. Il a vraiment essayé de me résister plutôt que d'accepter mon cadeau avec reconnaissance, comme je pensais qu'il l'aurait fait. Et tu n'imagines même pas les mots qu'il a utilisé. Mais cela n'a pas d'importance. J'ai mes – méthodes – après tout.~
+@48   = ~Tu peux prendre ce qui reste de lui, bien que je doute que tes étreintes puissent lui inspirer la loyauté que j'ai réussi à obtenir avec une morsure et un regard.~
+@49   = ~A vos ordres, maîtresse. Je... Je suis à vous, corps et âme.~

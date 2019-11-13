@@ -1,0 +1,173 @@
+
+
+LISEZ-MOI POUR LE MOD DE LA ROMANCE D'EDWIN
+
+
+
+
+Par Laufey (laufeygreen@hotmail.com)
+Traduction française par Erszebeth (erszebeth.batory@wanadoo.fr)
+
+
+A PROPOS DU MOD
+
+
+
+Question: Alors, ça parle de quoi ?
+
+Réponse : C'est un mod Weidu pour Baldur's Gate, Shadows of Amn, qui permet au joueur de romancer Edwin Odesseiron, cet insultant mage Thayvien tout habillé de rouge. C'est également l'aboutissement d'un très long projet pour moi, qui n'aurait jamais été fini sans l'aide de nombreuses personnes différentes. Pour plus d'informations sur ces personnes, voir la section des remerciements. Je me suis beaucoup amusée à écrire ce mod - Si cela vous donne à vous, le joueur, ne serait-ce qu'une fraction de ce plaisir, je serais contente.
+
+
+INSTALLATION
+
+
+
+BGII est requis. ToB est requis seulement si vous souhaitez installer la partie TOB de la romance d'Edwin. Aucun mod supplémentaire n'est requis, mais la romance d'Edwin a été testée et semble bien fonctionner avec la plupart des autres mods Weidu.
+
+Les mods qui ont été testés avec la Romance d'Edwin sont :
+
+Ascension, Redemption, The Longer Road, Solaufein, Valen, Kelsey, Tactics, Item Upgrades, Ease-of-use, Dungeon-Be-Gone, NPC Banter Pack, Ashes of Embers, Unfinished Business, Tsujatha, Semi multi clerics, TDDsinTDD, Corthala romantique, the FWItem pack, G3 tweaks (quelques composants), Hubelpot, eSeries, FR/ROV, Planar Sphere, Refinements (quelques composants) et Improved Battles.
+
+Notez que le composant "Female Edwina" d'Ease of Use peut potentiellement causer un conflit avec la Romance d'Edwin, alors mieux vaut ne pas l'installer.
+
+Incompatible avec : BGT, Big Picture. La compatibilité sera peut-être assurée dans une prochaine version.
+
+Extraire l'archive principale dans le répertoire principal de BGII. Normalement, il s'agit de :
+
+        C:\Program Files\Black Isle\BGII - SoA\
+
+Lancez (cliquez sur) "Setup-EdwinRomance.exe".
+
+Puis choisissez quels composants vous voulez installer. Vous pouvez toujours les désinstaller plus tard en relançant "Setup-EdwinRomance.exe".
+
+
+BUGS
+
+
+Nous avons essayé d'éliminer autant de problèmes que possible, mais si tombez sur un bug, faites-nous le savoir, soit directement à laufeygreen@hotmail.com, ou dans le forum de la Romance d'Edwin sur www.forgottenwars.net.
+
+
+
+COMMENCER LE JEU
+
+
+Il vous faut commencer un nouveau jeu pour que la Romance débute. Pour que la Romance marche, votre PJ doit être une femme et doit avoir une intelligence de 14 au minimum. Il n'y a pas de restriction de race. Vous trouverez Edwin là où vous le trouvez habituellement dans le jeu, dans la guilde de Mae'Var et il se joindra à vous de la même manière que d'habitude. La Romance ne débutera qu'une fois que Mae'Var est mort. Note : Pour que la romance s'enclenche, Edwin *doit* être dans votre groupe alors que vous tuez Mae'Var.
+
+
+COMMENT PROGRESSER
+
+
+Edwin initiera les conversations de la même manière que les PNJ de Bioware. Lorsqu'il le fait, répondez-lui comme il vous plaît. Vous n'avez pas besoin d'être extrêmement polie avec lui - Au contraire, vu qu'Edwin apprécie les femmes qui peuvent l'égaler dans les insultes. Cependant, si vous choisissez les répliques les plus sérieusement vexantes (vous devriez les reconnaître en les voyant), il mettra fin à votre relation. Si Anomen est dans le groupe, lui et Edwin auront plusieurs disputes au sujet de votre PJ.
+
+Vous devrez au final faire un choix entre eux. Le mod ajoute également une quête pour Edwin et si vous souhaitez que la romance continue, vous devrez l'aider à ce sujet.
+
+
+LES FINS
+
+
+Il y a trois fins différentes pour TOB. Une pour le PJ qui reste avec Edwin, une autre pour le PJ qui devient une déesse. Le troisième est pour l'Edwin non romancé, vu que je n'aime pas l'original.
+
+
+
+FAQ ET SPOILERS
+
+
+Q : Je suis allé dans le district du Cimetière, mais Edwin ne mentionne pas le Parchemin Néthère ! Quel est le problème ?
+
+R: La quête du Parchemin Néthère aura lieu, mais seulement lorsque la romance aura suffisament progressé. Lorsque l'heure sera venue, Edwin lui-même vous le signalera et la quête aura lieu de la manière habituelle.
+
+Q : Et quand Edwin est Edwina ? Y aura t'il toujours de l'action entre lui et le PJ ?
+
+R : Les dialogues de la Romance continueront quand Edwin est Edwina et il aura pas mal de choses à dire à ce sujet.
+
+Q : Oui, mais y a t'il de l'action entre filles, *clin d'oeil*, si vous voyez ce que je veux dire ?
+
+R : Non. Vous plaisez toujours autant à Edwina, mais il y a déjà assez de confusion entre les sexes.
+
+Q : Oh. Et si j'ai un PJ *masculin* ? N'ai-je aucune chance avec Edwina *dans ce cas là* ?
+
+R : J'ai écrit des dialogues additionnels pour un PJ masculin et Edwina. Essayez-les et voyez ce qui arrive.
+
+Q : Dois-je *vraiment* faire la nouvelle quête d'Edwin ?
+
+R: Oui, c'est très important pour lui. Si vous attendez trop longtemps, il vous le rappelera. Si vous négligez toujours la question, il partira.
+
+Q : Edwin est devenu un vampire - Pourquoi je n'arrive pas à le ressuciter ?
+
+R: Vous avez besoin de quelque chose d'autre en plus du coeur de Bodhi et il y a deux options possibles. Essayez d'examiner l'autel une deuxième fois, cela vous dira quoi faire.
+
+Q : Y a t'il de nouveaux dialogues avec les NPC de Bioware ?
+
+R: Juste quelques-uns. J'ai ajouté quelques nouveaux commentaires de la part d'Imoen quand Edwin est vampirisé. Elle et d'autres NPCs auront de brèves interjection durant une conversation critique dans TOB. Des dialogues entre Edwin et Viconia et Edwin et Mazzy sont quelque peu différentes si vous le romancez. IL y a également quelques nouveaux dialogues entre Edwin et Haer'Dalis.
+
+Q : Y a t'il des dialogues avec des NPC ajoutés par des mods ?
+
+R : Non et je n'ai pas l'intention d'en ajouter. Il y en a tout simplement trop et je ne voudrais pas que ceux à qui je ne demande pas l'autorisation se sentent mis à l'écart.
+
+
+Q : Degardan n'apparaît pas ! A l'aide !
+
+R : Degardan n'apparaît que dans certaines zones et à certains moments. En voici un bref résumé :
+
+Degardan n'apparaît qu'hors des donjons. Il n'apparaîtra *pas* dans ces zones :
+
+Zones: Sortie des tréfonds obscurs (ar2500), Les Docks (ar0300), les Bas-fonds (ar0400), le District du Pont (ar0500), la Promenade de Waukeen (ar0700), le District du Temple (ar0900) et le District du Gouvernement (ar1000).
+
+Donc, si vous voulez qu'il apparaisse, essayez de sortir un peu d'Athkatla ou visitez le cimetière. Il essaye sans doute d'éviter l'attention des mages cagoulés.
+
+Degardan apparaîtra pour la première fois après que vous ayez eu le dialogue ou Edwina vous pose une question à propos de sa "féminité". Il apparaîtra une deuxième fois après le dialogue ou Edwina vous demande un certain objet personnel.
+
+
+REMERCIEMENTS - LES GENS DERRIERE CE MOD
+
+***************************************************************************************
+
+Ecriture : Laufey
+
+Ecriture additionnelle : Jeanette, qui a écrit les dialogues d'Haer'Dalis.
+
+***************************************************************************************
+
+
+Codage Principal : Dorotea (Janetta Bogatchenko) et Nebukad (Tuomas Nurmi).
+Merci à vous les gars, vous êtes mes héros, vu que sans vous, ce mod n'aurait jamais été fini. :)
+
+Codage additionnel : Laufey, Lord E, Maidros, Merja (Maria Zamfir)
+
+
+***************************************************************************************
+
+Divers (Musique, graphismes, objets et le reste) : Ophidia, Ancient Slayer et très certainement d'autres personnes.
+
+Si j'ai oublié quelqu'un, faite-le moi saboir et je vous ajouterai.
+
+
+****************************************************************************************
+
+
+Voix : Dorotea pour la voix d'Elvira Odesseiron. Stretchy, frère d'Ophidia, est la voix de Dekaras.
+
+
+****************************************************************************************
+
+
+Traduction Française : Erszebeth (erszebeth.batory@wanadoo.fr)
+
+
+****************************************************************************************
+
+Les .bam pour les anneaux utilisés dans la quête de la liche ont été trouvés ici :
+http://www.3dconsortium.com/bgvault/index.htm
+Je ne connais pas le nom des personnes qui les ont réalisé, mais je les remercie tout de même.
+
+**********************************************************************************************************
+
+
+Enfin : Enormes et sincères remerciements à tous ceux qui ont aidé à faire ce mod et nous ont fourni leur aide et leurs avis.
+
+Remerciements spéciaux à tous les béta testeurs, qui dans leurs fiers rangs incluaient :
+
+Rikitikitavi, Immortality, Jesara, Erszebeth, Sandalwood, Alandrea, Catseye, Lord E, C'est Nedra, StarDragonMaiden, Ophidia, Caetlyn, The Bible, Mikka, Merja, Dancer Fitz, Silverdragon Yunami, deeandtanner, stayc, Lady Pirate, SurfenBoy09, Ancient Slayer and many, many others.
+
+Si j'ai oublié votre nom - mea culpa. Soyez assurés que ce n'est pas par manque de gratitude. :)
+

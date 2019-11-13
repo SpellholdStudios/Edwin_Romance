@@ -1,0 +1,62 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~Der Altar brummt leise für einen Moment, ist dann aber wieder völlig still. Er scheint noch etwas zu erwarten. Verzweifelt überlegt Ihr, was sonst Edwins Geist zu Euch zurückholen könnte. Womöglich glaubt sein misstrauisches Wesen nicht genug an die Güte eines fremden Gottes, aber wenn er nur Eure Anwesenheit spüren könnte... ~
+@1    = ~Ein sanftes Leuchten weckt Eure Aufmerksamkeit. Es scheint von dem Talisman zu kommen, den Edwin Euch als Zeichen seiner Liebe gab. Euer Haar verschlungen mit dem seinen, wie zwei Seelen, die in Liebe verbunden sind. Als Ihr das Haar berührt, wisst Ihr, was zu tun ist. Ihr könnt Edwins Anwesenheit durch den Talisman spüren, wie er sich nach Euch sehnt. Der Talisman wird der Köder sein, der ihn zu Euch zurücklockt, wenn Ihr Euch entscheidet, Euch von ihm zu trennen. Es könnte allerdings gefährlich werden. Ein Teil von Euch wird Euren Körper verlassen und ins Land der Toten reisen. Ihr wollt ihn nicht für immer verlieren.~
+@2    = ~Legt <CHARNAME>s Haarlocke auf den Altar.~
+@3    = ~Behaltet den Talisman für Euch selbst.~
+@4    = ~Die Haarlocke, die Edwin verzauberte, könnte genug gewesen sein, um seinen Geist heimzuführen. Das ist keine Option, aber gibt es eine andere? Edwin wurde nicht vollständig zum Vampir gemacht, aber ein Teil dieser Instinkte dürfte übertragen worden sein. Euer Blut trägt den Funken der Göttlichkeit, genug, jeden Vampir anzulocken. Es wird gefahrvoll sein, aber plötzlich wisst Ihr, wenn Ihr Edwin wieder an Eurer Seite haben wollt, werdet Ihr einen Teil Eurer eigenen Stärke aufgeben müssen.~
+@5    = ~Schneidet Euch in den Finger und lasst einige Tropfen Eures Blutes auf den Altar fallen.~
+@6    = ~Tretet vom Altar zurück.~
+@7    = ~Ihr habt mir schon soviel genommen!  Ihr werdet beides zurückgeben, Imoens Seele und Edwin!~
+@8    = ~Und Ihr habt dieses Versprechen gehalten. Gebt mir Edwin zurück und vielleicht werde ich gnädig sein.~
+@9    = ~Ich hätte Euch allein wegen Edwin gejagt.  Er ist sehr wichtig für mich.~
+@10   = ~Ihr setzt zuviel Vertrauen auf Gefühle.  Dass Ihr mir Edwin genommen habt, wird Euch nicht retten.~
+@11   = ~Seht Ihr dieses scharfe, spitze Ding? Man nennt es P-F-A-H-L. Lasst Edwin sofort frei, oder ich zeige Euch, was man damit machen kann.~
+@12   = ~Übergebt mir Edwin sofort, Bodhi, oder ich sauge EUER Blut durch einen Strohhalm, wenn mir auch die Zähne dazu fehlen.~
+@13   = ~Oh, boo-hoo. Der große böse Vampir versucht Furcht erregend zu sein. Seht wie ich zittere. Jetzt übergebt mir meinen Geliebten und vielleicht pfähle ich Euch nur, anstatt  Euch auf den Fußboden zu nageln und mit einer stumpfen Gabel und einem Fass kochendem Öl zu bearbeiten.~
+@14   = ~Ein großer Verlust? Wie der Verlust Eurer Kleider? Ich meine, sicher, Ihr seid ein Vampir, aber Euer bleicher, blutleerer Anblick ist so... billig. Jetzt übergebt mir Edwin und ich verschone Euer Unleben. Vielleicht gebe ich Euch auch noch ein paar kostenlose modische Ratschläge dazu.~
+@15   = ~Ihr folgt in der Hoffnung, etwas zurückzuerhalten, das Euch teuer ist. Ich sage, je länger Ihr das tut, desto mehr werdet Ihr verlieren.~
+@16   = ~Ich sprach nicht von ihrem Verlust, sondern von Eurem, kleiner Magier. Folgt mir, <CHARNAME>, und Ihr werdet mehr verlieren, als Ihr in Euren finstersten Alpträumen für möglich gehalten hättet! Und jetzt fängt es an!~
+@17   = ~Die letzte Schlacht mit Bodhi
+
+Bodhi überfiel mich, bevor ich ihr Friedhofsversteck erreichte und tat, was sie konnte, mich in blinde Wut zu versetzen. Jedes Wort zielte darauf, all meine Sinne zu entflammen. Seit dem Verlust meiner Seele ist Bhaals Makel näher an der Oberfläche denn je. Vielleicht zielte sie darauf, vielleicht auch nicht. Wie auch immer, im Augenblick hat sie die Oberhand und meine Verluste scheinen immer größer zu werden. Meine Hand zittert in mörderischem Zorn, während ich dies schreibe, denn Bodhi hat mir Edwin genommen. Ohne Zweifel will sie ihn als Trumpf gegen mich einsetzen. Ich habe keine Wahl, als auf meinem gewählten Pfad voranzuschreiten, aber ich fürchte schrecklich um meines Geliebten Leib und Seele. Ich wünschte, ich könnte hoffen, er wäre vorsichtig genug, sie nicht zu provozieren, aber dafür kenne ich ihn einfach zu gut... ~
+@18   = ~Eine interessante Wendung, aber ich bin sicher, sein Schicksal wird immer noch als abschreckendes Beispiel dienen, ob Ihr ihn nun zurückhaben wollt oder nicht.~
+@19   = ~Sein Wille gehört mir, auch wenn seine Verwandlung noch nicht vollständig ist.  Auf mein Wort hin wird er Euch das Herz herausreißen und es gibt nichts, was Ihr tun könnt, solange ich lebe.~
+@20   = ~Die letzte Schlacht mit Bodhi
+
+Bodhi hat Edwin in einen Vampir verwandelt!  Oder... oder zumindest fast. Vielleicht ist die Verwandlung noch nicht gänzlich abgeschlossen in der kurzen Zeit, die Bodhi hatte.  Ich hoffe, ich kann noch etwas tun, oder ich habe ihn für immer verloren. Vielleicht weiß der elfische Kriegsseher was zu tun ist... oder Elthan...
+
+Ich weiß nicht. Meine Stimmung ist finster und verzweifelt. Ich hatte schon meine Seele verloren. Aber nun... Nun fürchte ich, ich habe auch noch mein Herz verloren. Ihn so zu sehen war schrecklich. Da war solcher Schmerz in seinen Augen... und Verwirrung. Und eine Stumpfheit, als wenn alles, was ihn zu Edwin gemacht hat, für immer verloren wäre. Er wollte immer Mächte von jenseits des Grabes und Unsterblichkeit. Die Ironie ist scharf und grausam. Ich... ich kann jetzt nicht weiter schreiben.~
+@21   = ~Du... Du kamst wegen mir. Ich konnte fühlen, wie Du nach mir langtest durch die Kälte und den Schmerz. Das... das hat mich vor dem Wahnsinn bewahrt, denke ich. Und... und Du warst bereit, etwas so Wichtiges zu opfern... für mich?~
+@22   = ~<CHARNAME>, ich weiß kaum, was ich sagen soll. Ein Teil von mir will Euch für Eure Dummheit, so viel zu riskieren, den Hintern versohlen, aber der größere Teil von mir will Euch bis zur Bewusstlosigkeit küssen und es Euch immer wieder und wieder besorgen bis ans Ende aller Tage.~
+@23   = ~Denkt niemals wieder, dass Ihr eines Opfers, das ich für Euch bringe, nicht würdig seid, Edwin. Ich liebe Euch. Ich dachte, meine Seele zu verlieren, wäre das Schlimmste, was mir passieren könnte, bis ich Euch verlor.~
+@24   = ~*schnüff* Jetzt... jetzt werdet doch nicht sentimental, Eddie. Ich... ich bin nicht sicher, ob ich damit im Moment umgehen kann. Ich liebe Euch und habe Euch so schrecklich vermisst. Ich muss sicher sein, Ihr seid Ihr und nicht einfach nur ein schöner Traum.~
+@25   = ~Die einzige Dummheit hier lag bei Euch. Wie konntet Ihr Euch so von Bodhi entführen lassen? Seid Ihr ein völlig inkompetenter Idiot?~
+@26   = ~Ich liebe Euch auch, meine Deva, und das werde ich, solange Ihr mich lasst. Eure Liebe zog mich zurück von... nein, das werde ich nicht aussprechen. Es war ein Alptraum voller Dunkelheit, Verzweiflung und Schmerz. Möget Ihr dergleichen nie erdulden müssen. Es ließ mich an all meinen vorherigen Zielen zweifeln.~
+@27   = ~Ich dachte immer, Macht wäre jedes Opfer wert. Sonst hätte ich die Nesser-Schriftrolle nicht riskiert. Aber jetzt, da ich gesehen habe, wie der Untod wirklich ist, frage ich mich, ob ich mich nicht getäuscht habe. (Macht nicht zuviel daraus. Das wird keine neue Angewohnheit.)~
+@28   = ~Ich brauche Euren Rat. Bodhi wollte mich zerstören, einfach um Euch zu treffen. Und es wäre so einfach für mich gewesen, wie sie zu werden oder wie ihr Bruder. Könnte es Ziele geben, die besser niemals erreicht werden? Könnte es sein, dass Sieg nicht alles ist?~
+@29   = ~Ich glaube, Ihr habt eine wichtige Entdeckung gemacht und ich stimme Euch zu. Ich liebe Euch und wünsche, dass Ihr erfolgreich seid in allem, was Ihr verfolgt, aber nicht um den Preis, ein zweiter Irenicus zu werden.~
+@30   = ~Ja. Siegen ist sicherlich wichtig, wie auch Macht. Aber von welchem Nutzen wäre die Allmacht, müsste man dafür alles aufgeben, was lieb und teuer ist?~
+@31   = ~Nein, natürlich nicht. Ihr solltet Euch nicht darum sorgen. Ich werde mir jegliche Macht aneignen, auf die ich meine Hand legen kann, um jeden Preis. Ihr solltet dasselbe tun. Alles andere wäre idiotisch.~
+@32   = ~Mir scheint, ich war in vielerlei Weise dumm und habe mich selbst betrogen. Werdet Ihr mich zumindest wieder in die Gruppe aufnehmen? Es ist ziemlich kalt und modrig hier und ich würde etwas Gesellschaft wirklich bevorzugen an einem solchen Ort.~
+@33   = ~Fein, Ihr seid wieder dabei. Passt in Zukunft besser auf, was Ihr tut, Versager.~
+@34   = ~Die letzte Schlacht mit Bodhi
+
+Trotz meiner Befürchtungen, Bodhis Rache an mir würde es sein, mir Edwin für immer zu nehmen, sieht es aus, als wären die Informationen in dem alten Buch die Wahrheit... Die Statue Almaunators hat Edwin nicht nur zurück ins Leben geholt, sie hat auch den vampirischen Fluch von ihm genommen.
+
+Und zu Bodhi, fast hätte ich Lust auch sie wiederzuerwecken, und sei es nur um ihr zu sagen “Nimm das, Schlampe.” Nun gut. Zumindest ist sie jetzt für etwas gut. Ich brauchte nur ihr Herz und ich glaube, Edwin ist hocherfreut über seine wachsende Sammlung widerwärtiger vampirischer Spruchkomponenten.~
+@35   = ~Vergesst es. Ich kann Euch derzeit nicht gebrauchen.~
+@36   = ~Soso. Ihr wart mehr als deutlich, <CHARNAME>. Solltet Ihr mich jemals brauchen, dann bin ich vielleicht in der Kupferkrone zu finden.~
+@37   = ~Ich fühle mich... so anders. Anders auf eine gute Weise. Eure Worte mögen mich verändert haben, meine Deva, aber meine Gefühle für Euch bleiben dieselben. Ich will an Eurer Seite bleiben, um Euch das an jedem Tag aufs Neue zu beweisen. (Und in jeder Nacht. Ja, in der Tat.) Nehmt Ihr mich zurück?~
+@38   = ~Natürlich werde ich das. Ich liebe Euch und ohne Euch wäre ich nicht imstande weiterzumachen. Ihr wisst das.~
+@39   = ~*grins* Seid nicht dumm. Ich habe Euren leblosen, steifen Körper den ganzen Weg von Athkatla in dieses schmierige Verließ geschleppt. So leicht kommt Ihr mir nicht davon.~
+@40   = ~Tja... im Moment gefällt mir die Gruppe gerade so wie sie ist. Vielleicht später.~
+@41   = ~Ich verstehe, was Ihr meint, meine Deva. Es war eine zeitweilige Schwäche, ohne Zweifel verursacht durch Nachwiederbelebungsübelkeit. *keuch* In einem Moment oder so bin ich wieder ich selbst. Nichts will ich mehr, als wieder den mir zustehenden Platz an Eurer Seite einnehmen. (Und absolute und totale Macht, sowie einen spitzen Hut,  aber das muss noch eine Weile warten.) Nehmt Ihr mich zurück?~
+@42   = ~Dann sollten wir es angehen. Oh, und <CHARNAME>? Ich hoffe, Ihr habt noch keine festen Pläne für heute Nacht. Ich hatte gehofft, wir könnten einige Liebesbisse der angenehmeren Art austauschen. Habt Ihr übrigens ein paar Vampirstücke behalten? Ich könnte einige gebrauchen als Spruchkomponenten... ~
+@43   = ~Später? SPÄTER?! Aber ich dachte... Oh, vergesst es. Ich gehe zurück zur Kupferkrone, wenn es Euch kümmert. Da solltet Ihr mich später finden können, aber erwartet nicht, dass ich ewig auf Euch warte.~
+@44   = ~~
+@45   = ~Schaut auf den jungen Edwin dort. Ein Magier voller Ehrgeiz, voller Begierde auf die dunklen Mächte, über die ich verfüge. Ich frage mich, was würde so jemand nicht alles opfern für einen Bruchteil der finsteren Geheimnisse, an denen teilzuhaben ich anbieten kann?~
+@46   = ~Eure Überreste werden mich auf Jahre mit prächtigen Spruchkomponenten versorgen, Vampirin, und ich werde großes Vergnügen dabei haben, sie Euch abzuschneiden und zu katalogisieren, während Ihr Euch noch windet und winselt. Niemals würde ich meine Deva Euren Ränken und Intrigen opfern.~
+@47   = ~Jaaaa... der schlaue kleine Magier. So ein wildes Spielzeug. So undankbar. Er hat tatsächlich versucht, mir zu widerstehen, anstatt meine Gabe dankbar anzunehmen, wie ich es erwartet hatte. Einige der Worte, die er gebrauchte, würdet Ihr nicht glauben. Aber gleichwohl. Ich habe meine - Methoden - letztendlich.~
+@48   = ~Ihr könnt haben, was von ihm übrig ist, aber ich bezweifle, dass Ihr mit ein wenig Fummeln die Loyalität bewirken könnt, die ich nahm, mit einem Blick und einem Biss.~
+@49   = ~Es ist wie Ihr sagt, Herrin. Ich... ich bin Euer... Mit Leib und Seele.~

@@ -1,0 +1,33 @@
+IF
+  Global("EdwinRomanceActive","GLOBAL",1)
+  Global("EdwinRomanceOut","GLOBAL",0)
+  !InPartyAllowDead("Edwin")
+  !Dead("Edwin")
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinRomanceOut","GLOBAL",1)
+    SetGlobalTimer("EdwinOutOfParty","GLOBAL",THREE_DAYS)
+END
+
+IF
+  Global("EdwinRomanceActive","GLOBAL",1)
+  Global("EdwinRomanceOut","GLOBAL",1)
+  GlobalTimerExpired("EdwinOutOfParty","GLOBAL")
+  !InPartyAllowDead("Edwin")
+  !Dead("Edwin")
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinRomanceActive","GLOBAL",3)
+END
+
+IF
+  Global("EdwinRomanceActive","GLOBAL",1)
+  Global("EdwinRomanceOut","GLOBAL",1)
+  !GlobalTimerExpired("EdwinOutOfParty","GLOBAL")
+  InPartyAllowDead("Edwin")
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinRomanceOut","GLOBAL",0)
+    RealSetGlobalTimer("EdwinRomance","GLOBAL",2600)
+END
+

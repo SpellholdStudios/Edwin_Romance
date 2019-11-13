@@ -1,0 +1,29 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~En fait Mazzy, j'étais seulement... <CHARNAME> ?! Je... je n'avais pas vu que tu étais là ! (Damnation, malédiction, par tous les feux de l'enfer ! Elle va forcément tout comprendre de travers, c'est clair !)~
+@1    = ~Oui, Edwin. Tu étais tellement occupé à dégoiser des compliments grossiers à Mazzy qu'il n'est pas étonnant que tu ne m'aies pas vu arriver. Mais continue, je suis sûre que tu en avais encore de meilleurs à sortir.~
+@2    = ~Oh, je suis désolée Edwin. C'est une conversation intime ? Devrais-je vous laisser aller choisir vos anneaux et vous disputer pour savoir si vous préférez un prêtre de Shar ou de Helm pour célébrer le mariage ?~
+@3    = ~Cela va te surprendre, Edwin, mais j'ai confiance en toi. Je suis sûre que tu peux m'expliquer ce qui se passait. Je ne bouge pas et suis prête à t'entendre.~
+@4    = ~Quoi, je suis censée m'y intéresser ? Je tiens plus à la terre sous mes pieds qu'à toi et si tu veux vraiment te rendre encore plus risible que d'habitude, laisse-moi m'installer pour en être témoin.~
+@5    = ~Mazzy, soit tu arrêtes immédiatement de battre des cils, soit mon poing s'abaissera suffisamment pour frapper ton visage en train de minauder.~
+@6    = ~<CHARNAME>, j'espère que ceci t'a montré que mes intentions envers madame l'hypocrite étaient tout sauf... euh... romantiques.~
+@7    = ~Oui... Oui je vois ça, Edwin. Oui, je suis... tout à fait convaincue.~
+@8    = ~Oh, je suis parfaitement rassurée, mais devais-tu vraiment être aussi dur avec elle ?~
+@9    = ~Bien sûr. Et je suis tout à fait d'accord avec toi ! Je n'aurais pas mieux dit moi-même. Allez, continue ! S'il te plaît ? Pour moi ? Alleeeeeeeeez ? ~
+@10   = ~Non, je ne te crois toujours pas. Je pense que tu essayes juste de la couvrir !~
+@11   = ~Je suis content de l'entendre, <CHARNAME>. Tu devrais savoir depuis le temps que je n'aime pas la compagnie des idiots. Je préfère de loin celle des personnes capables de soutenir une conversation. D'ailleurs, si nous parlions ?~
+@12   = ~Comme l'apprentie paladin l'aurait probablement dit en ces termes, elle a eu ce qu'elle méritait. Mais oublions-la et passons à un autre sujet plus plaisant... Comme le lancer de sorts ou les habitudes alimentaires des flagelleurs mentaux...~
+@13   = ~*Rire* Peut-être un peu plus tard, <CHARNAME>. Pour l'instant je préfèrerais de loin discuter un peu avec toi...~
+@14   = ~Si ce n'est pas suffisant pour te convaincre, <CHARNAME>, alors j'ai bien peur que rien de ce que je pourrais dire ne suffise. Je... vais donc me soustraire à ta compagnie. De manière permanente.~ [EDWIN34]
+@15   = ~Dans ce cas, <CHARNAME>, fais comme bon de semble. Je pensais qu'il y avait quelque chose de spécial entre nous mais il semble que je me sois bien trompé. Mazzy, comme j'étais en train de dire...~
+@16   = ~<CHARNAME>, tu ne comprends pas. J'apprécie d'habitude la compagnie des halflings et j'essayais de découvrir si celle-ci était plus qu'une boîte de conserve miniature, si satisfaite de la "parfaite vertu" de son âme qu'elle s'imagine que le reste d'entre nous n'attend respectueusement que son divin avis.~
+@17   = ~Oh, elle essaye probablement de se débarrasser de ses toxines en les changeant en eau de rose et en les laissant s'évaporer au travers de ses pores plutôt que de gérer les choses de la manière des autres simples mortels. (Note à moi-même : Ne pas la laisser s'approcher trop près pour éviter une contamination malheureuse. Risque élevé d'attraper un cas aigü de paladinis cretinus.)~
+@18   = ~Félon ! Tu oses traîner dans la boue un serviteur du bien ? Je devrais te punir de ton insolence ! Je devrais renvoyer ton âme noire en enfer et la faire crier en pensant à ce qui l'attend ! Car l'enfer est ce qui attend un jour ta malfaisance, tandis que moi, vertueuse servante d'Arvoreen, j'obtiendrai ma juste récompense en sachant que mon esprit et mon âme sont vierges de toute tâche noire et que j'ai mené une vie d'honneur et de vertu !~ [MAZZY84]
+@19   = ~Ah, oui, je vois. Tu parles d'honneur mais tu n'hésites pas à me menacer de mort juste parce que mes mots et mon attitude te déplaisent. Ce genre d'étrange... comportement que tu n'hésites pas à appeler "malfaisance de base" ou une imbécillité du même genre quand il s'agit des autres te semble parfaitement acceptable quand c'est le tien. Aurais-tu reçu un message de ta déesse qui t'octroierait une dispense pour tous tes actes ?~
+@20   = ~Tu OSES...~
+@21   = ~Oh, j'ose, petite idiote. (Mais qui croient-ils impressionner avec cette phrase éculée, je me le demande ?)  Et vu l'état vierge de ton esprit et de ton âme, tu ferais mieux de réaliser que les seules choses immaculées dans la vie sont celles qui n'ont jamais été utilisées.~
+@22   = ~Mais que dis-tu <CHARNAME> ? Est-ce que tu sous-entends que je pourrais avoir... une relation intime avec ce... ce maléfique individu ? Rien que d'y penser suffirait à souiller une femme courageuse et vertueuse !~ [MAZZY84]
+@23   = ~Mazzy, ce que je sous-entends c'est que si tu ne la fermes pas, je ne pourrais pas être tenue responsable de mes actes !~
+@24   = ~Si tu dis encore ne serait-ce qu'un mot contre Edwin, je m'occuperai personnellement de te raser la tête et les pieds et de te fourrer les poils dans ta bouche hideuse pour te faire taire ! Je suis autorisée à l'insulter, toi tu ne l'es pas. Je suggère que tu essayes de t'en souvenir à moins que tu ne veuilles devenir une femme "vertueuse et chauve" !~
+@25   = ~C'est la goutte d'eau qui fait déborder le vase. En temps normal je te tuerais pour ce commentaire, mais je ne voudrais pas me "souiller" en devant rentrer en contact avec toi. Disparais et prie ta Déesse pour que nous ne nous rencontrions plus jamais !~
+@26   = ~J'exaucerai donc ton voeu, <CHARNAME>. Je prie pour que ta corruption ne soit que temporaire...~

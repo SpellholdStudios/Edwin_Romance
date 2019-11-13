@@ -1,0 +1,9 @@
+// -*- coding: cp1250 -*-
+//This file is encoded in cp1250 (aka windows-1250), the encoding used by Windows terminals in more recent Polish windows versions
+//Windows XP and earlier use cp852
+/* //Commented out due to the issue with character encoding on Win XP versus Win Vista and later
+@0    = ~Edwin Romance~
+@31   = ~Romans z Edwinem NIE jest kompatybilny z czêœci¹ modu Ease-of-Use „Kobieta - Edwina”. By zainstalowaæ Romans z Edwinem, „Kobieta - Edwina” musi zostaæ odinstalowana.~
+@32   = ~Przywrocic portret Edwina z BG1~
+@33   = ~Ta czêœæ wymaga zainstalowania Romansu z Edwinem.~
+*/

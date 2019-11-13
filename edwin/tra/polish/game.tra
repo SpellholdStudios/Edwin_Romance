@@ -1,0 +1,71 @@
+// -*- coding: cp1250 -*-
+//This file is encoded in cp1250, the encoding reportedly used in the Polish version of the game
+
+@1    = ~"Napój mi³osny" Edwina~
+@2    = ~Jest to mieszanka ró¿nych misktur i alkoholu, któr¹ Edwin sporz¹dzi³, gdy nie patrzy³aœ.~
+@3    = ~Pukiel W³osów <CHARNAME>~
+@4    = ~Pukiel W³osów <CHARNAME>
+
+Opis: Jest to kosmyk w³osów <CHARNAME>, spleciony z w³osami Edwina, i zaczarowany przez niego w dowód jego uczuæ. Mo¿e byæ u¿ywany, by przej¹æ kontrolê nad czyimœ umys³em, lecz tak¿e chroni przed niemile widzian¹ uwag¹ innych. Ochrona ta wynika, z jednej strony, z potê¿nego zaklêcia, które chroni umys³ nosz¹cej osoby przed magi¹, a z drugiej strony z mo¿liwoœci uczynienia nosz¹cego niewidzialnym, co pozwala unikn¹æ wytrzeszczonych spojrzeñ i zaczepek. (To jednak nie zadzia³a na samego Czerwonego Czarodzieja. Nawet w najbardziej szczodrym nastroju nie jest na tyle g³upi.) Edwin mówi³ rówie¿, ¿e ten talizman wzmocni wiêŸ miêdzy wami, i rzeczywiœcie czujesz bliskoœæ, której wczeœniej nie by³o. Masz silne wra¿enie, ¿e powinnaœ mieæ ten talizman zawsze przy sobie.
+
+CECHY:
+
+Tarcza umys³u
+
+Trzy razy dziennie mo¿e rzuciæ Dominacjê.
+Raz dziennie mo¿e rzuciæ Niewidzialnoœæ.~
+@5    = ~Edwina~
+@6    = ~Zwój Nicoœci
+To jest Zwój Nicoœci, na którym Edwinowi tak bardzo zale¿a³o. Pergamin jest stary i zmursza³y, wiêc powinno siê obchodziæ z nim niezwykle ostro¿nie. Pokryty jest dziwnymi symbolami i literami, od patrzenia na które ³zawi¹ ci oczy. Co gorsza, gdy próbujesz czytaæ zwój, masz wra¿enie, ¿e coœ czyta ciebie. Edwin nie pozwala zreszt¹ nikomu przypatrywaæ siê pergaminowi d³u¿ej.
+
+Do zwoju dodana jest notka we Wspólnym. Napisano na niej, maluteñkimi literami, co nastêpuje:
+
+Umowa kupna:
+
+Ten Zwój Nicoœci nie nale¿y do ciebie. Nie myœl, ¿e jest twój, tylko dlatego, ¿e wyda³eœ wszystkie swoje pieni¹dze, zastawi³eœ dom i sprzeda³eœ wszystkich krewnych (¿ywych i martwych) w niewolê by zap³aciæ pierwsz¹ ratê. Kupi³eœ jedynie prawo jego u¿ytkowania, niekompetentny uczniaku. Nie masz prawa go kopiowaæ, nawet w swojej bezpiecznie zamkniêtej bibliotece. Jeœli to zrobisz, spodziewaj siê wizyty naszego Dzia³u Prawnego z Baator, w pe³ni wyposa¿onego, razem z biczami i roz¿arzonymi wêglami. Nie wolno ci równie¿ zmodyfikowaæ tego zwoju, wypo¿yczyæ go, sprzedaæ, ani nawet o tym myœleæ. Dzia³ Prawny bardzo lubi swoj¹ pracê.
+
+Ponadto, nie masz absolutnie ¿adnego prawa narzekaæ, jeœli Zwój zadzia³a w sposób nieprzewidziany, powoduj¹c nieodwracalne uszkodzenia ciebie, twojej rodziny, psa, czy ca³ego kontynentu. Sam go kupi³eœ! Czy to nasza wina, ¿e naiwnie wierzysz, ¿e wypuszczamy ca³kowicie sprawny produkt, kiedy mo¿emy przecie¿ zarobiæ góry forsy sprzedaj¹c póŸniej aktualizacje? Oczywiœcie, ¿e to nie nasza wina, co Dzia³ Prawny wyt³umaczy ci z wielk¹ przyjemnoœci¹. W³aœciwie, to powinieneœ nam zap³aciæ za to, ¿e œmiesz coœ takiego insynuowaæ.
+
+Wreszcie, kiedy wyst¹pi pierwszy krytyczny wyj¹tek, (a wyst¹pi, spokojna g³owa), nie spodziewaj siê, ¿e powiadomienie o nim bêdzie mia³o jakikolwiek sens. Napisaliœmy je najbardziej niezrozumiale jak to tylko mo¿liwe, poniewa¿ uwielbiamy wyobra¿aæ sobie, jak przegrzewasz swój ptasi mó¿d¿ek, próbuj¹c je rozszyfrowaæ. (Zazwyczaj s¹ to wyrazy nabazgrane losowo). BUCHACHACHACHA!~
+@7    = ~Barvon~
+@8    = ~Vadrak Dekaras~
+@9    = ~Monferion Palas~
+@10   = ~Orlo Ravonar~
+@11   = ~Ekaterina Drosor~
+@12   = ~Banco~
+@13   = ~Pierœcieñ Banco~
+@14   = ~Ten pierœcieñ nale¿a³ kiedyœ do lisza Uramsesa Banco. Przy jego pomocy by³ on w stanie kontrolowaæ pomniejszych nieumar³ych, tworz¹c z nich pos³uszne i bezrozumne s³ugi. Legenda mówi, ¿e jego kabaret 'Striptiz Szkieletów' by³ w szczególnie z³ym guœcie. Zw³aszcza nieprzyzwoite ruchy ich koœci miednicy.~
+@15   = ~Pierœcieñ Teleportacji~
+@16   = ~Ten pierœcieñ dosta³aœ od Vadraka Dekarasa by dostaæ siê do kryjówki czarodziejów. Wygl¹da na to, ¿e wyczerpa³y mu siê ³adunki.~
+@17   = ~Czujesz, jak porywa ciê magia, i przenosi do innego miejsca, bez mo¿liwoœci powrotu. Mo¿e powinnaœ poszukaæ podobnych pierœcieni wœród rzeczy Czerwonych Czarodziejów.~
+@18   = ~Pierœcieñ znaleziony w kieszeni lisza za³atwi³ sprawê - zosta³aœ przeniesiona do holu. Fuj, ci¹gle œmierdzi rybami.~
+@19   = ~Rycerz z Thay~
+@20   = ~Edwin~
+@21   = ~Cia³o Edwina~
+@22   = ~Bodhi porwa³a Edwina, i dotknê³a go kl¹tw¹ wampiryzmu. Musia³aœ go zabiæ. Byæ mo¿e jest jakiœ sposób, by go o¿ywiæ, chocia¿ nie wiesz, co mia³oby to byæ. Ale lepiej, ¿ebyœ szybko coœ wymyœli³a, zanim jego rodzina siê o tym dowie.~
+@23   = ~Filakterium Banco~
+@24   = ~Filakterium Banco
+
+Ten dziwny przedmiot to filakterium zawieraj¹ce czêœæ duszy lisza Uramsesa Banco. Sprawia, ¿e jest na sta³e zwi¹zany ze swym nieumar³ym cia³em, ale czarodziej o wystarczaj¹cej mocy móg³by go u¿yæ, by uwiêziæ lisza w œrodku.~
+@25   = ~Filakterium Banco
+
+To jest filakterium, które zawiera³o duszê lisza Uramsesa Banco. Teraz, sam lisz jest w nim uwiêziony, i, co zrozumia³e, fakt ten wcale go nie cieszy.
+W ka¿dym razie, przy jego pomocy, mo¿na zaryzykowaæ wykorzystanie mocy nieumar³ego nekromanty.
+
+CECHY:
+
+Raz dziennie mo¿e rzuciæ Zaklêcie Œmierci
+Raz dziennie mo¿e rzuciæ Palec Œmierci.
+Przy ka¿dym u¿yciu istnieje 10% szansa, ¿e lisz siê wydostanie. By zamkn¹æ go ponownie, trzeba go pokonaæ. Dru¿yna nie zdobywa doœwiadczenia za pokonanie lisza.~
+@26   = ~Sztylet Dekarasa~
+@27   = ~Sztylet Dekarasa
+
+Osobista broñ skrytobójcy Dekarasa. Jako ¿e zna siê on na tworzeniu magicznych przedmiotów, jest wielce prawdopodobne, ¿e zaprojektowa³ go sam, i zleci³ jego wykonanie zgodnie ze swoimi wymaganiami. G³ówn¹ cech¹ sztyletu jest niezwyk³a ostroœæ, i zapewne broñ mog³aby ci¹æ koœæ niczym mas³o, jeœli u¿yæ jej odpowiednio. Jeœli u¿yæ jej nieodpowiednio, zapewne mo¿na by straciæ kilka palców.~
+@28   = ~Kusza Dekarasa~
+@29   = ~Kusza Dekarasa
+
+Osobista broñ skrytobójcy Dekarasa. Poddano j¹ paru modyfikacjom, zarówno magicznym jak i mechanicznym, dziêki którym jest bardzo celna i ma daleki zasiêg. Dodatkowo posiada niewyczerpany zasób magicznych be³tów, lecz przez te dodatki jej prze³adowywanie zabiera wiêcej czasu. Gdyby jednak zapytaæ o to w³aœciciela, powiedzia³by ¿e jest to op³acalna wymiana. Zw³aszcza, ¿e rzadko potrzebny mu wiêcej ni¿ jeden strza³.~
+@30   = ~Elvira~
+@34   = ~Pierœcieñ Teleportacji
+
+Jeden z pierœcieni teleportacji u¿ywanych przez podw³adnych lisza Banco. U¿ywali go, by dostaæ siê do kryjówki lisza bez ryzyka wpadniêcia do ukrytego zbiornika z rekinami, lub zostania zmia¿d¿onymi przez spadaj¹cy g³az. W koñcu, najemnicy w dzisiejszych czasach te¿ wol¹ pracê, w której przestrzegane s¹ regu³y BHP. Pierœcieñ wci¹¿ ma co najmniej jeden ³adunek, i powinien przenieœæ was tam, sk¹d przyszliœcie.~

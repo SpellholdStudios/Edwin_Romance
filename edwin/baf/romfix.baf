@@ -1,0 +1,11 @@
+IF
+  Global("AnomenMatch","GLOBAL",1)
+  Global("AnomenRomanceActive","GLOBAL",2)
+  GlobalGT("LoveTalk","LOCALS",30)
+  !InParty("Edwin")
+  !Global("EdwinRomanceWorkaround","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinRomanceWorkaround","GLOBAL",1)
+END
+

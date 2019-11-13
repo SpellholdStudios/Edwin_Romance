@@ -1,0 +1,29 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~Actually Mazzy, I was only...<CHARNAME>?! I...I didn't see you standing there! (Damnation, curses and hellfire! She's bound to misunderstand, isn't she?)~
+@1    = ~Yes, Edwin. It was pretty much obvious that you didn't see me, seeing that you were far too busy oozing cheap flattery over Mazzy. Please don't let me interrupt you, I'm sure you were just getting to the really juicy parts.~
+@2    = ~Oh, I'm sorry Edwin. Was this a private conversation? Shall I leave the two of you to pick out rings and argue over whether you want to be married by a Sharran or a Helmite?~
+@3    = ~It may come as a big surprise to you, Edwin, but I trust you. I'm sure there is nothing going on here that you aren't able to share with me. I'm right here, ready to listen.~
+@4    = ~What, you were expecting me to care? You mean less to me than the dirt under my feet, and if you want to make an even bigger fool of yourself than usual then I'm perfectly content to stand back and watch.~
+@5    = ~Mazzy, either you stop batting your eyelashes at him right now or my fist will stoop so low as to make contact with your simpering little old face.~
+@6    = ~<CHARNAME>, I hope this has managed to reassure you that my intentions towards the Lady Hypocrite were anything but...er...amorous.~
+@7    = ~I...I should certainly think so, Edwin. Yes, I'm...quite convinced. ~
+@8    = ~Oh, I'm reassured all right. But did you really have to be so hard on her?~
+@9    = ~Sure! And boy, do I ever agree with you! Couldn't have said it better myself. Come on, tell her off some more! Please? For my sake? Pleeeeease? ~
+@10   = ~No, I still don't believe you. I think you're just trying to cover for her!~
+@11   = ~I am pleased to hear that, <CHARNAME>. You should have known by now that fools are not my favorite company. I much prefer that of people able to actually carry a conversation. Shall we?~
+@12   = ~As the would-be paladin would probably have phrased it, she got what she deserved. But let us forget her now, and move on to some other, more pleasing topic...such as lancing boils, or the feeding-habits of mindflayers...~
+@13   = ~*chuckle* Perhaps a little later, <CHARNAME>. Right now I would much prefer to spend some time in conversation with yourself...~
+@14   = ~If that wasn't enough to convince you, <CHARNAME>, then I fear nothing I can say to you ever will. I...shall withdraw from your company then. Permanently so.~ [EDWIN34]
+@15   = ~In that case, <CHARNAME>, please do. I thought we meant more to each other than that, but it appears I was sadly mistaken. Mazzy, as I was about to say...~
+@16   = ~<CHARNAME>, you don't understand. I have often found the company of halflings enjoyable, and so I thought to discover if there was more to this one than a miniature tin-can, so satisfied with the 'perfect purity' of her soul she no doubt deludes herself into thinking the rest of us stand in awe, always awaiting her divine judgement.~
+@17   = ~Why, she probably tries to eliminate her waste matter by turning it into rose water and letting it vaporize through her skin, rather than handle things the way mere mortals do. (Note to self: Don't walk too close to her, in case of unwanted exposure. High risk of contracting severe case of acute Would-be-Paladinitis.)~
+@18   = ~Villain! You dare speak such filth to a servant of goodness? I should smite you for your insolence! I should send your black soul screaming in pain to the torment awaiting you in Hell! For Hell it is that will one day claim your wickedness, whereas I, a righteous servant of Arvoreen, will go on to my just reward, knowing that no stain of foulness besmirches my mind and soul and that my life has been one of honor and virtue!~ [MAZZY84]
+@19   = ~Ah, yes. Here it comes. Considering all your talk of honor you are curiously free with your death threats, particularly since your only motive for such seems to be that you dislike my words and demeanor. Strange...behavior that you would deem 'base villainy' or some such nonsense in others seems much more acceptable in yourself. Perhaps you have a note from your Goddess, granting you a general pardon? ~
+@20   = ~You DARE...~
+@21   = ~Oh, I dare, foolish one. (Why do they always assume one will be impressed by that line, I wonder?)  And considering the pristine state of your mind and soul you would do well to remember that the only spotless things in life are the ones that have never been used.~
+@22   = ~<CHARNAME>? What are you saying? Are you implying that I would have...have some sort of intimate relationship with this...this evil piece of filth? The very idea would disgrace any woman of virtue and boldness!~ [MAZZY84]
+@23   = ~Mazzy, what I'm implying is that if you don't shut your mouth and keep it shut I won't be held responsible for my actions!~
+@24   = ~If you say as much as one more insulting word against Edwin I'll personally shave your head and feet and stuff the hair down your ugly mouth to shut it up! I'm allowed to insult him. You are not. I suggest you try to remember that, unless you're eager to become a woman of 'virtue and baldness'!~
+@25   = ~That does it. I'd kill you for that comment, but I wouldn't want to 'disgrace' myself by actually having to come into contact with you. Get lost, and pray to your Goddess that we never meet again!~
+@26   = ~I shall abide by your wishes then, <CHARNAME>. I pray that your corruption is only temporary...~

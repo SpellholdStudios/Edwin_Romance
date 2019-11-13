@@ -1,0 +1,63 @@
+// -*- coding: cp1250 -*-
+
+@0    = ~Przez chwilê o³tarz dŸwiêczy cicho, lecz potem znów cichnie. Wydaje siê oczekiwaæ czegoœ wiêcej. Rozpaczliwie starasz siê odgadn¹æ, co mo¿e pomóc duchowi Edwina wróciæ do ciebie. Byæ mo¿e, podejrzliwy z natury, nie ufa do koñca dziwnemu bogu, lecz mo¿e pomog³aby mu œwiadomoœæ, ¿e ty jesteœ blisko...~
+@1    = ~Nagle zauwa¿asz delikatny blask. Wydaje siê pochodziæ od talizmanu, który Edwin podarowa³ ci na dowód swojej mi³oœci. Twoje i jego w³osy, zwi¹zane tak, jak dwie dusze zwi¹zane s¹ w mi³oœci. Dotykasz ich, i wiesz ju¿, co robiæ. Czujesz przez talizman, ¿e Edwin jest tu, ¿e chce dotrzeæ do ciebie. Medalion bêdzie œwiat³em, które wska¿e mu drogê, jeœli tylko zgodzisz siê go oddaæ. A to mog³oby byæ niebezpieczne - czêœæ ciebie opuœci twoje cia³o i odejdzie do krainy umar³ych. Niedobrze by³oby straciæ j¹ na zawsze.~
+@2    = ~Po³ó¿ Pukiel W³osów <CHARNAME> na o³tarzu.~
+@3    = ~Zachowaj talizman.~
+@4    = ~Zaczarowany przez Edwina pukiel w³osów móg³by sprowadziæ go z powrotem. Nie godzisz siê na to, lecz mo¿e jest inny sposób? Edwin nie zosta³ ca³kowicie przemieniony w wampira, lecz czêœæ wampirycznych instynktów powinna zostaæ mu przekazana. A twoja krew ma w sobie iskrê boskoœci, która przyci¹gnê³aby ka¿dego wampira. Jest to jednak du¿e ryzyko. Nagle uœwiadamiasz sobie, ¿e aby odzyskaæ Edwina, bêdziesz musia³a oddaæ czêœæ w³asnej si³y.~
+@5    = ~Zatnij siê w d³oñ, i pozwól by trochê twojej krwi spad³o na o³tarz.~
+@6    = ~OdejdŸ od o³tarza.~
+@7    = ~Doœæ ju¿ mi zabra³aœ! Oddasz mi duszê Imoen, i oddasz mi Edwina!~
+@8    = ~I dotrzyma³aœ s³owa. Oddaj mi Edwina, a byæ mo¿e oka¿ê ci litoœæ.~
+@9    = ~Œciga³abym ciê za samo porwanie Edwina. Jest dla mnie bardzo wa¿ny.~
+@10   = ~Za bardzo polegasz na sentymentach. Porwanie Edwina ciê nie uratuje.~
+@11   = ~Widzisz tê ostr¹, spiczast¹ rzecz? To siê nazywa K-O-£-E-K. A teraz uwolnij Edwina, albo po zajêciach teoretycznych przyjdzie czas na praktykê.~
+@12   = ~Oddawaj Edwina, Bodhi, albo bêdziesz sobie wysysaæ krew przez s³omkê, a to z powodu powa¿nego braku zêbów!~
+@13   = ~Laboga, Wielki Z³y Wampir próbuje byæ straszny. Ju¿ siê trzêsê. A teraz oddawaj mojego ch³opaka, a byæ mo¿e zadowolê siê samym ko³kiem, bez przybijania ciê do pod³ogi gwoŸdziami. I skorzystania z têpego widelca, plus kadŸ wrz¹cego oleju.~
+@14   = ~Tak jak ty straci³aœ ubranie? Wiesz, wiem ¿e jesteœ wampirem, ale ten rozebrany styl "poka¿-wszystko" jest po prostu... tandetny. A teraz oddaj Edwina, a byæ mo¿e darujê ci twoje nie-¿ycie. Mo¿e nawet udzielê ci kilku darmowych porad w dziedzinie mody.~
+@15   = ~Masz nadziejê odzyskaæ coœ, co jest ci drogie. Zapewniam ciê, ¿e im d³u¿ej to robisz, tym wiêcej stracisz.~
+@16   = ~Nie mówi³am o poœwiêceniu jej, ale ciebie, ma³y czarodzieju. Œcigaj mnie dalej, <CHARNAME>, a stracisz wiêcej, ni¿ mo¿esz sobie wyobraziæ! Zaczynaj¹c od teraz!~
+@17   = ~Ostateczne starcie z Bodhi.
+
+Bodhi zaskoczy³a mnie, zanim dotar³am do jej kryjówki w kryptach, i robi³a co mog³a, bym wpad³a w sza³. Ka¿de jej s³owo by³o dobrane by mnie rozwœcieczyæ. Teraz, gdy straci³am duszê, skaza Bhaala jest coraz bli¿ej wydostania siê. Mo¿e na to w³aœnie liczy³a, a mo¿e nie. Niezale¿nie od tego, na razie to ona ma przewagê, a moje straty s¹ coraz wiêksze. Moja d³oñ dr¿y z morderczej wœciek³oœci, gdy to piszê: Bodhi zabra³a mi Edwina, z pewnoœci¹ by wykorzystaæ go jako pionka w naszej rozgrywce. Nie mam wyjœcia, i muszê ci¹gn¹æ to dalej, chocia¿ tak bardzo bojê siê o jego ¿ycie, jego duszê. Chcia³abym wierzyæ, ¿e bêdzie ostro¿ny, ¿e nie sprowokuje jej, ¿e ona go nie skrzywdzi... Ale znam go zbyt dobrze, by ¿ywiæ tak¹ nadziejê...~
+@18   = ~Ciekawa sztuczka, lecz jestem pewna, ¿e jego los pos³u¿y jako przyk³ad, czy chcesz go z powrotem, czy nie.~
+@19   = ~Ja jestem pani¹ jego woli, choæ nie jest jeszcze w pe³ni  przemieniony. Wytnie ci serce z piersi na jedno moje s³owo, i nic nie mo¿esz zrobiæ, dopóki ¿yjê.~
+@20   = ~Ostateczne starcie z Bodhi.
+
+Bodhi zmieni³a Edwina w wampira! Albo prawie. Mia³a zbyt ma³o czasu by proces siê zakoñczy³. Mam nadziejê, ¿e coœ mo¿na na to poradziæ, albo stracê go na zawsze. Mo¿e elficcy mêdrcy bêd¹ znali jakiœ sposób na uratowanie go... albo Elhan...
+
+Nie wiem. Czarna rozpacz ogarnê³a mnie ca³¹. Straci³am ju¿ duszê. Ale teraz... teraz bojê siê, ¿e straci³am te¿ serce. Potworne by³o ogl¹daæ go w takim stanie. W jego oczach by³ taki ból, takie zagubienie... I pustka, jakby to, co czyni³o go Edwinem odesz³o na zawsze. Wci¹¿ pragn¹³ nadprzyrodzonych mocy, nieœmiertelnoœci. Jakie to okrutnie ironiczne. Nie... mogê wiêcej pisaæ.~
+@21   = ~Ty... przysz³aœ po mnie. Czu³em ciê tam, przez zimno i ból, wzywaj¹c¹ mnie do siebie. To... to dziêki temu nie oszala³em. Tak myœlê. A ty... ty by³aœ gotowa poœwiêciæ coœ tak wa¿nego... dla mnie?~
+@22   = ~<CHARNAME>, nie wiem, co powiedzieæ. Czêœæ mnie jest oburzona g³upot¹ tego poœwiêcenia, ale wiêksza czêœæ mnie chce tylko ca³owaæ ciê do nieprzytomnoœci, i spêdziæ resztê ¿ycia na wynagradzniu ci tego wszystkiego.~
+@23   = ~Jeœli siê dla ciebie poœwiêcam, to nie myœl, ¿e nie jesteœ tego wart, Edwin. Kocham ciê. Myœla³am, ¿e utrata duszy to najgorsze, co mnie kiedykolwiek spotka, ale to by³o zanim straci³am ciebie.~
+@24   = ~*chlip* Eddie, nie b¹dŸ zaraz taki s³odki... Nie jestem pewna czy dam sobie z tym teraz radê. Kocham ciê, i tak strasznie za tob¹ têskni³am, muszê byæ pewna ¿e to ty a nie tylko jakiœ sen.~
+@25   = ~Jedyn¹ g³upotê pope³ni³eœ tutaj ty. Jak mog³eœ pozwoliæ Bodhi tak siê po prostu porwaæ? Jesteœ ca³kiem niekompetentnym kretynem?~
+@26   = ~Ja te¿ ciê kocham, moja devo, i bêdê ciê kocha³ tak d³ugo, jak mi pozwolisz. Twoja mi³oœæ wydosta³a mnie z... nie, nie opiszê tego. To by³ koszmar, pe³en ciemnoœci, rozpaczy i bólu. Obyœ nigdy go nie pozna³a. I sprawi³, ¿e zw¹tpi³em w moje dawne przekonania.~
+@27   = ~Zawsze s¹dzi³em, ¿e wielka moc warta jest ka¿dego poœwiêcenia. Inaczej nie ryzykowa³bym u¿ywania Zwoju Nicoœci. Ale teraz widzia³em, jak to jest byæ nieumar³ym, i zastanawiam siê czy mog³em siê pomyliæ. ( Nie przyzwyczajaj siê. To siê nie bêdzie zdarza³o czêsto.)~
+@28   = ~Chyba potrzebujê tu twojej rady. Bodhi by³a gotowa mnie zniszczyæ tylko po to, by ciê dosiêgn¹æ. A mnie by³oby tak ³atwo staæ siê podobnym do niej, lub jej brata. Czy to mo¿liwe, ¿e niektórych ambicji lepiej nie realizowaæ? Czy to mo¿liwe, ¿e wygrana to nie wszystko?~
+@29   = ~Myœlê, ¿e dokona³eœ wa¿nego odkrycia, i zgadzam siê z tob¹. Kocham ciê, i chcê byœ odnosi³ sukcesy w czymkolwiek, czym siê zajmiesz, ale nie za cenê stania siê drugim Irenicusem.~
+@30   = ~Tak. Wygrywanie jest z pewnoœci¹ wa¿ne, tak samo jak w³adza. Ale po có¿ byæ wszechpotê¿nym, jeœli trzeba zrezygnowaæ z przyjació³ i ukochanych by to osi¹gn¹æ?~
+@31   = ~Oczywiœcie ¿e nie. Nie martw siê takimi sprawami. Ja zamierzam wykorzystaæ ka¿d¹ okazjê jaka mi siê nadarzy, bez wzglêdu na koszta. Ty te¿ powinieneœ. Ka¿de inne podejœcie to g³upota.~
+@32   = ~Wygl¹da na to, ¿e pope³ni³em wiele g³upstw, ³udz¹c siê. Czy przynajmniej pozwolisz mi wam towarzyszyæ? Jest tu nieco wilgotno i zimno, i wola³bym mieæ jakieœ towarzystwo, zamiast wydostawaæ siê st¹d w pojedynkê.~
+@33   = ~Dobra, mo¿esz do nas wróciæ. Tylko uwa¿aj na siebie, ofermo.~
+@34   = ~Ostateczne starcie z Bodhi
+
+Ba³am siê, ¿e Bodhi zemœci siê na mnie, odbieraj¹c mi Edwina na zawsze, ale okaza³o siê, ¿e informacja w ksiêdze by³a prawdziwa... Pos¹g Amaunatora nie tylko przywróci³ Edwina do ¿ycia, ale te¿ zdj¹³ z niego kl¹twê wampiryzmu.
+
+Co do Bodhi, to prawie mam ochotê wskrzesiæ i j¹, chocia¿by ¿eby powiedzieæ jej "A masz, frajerko." No có¿. Przynajmniej na coœ siê teraz przyda. Zu¿y³am tylko serce, i Edwin bêdzie chyba zadowolony z powiêkszenia swojej kolekcji obrzydliwych komponentów do zaklêæ wampirycznego pochodzenia.
+~
+@35   = ~Zapomnij o tym. Nie mamy w tej chwili dla ciebie miejsca.~
+@36   = ~Rozumiem. Wyrazi³aœ siê niezmiernie jasno, <CHARNAME>. Jeœli byœ mnie kiedyœ potrzebowa³a, zapewne bêdê w Miedzianym Diademie.~
+@37   = ~Czujê siê... inny, wewnêtrznie. Inny, w dobry sposób. Twoje s³owa zmieni³y mnie, moja devo, lecz moje uczucia dla ciebie s¹ sta³e. Pragn¹³bym pozostaæ przy twym boku, i udowadniaæ to co dnia. (I co noc. O tak.) Czy zechcesz mnie z powrotem?~
+@38   = ~Oczywiœcie. Kocham ciê, i nie mog³abym daæ sobie rady bez ciebie, nie wiem czy wiesz.~
+@39   = ~*szeroki uœmiech* Nie b¹dŸ niem¹dry. W³aœnie targa³am twoje nie¿ywe cia³o ca³¹ drogê z Athkatli do tego ponurego starego lochu. Nie wypuszczê ciê tak ³atwo.~
+@40   = ~Ehm... W³aœciwie dru¿yna jest ca³kiem kompletna, w tej chwili. Mo¿e póŸniej.~
+@41   = ~Tak, masz racjê, moja devo. Zapewne by³a to chwilowa s³aboœæ spowodowana Os³abieniem Powskrzeszeniowym. * chrz¹kniêcie * Za chwilê bêdê sob¹. I nie pragnê nic wiêcej jak tylko powrotu na moje miejsce przy twym boku. (I mocy absolutnej, oraz spiczastego kapelusza, ale to musi trochê poczekaæ.) Czy chcesz mnie z powrotem?~
+@42   = ~Zatem powinniœmy wyruszaæ. Och, i <CHARNAME>? Mam nadziejê ¿e nie masz ¿adnych planów na dziœ wieczór? Planowa³em wymianê ugryzieñ... nieco przyjemniejszego rodzaju. Przy okazji, zachowa³aœ mo¿e jakieœ fragmenty zw³ok wampira? Naprawdê przyda³yby mi siê na komponenty do czarów...~
+@43   = ~PóŸniej? PÓNIEJ? Ale myœla³em ¿e... Och, niewa¿ne. Wracam do Miedzianego Diademu, jeœli ciê to interesuje. Powinnaœ mnie tam znaleŸæ póŸniej, ale nie myœl, ¿e bêdê na ciebie czeka³.~
+@44	= ~~
+@45   = ~WeŸmy m³odego Edwina. Czarodziej, tak ambitny, tak pragn¹cy mrocznych mocy... które ja posiadam. Ciekawa jestem, na jakie poœwiêcenia by³by gotów w zamian za sekrety, które mogê mu zdradziæ?~
+@46   = ~Twoje szcz¹tki dostarcz¹ mi potê¿nych komponentów do zaklêæ na d³ugie lata, wampirze, i z przyjemnoœci¹ bêdê je ekstrahowa³ i katalogowa³ gdy ty wci¹¿ bêdziesz skrzeczeæ. Nigdy nie poœwiêci³bym  mojej devy dla twoich spisków i manipulacji.~
+@47   = ~Taak... Sprytny ma³y czarodziej. Taki niedobry pupilek. Taki niewdziêczny. Mia³ czelnoœæ mi siê opieraæ, zamiast przyj¹æ mój dar z radoœci¹, tak jak powinien. I nie uwierzy³abyœ jakich u¿ywa³ wyrazów. Ale to bez znaczenia. Mam w koñcu swoje... metody.~
+@48   = ~Mo¿esz dostaæ to co z niego zosta³o, chocia¿ w¹tpiê, by twoje zabiegi mog³y wzbudziæ tak¹ lojalnoœc, jak moje ugryzienie i spojrzenie.~
+@49   = ~Tak jak mówisz, pani... jestem twój, cia³em i dusz¹.~
