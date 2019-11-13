@@ -216,12 +216,13 @@ IF ~IsGabber(Player1) Global("EdwinRomanceActive","GLOBAL",2) Gender("Edwin", MA
     + ~Gender(Myself,FEMALE)~ + @65 + EdwinaChatFixer
     ++ @66 EXIT
 END
-
+/*
 IF ~True()~ Fixer
     SAY ~~
     + ~Gender(Myself,MALE)~ + @64 + EdwinChatFixer
     + ~Gender(Myself,FEMALE)~ + @65 + EdwinaChatFixer
 END
+*/
 
 IF ~~ EN1
   SAY @67

@@ -1,8 +1,14 @@
 
 //The Final
 
-INTERJECT FINSOL01 27 erfinalsol
-  == EDWIN25J IF ~Global("EdwinRomanceActive","GLOBAL",2) InParty("Edwin")~ THEN
+INTERJECT EDWIN25J 0 erfinalsol_nr
+  == EDWIN25J IF ~!Global("EdwinRomanceActive","GLOBAL",2)~ THEN
+   @17
+END
+COPY_TRANS EDWIN25J 0
+
+INTERJECT EDWIN25J 0 erfinalsol
+  == EDWIN25J IF ~Global("EdwinRomanceActive","GLOBAL",2)~ THEN
    @0
 END + ~Alignment("Edwin",MASK_EVIL)~ + @1 EXTERN Edwin25j FELE1
     + ~!Alignment("Edwin",MASK_EVIL)~ + @1 EXTERN Edwin25j FETN1
@@ -12,19 +18,19 @@ END + ~Alignment("Edwin",MASK_EVIL)~ + @1 EXTERN Edwin25j FELE1
     + ~!Alignment("Edwin",MASK_EVIL)~ + @3 EXTERN Edwin25j FETN1
 
 EXTEND_BOTTOM FINSOL01 29
-IF ~Global("EdwinRomanceActive","GLOBAL",2) InParty("Edwin")~ EXTERN EDWIN25J FELEAVE
+IF ~Global("EdwinRomanceActive","GLOBAL",2) InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ EXTERN EDWIN25J FELEAVE_29
 END
 
 EXTEND_BOTTOM FINSOL01 30
-IF ~Global("EdwinRomanceActive","GLOBAL",2) InParty("Edwin")~ EXTERN EDWIN25J FELEAVE
+IF ~Global("EdwinRomanceActive","GLOBAL",2) InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ EXTERN EDWIN25J FELEAVE_30
 END
 
 EXTEND_BOTTOM FINSOL01 31
-IF ~Global("EdwinRomanceActive","GLOBAL",2) InParty("Edwin")~ EXTERN EDWIN25J FELEAVE
+IF ~Global("EdwinRomanceActive","GLOBAL",2) InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ EXTERN EDWIN25J FELEAVE_31
 END
 
 EXTEND_BOTTOM FINSOL01 32
-IF ~Global("EdwinRomanceActive","GLOBAL",2) InParty("Edwin")~ EXTERN EDWIN25J FESTAY
+IF ~Global("EdwinRomanceActive","GLOBAL",2) InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ EXTERN EDWIN25J FESTAY
 END
 
 APPEND EDWIN25J
@@ -48,15 +54,22 @@ END
 
 IF ~~ FELETN
   SAY @8
-  COPY_TRANS FINSOL01 27
+  COPY_TRANS EDWIN25J 0
 END
 
-IF ~~ FELEAVE
+IF ~~ FELEAVE_29
   SAY @9
-  + ~!InParty("Imoen2") !InParty("Sarevok")~ + @10 EXTERN FINSOL01 33
-  + ~InParty("Imoen2") !InParty("Sarevok")~ + @10 EXTERN IMOEN25J 18
-  + ~InParty("Sarevok") Alignment("Sarevok",MASK_EVIL)~ + @10 EXTERN SAREV25J 4
-  + ~InParty("Sarevok") !Alignment("Sarevok",MASK_EVIL)~ + @10 EXTERN SAREV25J 6
+  COPY_TRANS FINSOL01 29
+END
+
+IF ~~ FELEAVE_30
+  SAY @9
+  COPY_TRANS FINSOL01 30
+END
+
+IF ~~ FELEAVE_31
+  SAY @9
+  COPY_TRANS FINSOL01 31
 END
 
 IF ~~ FESTAY
@@ -68,14 +81,6 @@ END
 
 IF ~~ FESTAY2
   SAY @15
-  + ~!InParty("Imoen2") !InParty("Sarevok")~ + @16 EXTERN FINSOL01 33
-  + ~InParty("Imoen2") !InParty("Sarevok")~ + @16 EXTERN IMOEN25J 19
-  + ~InParty("Sarevok") Alignment("Sarevok",MASK_EVIL)~ + @16 EXTERN SAREV25J 5
-  + ~InParty("Sarevok") !Alignment("Sarevok",MASK_EVIL)~ + @16 EXTERN SAREV25J 7
+  COPY_TRANS FINSOL01 32
 END
 END
-
-ADD_TRANS_TRIGGER EDWIN25J FELETN ~!Global("EdwinRomanceActive","GLOBAL",2)~ DO 20
-ADD_TRANS_TRIGGER FINSOL01 27 ~!Global("EdwinRomanceActive","GLOBAL",2)~ DO 20
-ADD_TRANS_TRIGGER KORGA25J 3 ~!Global("EdwinRomanceActive","GLOBAL",2)~ DO 20
-ADD_TRANS_TRIGGER KELDO25J 1 ~!Global("EdwinRomanceActive","GLOBAL",2)~ DO 20

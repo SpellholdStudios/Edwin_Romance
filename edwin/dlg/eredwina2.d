@@ -8,7 +8,7 @@
 /* THIS IS ADDED TO THE EDWINJ DIALOG, THE WEIGHT MEANS IT IS PROCESSED AND ACTIVATED RANDOMLY IF CERTAIN CONDITIONS ARE SPECIFIED - SEE SCRIPT FILE FOR DETAILS */
 APPEND EDWINJ
 
-IF WEIGHT #18 ~!Gender("Edwin",MALE) Global("EdwinaFlirt","GLOBAL",2) See(Player1) !StateCheck(Player1,STATE_SLEEPING)~ THEN BEGIN EDWINAFLIRT
+IF WEIGHT #18 ~Global("EdwinaFlirt","GLOBAL",2)~ THEN BEGIN EDWINAFLIRT
    SAY @0
    IF ~~ THEN REPLY @1 DO ~SetGlobal("EdwinaFlirt","GLOBAL",3)~ GOTO EDWINAFLIRT2
 END
@@ -97,7 +97,7 @@ END
 
 // Second Edwina Male PC banter
 // Adjusted these to set EdwinaFlirt to 5 instead of 2 as I couldn't come up with a single rational reason of setting them back to 2 - Nebukad
-IF WEIGHT #19 ~!Gender("Edwin",MALE) Global("EdwinaFlirt","GLOBAL",4) See(Player1) !StateCheck(Player1,STATE_SLEEPING)~ THEN BEGIN EDWINAFLIRT7
+IF WEIGHT #19 ~Global("EdwinaFlirt","GLOBAL",4)~ THEN BEGIN EDWINAFLIRT7
    SAY @15
 IF ~~ THEN REPLY @16 DO ~SetGlobal("EdwinaFlirt","GLOBAL",5)~ GOTO EDWINAFLIRT8
 IF ~~ THEN REPLY @17 DO ~SetGlobal("EdwinaFlirt","GLOBAL",5)~ GOTO EDWINAFLIRT8
@@ -143,7 +143,7 @@ END
 
 //Third Edwina/Male PC banter, to take place after Degardan's first appearance
 
-IF ~!Gender("Edwin",MALE) !Global("EdwinaFlirt","GLOBAL",0) Global("TalkedDegardan","GLOBAL",1) See(Player1) !StateCheck(Player1,STATE_SLEEPING) !Global("PainfullBurns","LOCALS",1) Global("Edwinahaddegdia","LOCALS",1)~ THEN BEGIN EDWINAFLIRT14
+IF ~!Global("EdwinaFlirt","GLOBAL",0) !Global("PainfullBurns","LOCALS",1) Global("Edwinahaddegdia","LOCALS",1)~ THEN BEGIN EDWINAFLIRT14
   SAY @34
 IF ~~ THEN REPLY @35 GOTO EDWINAFLIRT15
 IF ~~ THEN REPLY @36 GOTO EDWINAFLIRT16
@@ -199,7 +199,7 @@ END
 
 //Fourth Edwin(a)/Male PC dialogue, to take place after Edwin is restored to normal. (Yes, I know I'm still calling them 'EdwinaFlirt - it's just to easier keep track of them.) :)
 
-IF ~Gender("Edwin",MALE) !Global("EdwinaFlirt","GLOBAL",0) See(Player1) !StateCheck(Player1,STATE_SLEEPING) Global("Edwinahaddegdia","LOCALS",3) Global("TalkedDegardan","GLOBAL",4)~ THEN BEGIN EDWINAFLIRT21
+IF ~!Global("EdwinaFlirt","GLOBAL",0) Global("Edwinahaddegdia","LOCALS",3)~ THEN BEGIN EDWINAFLIRT21
    SAY @45
 IF ~~ THEN REPLY @46 GOTO EDWINAFLIRT22
 IF ~~ THEN REPLY @47 GOTO EDWINAFLIRT22

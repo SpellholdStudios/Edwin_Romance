@@ -1,24 +1,4 @@
-EXTEND_BOTTOM FATESP 6 #1
-+ ~!Dead("Edwin")
-   Global("EdwinSummoned","GLOBAL",0)
-   Gender(Player1,FEMALE)
-   CheckStatGT(Player1,13,INT)
-   !Global("AnomenRomanceActive","GLOBAL",2)
-   !Global("EdwinRomanceActive","GLOBAL",3)
-   !Global("E3FadeRomanceActive","GLOBAL",2)
-   !Global("ChloeRomanceActiveCR","GLOBAL",2)
-   !Global("J#KelseyRomanceActive","GLOBAL",2)
-   !Global("TsujathaRomanceActive","GLOBAL",2)
-   !Global("imoenromanceactive","GLOBAL",2)
-   !Global("H#ValygarRomanceActive","GLOBAL",2)
-   !GlobalGT("SolaTalk","GLOBAL",8)
-   OR(5)
-     Race(Player1,HUMAN)
-     Race(Player1,HALF_ELF)
-     Race(Player1,ELF)
-     Race(Player1,HALFLING)
-     Race(Player1,GNOME)~ + @0 DO ~SetGlobal("EdwinSummoned", "GLOBAL", 1) SetGlobal("EdwinRomanceActive","GLOBAL",2) SetGlobal("EdwinMatch", "GLOBAL", 1)~ + 8
-END
+
 
 ADD_STATE_TRIGGER Edwin25a 0 ~!Global("EdwinRomanceActive","GLOBAL",2)~ 7
 

@@ -8,7 +8,7 @@
 @5    = ~Oui, oui, c'est ça. Dooonc... Tu l'aimes alors ? Tu l'aimes vraiment, vraiment ?~
 @6    = ~Euh... Je... Comme je disais, occupe-toi de tes affaires, espèce de pitoyable simien !~
 @7    = ~*sourire* C'est pas grave, Edwin. Tu rougis tellement que je prends ça pour un "oui".~
-@8    = ~Enervante petite pie... Je n'y peux rien si ces robes sont un peu trop chaudes ! (Mais pourquoi <CHARNAME> n'est-elle pas fille unique ?)~
+@8    = ~Enervante petite pie... Je n'y peux rien si ces robes sont un peu trop chaudes !~
 @9    = ~Hé Eddy, c'est quand que tu nous pousses la chansonnette ?~
 @10   = ~(Quelqu'un lui a encore donné du sucre. Je vais trouver qui et alors je les tuerai. Lentement. A moins que ce soit <CHARNAME>, auquel cas je me contenterai d'une vengeance plus plaisante.) Mon nom est Edwin, espèce d'idiote piaillant en continu. Même ton minuscule cerveau est capable de se souvenir de deux simples syllabes ? (<CHARNAME> peut m'appeler ainsi si elle le souhaite, mais c'est la *seule*.) De qu'elle chansonnette parles-tu ?~
 @11   = ~Eh bien je pensais que tous les hommes qui voulaient impressionner leur petite amie poussaient la chansonnette ! Tu ne veux pas être romantique ? Et vu à quel point tu frimes... euh... parles... Je pensais que tu aurais aimé nous faire un peu plus apprécier ta voix.~
@@ -24,3 +24,4 @@
 @21	= ~Les gens meurent tout le temps, ça arrive à tous les mortels. Peut-être Bodhi me croyait-elle assez faible pour que cette mort-là m'empêche de m'emparer de ce qui m'appartient, mais elle se trompait. Je ne laisserai rien m'empêcher de récupérer mon âme et le pouvoir qui va avec, pas même ça.~
 @22	= ~Et alors ! Il est peut-être mort, la belle affaire. Il y a beaucoup d'autres garçons qui me désirent et ceux qui ne me désirent pas son *si* stupides.~
 @23	= ~Je te comprends, soeurette. C'est juste que je ne peux pas m'empêcher de me demander s'il n'y aurait pas quelque chose que nous pourrions faire. Edwin n'est pas mort depuis longtemps et je ne pense pas qu'il était non plus pleinement vampire, alors il n'est peut être pas trop tard. Je ne sais pas ce que nous pouvons faire... mais je pense que nous devrions bien fouiller cet endroit. Peut-être y a-t'il un sortilège Anti-Vamp dans le coin ou quelque chose comme ça. Bon sang, ils gardaient bien une masse de disruption et plein de pieux dans tous les coins...~
+@24   = ~(Mais pourquoi <CHARNAME> n'est-elle pas fille unique ?)~

@@ -1,5 +1,8 @@
 
 IF
+  InParty(Myself)
+  !See([ENEMY])
+  CombatCounter(0)
   OR(2)
     Global("EdwinRomanceActive", "GLOBAL", 1)
     Global("EdwinRomanceActive", "GLOBAL", 2)

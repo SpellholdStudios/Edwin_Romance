@@ -11,12 +11,15 @@ SET_WEIGHT EDWINJ 0 #-3
 SET_WEIGHT EDWINJ 1 #-2
 SET_WEIGHT EDWINJ 4 #-1
 
-
+/*
 ADD_TRANS_TRIGGER EDWINJ 17 ~!Global("EdwinRomanceActive","GLOBAL",1)~
 EXTEND_BOTTOM EDWINJ 17
 IF ~Global("EdwinRomanceActive","GLOBAL",1)~ THEN DO
 ~SetGlobal("EdwinKiss","GLOBAL",1) EraseJournalEntry(46840) SetGlobal("TalkedDegardan","GLOBAL",3) ActionOverride("degard",Enemy())~ SOLVED_JOURNAL #47742 EXIT
 END
+*/
+ADD_TRANS_ACTION EDWINJ BEGIN 17 END BEGIN END ~SetGlobal("EdwinKiss","GLOBAL",1)~
+
 
 APPEND EDWINJ
 
@@ -105,6 +108,25 @@ END
 END
 
 
+REPLACE_ACTION_TEXT_REGEXP EDWINJ ~SetGlobalTimer("EdwinScroll","GLOBAL",\(FOUR\|TWO\)_DAYS)~ ~SetGlobalTimer("EdwinScroll","GLOBAL",2000)~ 
+REPLACE_ACTION_TEXT_REGEXP EDWINJ ~SetGlobalTimer("EdwinScroll","GLOBAL",ONE_DAY)~ ~SetGlobalTimer("EdwinScroll","GLOBAL",3000)~ 
+
+REPLACE_ACTION_TEXT_REGEXP EDWINJ ~ForceSpell(Myself,EDWIN_CHANGE)~ ~ForceSpell(Myself,EDWIN_CHANGE)
+Wait(1)
+ChangeGender(Myself,FEMALE)
+Polymorph(MAGE_FEMALE_HUMAN)~ 
+
+
+ADD_TRANS_ACTION EDWINJ BEGIN 7 END BEGIN END ~GiveItemCreate("scrlnet",Myself,0,0,0)~ 
+ADD_TRANS_ACTION EDWINJ BEGIN 8 END BEGIN END ~GiveItemCreate("scrlnet",Myself,0,0,0)~
+ADD_TRANS_ACTION EDWINJ BEGIN 12 END BEGIN END ~TakePartyItem("scrlnet") DestroyItem("scrlnet")~
+ADD_TRANS_ACTION EDWINJ BEGIN 13 END BEGIN END ~TakePartyItem("scrlnet") DestroyItem("scrlnet")~
+ADD_TRANS_ACTION EDWINJ BEGIN 14 END BEGIN END ~TakePartyItem("scrlnet") DestroyItem("scrlnet")~
+
+/* other transactions moved to edwin.baf */
+
+
+/*
 REPLACE EDWINJ
 
 IF ~~ THEN BEGIN 7
@@ -218,6 +240,7 @@ Wait(3)
 END
 
 END   // END REPLACE EDWINJ
+*/
 
 APPEND EDWINJ
 
@@ -246,7 +269,7 @@ END
 IF ~~ THEN BEGIN NOWAY
   SAY @43
   IF ~~ THEN REPLY @44 GOTO NOWAY1
-  IF ~~ THEN REPLY @45 GOTO NOWAY2
+  IF ~Global("C#IM_ImoenStays","GLOBAL",0)~ THEN REPLY @45 GOTO NOWAY2
   IF ~~ THEN REPLY @46 GOTO NOWAY3
 END
 
@@ -299,6 +322,14 @@ EXTEND_BOTTOM DEGARD 5
   IF ~Global("EdwinRomanceActive","GLOBAL",1)~ THEN REPLY #7451 UNSOLVED_JOURNAL #46840 GOTO 4
 END
 
+
+
+REPLACE_ACTION_TEXT_REGEXP DEGARD ~ForceSpell("[^)]+",EDWIN_CHANGE_BACK)~ ~ForceSpell("edwin",EDWIN_CHANGE_BACK)
+Wait(1)
+ChangeGender("edwin",MALE)
+ActionOverride("edwin",Polymorph(MAGE_MALE_HUMAN))~ 
+
+/*
 REPLACE DEGARD
 
 IF ~~ THEN BEGIN 9
@@ -313,20 +344,24 @@ SetGlobal("TalkedDegardan","GLOBAL",2)~ EXIT
 END
 
 END /* END REPLACE DEGARD */
+*/
+
 
 EXTEND_BOTTOM ARAN 43
   + ~Global("EdwinRomanceActive", "GLOBAL", 2) OR(2) !GlobalGT("EdwinDekkieLetter", "GLOBAL", 0) Global("BancoDead", "GLOBAL", 1)~ + #43067 + 47
   + ~Global("EdwinRomanceActive", "GLOBAL", 2) GlobalGT("EdwinDekkieLetter", "GLOBAL", 0) !Global("BancoDead", "GLOBAL", 1)~ + #43067 EXTERN ~EDWINJ~ NOWAY
 END
 
-A_T_T ARAN 43 ~!Global("EdwinRomanceActive", "GLOBAL", 2)~ DO 2
+A_T_T ARAN 43 ~!Global("EdwinRomanceActive", "GLOBAL", 2)~ DO 1
+
 
 EXTEND_BOTTOM ARAN 45
   + ~Global("EdwinRomanceActive", "GLOBAL", 2) OR(2) !GlobalGT("EdwinDekkieLetter", "GLOBAL", 0) Global("BancoDead", "GLOBAL", 1)~ + #43076 + 47
   + ~Global("EdwinRomanceActive", "GLOBAL", 2) GlobalGT("EdwinDekkieLetter", "GLOBAL", 0) !Global("BancoDead", "GLOBAL", 1)~ + #43076 EXTERN ~EDWINJ~ NOWAY
 END
 
-A_T_T ARAN 45 ~!Global("EdwinRomanceActive", "GLOBAL", 2)~ DO 1
+A_T_T ARAN 45 ~!Global("EdwinRomanceActive", "GLOBAL", 2)~ DO 0
+
 
 EXTEND_BOTTOM ARAN 48
   + ~Global("EdwinRomanceActive", "GLOBAL", 2) OR(2) !GlobalGT("EdwinDekkieLetter", "GLOBAL", 0) Global("BancoDead", "GLOBAL", 1)~ + #43083 + 47
@@ -357,6 +392,7 @@ END
 
 A_T_T BODHI 113 ~!Global("EdwinRomanceActive", "GLOBAL", 2)~ DO 1
 
+
  /*
 REPLACE ARAN
 
@@ -377,7 +413,7 @@ IF ~~ THEN BEGIN 45
   IF ~Global("EdwinRomanceActive","GLOBAL",2) !Global("BancoDead","GLOBAL",1)~ THEN REPLY #43076 EXTERN ~EDWINJ~ NOWAY
 END
 
-IF ~Global("AranJob","GLOBAL",3) Global("LassalVampires","GLOBAL",3) Global("spokeTrip","LOCALS",1) !Global("Chapter","GLOBAL",6)~ THEN BEGIN 48
+IF ~Global("AranJob","GLOBAL",3) Global("LassalVampires","GLOBAL",3) Global("spokeTrip","LOCALS",1) !Global("Chapter","GLOBAL",%bg2_chapter_6%)~ THEN BEGIN 48
   SAY #43081
   IF ~~ THEN REPLY #43082 GOTO 46
   IF ~!Global("EdwinRomanceActive","GLOBAL",2)~ THEN REPLY #43083 GOTO 47

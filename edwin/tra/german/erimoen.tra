@@ -8,7 +8,7 @@
 @5    = ~Blah, blah, was auch immer. Alsoooo... liebt Ihr sie? Liebt Ihr sie so richtig?~
 @6    = ~Uh... ich... wie ich sagte, kümmert Euch um Eure Angelegenheiten, Ihr jämmerliche Äffin!~
 @7    = ~*grins* Schon gut, Edwin. So rot, wie Ihr werdet, nehme ich das als “ja“.~
-@8    = ~Entnervende kleine Kröte... was kann ich dafür, dass diese Roben für das Klima viel zu warm sind? (Warum konnte <CHARNAME> kein Einzelkind sein?)~
+@8    = ~Entnervende kleine Kröte... was kann ich dafür, dass diese Roben für das Klima viel zu warm sind?~
 @9    = ~Hey Eddie, wann kommt das Ständchen?~
 @10   = ~(Jemand hat ihr wieder Zucker gegeben. Ich werde herausfinden, wer, und dann töte ich denjenigen. Langsam. Wenn es nicht <CHARNAME> war. In dem Fall werde ich zu einer angenehmeren Form von Strafe greifen.) Mein Name ist Edwin, Ihr immer babbelnde Idiotin. Sicherlich kann sich sogar Euer minimales Hirn an zwei winzige Silben erinnern? (<CHARNAME> mag mich nennen, wie sie will. Aber das ist *es*.) Von welchem Ständchen babbelt Ihr?~
 @11   = ~Ich dachte, alle Jungs, die ihre Freundin beeindrucken wollen, bringen ihr ein Ständchen! Seid Ihr gar nicht romantisch? Und soviel, wie Ihr motzt... äh... redet... nahm ich an, Ihr wolltet Eure Stimme schon einmal üben.~
@@ -24,3 +24,5 @@
 @21	= ~Leute sterben ständig. Es wartet auf jeden Sterblichen. Vielleicht dachte Bodhi, ich sei so schwach, dass dieser bestimmte Tod mich davon abhalten würde, mir zu holen, was mein ist. Aber sie hat sich getäuscht. Nichts wird mich davon abhalten, mir meine Seele zurückzuholen und die Macht, die darin liegt. Nicht einmal das.~
 @22	= ~Wie Du! Vielleicht ist er tot, wie schrecklich. Da sind so viele Jungs, die mich wollen, und die, die mich nicht wollen, sind *so* dumm.~
 @23	= ~Ich höre Dich, Schwessie. Ich frage mich nur, ob es etwas gibt, was wir tun können. Edwin ist noch nicht lange tot und ich glaube, er war auch noch kein vollständiger Vampir. Es ist vielleicht noch nicht zu spät. Ich bin nicht sicher, was zu tun ist - aber ich denke, wir sollten diesen Ort richtig gründlich durchsuchen. Vielleicht liegt hier irgendwo ein Anti-Vamp-Spruch rum oder so was. Mensch, die hatten hier einen Streitkolben der Zerschlagung und bündelweise Pfähle rumfliegen... ~
+
+@24   = ~(Warum konnte <CHARNAME> kein Einzelkind sein?)~

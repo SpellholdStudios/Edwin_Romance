@@ -8,26 +8,61 @@ THEN
 END
 
 IF
-  OR(2)
-  Global("Beddim1","LOCALS",1)
-  Global("Beddim1","LOCALS",3)
-  RealGlobalTimerExpired("Imoedwinbanter","LOCALS")
   InParty("Edwin")
   InParty(Myself)
-  See("Edwin")
-  !StateCheck("Edwin",STATE_SLEEPING)
+  OR(2)
+	Global("Beddim1","LOCALS",1)
+	Global("Beddim1","LOCALS",3)
+  RealGlobalTimerExpired("Imoedwinbanter","LOCALS")
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("EdwinRomanceActive","GLOBAL",2)
 THEN
   RESPONSE #100
     IncrementGlobal("Beddim1","LOCALS",1)
     RealSetGlobalTimer("Imoedwinbanter","LOCALS",3000)
+END
+
+IF
+  InParty("Edwin")
+  InParty(Myself)
+  OR(2)
+	Global("Beddim1","LOCALS",2)
+	Global("Beddim1","LOCALS",4)
+  !StateCheck("Edwin",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
+THEN
+  RESPONSE #100
     StartDialogNoSet("Edwin")
 END
 
 IF
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
   Global("CommentEdvamp","LOCALS",0)
   GlobalGT("EdwinVampire","GLOBAL",0)
   AreaCheck("AR0800")
+THEN
+  RESPONSE #100
+    SetGlobal("CommentEdvamp","LOCALS",1)
+END
+
+IF
+  InParty(Myself)
+  See(Player1)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !See([ENEMY])
+  CombatCounter(0)
+  Global("CommentEdvamp","LOCALS",1)
 THEN
   RESPONSE #100
     StartDialogNoSet(Player1)

@@ -1,0 +1,28 @@
+// -*- coding: cp1252 -*-
+
+@0    = ~What of the inevitable pain you must give to the one you love?  The wizard you call 'Edwin'.~
+@1    = ~What now?~
+@2    = ~Ah, my favorite student. It is you I take it, young Edwin?~ [er_dek5]
+@3    = ~M-master Dekaras? No, this cannot be. You went back to Thay, I know it!~
+@4    = ~So I did, boy. So I did. And it was in Thay that I died.~
+@5    = ~D-died?! No! I refuse to believe that! This...this is some sort of trick, a ruse... It has to be!~
+@6    = ~Have I ever lied to you, boy? As you have lied to me? Deep down you know this to be true. I am dead, as dead as the bleached bones of the hordes of Thay, buried deep in the soil of Rasheman. And it is all your fault.~
+@7    = ~M-my fault? NO! I would never...~
+@8    = ~You abandoned and betrayed the mission that brought us out of Thay, and in doing so you abandoned and betrayed me. How very fitting that it should be for the sake of <CHARNAME>, another ungrateful child who turned tail and ran while her own mentor died for her sake.~
+@9    = ~B-but I had to! I could not give <CHARNAME> up, you know that. And you forgave me for it, you said so! You...you have to forgive me!~
+@10   = ~Do I? Do I really? Shall I tell you then, my student, what it is you ask me to forgive? After we had met again I went back to Thay, that much is true. I had some hopes of salvaging the sad remains of your career, the little that was left of it after you failed to carry out your assignment to recruit or eliminate <CHARNAME>.~
+@11   = ~But I...~
+@12   = ~Unfortunately the Red Wizards were even more put out with you than we had realized. And since I had been your partner they decided that I must also have been your accomplice in high treason. They turned out to be singularly uninterested in explanations but very eager for confessions.~
+@13   = ~Not...not...torture? (I'm going to be sick. Any moment now.)~
+@14   = ~Oh, yes. For once you have come upon the correct answer without having it pointed out to you with the Finger of Obviousness. Torture. Excruciating torture that eventually proved fatal.~
+@15   = ~The amounts of pain the human body can withstand before ceasing to function really are astounding. And did you know that a wizard can keep the tortured person from losing consciousness more or less indefinitely?  Such a treat that was.~
+@16   = ~No! No more! You were always my friend, I would never want that! Please,  I cannot take this!~
+@17   = ~You cannot take this? You? Do you realize what I had to take, to keep them from dragging your whereabouts out of me? Do you? They refused to let me die, you see, not until I gave you to them. But I refused them to the end, even as I was practically insane from all the suffering.~
+@18   = ~I always cared for you, you know. I always thought of you as my own son. I would have done anything to keep you safe. But you, with your casual little betrayal, your fling with a doomed woman, you murdered me as certainly as if you had wielded the knives and the burning irons yourself.~
+@19   = ~NOOOO! Enough! <CHARNAME>, make it stop, I beg you!~
+@20   = ~This wasn't his fault and you know it, assassin! Stop this at once!~
+@21   = ~Stop this, Gorion!  He doesn't deserve this!~
+@22   = ~Enough!  I won't allow this to continue!~
+@23   = ~It's all lies Edwin! It isn't real!~
+@24   = ~Don't believe him, Eddie! He isn't who he seems to be, any more than Gorion was!~
+@25   = ~Don't listen to him Edwin! He is trying to destroy you! You must strike first!~

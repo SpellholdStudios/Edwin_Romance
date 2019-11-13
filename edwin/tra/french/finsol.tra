@@ -17,3 +17,8 @@
 @14   = ~Je pense qu’il est grand temps de rendre ton petit jeu de faux semblants réel. Toi et moi, juste une femme mortelle et un homme mortel et aucune destinée qui nous empêche d’être ensemble dans le futur.~
 @15   = ~Mais je ne comprends pas... J’ose à peine y croire ! Comme peux-tu faire cela ?  Comment peux-tu abandonner ta récompense ultime ? (Suis-je en train de rêver ?)~
 @16   = ~Parce que je t’aime. Et notre amour est la seule récompense dont j’aie besoin.~
+
+
+
+/* #67879 slit into two: */
+@17   = ~C'était ton but, non ? (Je n'ai pas suivi cet insupportable primate jusqu'ici pour rien ! Sinon, à quoi bon ?)~ [EDWI2513] ~C'était ton but, non ? (Je n'ai pas suivi cette insupportable primate jusqu'ici pour rien ! Sinon, à quoi bon ?)~ [EDWI2513]
