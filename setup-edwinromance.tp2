@@ -8,7 +8,7 @@ BACKUP ~edwin/backup~
 SUPPORT ~http://www.shsforums.net/forum/69-edwin-romance/~
 
 README ~edwin/edwinromance-readme.html~
-VERSION ~v2.0.8 pre 0.1~
+VERSION ~v2.0.9~
 
 AUTO_TRA ~edwin/tra/%s~
 
@@ -636,7 +636,7 @@ END
 	INT_VAR 
 		type = 2 
 	STR_VAR 
-		dv = edwin_edtemp 
+		dv = edwin_cdtemp 
 		override_SoA = edwin 
 		override_ToB = edwi25 
 		dialog_ToB = edwin25a
@@ -647,7 +647,7 @@ END
     
 	COPY_EXISTING ~fatesp.dlg~ ~override~ // add additional triggers/actions for edwin-as-romance
 	  DECOMPILE_AND_PATCH BEGIN
-	    REPLACE_TEXTUALLY ~Dead("edwin_edtemp")~ ~Dead("edwin") Gender(Player1,FEMALE)
+	    REPLACE_TEXTUALLY ~Dead("edwin_cdtemp")~ ~Dead("edwin") Gender(Player1,FEMALE)
    CheckStatGT(Player1,13,INT)
    !Global("EdwinRomanceActive","GLOBAL",3)
    !Global("AnomenRomanceActive","GLOBAL",2)
@@ -661,16 +661,16 @@ END
      Race(Player1,ELF)
      Race(Player1,HALFLING)
      Race(Player1,GNOME)~
-	    REPLACE_TEXTUALLY ~SetGlobal("edwin_edtempSummoned","GLOBAL",1)~ ~SetGlobal("EdwinSummoned", "GLOBAL", 1) SetGlobal("EdwinRomanceActive","GLOBAL",2) SetGlobal("EdwinMatch", "GLOBAL", 1)~
-	    REPLACE_TEXTUALLY ~edwin_edtemp~ ~edwin~ // any other cleanup
+	    REPLACE_TEXTUALLY ~SetGlobal("edwin_cdtempSummoned","GLOBAL",1)~ ~SetGlobal("EdwinSummoned", "GLOBAL", 1) SetGlobal("EdwinRomanceActive","GLOBAL",2) SetGlobal("EdwinMatch", "GLOBAL", 1)~
+	    REPLACE_TEXTUALLY ~edwin_cdtemp~ ~edwin~ // any other cleanup
 	  END
 	  BUT_ONLY
 	  
 	COPY_EXISTING ~ar4000.bcs~ ~override~ // cleanup/disable cruft
 	              ~ar4500.bcs~ ~override~
 	  DECOMPILE_AND_PATCH BEGIN
-	    REPLACE_TEXTUALLY ~[ %TAB%]Global("edwin_edtempSummoned","GLOBAL",[01])~ ~False()~
-	    REPLACE_TEXTUALLY ~edwin_edtemp~ ~edwin~ // any other cleanup
+	    REPLACE_TEXTUALLY ~[ %TAB%]Global("edwin_cdtempSummoned","GLOBAL",[01])~ ~False()~
+	    REPLACE_TEXTUALLY ~edwin_cdtemp~ ~edwin~ // any other cleanup
 	  END
 	  BUT_ONLY
   END

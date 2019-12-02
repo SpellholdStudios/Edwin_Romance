@@ -302,9 +302,11 @@ THEN
     IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
 END
 
+
+/* morning after drunk talk */
 IF
   InParty(Myself)
-  RealGlobalTimerExpired("EdwinRomance","GLOBAL")
+// no timer check!  RealGlobalTimerExpired("EdwinRomance","GLOBAL")
   !Global("EdwinRomanceActive","GLOBAL",0)
   !Global("EdwinRomanceActive","GLOBAL",3)
   Global("EdwinMatch","GLOBAL",1)
