@@ -1,6 +1,9 @@
 IF
   Global("EdwinRomanceActive","GLOBAL",1)
   Global("EdwinRomanceOut","GLOBAL",0)
+  OR(2) //not if Edwin is Vampire
+    Global("EdwinVampire","GLOBAL",0)
+    GlobalGT("EdwinVampire","GLOBAL",5)
   !InPartyAllowDead("Edwin")
   !Dead("Edwin")
 THEN
