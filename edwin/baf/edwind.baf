@@ -14,19 +14,19 @@ IF
   Global("EddieCantGetDrunk","GLOBAL",3)
 THEN
   RESPONSE #100
-    SetInterrupt(FALSE)
-    GiveItemCreate("EDPOTN",Myself,0,0,0)
-    MoveViewObject("Edwin",INSTANT)
-    Wait(2)
+//    SetInterrupt(FALSE)
+//    GiveItemCreate("EDPOTN",Myself,0,0,0)
+//    MoveViewObject("Edwin",INSTANT)
+//    Wait(2)
     SetGlobal("EdwinDrunk","GLOBAL",1)
-    UseItem("EDPOTN",Myself)
-    Wait(2)
+//    UseItem("EDPOTN",Myself)
+//    Wait(2)
     IncrementGlobal("EdwinLoveTalk","LOCALS",1)
     IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
     RealSetGlobalTimer("EdwinRomance","GLOBAL",2800)
     PlaySong(999990)
     SetInterrupt(TRUE)
-    Interact(Player1)
+    Interact(Myself)
 END
 
 IF
@@ -44,12 +44,12 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("EdwinKiss","GLOBAL",2)
-    MoveViewObject("Edwin",INSTANT)
+//    MoveViewObject("Edwin",INSTANT)
     IncrementGlobal("EdwinLoveTalk","LOCALS",1)
     IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
     RealSetGlobalTimer("EdwinRomance","GLOBAL",2800)
     PlaySong(999990)
-    Interact(Player1)
+    Interact(Myself)
 END
 
 IF
@@ -64,12 +64,12 @@ IF
   Global("EdwinLoveTalk","LOCALS",35)
 THEN
   RESPONSE #100
-    MoveViewObject("Edwin",INSTANT)
+//    MoveViewObject("Edwin",INSTANT)
     IncrementGlobal("EdwinLoveTalk","LOCALS",1)   
     IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
     RealSetGlobalTimer("EdwinRomance","GLOBAL",2800)
     PlaySong(999990)
-    Interact(Player1)
+    Interact(Myself)
 END
 
 IF
@@ -89,11 +89,11 @@ IF
   !Global("Chapter","GLOBAL",%bg2_chapter_7%)
 THEN
   RESPONSE #100
-    MoveViewObject("Edwin",INSTANT)
+//    MoveViewObject("Edwin",INSTANT)
     IncrementGlobal("EdwinLoveTalk","LOCALS",1)
     IncrementGlobal("EdwinLoveTalkCheck","GLOBAL",1)
     RealSetGlobalTimer("EdwinRomance","GLOBAL",2800)
     PlaySong(999991)
-    Interact(Player1)
+    Interact(Myself)
 END
 

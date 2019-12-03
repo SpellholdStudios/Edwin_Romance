@@ -316,7 +316,7 @@
         <p class="about">
           <a href="http://www.spellholdstudios.net/ie/edwin">Mod Website</a> &#8226;
           <a href="http://www.shsforums.net/forum/69-edwin-romance/">Mod Forum</a> &#8226;
-          Version: 2.0.9
+          Version: 2.1.0
         </p>
         <hr />
         <p class="menu">
@@ -397,6 +397,12 @@ party is currently in.</p>
 
           <h6>The Endings</h6>
           <p>There are three different ToB endings. One for the PC who stays with Edwin, and one for the PC who becomes a Goddess. The third and final is for non-romanced Edwin, since I personally don't care for the original one.</p>
+		  
+		  <h6>Multi-Romance Cheats</h6>
+          <p>Version 2.0.10 and higher provides the possibility to play Edwin Romance in Multi-Romance mode:
+		  Via Cheats, set the variable "EdwinIgnoreRomances" to "1" to enable Multi-Romance mode:</p>
+		  <p>CLUAConsole:SetGlobal("EdwinIgnoreRomances","GLOBAL",1)</p>
+		  <p>If set, Edwin Romance will ignore all other romances and will also ignored by other romances (as far as the checks are contained within the Edwin Romance Mod). This goes for the original romances as well as considered mod NPC romances. The cheat has to be set before any of the romances turn their status to committed.</p>
           <address>
             <span class="footer">Edwin Romance &gt; About</span> <a href="#top">BACK TO TOP</a>
           </address>
@@ -493,6 +499,17 @@ Anybody I have forgotten, please let me know and I will include you.</span><br /
         <a name="version" id="version"></a>
         <div class="content">
           <h2>Version history</h2>
+
+          <h6>Version 2.0.10:</h6>
+          <ul>
+            <li>Fixed a script bug that would lead to skipping of LT 13.</li>
+			<li>Fixed a bug that would lead to EdwinRomanceActive being set 3 if romance set to committed.</li>
+			<li>Inserted cheat variable Global("EdwinIgnoreRomances","GLOBAL",0): if set to "1", other romances will be ignored and other romances will ignore Edwin romance.</li>
+			<li>Triggering of LTs more stable and frequent: rest dialogues will be triggered by "Interact(Myself)" to make them trigger instantly without Edwin first having to move to the PC; removed the check of nearby NEUTRAL game characters as it tends to prevent dialogues to trigger for most city areas, removed the MoveViewObject from rest talks.</li>
+            <li>Removed the drinking of an actual potion before the "drunk" rest talk (as it might lead to an inventory item being dropped unnoticed).</li>			
+            <li>Interjections into Anomens' LTs recoded (using I_C_T for compatibility).</li>
+            <li>Renamed setup-edwinromance.ini to edwinromance.ini and added links.</li>
+          </ul>
 
           <h6>Version 2.0.9:</h6>
           <ul>

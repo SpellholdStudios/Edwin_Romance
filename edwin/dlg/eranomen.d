@@ -3,6 +3,166 @@
 //EDWIN ROMANCE MOD : ERANOMEN                         //
 //MODIFIED BANOMEN AND BEDWIN FOR EDWIN ROMANCE        //
 /////////////////////////////////////////////////////////
+
+
+I_C_T BANOMEN 106 ER_BANOMEN_106
+== BEDWIN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @0
+== BANOMEN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @1
+== BEDWIN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @2
+== BANOMEN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @15
+END
+
+I_C_T BANOMEN 173 ER_BANOMEN_173
+== BEDWIN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @3
+== BANOMEN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @4
+== BEDWIN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @5
+== BANOMEN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @6
+== BEDWIN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @7
+== BANOMEN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @16
+END
+
+I_C_T BANOMEN 311 ER_BANOMEN_311
+== BEDWIN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @8
+== BANOMEN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @9
+== BEDWIN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @10
+== BANOMEN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1)~ THEN
+      @11
+=     @17
+END
+
+
+INTERJECT BANOMEN 409 ER_BANOMEN_409
+== BEDWIN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1) Global("EdwinIgnoreRomances","GLOBAL",0)~ THEN
+      @12
+== BANOMEN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1) Global("EdwinIgnoreRomances","GLOBAL",0)~ THEN
+      @13
+== BEDWIN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1) Global("EdwinIgnoreRomances","GLOBAL",0)~ THEN
+      @22
+END
+   IF ~~ THEN REPLY @23 EXTERN BEDWIN ANO_EDWIN42
+   IF ~~ THEN REPLY @24 EXTERN BEDWIN ANO_EDWIN43
+   IF ~~ THEN REPLY @25 EXTERN BANOMEN ANO_EDWIN423
+   IF ~~ THEN REPLY @26 EXTERN BANOMEN ANO_EDWIN424
+
+APPEND BEDWIN
+IF ~~ THEN BEGIN ANO_EDWIN42
+   SAY @27
+   IF ~~ THEN DO ~SetGlobal("EdwinRomanceActive","GLOBAL",3)~ EXTERN BANOMEN ANO_EDWIN422
+END
+
+IF ~~ THEN BEGIN ANO_EDWIN43
+   SAY @28
+   IF ~~ DO ~SetGlobal("EdwinRomanceActive","GLOBAL",3) GivePartyAllEquipment() EscapeArea()~ EXTERN BANOMEN ANO_EDWIN422
+END
+END //APPEND
+
+APPEND BANOMEN
+
+IF ~~ THEN BEGIN ANO_EDWIN422
+    SAY @18
+    COPY_TRANS BANOMEN 409
+END
+
+IF ~~ THEN BEGIN ANO_EDWIN423
+    SAY @19
+    IF ~~ THEN DO ~SetGlobal("AnomenRomanceActive","GLOBAL",3)~ EXIT
+END
+
+IF ~~ THEN BEGIN ANO_EDWIN424
+    SAY @20
+    IF ~~ THEN DO ~SetGlobal("AnomenRomanceActive","GLOBAL",3) GivePartyAllEquipment() EscapeArea()~ EXIT
+END
+
+END //APPEND
+
+
+
+
+INTERJECT BANOMEN 341 ER_BANOMEN_341
+== BEDWIN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1) Global("EdwinIgnoreRomances","GLOBAL",0)~ THEN
+      @14
+== BANOMEN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1) Global("EdwinIgnoreRomances","GLOBAL",0)~ THEN
+      @13
+== BEDWIN IF ~InParty("Edwin") See("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)
+Global("EdwinRomanceActive","GLOBAL",1) Global("EdwinIgnoreRomances","GLOBAL",0)~ THEN
+      @22
+END
+   IF ~~ THEN REPLY @23 EXTERN BEDWIN ANO_EDWIN52
+   IF ~~ THEN REPLY @24 EXTERN BEDWIN ANO_EDWIN53
+   IF ~~ THEN REPLY @25 EXTERN BANOMEN ANO_EDWIN523
+   IF ~~ THEN REPLY @29 EXTERN BANOMEN ANO_EDWIN524
+
+APPEND BEDWIN
+
+IF ~~ THEN BEGIN ANO_EDWIN52
+   SAY @30
+   IF ~~ THEN DO ~SetGlobal("EdwinRomanceActive","GLOBAL",3)~ EXTERN BANOMEN ANO_EDWIN522
+END
+
+IF ~~ THEN BEGIN ANO_EDWIN53
+   SAY @31
+   IF ~~ THEN DO ~SetGlobal("EdwinRomanceActive","GLOBAL",3) GivePartyAllEquipment() EscapeArea()~ EXTERN BANOMEN ANO_EDWIN522
+END
+
+END //APPEND
+
+APPEND BANOMEN
+
+IF ~~ THEN BEGIN ANO_EDWIN522
+    SAY @21
+    COPY_TRANS BANOMEN 341
+END
+
+IF ~~ THEN BEGIN ANO_EDWIN523
+    SAY @19
+    IF ~~ THEN DO ~SetGlobal("AnomenRomanceActive","GLOBAL",3)~ EXIT
+END
+
+IF ~~ THEN BEGIN ANO_EDWIN524
+    SAY @20
+    IF ~~ THEN DO ~SetGlobal("AnomenRomanceActive","GLOBAL",3) GivePartyAllEquipment() EscapeArea()~ EXIT
+END
+
+END //APPEND
+
+
+/*
+
+
+
+
 /*
 ADD_TRANS_TRIGGER  BANOMEN 106 ~!Global("EdwinRomanceActive","GLOBAL",1)~
 ADD_TRANS_TRIGGER  BANOMEN 173 ~!Global("EdwinRomanceActive","GLOBAL",1)~
@@ -141,8 +301,8 @@ APPEND BEDWIN
 
 IF ~~ THEN BEGIN ANO_EDWIN41
    SAY @22
-   IF ~~ THEN REPLY @23 GOTO ANO_EDWIN42
-   IF ~~ THEN REPLY @24 GOTO ANO_EDWIN43
+   IF ~~ THEN REPLY @23 EXTERN BEDWIN ANO_EDWIN52
+   IF ~~ THEN REPLY @24 EXTERN BEDWIN ANO_EDWIN53
    IF ~~ THEN REPLY @25 EXTERN BANOMEN ANO_EDWIN423
    IF ~~ THEN REPLY @26 EXTERN BANOMEN ANO_EDWIN424
 END
@@ -177,3 +337,4 @@ END
 
 END
 
+*/

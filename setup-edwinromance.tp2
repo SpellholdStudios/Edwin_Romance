@@ -8,7 +8,7 @@ BACKUP ~edwin/backup~
 SUPPORT ~http://www.shsforums.net/forum/69-edwin-romance/~
 
 README ~edwin/edwinromance-readme.html~
-VERSION ~v2.0.9~
+VERSION ~v2.1.0~ //
 
 AUTO_TRA ~edwin/tra/%s~
 
@@ -162,14 +162,13 @@ DESIGNATED 0
 
 /* I externalized this so new mod romances can be added more easily */
 OUTER_SPRINT ~ACTIVE_MOD_NPC_ROMANCE~ 
-~OR(17)
+~OR(16)
 	Global("E3FadeRomanceActive","GLOBAL",2)	//Fade
 	Global("rh#AdrianRomanceActive","GLOBAL",2)	//Adrian
 	Global("C#AjantisRomanceActive","GLOBAL",2) 	//Ajantis BGII
 	Global("ADAngelRomanceActive","GLOBAL",2)	//Angelo
 	Global("c-AranRomanceActive","GLOBAL",2) 	//Aran Whitehand
 	Global("ChloeRomanceActiveCR","GLOBAL",2) 	//Chloe
-	Global("EdwinRomanceActive","GLOBAL",2) 	//Edwin Romance
 	Global("B!GavRA","GLOBAL",2) 			//Gavin BGII
 	Global("ImoenRomanceActive","GLOBAL",2) 	//Imoen Romance
 	Global("J#KelseyRomanceActive","GLOBAL",2) 	//Kelsey
@@ -188,7 +187,6 @@ OUTER_SPRINT ~NO_ACTIVE_MOD_NPC_ROMANCE~
 	!Global("ADAngelRomanceActive","GLOBAL",2)	//Angelo
 	!Global("c-AranRomanceActive","GLOBAL",2) 	//Aran Whitehand
 	!Global("ChloeRomanceActiveCR","GLOBAL",2) 	//Chloe
-	!Global("EdwinRomanceActive","GLOBAL",2) 	//Edwin Romance
 	!Global("B!GavRA","GLOBAL",2) 			//Gavin BGII
 	!Global("ImoenRomanceActive","GLOBAL",2) 	//Imoen Romance
 	!Global("J#KelseyRomanceActive","GLOBAL",2) 	//Kelsey

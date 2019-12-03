@@ -1074,7 +1074,7 @@ IF ~~ THEN BEGIN E160
 	EscapeArea()~ SOLVED_JOURNAL @471 EXIT
 END
 
-//Edwin LT 25
+//Edwin LT 22
 IF WEIGHT #-79 ~Global("BeginEdElDek","LOCALS",0) Global("EdwinMatch","GLOBAL",1) Global("EdwinLoveTalk","LOCALS",44)~ E161
   SAY @496
   ++ @497 DO ~IncrementGlobal("EdwinLoveTalk","LOCALS",1)
