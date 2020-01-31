@@ -1,4 +1,3 @@
-
 /*****************************************************************************************************************************
 * Edwin Romance, by Laufey
 ******************************************************************************************************************************/
@@ -8,7 +7,7 @@ BACKUP ~edwin/backup~
 SUPPORT ~http://www.shsforums.net/forum/69-edwin-romance/~
 
 README ~edwin/edwinromance-readme.html~
-VERSION ~v2.1.0~ //
+VERSION ~v2.11~ //
 
 AUTO_TRA ~edwin/tra/%s~
 
@@ -240,8 +239,11 @@ COMPILE
 
 // Journals for BGII:EE
 ADD_JOURNAL EXISTING TITLE (#74337) @17 @20 @34 USING ~%tra_path%/english/er_bodhi.tra~ ~%tra_path%/%LANGUAGE%/er_bodhi.tra~
+/* deprecated
 ADD_JOURNAL @32 @37 @77 @95 USING ~%tra_path%/english/erdekaras.tra~ ~%tra_path%/%LANGUAGE%/erdekaras.tra~
 ADD_JOURNAL EXISTING @469 @471 USING ~%tra_path%/english/erlovetalk2.tra~ ~%tra_path%/%LANGUAGE%/erlovetalk2.tra~
+*/
+ADD_JOURNAL TITLE (@10006) @10000 @10001 @10002 @10003 @10004 @10005 @10006 USING ~%tra_path%/english/GAME.TRA~ ~%tra_path%/%LANGUAGE%/GAME.TRA~
 
 // Copy, assorted
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
@@ -606,15 +608,6 @@ ACTION_IF GAME_IS ~tob bgt bg2ee eet~ BEGIN
   COMPILE EVALUATE_BUFFER ~edwin/dlg/summon.d~ USING
           ~edwin/%tra_path%/english/summon.tra~
           ~%tra_path%/%LANGUAGE%/summon.tra~
-
-  ACTION_IF FILE_EXISTS_IN_GAME ~balth2.dlg~ BEGIN // Ascension
-    OUTER_SET fl#balth2state = 13
-    ACTION_IF !FILE_EXISTS_IN_GAME finbalth.cre AND // Ascension but hopefully nothing else
-              MOD_IS_INSTALLED wheels.tp2 0 BEGIN // Wheels of Prophecy
-      OUTER_SET fl#balth2state = 6
-    END
-    COMPILE EVAL ~edwin/dlg/asccomp.d~
-  END
 
 END
 

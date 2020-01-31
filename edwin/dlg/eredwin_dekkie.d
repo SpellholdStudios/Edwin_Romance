@@ -24,11 +24,14 @@ END
 IF ~~ THEN BEGIN E163
    SAY @6
    IF ~~ THEN DO ~
+	EraseJournalEntry(@10000)
+	EraseJournalEntry(@10002)
+	EraseJournalEntry(@10004)
    	SetGlobal("EdwinRomanceActive","GLOBAL",3)
         GivePartyAllEquipment()
         LeaveParty()
 	EscapeArea()~
-        SOLVED_JOURNAL @7
+        SOLVED_JOURNAL @10003
         EXIT
 END
 
@@ -41,11 +44,14 @@ END
 IF WEIGHT #17 ~GlobalTimerExpired("MeetingWithDekaras","GLOBAL") Global("DekkieLetter","GLOBAL",1) Global("DekarasComplain","GLOBAL",1)~ THEN BEGIN E165
    SAY @9
    IF ~~ THEN DO ~
+	EraseJournalEntry(@10000)
+	EraseJournalEntry(@10002)
+	EraseJournalEntry(@10004)
 	SetGlobal("EdwinRomanceActive","GLOBAL",3)
 	GivePartyAllEquipment()
 	LeaveParty()
 	EscapeArea()~
-        SOLVED_JOURNAL @7
+        SOLVED_JOURNAL @10003
         EXIT
 END
 

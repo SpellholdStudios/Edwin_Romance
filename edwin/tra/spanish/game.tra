@@ -103,3 +103,45 @@ Quizás sea cierto el viejo dicho que dice: 'Todo lo que tenéis que hacer para te
 
 
 @202   = ~¿Qué? ¿Por qué me miráis? Tomad el poder de una vez.~
+
+/* journal entries - moved here in v2.11 */
+
+/* erdekaras.tra @32 */
+/* UNSOLVED_JOURNAL */
+@10000   = ~Cita Con Un Asesino
+
+Fuimos al encuentro con el amigo Asesino de Edwin, y por ahora seguimos vivos. Parece ser que Dekaras nunca se creyó las mentiras de Edwin, pero aún estaba enormemente disgustado por sus acciones. Ver que regañaban a Edwin como a un simple recadero fue, como mínimo, una experiencia interesante. Por ahora Dekaras no nos ha dado mucha información, pero dio a entender que sabía algo importante y debemos reencontrarnos con él mañana en el Distrito del Puente cuando haya 'reflexionado sobre la situación'. Sólo espero que no decida asesinarnos a todos mientras dormimos...~
+
+/* erdekaras.tra @37 */
+/* SOLVED_JOURNAL */
+@10001   = ~Cita Con Un Asesino
+Fuimos al encuentro con el amigo Asesino de Edwin, y por ahora seguimos vivos. Parece ser que Dekaras nunca se creyó las mentiras de Edwin, pero aún estaba enormemente disgustado por sus acciones. Ver que regañaban a Edwin como a un simple recadero fue, como mínimo, una experiencia interesante. Al final rechacé comprometerme a nada y ambos se marcharon, supuestamente Dekaras volvió con Edwin a Thay. Sólo espero que esto no signifique que algún día vuelvan para asesinarme mientras duermo...~
+
+/* erlovetalk2.tra @469 */
+/* UNSOLVED_JOURNAL */
+@10002  = ~Cita Con Un Asesino
+
+Edwin acaba de recibir una carta de su viejo amigo y mentor, el asesino Dekaras. Sí, el que antes trabajaba con Edwin, tramando matarme si no les era útil a los Magos Rojos. Edwin intentó protegerme, ¡por lo que no se le ocurrió otra cosa que enviar a su amigo a una loca persecución sin sentido al Valle del Viento Helado! Cuanto más lejos, mejor. Salvo que ahora ha vuelto, y probablemente esté muy disgustado. Envió una carta diciéndole a Edwin que quería reunirse con él en el Distrito Portuario de Athkatla, y que yo también debería ir. Algo me dice que será mejor que no le hagamos esperar...~
+
+/* erlovetalk2.tra @471 */
+/* eredwin_dekkie.d @7 */
+/* SOLVED_JOURNAL */
+
+@10003  = ~Cita Con Un Asesino
+
+Edwin recibió una carta de su viejo amigo y mentor, el asesino Dekaras, pidiéndole una cita por un asunto de suma importancia. No pude acompañar a Edwin a la cita con su amigo, por lo que dejó el grupo y se fue al Distrito Portuario de Athkatla por su cuenta.~
+
+/* erdekaras.tra @77 */
+/* UNSOLVED_JOURNAL */
+@10004   = ~La conjura se complica por momentos.
+
+Degardan fue sólo el principio, ahora hay un grupo de Magos Rojos muy peligrosos que pretende matar a Edwin. Incluso peor, son liderados por un liche, uno que además es prácticamente inmortal. Se regenerará mientras sus aprendices vivan. Aparte de eso, ha escondido su alma en una filacteria, una jarra de almas, que nos impide destruirle. Pero según el Asesino Dekaras hay una manera de evitar eso. Dijo que si podíamos distraer a los Magos Rojos el tiempo suficiente podría robar la filacteria, permitiéndonos volver sus poderes contra el liche. Espero que tenga razón, o quizás acabemos todos en el interior de pequeñas jarras.
+
+  El factor adicional es que la Madre de Edwin quiere verme en pedacitos por haber seducido a su inocente niño, lo cual realmente hace que me pregunte por qué me he molestado en levantarme de la cama esta mañana.~
+
+/* erdekaras.tra @95 */
+/* SOLVED_JOURNAL */
+@10005   = ~Los Magos Rojos Muerden El Polvo
+
+Finalmente hemos acabado con la amenaza más reciente para Edwin. Salvarle el cuello se está convirtiendo en una costumbre para mí. Los Magos Rojos que querían su muerte ahora están muertos. Su líder, el liche Uramses Banco, fue encarcelado gracias a su propia filacteria, lo cual es ciertamente un destino muy humillante para un poderoso Nigromante muerto. El mentor de Edwin, el Asesino Dekaras, va a regresar a Thay para intentar aplacar a la Madre de Edwin y convencerla de mis honorables intenciones hacia su único descendiente. Parecía seguro de su éxito, pero no puedo evitar sentir cierta intranquilidad...~
+@10006   = ~Cita Con Un Asesino~

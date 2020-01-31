@@ -101,3 +101,52 @@ Et cependant, ces derniers temps, d’étranges rumeurs se sont faites entendre dan
 Peut-être en effet que le vieil adage a raison : "Pour réussir, il suffit de croire en soi-même et de s’aimer."~
 
 @202  = ~Quoi ? Pourquoi me regardes-tu ainsi ? Allez, accapare-toi ce pouvoir.~
+
+/* journal entries - moved here in v2.11 */
+
+/* erdekaras.tra @32 */
+/* UNSOLVED_JOURNAL */
+@10000   = ~Rencontre avec un Assassin
+
+Nous avons été à la rencontre de l'ami Assassin d'Edwin et pour l'instant nous sommes toujours en vie. Apparemment Dekaras n'a jamais cru aux mensonges d'Edwin mais ses activités lui ont tout de même sérieusement déplu. Voir Edwin se faire gronder comme un gamin ayant fait l'école buissonnière était une expérience intéressante, c'est le moins que l'on puisse dire. Pour l'instant Dekaras ne nous a pas fourni beaucoup d'informations mais il a laissé entendre qu'il savait quelque chose d'important et nous devons à nouveau le rencontrer demain après qu'il ait "réfléchi". J'espère juste que cela ne veut pas dire qu'il va décider de tous nous assassiner dans notre sommeil...~
+
+/* erdekaras.tra @37 */
+/* SOLVED_JOURNAL */
+@10001   = ~Rencontre avec un Assassin
+
+Nous avons été à la rencontre de l'ami Assassin d'Edwin et pour l'instant nous sommes toujours en vie. Apparemment Dekaras n'a jamais cru aux mensonges d'Edwin mais ses activités lui ont quand même sérieusement déplu. Voir Edwin se faire gronder comme un enfant ayant fait l'école buissonnière était une expérience intéressante, c'est le moins que l'on puisse dire. J'ai finalement refusé de m'engager et ils sont tous les deux partis, Dekaras ramenant apparemment Edwin à Thay. J'espère juste que cela ne veut pas dire qu'ils reviendront un jour pour me tuer pendant mon sommeil...~
+
+/* erlovetalk2.tra @469 */
+/* UNSOLVED_JOURNAL */
+@10002  = ~Rendez-vous Avec Un Assassin
+
+
+
+Edwin vient de recevoir une lettre de son vieil ami et mentor, l'assassin Dekaras. Oui, celui qui travaillait avec Edwin auparavant, dans le complot pour me tuer si je ne voulais pas travailler pour les Sorciers Rouges. Edwin a essayé de me protéger et a donc envoyé son ami sur une fausse piste au Val de Bise ! Pour l'instant, tout va bien sauf que maintenant qu'il est revenu, il est probablement très mécontent. Il a envoyé une lettre disant clairement à Edwin de venir le rencontrer dans le District des Docks d'Athkatla et de venir avec lui. Quelque chose me dit que nous ferions mieux de ne pas être en retard...~
+
+/* erlovetalk2.tra @471 */
+/* eredwin_dekkie.d @7 */
+/* SOLVED_JOURNAL */
+
+@10003  = ~Rendez-vous Avec Un Assassin
+
+
+
+Edwin a reçu une lettre de son vieil ami et mentor, l'assassin Dekaras, demandant un rendez-vous pour parler d'un problème très important. Je ne pouvais pas accompagner Edwin à son rendez-vous avec son ami alors il a quitté le groupe et est parti tout seul pour le District des Docks.~
+
+/* erdekaras.tra @77 */
+/* UNSOLVED_JOURNAL */
+@10004   = ~Nous en savons assez pour passer à l'action.
+
+Degardan était seulement le commencement, il y a à présent un groupe extrêment dangereux de Sorciers Rouges prêts à tuer Edwin. Encore pire, leur chef est une liche et elle est pratiquement immortelle en plus. Elle se régénèrera tant que ses apprentis vivront. A part ça, elle a caché son âme à l'intérieur d'un phylactère, un réceptacle pour l'âme qui nous empêche de la détruire. L'Assassin Dekaras prétend cependant qu'il y a un moyen de surmonter cette difficulté. Il dit que si nous pouvons détourner l'attention des Sorciers Rouges assez longtemps, il pourra voler le phylactère, nous permettant de retourner son pouvoir contre la liche. J'espère qu'il a raison ou il se pourrait bien que nous finissions tous dans de petits bocaux.
+
+Et vu qu'en plus la Mère d'Edwin veut que je sois découpée en petits morceaux pour avoir séduit son innocent petit garçon, je me demande vraiment pourquoi j'ai pris la peine de sortir du lit ce matin.~
+
+/* erdekaras.tra @95 */
+/* SOLVED_JOURNAL */
+@10005   = ~Les Sorciers Rouges Mordent La Poussière
+
+La menace la plus récente contre Edwin vient enfin d'être éliminée. Sauver son cou devient une habitude. Les Sorciers Rouges qui en voulaient à sa vie sont à présent morts. Leur chef, la liche Uramses Banco, a été emprisonnée avec l'aide de son propre phylactère, un sort sans aucun doute humiliant pour un puissant nécromancien mort vivant. Le mentor d'Edwin, l'Assassin Dekaras, est retourné à Thay pour essayer de calmer la Mère d'Edwin et la convaincre que je n'ai que des intentions honorables envers son seul rejeton. Il avait l'air confiant de son succès mais je ne peux m'empêcher d'être inquiète...~
+@10006   = ~Rencontre avec un Assassin~
+
+

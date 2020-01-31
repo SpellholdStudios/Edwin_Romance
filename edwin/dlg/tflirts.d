@@ -186,14 +186,14 @@ APPEND EDWIN25J
 
 IF ~IsGabber(Player1) Global("EdwinRomanceActive","GLOBAL",2) Gender("Edwin", MALE)~ Base
   SAY ~~
-    + ~OR(2) Global("HelmRitualDone","GLOBAL",1) Global("DemogorgonIsDead","GLOBAL",1) !Global("ERDemo", "LOCALS", 1)~ + @45 DO ~SetGlobal("ERDemo", "LOCALS", 1) ActionOverride(Player1, StartDialog("Erplay25", Player1))~ EXIT
+    + ~OR(2) Global("HelmRitualDone","GLOBAL",1) Global("DemogorgonIsDead","GLOBAL",1) !Global("ERDemo", "LOCALS", 1)~ + @45 DO ~SetGlobal("ERDemo", "LOCALS", 1) ActionOverride(Player1, SetGlobal("ERDemo", "LOCALS", 1)) ActionOverride(Player1, StartDialog("Erplay25", Player1))~ EXIT
     + ~Global("EdwinRomanceActive","GLOBAL",2) GlobalGT("EdwinVampire","GLOBAL",4) !Global("ERVamp", "LOCALS", 1)~ + @46 DO ~SetGlobal("ERVamp", "LOCALS", 1)~ + Vamp1
-    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERConj", "LOCALS", 1)~ + @47 DO ~SetGlobal("ERConj", "LOCALS", 1) ActionOverride(Player1, SetDialog("Erplay25"))~ + Conj1
+    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERConj", "LOCALS", 1)~ + @47 DO ~SetGlobal("ERConj", "LOCALS", 1)~ + Conj1
     + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinromanceActive","GLOBAL",0) !Global("ERCook", "GLOBAL", 1) AreaType(CITY)~ + @48 + Cook1
-    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERCowl", "LOCALS", 1)~ + @49 DO ~SetGlobal("ErCowl", "LOCALS", 1) ActionOverride(Player1, SetDialog("Erplay25"))~ + Cowl1
+    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERCowl", "LOCALS", 1)~ + @49 DO ~SetGlobal("ErCowl", "LOCALS", 1)~ + Cowl1
     + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERMaev", "LOCALS", 1) Dead("Maevar")~ + @50 + Maev1
     + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERNose", "LOCALS", 1)~ + @51 DO ~SetGlobal("ERNose", "LOCALS", 1) ActionOverride(Player1, SetGlobal("ERNose", "LOCALS", 1)) ActionOverride(Player1, StartDialog("Erplay25", Player1))~ EXIT
-    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERHome", "LOCALS", 1)~ + @52 DO ~ActionOverride(Player1, SetGlobal("ERHome", "LOCALS", 1)) ActionOverride(Player1, StartDialogue("Erplay25", Player1))~ EXIT
+    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERHome", "LOCALS", 1)~ + @52 DO ~SetGlobal("ERHome", "LOCALS", 1) ActionOverride(Player1, SetGlobal("ERHome", "LOCALS", 1)) ActionOverride(Player1, StartDialogue("Erplay25", Player1))~ EXIT
     + ~Global("EdwinRomanceActive","GLOBAL",2) OR(9) AreaCheck("AR0313") AreaCheck("AR0406") AreaCheck("AR0509") AreaCheck("AR0513") AreaCheck("AR0709") AreaCheck("AR0704") AreaCheck("AR1602") AreaCheck("AR2010") AreaCheck("AR2202")~ + @53 DO ~ActionOverride(Player1, SetDialog("Erplay25"))~ + Feet1
     + ~Global("EdwinRomanceActive","GLOBAL",2)~ + @54 DO ~ActionOverride(Player1, SetGlobal("ERBHug", "LOCALS", 1)) ActionOverride(Player1, StartDialog("Erplay25", Player1))~ EXIT
     + ~Global("EdwinRomanceActive","GLOBAL",2) !LOS("Aerie", 30) !LOS("Anomen", 30) !LOS("Haerdalis", 30) !LOS("Imoen", 30) !LOS("Imoen2", 30) !LOS("Jaheira", 30) !LOS("Jan", 30) !LOS("Korgan", 30) !LOS("Mazzy", 30) !LOS("Minsc", 30) !LOS("Nalia", 30) !LOS("Valygar", 30) !LOS("Viconia", 30) !LOS("Yoshimo", 30)~ + @55 DO ~ActionOverride(Player1, SetGlobal("ERshug", "LOCALS", 1)) ActionOverride(Player1, StartDialog("Erplay25", Player1))~ EXIT
@@ -254,7 +254,7 @@ END
 
 IF ~~ EHand2
   SAY @75
-  IF ~~ DO ~ActionOverride(Player1, SetDialogue("")) ActionOverride(Player1, SetGlobal("Hand", "LOCALS", 0))~ EXIT
+  IF ~~ DO ~ActionOverride(Player1, SetDialogue("")) ActionOverride(Player1, SetGlobal("ERHand", "LOCALS", 0))~ EXIT
 END
 
 IF ~~ EWink2
@@ -390,7 +390,7 @@ IF ~~ Cowl3
   SAY @124
      =
       @125
-  IF ~~ DO ~ActionOverride(Player1,SetDialogue(""))~ EXIT
+  IF ~~ EXIT
 END
 
 IF ~~ Feet1
