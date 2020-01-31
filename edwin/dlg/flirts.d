@@ -186,17 +186,17 @@ APPEND EDWINJ
 
 IF ~IsGabber(Player1) OR(2) Global("EdwinRomanceActive","GLOBAL",1) Global("EdwinRomanceActive","GLOBAL",2) Gender("Edwin", MALE)~ Base
   SAY ~~
-    + ~Global("EdwinRomanceActive","GLOBAL",2) Global("PlayerLooksLikeDrow","GLOBAL",1) Global("ERDrow", "LOCALS", 0)~ + @46 DO ~SetGlobal("ERDrow", "LOCALS", 1) ActionOverride(Player1, SetDialog("ERPlayer"))~ + Drow1
+    + ~Global("EdwinRomanceActive","GLOBAL",2) Global("PlayerLooksLikeDrow","GLOBAL",1) Global("ERDrow", "LOCALS", 0)~ + @46 DO ~SetGlobal("ERDrow", "LOCALS", 1)~ + Drow1
     + ~Global("EdwinRomanceActive","GLOBAL",2) Global("ERDrow", "LOCALS", 1) OR(2) AreaCheck("AR2202") AreaCheck("AR2203")~ + @47 DO ~ActionOverride(Player1, SetGlobal("ERDrow", "LOCALS", 1)) ActionOverride(Player1, StartDialog("ERPlayer", Player1))~ EXIT
     + ~Global("EdwinRomanceActive","GLOBAL",2) GlobalGT("DrowTalk","GLOBAL",4) !Global("ERSlay", "LOCALS", 1)~ + @48 DO ~SetGlobal("ERSlay", "LOCALS", 1)~ + Slayer1
     + ~Global("EdwinRomanceActive","GLOBAL",2) GlobalGT("EdwinVampire","GLOBAL",4) !Global("ERVamp", "LOCALS", 1)~ + @49 DO ~SetGlobal("ERVamp", "LOCALS", 1)~ + Vamp1
-    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERConj", "LOCALS", 1)~ + @50 DO ~SetGlobal("ERConj", "LOCALS", 1) ActionOverride(Player1, SetDialog("ERPlayer"))~ + Conj1
+    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERConj", "LOCALS", 1)~ + @50 DO ~SetGlobal("ERConj", "LOCALS", 1)~ + Conj1
     + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinromanceActive","GLOBAL",0) !Global("ERCook", "GLOBAL", 1) AreaType(CITY)~ + @51 + Cook1
-    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERCowl", "LOCALS", 1)~ + @52 DO ~SetGlobal("ErCowl", "LOCALS", 1) ActionOverride(Player1, SetDialog("ERPlayer"))~ + Cowl1
-    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERFirk", "LOCALS", 1) Dead("Firkra02")~ + @53 DO ~SetGlobal("ERFirk", "LOCALS", 1) ActionOverride(Player1, SetDialog("ERPlayer"))~ + Firk1
+    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERCowl", "LOCALS", 1)~ + @52 DO ~SetGlobal("ErCowl", "LOCALS", 1)~ + Cowl1
+    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERFirk", "LOCALS", 1) Dead("Firkra02")~ + @53 DO ~SetGlobal("ERFirk", "LOCALS", 1)~ + Firk1
     + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERMaev", "LOCALS", 1) Dead("Maevar")~ + @54 + Maev1
     + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERNose", "LOCALS", 1)~ + @55 DO ~SetGlobal("ERNose", "LOCALS", 1) ActionOverride(Player1, SetGlobal("ERNose", "LOCALS", 1)) ActionOverride(Player1, StartDialog("ERPlayer", Player1))~ EXIT
-    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERHome", "LOCALS", 1)~ + @56 DO ~ActionOverride(Player1, SetGlobal("ERHome", "LOCALS", 1)) ActionOverride(Player1, StartDialogue("ERPlayer", Player1))~ EXIT
+    + ~!Global("EdwinRomanceActive","GLOBAL",3) !Global("EdwinRomanceActive","GLOBAL",0) !Global("ERHome", "LOCALS", 1)~ + @56 DO ~SetGlobal("ERHome", "LOCALS", 1) ActionOverride(Player1, SetGlobal("ERHome", "LOCALS", 1)) ActionOverride(Player1, StartDialogue("ERPlayer", Player1))~ EXIT
     + ~Global("EdwinRomanceActive","GLOBAL",2) OR(9) AreaCheck("AR0313") AreaCheck("AR0406") AreaCheck("AR0509") AreaCheck("AR0513") AreaCheck("AR0709") AreaCheck("AR0704") AreaCheck("AR1602") AreaCheck("AR2010") AreaCheck("AR2202")~ + @57 DO ~ActionOverride(Player1, SetDialog("ERPlayer"))~ + Feet1
     + ~Global("EdwinRomanceActive","GLOBAL",2)~ + @58 DO ~ActionOverride(Player1, SetGlobal("ERBHug", "LOCALS", 1)) ActionOverride(Player1, StartDialog("ERPlayer", Player1))~ EXIT
     + ~Global("EdwinRomanceActive","GLOBAL",2) !LOS("Aerie", 30) !LOS("Anomen", 30) !LOS("Haerdalis", 30) !LOS("Imoen", 30) !LOS("Imoen2", 30) !LOS("Jaheira", 30) !LOS("Jan", 30) !LOS("Korgan", 30) !LOS("Mazzy", 30) !LOS("Minsc", 30) !LOS("Nalia", 30) !LOS("Valygar", 30) !LOS("Viconia", 30) !LOS("Yoshimo", 30)~ + @59 DO ~ActionOverride(Player1, SetGlobal("ERshug", "LOCALS", 1)) ActionOverride(Player1, StartDialog("ERPlayer", Player1))~ EXIT
@@ -420,7 +420,7 @@ IF ~~ Cowl3
   SAY @139
      =
       @140
-  IF ~~ DO ~ActionOverride(Player1,SetDialogue(""))~ EXIT
+  IF ~~ EXIT
 END
 
 IF ~~ Firk1
@@ -928,7 +928,7 @@ IF ~~ THEN ERPlayer Drow2a
     @323
   == EDWINJ
     @324
-END IF ~~ DO ~ActionOverride(Player1, SetDialogue(""))~ EXIT
+END IF ~~ EXIT
 
 CHAIN
 IF ~~ THEN ERPlayer Drow2b

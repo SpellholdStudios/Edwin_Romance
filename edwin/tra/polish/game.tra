@@ -99,3 +99,47 @@ And yet, as of late there have been troubling rumors heard across the Realms. Ru
 Perhaps it is indeed as the old saying states: 'All you have to do to succeed is to believe in and love yourself.'~
 
 @202  = ~What? Why are you looking at me? Take the power, already.~
+
+/* journal entries - moved here in v2.11 */
+
+/* erdekaras.tra @32 */
+/* UNSOLVED_JOURNAL */
+@10000   = ~Spotkanie ze Skrytobójc¹
+
+Poszliœmy na spotkanie ze znajomym skrytobójc¹ Edwina i, na razie, wci¹¿ ¿yjemy. Okazuje siê, ¿e Dekaras wcale nie uwierzy³ w k³amstwa Edwina, ale by³ nimi powa¿nie ura¿ony. Ogl¹danie, jak beszta³ Edwina niczym uczniaka by³o co najmniej ciekawe... Jak na razie, Dekaras nie dostarczy³ nam zbyt wielu informacji, ale sugerowa³, ¿e wie coœ wa¿nego, i mamy spotkaæ siê z nim jutro w Dzielnicy Mostów, kiedy "przemyœli tê sprawê". Mam tylko nadziejê, ¿e nie zamorduje nas wszystkich w ³ó¿kach...~
+
+/* erdekaras.tra @37 */
+/* SOLVED_JOURNAL */
+@10001   = ~Spotkanie ze Skrytobójc¹
+
+Poszliœmy na spotkanie ze znajomym skrytobójc¹ Edwina i, na razie, wci¹¿ ¿yjemy. Okazuje siê, ¿e Dekaras wcale nie uwierzy³ w k³amstwa Edwina, ale by³ nimi powa¿nie ura¿ony. Ogl¹danie, jak beszta³ Edwina niczym uczniaka by³o co najmniej ciekawe... Ostatecznie nie zrobi³am ¿adnej powa¿nej deklaracji, i obydwaj odeszli. Zapewne Dekaras zabra³ Edwina z powrotem do Thay. Mam tylko nadziejê, ¿e nie wróc¹ kiedyœ, by zamordowaæ mnie w ³ó¿ku...~
+
+/* erlovetalk2.tra @469 */
+/* UNSOLVED_JOURNAL */
+@10002  = ~Spotkanie ze skrytobójc¹
+
+Edwin dosta³ list od swojego przyjaciela i mentora, skrytobójcy Dekarasa. Tego samego, z którym mia³ za zadanie mnie zabiæ, gdybym nie zgodzi³a siê pracowaæ dla Czerwonych Czarodziejów. Edwin chcia³ mnie ochraniaæ, wiêc wys³a³ swojego przyjaciela w sin¹ dal, a konkretnie do Doliny Lodowego Wichru. Niestety, skrytobójca wróci³, i nie jest zbyt zadowolony. Przys³a³ Edwinowi list, w którym wyznaczy³ mu spotkanie w porcie Athkatli, na które ja równie¿ powinnam siê stawiæ. Coœ mi mówi, ¿e lepiej siê nie spóŸniæ...~
+
+/* erlovetalk2.tra @471 */
+/* eredwin_dekkie.d @7 */
+/* SOLVED_JOURNAL */
+
+@10003  = ~Spotkanie ze skrytobójc¹
+
+Edwin dosta³ list od swojego przyjaciela i mentora, skrytobójcy Dekarasa, który wyznaczy³ mu spotkanie w jakiejœ wa¿nej sprawie. Nie mog³am pójœæ z Edwinem na spotkanie, wiêc poszed³ sam zobaczyæ siê z Dekarasem do portu Athkatli.~
+
+/* erdekaras.tra @77 */
+/* UNSOLVED_JOURNAL */
+@10004   = ~Atmosfera zagêszcza siê coraz bardziej
+
+Degardan by³ tylko pocz¹tkiem. Grupa bardzo niebezpiecznych Czerwonych Czarodziejów zosta³a wys³ana by zabiæ Edwina. Co gorsza, przewodzi im lisz, na dok³adkê praktycznie nieœmiertelny. Dopóki jego uczniowie ¿yj¹, bêdzie siê odradza³. Swoj¹ duszê schowa³ w filakterium, Dzbanie Duszy, co uniemo¿liwia nam pokonanie go. Skrytobójca Dekaras twierdzi jednak, ¿e da siê to obejœæ. Powiedzia³, ¿e jeœli zajmiemy Czerwonych Czarodziejów, daj¹c mu czas, ukradnie filakterium i bêdziemy mogli u¿yæ go przeciw liszowi. Mam nadziejê, ¿e siê nie myli, albo wszyscy skoñczymy w ma³ych s³oikach i dzbankach.
+
+  Dodajmy jeszcze, ¿e Matka Edwina chce mnie pokroiæ na ma³e kawa³eczki za uwiedzenie jej niewinnego ch³opczyka, i zaczynam siê zastanawiaæ, po co w ogóle wstawa³am dzisiaj z ³ó¿ka.~
+
+/* erdekaras.tra @95 */
+/* SOLVED_JOURNAL */
+@10005   = ~Czerwoni Czarodzieje gryz¹ ziemiê
+
+Nareszcie, zagro¿enie wobec Edwina zosta³o usuniête. Ratowanie jego skóry zaczyna mi chyba wchodziæ w krew. Czerwoni Czarodzieje, którzy chcieli go zabiæ, sami s¹ teraz martwi. Ich lider, lisz Uramses Banco, zosta³ uwiêziony we w³asnym filakterium - upokarzaj¹cy los dla potê¿nego nekromanty. Mentor Edwina, Skrytobójca Dekaras, wróci³ do Thay by spróbowaæ u³agodziæ Matkê Edwina, i przekonaæ j¹, ¿e moje intencje wobec jej pociechy s¹ szlachetne. Wydawa³ siê pewny sukcesu, ale czujê niepokój...~
+@10006   = ~Spotkanie ze Skrytobójc¹~
+

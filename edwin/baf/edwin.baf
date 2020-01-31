@@ -525,7 +525,6 @@ IF
   InParty(Myself)
   !See([ENEMY])
   CombatCounter(0)
-  RealGlobalTimerExpired("EdwinRomance","GLOBAL")
   Global("EdwinMatch","GLOBAL",1)
   OR(17)
   Global("EdwinLoveTalk","LOCALS",2)

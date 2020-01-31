@@ -1062,16 +1062,19 @@ END
 IF ~~ THEN BEGIN E159
    SAY @468
    IF ~~ THEN DO ~SetGlobalTimer("MeetingWithDekaras","GLOBAL",TWO_DAYS) SetGlobal("DekkieLetter","GLOBAL",1)~
-   UNSOLVED_JOURNAL @469 EXIT
+   UNSOLVED_JOURNAL @10002 EXIT
 END
 
 IF ~~ THEN BEGIN E160
    SAY @470
    IF ~~ THEN DO ~
+	EraseJournalEntry(@10000)
+	EraseJournalEntry(@10002)
+	EraseJournalEntry(@10004)
         GivePartyAllEquipment()
 	SetGlobal("EdwinRomanceActive","GLOBAL",3)
 	LeaveParty()
-	EscapeArea()~ SOLVED_JOURNAL @471 EXIT
+	EscapeArea()~ SOLVED_JOURNAL @10003 EXIT
 END
 
 //Edwin LT 22

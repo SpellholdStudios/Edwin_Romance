@@ -101,3 +101,47 @@ And yet, as of late there have been troubling rumors heard across the Realms. Ru
 Perhaps it is indeed as the old saying states: 'All you have to do to succeed is to believe in and love yourself.'~
 
 @202  = ~What? Why are you looking at me? Take the power, already.~
+
+/* journal entries - moved here in v2.11 */
+
+/* erdekaras.tra @32 */
+/* UNSOLVED_JOURNAL */
+@10000   = ~Appointment With An Assassin
+
+We went to meet with Edwin's Assassin friend, and so far we're still alive. Apparently Dekaras never believed Edwin's lies in the first place, but he was still seriously displeased about Edwin's activities. Seeing Edwin get scolded like an errant child was an interesting experience, to say the least. As of yet Dekaras hasn't provided much in the way of information, but he hinted at knowing something important and we are to meet with him again in the Bridge District tomorrow after he has 'thought things over'.  I just hope he doesn't decide to murder us all in our sleep...~
+
+/* erdekaras.tra @37 */
+/* SOLVED_JOURNAL */
+@10001   = ~Appointment With An Assassin
+
+ We went to meet with Edwin's Assassin friend, and so far we're still alive. Apparently Dekaras never believed Edwin's lies in the first place, but he was still seriously displeased about Edwin's activities. Seeing Edwin get scolded like an errant child was an interesting experience, to say the least. At the end I refused to make any commitment and they both left, Dekaras supposedly taking Edwin back to Thay. I just hope that doesn't mean they will return to murder me in my sleep one day...~
+
+/* erlovetalk2.tra @469 */
+/* UNSOLVED_JOURNAL */
+@10002  = ~Appointment With An Assassin
+
+Edwin just received a letter from his old friend and mentor, the assassin Dekaras. Yes, the one working with Edwin before, in the plot to kill me if I wouldn't work for the Red Wizards. Edwin tried to protect me, and so he sent his friend off on a wild goose chase, to Icewind Dale of all places! So far, so good. Except now he has returned, and is probably very displeased. He sent a letter telling Edwin in no uncertain terms to meet up with him in the Docks District of Athkatla, and that I should come as well. Something tells me we had better not be late...~
+
+/* erlovetalk2.tra @471 */
+/* eredwin_dekkie.d @7 */
+/* SOLVED_JOURNAL */
+
+@10003  = ~Appointment With An Assassin
+
+Edwin received a letter from his old friend and mentor, the assassin Dekaras, requesting a meeting on the matter of utmost importance. I couldn't accompany Edwin to the meeting with his friend, so he has left the group and gone to the Docks District of Athkatla on his own.~
+
+/* erdekaras.tra @77 */
+/* UNSOLVED_JOURNAL */
+@10004   = ~The plot is thick enough by now to be almost solid.
+
+Degardan was just the beginning, now there is a highly dangerous group of Red Wizards out to kill Edwin. Even worse, they are led by a lich, and one who is practically immortal to boot. He will regenerate as long as his apprentices live. Apart from that he has hidden his soul inside a phylactery, a soul-jar, that keeps us from destroying him. The Assassin Dekaras claims there is a way of getting around that though. He said that if we can distract the Red Wizards long enough he will be able to steal the phylactery, enabling us to turn its powers against the lich. I hope he's right, or we may all wind up inside little jars.
+
+  The additional fact that Edwin's Mother wants me chopped into little pieces for seducing her innocent boy really makes me wonder why I bothered to get out of bed this morning.~
+
+/* erdekaras.tra @95 */
+/* SOLVED_JOURNAL */
+@10005   = ~Red Wizards Bite The Dust
+
+ Finally the most recent threat against Edwin has been dealt with. Saving his neck is getting to be something of a habit of mine. The Red Wizards seeking his life are now dead themselves. Their leader, the lich Uramses Banco, was imprisoned with the aid of his own phylactery, surely a humiliating fate for a powerful undead Necromancer to suffer. Edwin's mentor, the Assassin Dekaras, is going back to Thay to try to placate Edwin's Mother and convince her of my honorable intentions towards her only offspring. He seemed confident of his success, but I cannot help but feel uneasy...~
+@10006   = ~Appointment With An Assassin~
+

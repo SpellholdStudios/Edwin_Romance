@@ -120,13 +120,14 @@ END
 IF ~~ EDWIN_REST1B
   SAY @32
   ++ @33
-      DO ~SetGlobal("EdwinRomance","GLOBAL",3) JoinParty()~ SOLVED_JOURNAL @34 EXIT
+      DO ~SetGlobal("EdwinRomance","GLOBAL",3) EraseJournalEntry(@17) JoinParty()~ SOLVED_JOURNAL @34 EXIT
   ++ @35 + EDWIN_REST1C
 END
 
 IF ~~ EDWIN_REST1C
   SAY @36
-  IF ~~ DO ~SetGlobal("EdwinRomanceActive","GLOBAL",3) SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("AR0406",689,1127,0)~ SOLVED_JOURNAL @34 EXIT
+  IF ~~ DO ~EraseJournalEntry(@17) 
+SetGlobal("EdwinRomanceActive","GLOBAL",3) SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("AR0406",689,1127,0)~ SOLVED_JOURNAL @34 EXIT
 END
 
 IF ~~ EDWIN_REST2
@@ -145,12 +146,13 @@ END
 
 IF ~~ EDWIN_REST3
   SAY @42
-  IF ~~ DO ~JoinParty()~ SOLVED_JOURNAL @34 EXIT
+  IF ~~ DO ~EraseJournalEntry(@17) JoinParty()~ SOLVED_JOURNAL @34 EXIT
 END
 
 IF ~~ EDWIN_NOROOM
   SAY @43
-  IF ~~ DO ~SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("AR0406",689,1127,0)~ SOLVED_JOURNAL @34 EXIT
+  IF ~~ DO ~EraseJournalEntry(@17) 
+SetGlobal("KickedOut","LOCALS",1) EscapeAreaMove("AR0406",689,1127,0)~ SOLVED_JOURNAL @34 EXIT
 END
 
 END

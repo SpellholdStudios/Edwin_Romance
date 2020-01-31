@@ -89,7 +89,7 @@ IF ~~ THEN BEGIN EDDIE_LOVE2
   SetGlobalTimer("MeetingWithDekaras","GLOBAL",ONE_DAY)
   SetGlobal("DekkieLetter","GLOBAL",3)
   EscapeArea()~
-  UNSOLVED_JOURNAL @32
+  UNSOLVED_JOURNAL @10000
   EXIT
 END
 
@@ -106,8 +106,11 @@ END
 IF ~~ THEN BEGIN EDDIE_LEAVE
   SAY @36
   IF ~~ THEN DO ~
+	EraseJournalEntry(@10000)
+	EraseJournalEntry(@10002)
+	EraseJournalEntry(@10004)
   EscapeArea()~
-  SOLVED_JOURNAL @37
+  SOLVED_JOURNAL @10001
   EXIT
 END
 
@@ -211,7 +214,7 @@ END
 
 IF ~~ THEN BEGIN DEKKIE15
   SAY @76
-  IF ~~ THEN DO ~SetGlobalTimer("LichQuest","GLOBAL",ONE_DAY) SetGlobal("EdwinLichQuest","GLOBAL",1) EscapeArea()~ UNSOLVED_JOURNAL @77
+  IF ~~ THEN DO ~SetGlobalTimer("LichQuest","GLOBAL",ONE_DAY) SetGlobal("EdwinLichQuest","GLOBAL",1) EscapeArea()~ UNSOLVED_JOURNAL @10004
   EXIT
 END  //END OF THE SECOND DIALOG
 
@@ -277,8 +280,12 @@ END
 
 IF ~~ DEKKIE21
   SAY @94
-  IF ~~ THEN DO ~SetGlobal("DekkieBye","GLOBAL",1)~
-  SOLVED_JOURNAL @95
+  IF ~~ THEN DO ~
+	EraseJournalEntry(@10000)
+	EraseJournalEntry(@10002)
+	EraseJournalEntry(@10004)
+	SetGlobal("DekkieBye","GLOBAL",1)~
+  SOLVED_JOURNAL @10005
   EXIT
 END
 

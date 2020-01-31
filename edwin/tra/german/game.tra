@@ -106,3 +106,44 @@ Vielleicht ist es tatsächlich so, wie das alte Sprichwort behauptet: "Alles, was
 
 
 @202  = ~Was? Warum seht Ihr mich so an? Jetzt greift schon zu und nehmt die Macht.~
+
+/* journal entries - moved here in v2.11 */
+
+/* erdekaras.tra @32 */
+/* UNSOLVED_JOURNAL */
+@10000   = ~Treffen mit einem Meuchelmörder
+
+ Wir sind zu Edwins Meuchelmörderfreund gegangen und sind immer noch am Leben. Offensichtlich hat Dekaras Edwins Lügen nie geglaubt, war aber dennoch ernstlich verärgert. Zu sehen, wie Edwin wie ein Schuljunge abgekanzelt wird, war eine interessante Erfahrung, um die Wahrheit zu sagen. Bisher hat uns Dekaras nicht viele Informationen gegeben, aber er hat angedeutet, etwas Wichtiges zu wissen. Wir sollen ihn morgen wieder treffen, nachdem er sich die Sache hat durch den Kopf gehen lassen. Ich hoffe, er kommt nicht zu der Entscheidung, uns alle im Schlaf zu ermorden...~
+
+/* erdekaras.tra @37 */
+/* SOLVED_JOURNAL */
+@10001   = ~Treffen mit einem Meuchelmörder
+
+ Wir sind zu Edwins Meuchelmörderfreund gegangen und sind immer noch am Leben. Offensichtlich hat Dekaras Edwins Lügen nie geglaubt, war aber dennoch ernstlich verärgert. Zu sehen, wie Edwin wie ein Schuljunge abgekanzelt wird, war eine interessante Erfahrung, um die Wahrheit zu sagen. Schließlich habe ich eine Übereinkunft abgelehnt und sie sind beide gegangen. Dekaras bringt Edwin offenbar zurück nach Thay. Ich hoffe, das bedeutet nicht, dass sie eines Tages zurückkehren, um mich im Schlaf zu ermorden...~
+
+/* erlovetalk2.tra @469 */
+/* UNSOLVED_JOURNAL */
+@10002  = ~Treffen mit einem Meuchelmörder
+
+Edwin hat einen Brief erhalten von seinem alten Freund und Mentor, dem Meuchelmörder Dekaras. Ja, der mit dem Edwin zuvor zusammenarbeitete in dem Versuch, mich entweder für die Roten Magier anzuwerben oder zu ermorden. Edwin versuchte, mich zu schützen und so schickte er seinen Freund auf eine wilde Schnitzeljagd ins Eiswindtal, von allen Orten der schlimmste! So weit, so gut. Allerdings ist er jetzt wieder da und ist womöglich wenig begeistert. Er schickte einen Brief, in welchem er Edwin mit deutlichen Worten aufforderte, ihn im Hafenviertel von Athkatla zu treffen und mich auf jeden Fall mitzubringen. Etwas sagt mir, dass wir besser nicht zu spät kommen...~
+
+/* erlovetalk2.tra @471 */
+/* eredwin_dekkie.d @7 */
+/* SOLVED_JOURNAL */
+
+@10003  = ~Treffen mit einem Meuchelmörder
+
+Edwin hat einen Brief erhalten von seinem alten Freund und Mentor, dem Meuchelmörder Dekaras, der ein Treffen verlangte und das zu einer Sache von höchster Wichtigkeit erklärte. Ich konnte Edwin nicht zu dem Treffen mit seinem Freund begleiten, also hat er die Gruppe verlassen und ist allein ins Hafenviertel von Athkatla aufgebrochen.~
+
+/* erdekaras.tra @77 */
+/* UNSOLVED_JOURNAL */
+@10004   = ~Mittlerweile ist die Brühe dick genug, um fast fest zu sein.
+
+Dekaras war erst der Anfang, jetzt ist eine Gruppe brandgefährlicher Roter Magier darauf aus, Edwin zu töten. Schlimmer noch, sie werden angeführt von einem Leichnam, noch dazu von einem, der praktisch unsterblich ist. Er wird sich regenerieren, solange seine Schüler am Leben sind. Zusätzlich hat er seine Seele in einem Behältnis verborgen, was uns daran hindert ihn zu zerstören. Der Meuchelmörder Dekaras behauptet, es gäbe einen Weg, das zu umgehen. Er sagte, wenn wir die Roten Magier lange genug ablenken, wäre er imstande, den Seelenstein zu stehlen, was uns in die Lage versetzen würde, den Seelenstein gegen den Leichnam zu wenden. Ich hoffe, er hat Recht, sonst enden wir alle in kleinen Splittern. Dazu kommt auch noch, dass Edwins Mutter mich in dünne Scheiben schneiden lassen will, weil ich ihren unschuldigen kleinen Liebling verführt habe. Ich frage mich wirklich, warum ich heute Morgen aufgestanden bin.~
+
+/* erdekaras.tra @95 */
+/* SOLVED_JOURNAL */
+@10005   = ~Die Roten Magier beißen ins Gras
+
+Endlich haben wir uns um die schlimmste Bedrohung für Edwin gekümmert. Seinen Hals zu retten wird langsam zu einer Angewohnheit. Die Roten Magier, die ihm nach dem Leben trachteten, sind nun selbst tot. Ihr Anführer, der Leichnam Uramses Banco, wurde mittels seines eigenen Seelensteins gefangen gesetzt, ein schmähliches Ende für einen so mächtigen untoten Nekromanten. Edwins Mentor, der Meuchelmörder Dekaras, kehrt nach Thay zurück und wird versuchen, Edwins Mutter zu beruhigen und von meinen ehrenhaften Absichten bezüglich ihres einzigen Sohnes zu überzeugen. Er schien von seinem Erfolg überzeugt, aber ich fühle mich nicht ganz wohl in meiner Haut...~
+@10006   = ~Treffen mit einem Meuchelmörder~
