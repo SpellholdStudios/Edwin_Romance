@@ -7,7 +7,7 @@ BACKUP ~edwin/backup~
 SUPPORT ~http://www.shsforums.net/forum/69-edwin-romance/~
 
 README ~edwin/edwinromance-readme.html~
-VERSION ~v2.11~ //
+VERSION ~v2.12~ //
 
 AUTO_TRA ~edwin/tra/%s~
 
@@ -158,6 +158,7 @@ BEGIN @0 //Edwin Romance
 FORBID_COMPONENT ~setup-ease.tp2~ ~20~ @31 //Edwin Romance is not compatible with Ease of Use's Female Edwina Component. It must be uninstalled in order to install Edwin Romance.
 REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @34
 DESIGNATED 0
+LABEL ~LaufeysEdwinRomance-Main~
 
 /* I externalized this so new mod romances can be added more easily */
 OUTER_SPRINT ~ACTIVE_MOD_NPC_ROMANCE~ 
@@ -314,15 +315,28 @@ COPY_EXISTING ~ar0802.bcs~ ~override/ar0802.bcs~
 COPY_EXISTING ~DPLAYER2.bcs~ ~override/DPLAYER2.bcs~
   DECOMPILE_AND_PATCH BEGIN
     REPLACE_TEXTUALLY ~\(BreakingPoint()\)~
-                      ~\1 !CharName("Edwin",Myself) !CharName("Edwina",Myself)~
+                      ~\1  
+		OR(3)
+			!Name("Edwin",Myself)
+			Global("EdwinRomanceActive","GLOBAL",0)
+			Global("EdwinRomanceActive","GLOBAL",3)~
   END
 
-COPY_EXISTING dplayer2.bcs override
-  DECOMPILE_AND_PATCH BEGIN
-    APPEND_FILE ~edwin/baf/dplayer2.baf~
-  END
-BUT_ONLY
-UNLESS ~EdwinRomanceActive~ //Tsujatha appends the same block
+/* leaving party due to rep is hardcoded in EE, we need opcode 360 to prevent that: make him stay unrelated to rep for EE with opcode 360 */
+ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
+  ADD_SECTYPE C#RepLeaveEffect ~~  
+
+/* opcode 360 effect so NPC ignores rep&breaking point */
+  COPY ~edwin/spl/c#replv1.spl~ ~override~
+  WRITE_BYTE 0x27 C#RepLeaveEffect
+  WRITE_BYTE 0xa2 C#RepLeaveEffect
+
+/* remove opcode 360 effect from c#replv1 */
+  COPY ~edwin/spl/c#replv2.spl~ ~override~
+  WRITE_BYTE 0xa2 C#RepLeaveEffect
+
+  EXTEND_BOTTOM ~edwin.bcs~ ~edwin/baf/c#_ignore_rep_ee.baf~
+END
 
 COPY_EXISTING ~edwin.bcs~ ~override/edwin.bcs~
   DECOMPILE_AND_PATCH BEGIN
@@ -540,8 +554,19 @@ LAF HANDLE_AUDIO END
 // ToB Portion
 ACTION_IF GAME_IS ~tob bgt bg2ee eet~ BEGIN
 
-  COPY_EXISTING ~AR6200.bcs~ ~override~
-    REPLACE_BCS_BLOCK ~edwin/baf/tob/erfiold.baf~ ~edwin/baf/tob/erfinew.baf~
+COPY_EXISTING ~AR6200.BCS~ ~override~
+	DECOMPILE_AND_PATCH BEGIN
+		SPRINT textToReplace ~\(Global("EdwinBio","GLOBAL",0)\)~
+		COUNT_REGEXP_INSTANCES ~%textToReplace%~ num_matches
+		PATCH_IF (num_matches > 0) BEGIN
+			REPLACE_TEXTUALLY CASE_INSENSITIVE ~%textToReplace%~ ~\1 !Global("EdwinRomanceActive", "GLOBAL", 2)~
+			PATCH_PRINT ~Patching: %num_matches% matches found in %SOURCE_FILESPEC% for REPLACE_TEXTUALLY: %textToReplace%~
+		END ELSE BEGIN
+			PATCH_WARN ~WARNING: could not find %textToReplace% in %SOURCE_FILESPEC%~
+		END
+	END
+BUT_ONLY
+  EXTEND_TOP ~AR6200.bcs~ ~edwin/baf/tob/erfinew.baf~
 
 
   EXTEND_TOP ~edwi25.bcs~ ~edwin/baf/tob/edwin25.baf~
@@ -671,6 +696,7 @@ END
 BEGIN @32 //Restore Edwin's BG1 portrait; will only work if Edwin hasn't been in party yet.
 REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @33 //This component requires Edwin Romance to be installed.
 DESIGNATED 1
+LABEL ~LaufeysEdwinRomance-RestoreBG1Portrait~
 
 ACTION_FOR_EACH edwin IN edwin7 edwin9 edwin11 edwin12 edwin13 edwin15 BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
@@ -707,6 +733,7 @@ END
 BEGIN @201 //Edwin flirts
 REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @33 //This component requires Edwin Romance to be installed.
 DESIGNATED 2
+LABEL ~LaufeysEdwinRomance-Flirts~
 
 COMPILE ~edwin/dlg/flirts.d~ USING ~edwin/tra/english/flirts.tra~ ~edwin/tra/%s/flirts.tra~
 
@@ -722,6 +749,7 @@ END
 
 BEGIN @108 //New ending for Viconia Romance by Laufey
 DESIGNATED 3
+LABEL ~LaufeysNewViconiaEnding-Main~
 
 COPY_EXISTING ~edwin/dlg/erviconi.2da~ ~override/ervicoen.2da~
   REPLACE ~86249~ @109

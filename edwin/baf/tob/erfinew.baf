@@ -1,19 +1,6 @@
 IF
   Global("StartEndBios","AR6200",1)
   InParty("Edwin")
-  Global("EdwinBio","GLOBAL",0)
-  !Global("EdwinRomanceActive", "GLOBAL", 2)
-THEN
-  RESPONSE #100
-    SetGlobal("EdwinBio","GLOBAL",1)
-    TextScreen("EDWINND")
-    SmallWait(1)
-    Continue()
-END
-
-IF
-  Global("StartEndBios","AR6200",1)
-  InParty("Edwin")
   Global("EdwinRomanceActive","GLOBAL",2)
   Global("PlayerChoseEssence","GLOBAL",0)
   Global("EdwinBio","GLOBAL",0)
