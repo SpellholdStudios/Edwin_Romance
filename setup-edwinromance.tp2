@@ -7,7 +7,7 @@ BACKUP ~edwin/backup~
 SUPPORT ~http://www.shsforums.net/forum/69-edwin-romance/~
 
 README ~edwin/edwinromance-readme.html~
-VERSION ~v2.12~ //
+VERSION ~v3.0~ //
 
 AUTO_TRA ~edwin/tra/%s~
 
@@ -155,10 +155,9 @@ LANGUAGE ~Simplified Chinese~
 
 
 BEGIN @0 //Edwin Romance
-FORBID_COMPONENT ~setup-ease.tp2~ ~20~ @31 //Edwin Romance is not compatible with Ease of Use's Female Edwina Component. It must be uninstalled in order to install Edwin Romance.
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @34
 DESIGNATED 0
 LABEL ~LaufeysEdwinRomance-Main~
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @34
 
 /* I externalized this so new mod romances can be added more easily */
 OUTER_SPRINT ~ACTIVE_MOD_NPC_ROMANCE~ 
@@ -246,17 +245,38 @@ ADD_JOURNAL EXISTING @469 @471 USING ~%tra_path%/english/erlovetalk2.tra~ ~%tra_
 */
 ADD_JOURNAL TITLE (@10006) @10000 @10001 @10002 @10003 @10004 @10005 @10006 USING ~%tra_path%/english/GAME.TRA~ ~%tra_path%/%LANGUAGE%/GAME.TRA~
 
+
 // Copy, assorted
+COPY ~edwin/bam~ override
+
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
   COPY ~edwin/bmp/ee~ override
-  COPY ~edwin/bam/ee~ override
 END ELSE BEGIN
   COPY ~edwin/bmp/bg2~ ~override~
-  COPY ~edwin/bam/bg2~ ~override~
 END
+
+
 COPY ~edwin/phylact/phylact.eff~ ~override/phylact.eff~
+
+/* deprecated, spells will no longer be replaced
 COPY ~edwin/spl/spin662.spl~ ~override/spin662.spl~
 COPY ~edwin/spl/spin916.spl~ ~override/spin916.spl~
+*/
+
+// add name change opcodes to edwin transform spells
+COPY_EXISTING ~spin662.spl~ ~override~ // return to Edwin
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 103 target = 2 parameter2 = 1 timing = 1 END 
+COPY_EXISTING ~spin916.spl~ ~override~ // transform into Edwina
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 103 target = 2 parameter2 = 1 timing = 1 END 
+COPY_EXISTING ~spin662.spl~ ~override~
+  FOR (i = LONG_AT 0x6a; i < SOURCE_SIZE; i += 0x30) BEGIN
+    READ_SHORT i type
+    PATCH_IF type = 103 BEGIN //change name
+      SAY i + 0x4 #271
+    END
+  END
+
+COPY_EXISTING ~spin916.spl~ ~override~
   FOR (i = LONG_AT 0x6a; i < SOURCE_SIZE; i += 0x30) BEGIN
     READ_SHORT i type
     PATCH_IF type = 103 BEGIN //change name
@@ -264,6 +284,8 @@ COPY ~edwin/spl/spin916.spl~ ~override/spin916.spl~
     END
   END
 
+
+//Music
 MKDIR ~music/MxEdwin~
 MKDIR ~music/MxDwina~
 COPY ~edwin/music/MxEdwin.mus~ ~music/MxEdwin.mus~
@@ -321,6 +343,7 @@ COPY_EXISTING ~DPLAYER2.bcs~ ~override/DPLAYER2.bcs~
 			Global("EdwinRomanceActive","GLOBAL",0)
 			Global("EdwinRomanceActive","GLOBAL",3)~
   END
+
 
 /* leaving party due to rep is hardcoded in EE, we need opcode 360 to prevent that: make him stay unrelated to rep for EE with opcode 360 */
 ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
@@ -693,47 +716,23 @@ END
 
 
 
-BEGIN @32 //Restore Edwin's BG1 portrait; will only work if Edwin hasn't been in party yet.
-REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @33 //This component requires Edwin Romance to be installed.
+BEGIN @32 //Restore Edwin BG1 component
 DESIGNATED 1
 LABEL ~LaufeysEdwinRomance-RestoreBG1Portrait~
+REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @33 //This component requires Edwin Romance to be installed.
+FORBID_COMPONENT ~Setup-EdwinRomance.tp2~ 4 @205 //This component needs to be installed before the Edwina Portrait component.
 
-ACTION_FOR_EACH edwin IN edwin7 edwin9 edwin11 edwin12 edwin13 edwin15 BEGIN
-  ACTION_IF FILE_EXISTS_IN_GAME "%edwin%.cre" BEGIN
-    COPY_EXISTING "%edwin%.cre" override
-      WRITE_ASCII 0x3c ~EDWINM~ #8
-      WRITE_ASCII 0x34 ~EDWINS~ #8
-    BUT_ONLY
-  END
-END
+COPY_EXISTING ~EDWINL.bmp~ ~override/NEDWINL.bmp~
+COPY_EXISTING ~EDWINM.bmp~ ~override/NEDWINM.bmp~
+COPY_EXISTING ~EDWINS.bmp~ ~override/NEDWINS.bmp~
 
-COPY_EXISTING ~spin662.spl~ ~override~
-  FOR (i = LONG_AT 0x6a; i < SOURCE_SIZE; i += 0x30) BEGIN
-    READ_SHORT i       fx
-    READ_LONG  i + 0x8 p2
-    PATCH_IF fx = 107 BEGIN //change portrait
-      PATCH_IF p2 = 1 BEGIN
-        WRITE_ASCII i + 0x14 edwinm #8
-      END ELSE PATCH_IF p2 = 0 BEGIN
-        WRITE_ASCII i + 0x14 edwins #8
-      END
-    END
-  END
-BUT_ONLY
-
-ACTION_FOR_EACH file IN edwinnd eredwin1 eredwin2 BEGIN
-  ACTION_IF FILE_EXISTS_IN_GAME "%file%.2da" BEGIN
-    COPY_EXISTING "%file%.2da" override
-      REPLACE_TEXTUALLY ~NEDWINL~ ~EDWINL~
-  END
-END
 
 
 
 BEGIN @201 //Edwin flirts
-REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @33 //This component requires Edwin Romance to be installed.
 DESIGNATED 2
 LABEL ~LaufeysEdwinRomance-Flirts~
+REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @33 //This component requires Edwin Romance to be installed.
 
 COMPILE ~edwin/dlg/flirts.d~ USING ~edwin/tra/english/flirts.tra~ ~edwin/tra/%s/flirts.tra~
 
@@ -750,9 +749,63 @@ END
 BEGIN @108 //New ending for Viconia Romance by Laufey
 DESIGNATED 3
 LABEL ~LaufeysNewViconiaEnding-Main~
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @34
 
 COPY_EXISTING ~edwin/dlg/erviconi.2da~ ~override/ervicoen.2da~
   REPLACE ~86249~ @109
 
 COPY_EXISTING ~AR6200.bcs~ ~override~
   REPLACE_BCS_BLOCK ~edwin/baf/tob/NNVico.baf~ ~edwin/baf/tob/YNVico.baf~
+
+
+
+BEGIN @202 /* Give Edwina a Portrait */
+DESIGNATED 4
+LABEL ~LaufeysEdwinRomance-EdwinaPortrait~
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @34
+FORBID_COMPONENT ~Setup-cdtweaks.tp2~ 1180 @203 //Edwina Portrait component from Tweaks Anthology is installed.
+FORBID_COMPONENT ~setup-ease.tp2~ ~20~ @204 //Edwina Portrait component from Ease of Use is installed.
+
+
+ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
+
+// add portrait change opcodes to edwin transform spells
+COPY_EXISTING ~spin662.spl~ ~override~ // return to edwin
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 1 timing = 1 STR_VAR resource = nedwinl END // large portrait
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 0 timing = 1 STR_VAR resource = nedwinm END // small portrait
+
+  ACTION_IF (MOD_IS_INSTALLED ~Setup-EdwinRomance.tp2~ "1") THEN BEGIN
+
+    COPY ~edwin/bmp/syntia13/bg1/syntia13_330.bmp~ ~override/edwinam.bmp~
+         ~edwin/bmp/syntia13/bg1/syntia13_330.bmp~ ~override/edwinas.bmp~
+
+  END ELSE BEGIN
+
+    COPY ~edwin/bmp/syntia13/syntia13_330.bmp~ ~override/edwinam.bmp~
+         ~edwin/bmp/syntia13/syntia13_330.bmp~ ~override/edwinas.bmp~
+
+  END
+
+END ELSE BEGIN
+
+// add portrait change opcodes to edwin transform spells
+COPY_EXISTING ~spin662.spl~ ~override~ // return to edwin
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 1 timing = 1 STR_VAR resource = nedwinm END // large portrait
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 0 timing = 1 STR_VAR resource = nedwins END // small portrait
+
+  ACTION_IF (MOD_IS_INSTALLED ~Setup-EdwinRomance.tp2~ "1") THEN BEGIN
+    COPY ~edwin/bmp/syntia13/bg1/syntia13_170.bmp~ ~override/edwinam.bmp~
+         ~edwin/bmp/syntia13/bg1/syntia13_60.bmp~  ~override/edwinas.bmp~
+
+  END ELSE BEGIN
+
+    COPY ~edwin/bmp/syntia13/syntia13_170.bmp~ ~override/edwinam.bmp~
+         ~edwin/bmp/syntia13/syntia13_60.bmp~  ~override/edwinas.bmp~
+  END
+
+END 
+
+// add portrait change opcodes to edwin transform spells
+COPY_EXISTING ~spin916.spl~ ~override~ // change to edwina
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 1 timing = 1 STR_VAR resource = edwinam END // large portrait
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 0 timing = 1 STR_VAR resource = edwinas END // small portrait

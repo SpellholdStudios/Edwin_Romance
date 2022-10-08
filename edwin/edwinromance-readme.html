@@ -316,7 +316,7 @@
         <p class="about">
           <a href="http://www.spellholdstudios.net/ie/edwin">Mod Website</a> &#8226;
           <a href="http://www.shsforums.net/forum/69-edwin-romance/">Mod Forum</a> &#8226;
-          Version: 2.12
+          Version: 3.0
         </p>
         <hr />
         <p class="menu">
@@ -337,8 +337,9 @@
           <p>Question: So, what's this all about, anyway?</p>
 
           <p>Answer: It is a Weidu mod for Baldur's Gate, Shadows of Amn, that allows the player to carry out a romantic relationship with Edwin Odesseiron, that insulting Thayvian wizard wearing red. It is also the culmination of a very long project for me, and one that would never have been finished without the help of many different people. For more information on that, see the Credits section. I had a lot of fun writing this mod - if it gives you, the player, even a fraction of that pleasure, I will be content.</p>
-          <p>An additional optional component for the romance is a new epilogue for romanced and redeemed Viconia, of a less tragic kind than the original one. Note that this will in no way affect the Edwin romance in itself, so if you prefer Viconia's original epilogue, simply bypass this component upon
-installation.</p>
+         <p>The mod also offers to switch Edwin's portrait to the BG1 one in an optional component (requires the main romance component).</p>
+          <p>The fourth, optional component is a new epilogue for romanced and redeemed Viconia, of a less tragic kind than the original one. This component can be installed independent on the Edwin romance. Note that this will in no way affect the Edwin romance in itself, so if you prefer Viconia's original epilogue, simply bypass this component upon installation.</p>
+         <p>The fifth, optional component gives Edwina an own (female) portrait, similar in style than the male one. This component can be installed independent on the Edwin romance, and it will consider the BG1 variant if the according component is installed.</p>
           <address>
             <span class="footer">Edwin Romance &gt; Introduction</span> &#8226;<a href="#top">BACK TO TOP</a>
           </address>
@@ -350,10 +351,9 @@ installation.</p>
           <h2>Installation</h2>
           <p>BGII is required. If you have ToB the full romance will be installed, otherwise only the SoA part will be installed. No fanmade mods are required, but the Edwin Romance as been tested and seems to run well with at least other Weidu mods. The mods that people have tested together with the ER include: Ascension, Redemption, The Longer Road, Solaufein, Valen, Kelsey, Tactics, Item Upgrades, Ease of Use, Dungeon-Be-Gone, NPC Banter Pack, Ashes of Embers, Unfinished Business, Tsujatha, semi multi clerics, TDDsinTDD, Corthala Romantique, the FWItem pack, G3 tweaks (some components), Hubelpot, eSeries, FR/ROV, Planar Sphere, Refinements (some components) and Improved Battles.</p>
 
-          <p>Please note that the 'Female Edwina' component of Ease of Use may potentially cause conflict with the Edwin Romance's Female Edwina, so you
-will not be able to install Edwin Romance if you have that component installed.</p>
+          <p>Please note that the 'Female Edwina' component of Tweaks Anthology (from Ease of Use) may potentially cause conflict with the Edwin Romance's Female Edwina, so you will not be able to install the component "Give Edwina a Portrait" if you have that component installed, and it's also not advisable to install the TA / EoU component on top of the Edwin Romance one.</p>
 
-          <p>So far incompatible: Big Picture. May be made compatible in a later version.</p>
+          <p>So far incompatible: Big Picture. The "Give Edwina a Portrait" component is not compatible with the "Female Edwina" component from either Tweaks Anthology or Ease of Use.</p>
 
           <p>Most likely, other Weidu mods will also work well.</p>
 
@@ -384,6 +384,17 @@ will not be able to install Edwin Romance if you have that component installed.<
         <a name="about" id="about" />
         <div class="content">
           <h2>About</h2>
+		  
+          <h6>The Mod's Components</h6>
+          <p>There are five components. Three of them require the main romance component to be installed, but the last two (New Viconia Ending and Give Edwina a Portrait) can be installed without it.</p>
+      <ul> 
+		<li>1 Main component: Edwin Romance. This installs the Edwin romance, with all content described below.</li>
+		<li>Restore Edwin's BG1 portrait: This will change Edwin's portrait to the BG1 one. For this, the BG1 portraits are just renamed to the BGII ones, no name change is done to any other files. Because of this, the portrait change will take effect even if the component is installed after meeting Edwin in the game. (Installing the mod late is still not recommended.)</li>
+		<li>Edwin flirts: This component adds the so called "player initiated dialogue" (PID) choices for an active romance.</li>
+		<li>New ending for Viconia Romance by Laufey: Changes the ToB epilogue for Viconia. Install this component late after any other mods that might add dialogues to Edwin to be sure there will be no compatibility problem leading to stutter bugs.</li>
+		<li>Give Edwina a Portrait: This component will give "Edwina" an own (female) portrait. If the component "Restore Edwin's BG1 portrait" is installed before, the Edwina Portrait will be an adaption of Edwin's BG1 portrait. Both Edwina portraits are from Syntia13. The component is not compatible with the "Female Edwina" components from Tweaks Anthology or Ease of Use.</li>
+      </ul>
+	  
           <h6>Getting Started</h6>
           <p>You do need to start a new game of BGII for the Romance to start. For the Romance to run, your PC must be female, and have an Intelligence of 14 or above. You must also be human, elf, half-elf, halfling or gnome. Edwin will be found where you normally encounter him in the game, in Mae'Var's Guild, and will join your party in the normal fashion. The romance proper will only start once Mae'Var is dead. Note: For the romance to start, Edwin *must* be in your party as you kill Mae'Var.</p>
           <p>The ToB part of the romance will start automatically, some time after you have left the Pocket Plane for the first time.</p>
@@ -403,6 +414,26 @@ party is currently in.</p>
 		  Via Cheats, set the variable "EdwinIgnoreRomances" to "1" to enable Multi-Romance mode:</p>
 		  <p>CLUAConsole:SetGlobal("EdwinIgnoreRomances","GLOBAL",1)</p>
 		  <p>If set, Edwin Romance will ignore all other romances and will also ignored by other romances (as far as the checks are contained within the Edwin Romance Mod). This goes for the original romances as well as considered mod NPC romances. The cheat has to be set before any of the romances turn their status to committed.</p>
+		  <p>Mod romances considered so far are the following. Let us know if there is more:
+      <ul> 
+		<li>Fade</li>
+		<li>Adrian</li>
+		<li>Ajantis BGII</li>
+		<li>Angelo</li>
+		<li>Aran Whitehand</li>
+		<li>Chloe</li>
+		<li>Gavin BGII</li>
+		<li>Imoen Romance</li>
+		<li>Kelsey</li>
+		<li>Sarah</li>
+		<li>Sirene BGII</li>
+		<li>Tsujatha</li>
+		<li>Valygar (Corthala Romantique)</li>
+		<li>Verr'Sza BGII</li>
+		<li>Weimer's Solaufein</li>
+		<li>Xan BGII</li>
+      </ul>
+		  
           <address>
             <span class="footer">Edwin Romance &gt; About</span> <a href="#top">BACK TO TOP</a>
           </address>
@@ -478,6 +509,7 @@ party is currently in.</p>
           <span class="t1">Miscellaneous:</span> <span class="t2">Ophidia, Ancient Slayer and almost certainly others.<br />
 Anybody I have forgotten, please let me know and I will include you.</span><br />
           <span class="t1">Voice Acting:</span> <span class="t2">Dorotea does the voice of Elvira Odesseiron. Stretchy, brother of Ophidia, voices Dekaras.</span><br />
+          <span class="t1">Portrait Artist:</span> <span class="t2">Syntia13 made both of the BG1 and BGII Edwina postraits. Visit <a href="https://www.deviantart.com/syntia13">Syntia13's DeviantArt Page</a>!</span><br />
           <span class="t1">Translations:</span> <span class="t2">Erszebeth and Le Marquis (French), Immortality and Saemon (Spanish), aerie.ru (Russian), Thioderik (German), Cykuta (Polish), vestirous (Chinese)</span><br />
 
           <hr class="floatfix" /><!-- Don't remove the <hr /> unless you have text following the last "t2" in this <div>! -->
@@ -500,12 +532,18 @@ Anybody I have forgotten, please let me know and I will include you.</span><br /
         <div class="content">
           <h2>Version history</h2>
 
-          <h6>Version 2.12:</h6>
+          <h6>Version 3.0:</h6>
           <ul>
+            <li>New component added: "Give Edwina a Portrait". This component is not dependent on the main romance component.</li>
+            <li>Edwin transform spells are no longer replaced but patched. Portrait change for Edwina is an own component.</li>
+            <li>BG1 portrait component no longer patches files with the BG1 portrait names, but just copies and renames them to the BGII file names.</li>
+            <li>Main romance component is no longer incompatible with "Female Edwina" of Ease of Use.</li>
             <li>Patching of epilogue (ar6200.bcs) more stable, install should not fail.</li>
             <li>EE: Edwin should not try to leave due to reputation if in active romance.</li>
             <li>more support for Project Infinity: added globally unique LABELs, install order syntax.</li>
-            <li></li>
+            <li>Copying of BAMs unified for EE and oBGII.</li>
+            <li>Old portraits removed due to Copyright questions.</li>
+            <li>Readme updated with new components' description etc.</li>
           </ul>
 
           <h6>Version 2.11:</h6>
