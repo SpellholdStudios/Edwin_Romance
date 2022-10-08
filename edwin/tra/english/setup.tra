@@ -1,13 +1,13 @@
-@0    = ~Edwin Romance~
+@50000    = ~Edwin Romance~
 //deprecated
 /* @31   = ~Edwin Romance is not compatible with Ease of Use's Female Edwina Component. It must be uninstalled in order to install Edwin Romance.~ */
-@32   = ~Restore Edwin's BG1 portrait~
-@33   = ~This component requires Edwin Romance to be installed.~
-@34   = ~This mod can only be installed on BG2~
-@108    = ~New ending for Viconia Romance by Laufey~
-@201 = ~Edwin flirts~
+@50002   = ~Restore Edwin's BG1 portrait~
+@50003   = ~This component requires Edwin Romance to be installed.~
+@50004   = ~This mod can only be installed on BG2~
+@50005    = ~New ending for Viconia Romance by Laufey~
+@50006 = ~Edwin flirts~
 
-@202 = ~Give Edwina a Portrait~
-@203 = ~Edwina Portrait component from Tweaks Anthology is installed.~
-@204 = ~Edwina Portrait component from Ease of Use is installed.~
-@205 = ~This component needs to be installed before the Edwina Portrait component.~
+@50007 = ~Give Edwina a Portrait~
+@50008 = ~Edwina Portrait component from Tweaks Anthology is installed.~
+@50009 = ~Edwina Portrait component from Ease of Use is installed.~
+@50010 = ~This component needs to be installed before the Edwina Portrait component.~

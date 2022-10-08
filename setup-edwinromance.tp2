@@ -34,7 +34,7 @@ ALWAYS
    * The .tra file extension is implied and should not be explicitly added.
    * The array can be named anything.
    */
-  ACTION_DEFINE_ARRAY fl#noconvert BEGIN setup setup-osx setup-unix setup-win32 END
+  ACTION_DEFINE_ARRAY fl#noconvert BEGIN setup END
 
   /*
    * An array of the TRA files which should be reloaded after being converted.
@@ -115,49 +115,48 @@ LANGUAGE ~Francaise~
          ~edwin/tra/english/game.tra~
          ~edwin/tra/english/setup.tra~
          ~edwin/tra/french/game.tra~
-         ~edwin/tra/french/setup-%WEIDU_OS%.tra~
+         ~edwin/tra/french/setup.tra~
 
 LANGUAGE ~Espanol~
          ~spanish~
          ~edwin/tra/english/game.tra~
          ~edwin/tra/english/setup.tra~
          ~edwin/tra/spanish/game.tra~
-         ~edwin/tra/spanish/setup-%WEIDU_OS%.tra~
+         ~edwin/tra/spanish/setup.tra~
 
 LANGUAGE ~Russian~
          ~russian~
          ~edwin/tra/english/game.tra~
          ~edwin/tra/english/setup.tra~
          ~edwin/tra/russian/game.tra~
-         ~edwin/tra/russian/setup-%WEIDU_OS%.tra~
 
 LANGUAGE ~Deutsch~
          ~german~
          ~edwin/tra/english/game.tra~
          ~edwin/tra/english/setup.tra~
          ~edwin/tra/german/game.tra~
-         ~edwin/tra/german/setup-%WEIDU_OS%.tra~
+         ~edwin/tra/german/setup.tra~
 
 LANGUAGE ~Polish~
          ~polish~
          ~edwin/tra/english/game.tra~
          ~edwin/tra/english/setup.tra~
          ~edwin/tra/polish/game.tra~
-         ~edwin/tra/polish/setup-%WEIDU_OS%.tra~
+         ~edwin/tra/polish/setup.tra~
 
 LANGUAGE ~Simplified Chinese~
          ~schinese~
          ~edwin/tra/english/game.tra~
          ~edwin/tra/english/setup.tra~
          ~edwin/tra/schinese/game.tra~
-         ~edwin/tra/schinese/setup-%WEIDU_OS%.tra~
+         ~edwin/tra/schinese/setup.tra~
 
 
 
-BEGIN @0 //Edwin Romance
+BEGIN @50000 //Edwin Romance
 DESIGNATED 0
 LABEL ~LaufeysEdwinRomance-Main~
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @34
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @50004
 
 /* I externalized this so new mod romances can be added more easily */
 OUTER_SPRINT ~ACTIVE_MOD_NPC_ROMANCE~ 
@@ -716,11 +715,11 @@ END
 
 
 
-BEGIN @32 //Restore Edwin BG1 component
+BEGIN @50002 //Restore Edwin BG1 component
 DESIGNATED 1
 LABEL ~LaufeysEdwinRomance-RestoreBG1Portrait~
-REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @33 //This component requires Edwin Romance to be installed.
-FORBID_COMPONENT ~Setup-EdwinRomance.tp2~ 4 @205 //This component needs to be installed before the Edwina Portrait component.
+REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @50003 //This component requires Edwin Romance to be installed.
+FORBID_COMPONENT ~Setup-EdwinRomance.tp2~ 4 @50010 //This component needs to be installed before the Edwina Portrait component.
 
 COPY_EXISTING ~EDWINL.bmp~ ~override/NEDWINL.bmp~
 COPY_EXISTING ~EDWINM.bmp~ ~override/NEDWINM.bmp~
@@ -729,10 +728,10 @@ COPY_EXISTING ~EDWINS.bmp~ ~override/NEDWINS.bmp~
 
 
 
-BEGIN @201 //Edwin flirts
+BEGIN @50006 //Edwin flirts
 DESIGNATED 2
 LABEL ~LaufeysEdwinRomance-Flirts~
-REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @33 //This component requires Edwin Romance to be installed.
+REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @50003 //This component requires Edwin Romance to be installed.
 
 COMPILE ~edwin/dlg/flirts.d~ USING ~edwin/tra/english/flirts.tra~ ~edwin/tra/%s/flirts.tra~
 
@@ -746,10 +745,10 @@ END
 
 
 
-BEGIN @108 //New ending for Viconia Romance by Laufey
+BEGIN @50005 //New ending for Viconia Romance by Laufey
 DESIGNATED 3
 LABEL ~LaufeysNewViconiaEnding-Main~
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @34
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @50004
 
 COPY_EXISTING ~edwin/dlg/erviconi.2da~ ~override/ervicoen.2da~
   REPLACE ~86249~ @109
@@ -759,12 +758,12 @@ COPY_EXISTING ~AR6200.bcs~ ~override~
 
 
 
-BEGIN @202 /* Give Edwina a Portrait */
+BEGIN @50007 /* Give Edwina a Portrait */
 DESIGNATED 4
 LABEL ~LaufeysEdwinRomance-EdwinaPortrait~
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @34
-FORBID_COMPONENT ~Setup-cdtweaks.tp2~ 1180 @203 //Edwina Portrait component from Tweaks Anthology is installed.
-FORBID_COMPONENT ~setup-ease.tp2~ ~20~ @204 //Edwina Portrait component from Ease of Use is installed.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @50004
+FORBID_COMPONENT ~Setup-cdtweaks.tp2~ 1180 @50008 //Edwina Portrait component from Tweaks Anthology is installed.
+FORBID_COMPONENT ~setup-ease.tp2~ ~20~ @50009 //Edwina Portrait component from Ease of Use is installed.
 
 
 ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
