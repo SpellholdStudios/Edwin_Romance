@@ -1,14 +1,14 @@
 // -*- coding: utf-8 -*-
-//This file is encoded in UTF-8, the encoding conventionally used by Linux terminals
+//This file is encoded in UTF-8
 
-@0    = ~La Romance d'Edwin~
+@50000    = ~La Romance d'Edwin~
 @31   = ~La romance d'Edwin n'est pas compatible avec le composant "Portrait feminin pour Edwina" du BG2 Tweak Pack. Il doit etre desinstalle afin de pouvoir installer la Romance d'Edwin.~
-@32   = ~Restaurer le portrait BGI d'Edwin~
-@33   = ~Ce composant necessite la Romance d'Edwin afin d'etre installe.~
+@50002   = ~Restaurer le portrait BGI d'Edwin~
+@50003   = ~Ce composant necessite la Romance d'Edwin afin d'etre installe.~
 
-@108    = ~Nouvelle fin pour la Romance de Viconia ecrite par Laufey~
+@50005    = ~Nouvelle fin pour la Romance de Viconia ecrite par Laufey~
 
-@201 = ~Flirts d'Edwin~
+@50006 = ~Flirts d'Edwin~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"
