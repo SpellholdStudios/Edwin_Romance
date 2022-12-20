@@ -7,7 +7,7 @@ BACKUP ~edwin/backup~
 SUPPORT ~http://www.shsforums.net/forum/69-edwin-romance/~
 
 README ~edwin/edwinromance-readme.html~
-VERSION ~v3.0~ //
+VERSION ~v3.1~ //
 
 AUTO_TRA ~edwin/tra/%s~
 
@@ -704,7 +704,7 @@ END
 		override_ToB = edwi25 
 		dialog_ToB = edwin25a
 		string = ~@0~ 
-      		traFile = EVAL "edwin/%tra_path%/%LANGUAGE%/summon.tra"
+      		traFile = EVAL "%tra_path%/%LANGUAGE%/summon.tra"
 		stringPosDV = edwin 
     END // edwin-as-romance
     
