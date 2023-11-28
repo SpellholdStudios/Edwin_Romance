@@ -11,8 +11,6 @@ For languages that can not be encoded in ASCII, the regular file
 
 In v2.08 missing translations:
 
--Chinese:
---TFLIRTS.TRA
 
 -Polish
 --ERLOVETALK25.TRA
