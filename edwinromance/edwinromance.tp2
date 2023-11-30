@@ -2,14 +2,14 @@
 * Edwin Romance, by Laufey
 ******************************************************************************************************************************/
 
-BACKUP ~edwin/backup~
+BACKUP ~%MOD_FOLDER%/backup~
 //AUTHOR ~laufeygreen@hotmail.com~
 SUPPORT ~http://www.shsforums.net/forum/69-edwin-romance/~
 
-README ~edwin/edwinromance-readme.html~
+README ~%MOD_FOLDER%/edwinromance-readme.html~
 VERSION ~v3.2~ //
 
-AUTO_TRA ~edwin/tra/%s~
+AUTO_TRA ~%MOD_FOLDER%/tra/%s~
 
 ALWAYS
 
@@ -107,49 +107,49 @@ END
 
 LANGUAGE ~American English~
          ~english~
-         ~edwin/tra/english/game.tra~
-         ~edwin/tra/english/setup.tra~
+         ~EdwinRomance/tra/english/game.tra~
+         ~EdwinRomance/tra/english/setup.tra~
 
 LANGUAGE ~Francaise~
          ~french~
-         ~edwin/tra/english/game.tra~
-         ~edwin/tra/english/setup.tra~
-         ~edwin/tra/french/game.tra~
-         ~edwin/tra/french/setup.tra~
+         ~EdwinRomance/tra/english/game.tra~
+         ~EdwinRomance/tra/english/setup.tra~
+         ~EdwinRomance/tra/french/game.tra~
+         ~EdwinRomance/tra/french/setup.tra~
 
 LANGUAGE ~Espanol~
          ~spanish~
-         ~edwin/tra/english/game.tra~
-         ~edwin/tra/english/setup.tra~
-         ~edwin/tra/spanish/game.tra~
-         ~edwin/tra/spanish/setup.tra~
+         ~EdwinRomance/tra/english/game.tra~
+         ~EdwinRomance/tra/english/setup.tra~
+         ~EdwinRomance/tra/spanish/game.tra~
+         ~EdwinRomance/tra/spanish/setup.tra~
 
 LANGUAGE ~Russian~
          ~russian~
-         ~edwin/tra/english/game.tra~
-         ~edwin/tra/english/setup.tra~
-         ~edwin/tra/russian/game.tra~
+         ~EdwinRomance/tra/english/game.tra~
+         ~EdwinRomance/tra/english/setup.tra~
+         ~EdwinRomance/tra/russian/game.tra~
 
 LANGUAGE ~Deutsch~
          ~german~
-         ~edwin/tra/english/game.tra~
-         ~edwin/tra/english/setup.tra~
-         ~edwin/tra/german/game.tra~
-         ~edwin/tra/german/setup.tra~
+         ~EdwinRomance/tra/english/game.tra~
+         ~EdwinRomance/tra/english/setup.tra~
+         ~EdwinRomance/tra/german/game.tra~
+         ~EdwinRomance/tra/german/setup.tra~
 
 LANGUAGE ~Polish~
          ~polish~
-         ~edwin/tra/english/game.tra~
-         ~edwin/tra/english/setup.tra~
-         ~edwin/tra/polish/game.tra~
-         ~edwin/tra/polish/setup.tra~
+         ~EdwinRomance/tra/english/game.tra~
+         ~EdwinRomance/tra/english/setup.tra~
+         ~EdwinRomance/tra/polish/game.tra~
+         ~EdwinRomance/tra/polish/setup.tra~
 
 LANGUAGE ~Simplified Chinese~
          ~schinese~
-         ~edwin/tra/english/game.tra~
-         ~edwin/tra/english/setup.tra~
-         ~edwin/tra/schinese/game.tra~
-         ~edwin/tra/schinese/setup.tra~
+         ~EdwinRomance/tra/english/game.tra~
+         ~EdwinRomance/tra/english/setup.tra~
+         ~EdwinRomance/tra/schinese/game.tra~
+         ~EdwinRomance/tra/schinese/setup.tra~
 
 
 
@@ -216,31 +216,31 @@ COMPILE ~...inlined/c#anomen_romance_fix.d~
 
 //Dialogues
 COMPILE EVALUATE_BUFFER
-~edwin/dlg/eredwinp.d~
-~edwin/dlg/eredwinj.d~
-~edwin/dlg/ervicon.d~
-~edwin/dlg/ermazzy.d~
-~edwin/dlg/eranomen.d~
-~edwin/dlg/erelvira.d~
-~edwin/dlg/erlovetalk2.d~
-~edwin/dlg/erterl02.d~
-~edwin/dlg/eredwina2.d~
-~edwin/dlg/eredwina.d~
-~edwin/dlg/erlovetalk.d~
-~edwin/dlg/erimoen.d~
+~%MOD_FOLDER%/dlg/eredwinp.d~
+~%MOD_FOLDER%/dlg/eredwinj.d~
+~%MOD_FOLDER%/dlg/ervicon.d~
+~%MOD_FOLDER%/dlg/ermazzy.d~
+~%MOD_FOLDER%/dlg/eranomen.d~
+~%MOD_FOLDER%/dlg/erelvira.d~
+~%MOD_FOLDER%/dlg/erlovetalk2.d~
+~%MOD_FOLDER%/dlg/erterl02.d~
+~%MOD_FOLDER%/dlg/eredwina2.d~
+~%MOD_FOLDER%/dlg/eredwina.d~
+~%MOD_FOLDER%/dlg/erlovetalk.d~
+~%MOD_FOLDER%/dlg/erimoen.d~
 
 COMPILE
-~edwin/dlg/barvon.d~
-~edwin/dlg/erdekaras.d~
-~edwin/dlg/eredwin_dekkie.d~
+~%MOD_FOLDER%/dlg/barvon.d~
+~%MOD_FOLDER%/dlg/erdekaras.d~
+~%MOD_FOLDER%/dlg/eredwin_dekkie.d~
 
 COMPILE
-~edwin/dlg/banco.d~
+~%MOD_FOLDER%/dlg/banco.d~
 
 COMPILE
-~edwin/dlg/ertol.d~
-~edwin/dlg/erslayer.d~
-~edwin/dlg/talkfix.d~ 
+~%MOD_FOLDER%/dlg/ertol.d~
+~%MOD_FOLDER%/dlg/erslayer.d~
+~%MOD_FOLDER%/dlg/talkfix.d~ 
 
 
 // Journals for BGII:EE
@@ -253,20 +253,20 @@ ADD_JOURNAL TITLE (@10006) @10000 @10001 @10002 @10003 @10004 @10005 @10006 USIN
 
 
 // Copy, assorted
-COPY ~edwin/bam~ override
+COPY ~%MOD_FOLDER%/bam~ override
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
-  COPY ~edwin/bmp/ee~ override
+  COPY ~%MOD_FOLDER%/bmp/ee~ override
 END ELSE BEGIN
-  COPY ~edwin/bmp/bg2~ ~override~
+  COPY ~%MOD_FOLDER%/bmp/bg2~ ~override~
 END
 
 
-COPY ~edwin/phylact/phylact.eff~ ~override/phylact.eff~
+COPY ~%MOD_FOLDER%/phylact/phylact.eff~ ~override/phylact.eff~
 
 /* deprecated, spells will no longer be replaced
-COPY ~edwin/spl/spin662.spl~ ~override/spin662.spl~
-COPY ~edwin/spl/spin916.spl~ ~override/spin916.spl~
+COPY ~%MOD_FOLDER%/spl/spin662.spl~ ~override/spin662.spl~
+COPY ~%MOD_FOLDER%/spl/spin916.spl~ ~override/spin916.spl~
 */
 
 // add name change opcodes to edwin transform spells
@@ -294,40 +294,40 @@ COPY_EXISTING ~spin916.spl~ ~override~
 //Music
 MKDIR ~music/MxEdwin~
 MKDIR ~music/MxDwina~
-COPY ~edwin/music/MxEdwin.mus~ ~music/MxEdwin.mus~
-COPY ~edwin/music/MxEdwin/MxEdwinA.acm~ ~music/MxEdwin/MxEdwinA.acm~
-COPY ~edwin/music/MxDwina.mus~ ~music/MxDwina.mus~
-COPY ~edwin/music/MxDwina/MxDwinaA.acm~ ~music/MxDwina/MxDwinaA.acm~
+COPY ~%MOD_FOLDER%/music/MxEdwin.mus~ ~music/MxEdwin.mus~
+COPY ~%MOD_FOLDER%/music/MxEdwin/MxEdwinA.acm~ ~music/MxEdwin/MxEdwinA.acm~
+COPY ~%MOD_FOLDER%/music/MxDwina.mus~ ~music/MxDwina.mus~
+COPY ~%MOD_FOLDER%/music/MxDwina/MxDwinaA.acm~ ~music/MxDwina/MxDwinaA.acm~
 
 //add music
-ADD_MUSIC ~MxEdwin~ ~edwin/music/MxEdwin.mus~
-ADD_MUSIC ~MxDwina~ ~edwin/music/MxDwina.mus~
+ADD_MUSIC ~MxEdwin~ ~%MOD_FOLDER%/music/MxEdwin.mus~
+ADD_MUSIC ~MxDwina~ ~%MOD_FOLDER%/music/MxDwina.mus~
 
 
 
 //Areas
-COPY ~edwin/are~ override
+COPY ~%MOD_FOLDER%/are~ override
 
 
 
 // Scripts
-COMPILE ~edwin/baf/compile~
+COMPILE ~%MOD_FOLDER%/baf/compile~
 
 //Cut-scenes
-COMPILE ~edwin/baf/ermother.baf~
-        ~edwin/baf/erhappyf.baf~
-        ~edwin/baf/erupsetf.baf~
-        ~edwin/baf/EdwinFix.baf~
-        ~edwin/baf/EdwinaFi.baf~
+COMPILE ~%MOD_FOLDER%/baf/ermother.baf~
+        ~%MOD_FOLDER%/baf/erhappyf.baf~
+        ~%MOD_FOLDER%/baf/erupsetf.baf~
+        ~%MOD_FOLDER%/baf/EdwinFix.baf~
+        ~%MOD_FOLDER%/baf/EdwinaFi.baf~
 
-EXTEND_BOTTOM ~baldur.bcs~ ~edwin/baf/BALDUR_edwin_romance.baf~
-EXTEND_TOP ~ar0301.bcs~ ~edwin/baf/ar0301_edwin_romance.baf~
-EXTEND_TOP ~anomen.bcs~ ~edwin/baf/ANOMEN_edwin_romance.baf~
-EXTEND_TOP ~edwin.bcs~ ~edwin/baf/EDWIN_romance_fix.baf~
-EXTEND_BOTTOM ~anomen.bcs~ ~edwin/baf/romfix.baf~
-EXTEND_BOTTOM ~imoen2.bcs~ ~edwin/baf/er_imoen.baf~ //This is for the Imoen banters. Necessary because Imoen doesn't have a banter file.
-EXTEND_BOTTOM edwind.bcs ~edwin/baf/edwind.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM edwin.bcs ~edwin/baf/edwin.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~baldur.bcs~ ~%MOD_FOLDER%/baf/BALDUR_edwin_romance.baf~
+EXTEND_TOP ~ar0301.bcs~ ~%MOD_FOLDER%/baf/ar0301_edwin_romance.baf~
+EXTEND_TOP ~anomen.bcs~ ~%MOD_FOLDER%/baf/ANOMEN_edwin_romance.baf~
+EXTEND_TOP ~edwin.bcs~ ~%MOD_FOLDER%/baf/EDWIN_romance_fix.baf~
+EXTEND_BOTTOM ~anomen.bcs~ ~%MOD_FOLDER%/baf/romfix.baf~
+EXTEND_BOTTOM ~imoen2.bcs~ ~%MOD_FOLDER%/baf/er_imoen.baf~ //This is for the Imoen banters. Necessary because Imoen doesn't have a banter file.
+EXTEND_BOTTOM edwind.bcs ~%MOD_FOLDER%/baf/edwind.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM edwin.bcs ~%MOD_FOLDER%/baf/edwin.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~edwinD.bcs~ ~override/edwinD.bcs~
   REPLACE_TEXTUALLY 999990 ~%MxEdwin%~
@@ -374,15 +374,15 @@ ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
   ADD_SECTYPE C#RepLeaveEffect ~~  
 
 /* opcode 360 effect so NPC ignores rep&breaking point */
-  COPY ~edwin/spl/c#replv1.spl~ ~override~
+  COPY ~%MOD_FOLDER%/spl/c#replv1.spl~ ~override~
   WRITE_BYTE 0x27 C#RepLeaveEffect
   WRITE_BYTE 0xa2 C#RepLeaveEffect
 
 /* remove opcode 360 effect from c#replv1 */
-  COPY ~edwin/spl/c#replv2.spl~ ~override~
+  COPY ~%MOD_FOLDER%/spl/c#replv2.spl~ ~override~
   WRITE_BYTE 0xa2 C#RepLeaveEffect
 
-  EXTEND_BOTTOM ~edwin.bcs~ ~edwin/baf/c#_ignore_rep_ee.baf~
+  EXTEND_BOTTOM ~edwin.bcs~ ~%MOD_FOLDER%/baf/c#_ignore_rep_ee.baf~
 END
 
 COPY_EXISTING ~edwin.bcs~ ~override/edwin.bcs~
@@ -414,7 +414,7 @@ COPY_EXISTING ~Terl.cre~ ~override/Terl02.cre~
   WRITE_ASCII 0x2CC ~terl02~ #8
   WRITE_ASCII 0x280 ~Terl02~ #32
 
-COPY ~edwin/cre/barvon.cre~ ~override/barvon.cre~
+COPY ~%MOD_FOLDER%/cre/barvon.cre~ ~override/barvon.cre~
   SAY NAME1 @7
   SAY NAME2 @7
   WRITE_ASCII 0x34 ~barvon~ #8
@@ -422,7 +422,7 @@ COPY ~edwin/cre/barvon.cre~ ~override/barvon.cre~
   WRITE_ASCII 0x2CC ~barvon~ #8 // dialog
   WRITE_ASCII 0x280 ~barvon~ #32 // death variable
 
-COPY ~edwin/cre/DEKARAS.cre~ ~override/DEKARAS.cre~
+COPY ~%MOD_FOLDER%/cre/DEKARAS.cre~ ~override/DEKARAS.cre~
   SAY NAME1 @8
   SAY NAME2 @8
   WRITE_ASCII 0x34 ~DekkieS~ #8
@@ -455,7 +455,7 @@ COPY ~override/DEKARAS.cre~ ~override/DEKARAS4.cre~
   WRITE_ASCII 0x2CC ~dekaras4~ #8 // dialog
   WRITE_ASCII 0x280 ~dekaras4~ #32 // death variable
 
-COPY ~edwin/cre/redw1.cre~ ~override/redw1.cre~
+COPY ~%MOD_FOLDER%/cre/redw1.cre~ ~override/redw1.cre~
   SAY NAME1 @9
   SAY NAME2 @9
   WRITE_ASCII 0x34 ~Red1sm~ #8
@@ -463,7 +463,7 @@ COPY ~edwin/cre/redw1.cre~ ~override/redw1.cre~
   WRITE_ASCII 0x2CC ~redw1~ #8 // dialog
   WRITE_ASCII 0x280 ~redw1~ #32 // death variable
 
-COPY ~edwin/cre/redw2.cre~ ~override/redw2.cre~
+COPY ~%MOD_FOLDER%/cre/redw2.cre~ ~override/redw2.cre~
   SAY NAME1 @10
   SAY NAME2 @10
   WRITE_ASCII 0x34 ~Red2sm~ #8
@@ -471,7 +471,7 @@ COPY ~edwin/cre/redw2.cre~ ~override/redw2.cre~
   WRITE_ASCII 0x2CC ~redw2~ #8 // dialog
   WRITE_ASCII 0x280 ~redw2~ #32 // death variable
 
-COPY ~edwin/cre/redw3.cre~ ~override/redw3.cre~
+COPY ~%MOD_FOLDER%/cre/redw3.cre~ ~override/redw3.cre~
   SAY NAME1 @11
   SAY NAME2 @11
   WRITE_ASCII 0x34 ~Red3sm~ #8
@@ -479,7 +479,7 @@ COPY ~edwin/cre/redw3.cre~ ~override/redw3.cre~
   WRITE_ASCII 0x2CC ~redw3~ #8 // dialog
   WRITE_ASCII 0x280 ~redw3~ #32 // death variable
 
-COPY ~edwin/cre/banco.cre~ ~override/banco.cre~
+COPY ~%MOD_FOLDER%/cre/banco.cre~ ~override/banco.cre~
   SAY NAME1 @12
   SAY NAME2 @12
   WRITE_ASCII 0x34 ~redlich~ #8
@@ -488,7 +488,7 @@ COPY ~edwin/cre/banco.cre~ ~override/banco.cre~
   WRITE_ASCII 0x2CC ~banco~ #8 // dialog
   WRITE_ASCII 0x280 ~banco~ #32 // death variable
 
-COPY ~edwin/cre/tknight1.cre~ ~override/tknight1.cre~
+COPY ~%MOD_FOLDER%/cre/tknight1.cre~ ~override/tknight1.cre~
   SAY NAME1 @19
   SAY NAME2 @19
   WRITE_ASCII 0x250 ~thaysht~ #8 // class script
@@ -496,103 +496,103 @@ COPY ~edwin/cre/tknight1.cre~ ~override/tknight1.cre~
   WRITE_ASCII 0x280 ~tknight1~ #32 // death variable
 
 
-COPY ~edwin/cre/tknight2.cre~ ~override/tknight2.cre~
+COPY ~%MOD_FOLDER%/cre/tknight2.cre~ ~override/tknight2.cre~
   SAY NAME1 @19
   SAY NAME2 @19
   WRITE_ASCII 0x250 ~thaysht~ #8 // class script
   WRITE_ASCII 0x268 ~thaypotn~ #8 // default script
   WRITE_ASCII 0x280 ~tknight2~ #32 // death variable
 
-COPY ~edwin/cre/tknight3.cre~ ~override/tknight3.cre~
+COPY ~%MOD_FOLDER%/cre/tknight3.cre~ ~override/tknight3.cre~
   SAY NAME1 @19
   SAY NAME2 @19
   WRITE_ASCII 0x250 ~thaysht~ #8 // class script
   WRITE_ASCII 0x268 ~thaypotn~ #8 // default script
   WRITE_ASCII 0x280 ~tknight3~ #32 // death variable
 
-COPY ~edwin/cre/Eddekfhi.CRE~ ~override/Eddekfhi.CRE~ //The .cre file contains the necessary information
+COPY ~%MOD_FOLDER%/cre/Eddekfhi.CRE~ ~override/Eddekfhi.CRE~ //The .cre file contains the necessary information
 
-COPY ~edwin/cre/elvira.cre~ ~override~
+COPY ~%MOD_FOLDER%/cre/elvira.cre~ ~override~
   SAY NAME1 @30
   SAY NAME2 @30
 
 
 
 // Items
-COPY ~edwin/itm/EDPOTN.itm~ ~override~
+COPY ~%MOD_FOLDER%/itm/EDPOTN.itm~ ~override~
   SAY NAME2 @1
   SAY DESC @2
 
-COPY  ~edwin/itm/edhair.itm~ ~override~
+COPY  ~%MOD_FOLDER%/itm/edhair.itm~ ~override~
   SAY NAME1 @3
   SAY NAME2 @3
   SAY DESC @4
 
-COPY  ~edwin/itm/scrlnet.itm~ ~override/scrlnet.itm~
+COPY  ~%MOD_FOLDER%/itm/scrlnet.itm~ ~override/scrlnet.itm~
   SAY NAME1 #33318
   SAY NAME2 #33318
   SAY DESC @6
 
-COPY  ~edwin/itm/lichring.itm~ ~override~
+COPY  ~%MOD_FOLDER%/itm/lichring.itm~ ~override~
   SAY NAME1 @13
   SAY NAME2 @13
   SAY DESC @14
 
-COPY  ~edwin/itm/telering.itm~ ~override~
+COPY  ~%MOD_FOLDER%/itm/telering.itm~ ~override~
   SAY NAME1 @15
   SAY NAME2 @15
   SAY DESC @16
 
-COPY ~edwin/itm/telring2.itm~ ~override~
+COPY ~%MOD_FOLDER%/itm/telring2.itm~ ~override~
   SAY NAME1 @15
   SAY NAME2 @15
   SAY DESC @34
 
-COPY ~edwin/itm/lichim2.itm~ override
+COPY ~%MOD_FOLDER%/itm/lichim2.itm~ override
 
-COPY ~edwin/phylact/phylact1.itm~ ~override/phylact1.itm~
+COPY ~%MOD_FOLDER%/phylact/phylact1.itm~ ~override/phylact1.itm~
   SAY NAME1 @23
   SAY NAME2 @23
   SAY DESC @24
 
-COPY ~edwin/phylact/phylact2.itm~ ~override/phylact2.itm~
+COPY ~%MOD_FOLDER%/phylact/phylact2.itm~ ~override/phylact2.itm~
   SAY NAME1 @23
   SAY NAME2 @23
   SAY DESC @25
 
-COPY ~edwin/itm/EDWDAG01.itm~ ~override~
+COPY ~%MOD_FOLDER%/itm/EDWDAG01.itm~ ~override~
   SAY NAME2 @26
   SAY DESC @27
 
-COPY ~edwin/itm/EDWXBO01.itm~ ~override~
+COPY ~%MOD_FOLDER%/itm/EDWXBO01.itm~ ~override~
   SAY NAME2 @28
   SAY DESC @29
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME leat24.itm BEGIN // Grandmaster Armor
-  COPY ~edwin/Dek_armor~ ~override~
+  COPY ~%MOD_FOLDER%/Dek_armor~ ~override~
 END
 
 
 
 // Bodhi abduction
-COMPILE ~edwin/dlg/er_bodhi.d~
+COMPILE ~%MOD_FOLDER%/dlg/er_bodhi.d~
 
-COPY  ~edwin/cre/Vampedd.cre~ ~override/Vampedd.cre~
+COPY  ~%MOD_FOLDER%/cre/Vampedd.cre~ ~override/Vampedd.cre~
   SAY NAME1 @20
   SAY NAME2 @20
 
-COPY ~edwin/itm/ER_edbod.itm~ ~override/ER_edbod.itm~
+COPY ~%MOD_FOLDER%/itm/ER_edbod.itm~ ~override/ER_edbod.itm~
   SAY NAME1 @21
   SAY NAME2 @21
   SAY DESC @22
   WRITE_ASCII 0x58 ~cedbody~ #8
 
-EXTEND_TOP ~Ar0809.bcs~ ~edwin/baf/ER_Ar0809.baf~
-USING ~edwin/tra/%s/er_bodhi.tra~
+EXTEND_TOP ~Ar0809.bcs~ ~%MOD_FOLDER%/baf/ER_Ar0809.baf~
+USING ~%MOD_FOLDER%/tra/%s/er_bodhi.tra~
 
-EXTEND_TOP ~Cleanse.bcs~ ~edwin/baf/ER_cleanse.baf~
-EXTEND_TOP ~Vampamb.bcs~ ~edwin/baf/ER_vampamb.baf~
-EXTEND_BOTTOM ~bodhiamb.bcs~ ~edwin/baf/er_bodhiamb.baf~
+EXTEND_TOP ~Cleanse.bcs~ ~%MOD_FOLDER%/baf/ER_cleanse.baf~
+EXTEND_TOP ~Vampamb.bcs~ ~%MOD_FOLDER%/baf/ER_vampamb.baf~
+EXTEND_BOTTOM ~bodhiamb.bcs~ ~%MOD_FOLDER%/baf/er_bodhiamb.baf~
 
 LAF HANDLE_AUDIO END
 
@@ -613,11 +613,11 @@ COPY_EXISTING ~AR6200.BCS~ ~override~
 		END
 	END
 BUT_ONLY
-  EXTEND_TOP ~AR6200.bcs~ ~edwin/baf/tob/erfinew.baf~
+  EXTEND_TOP ~AR6200.bcs~ ~%MOD_FOLDER%/baf/tob/erfinew.baf~
 
 
-  EXTEND_TOP ~edwi25.bcs~ ~edwin/baf/tob/edwin25.baf~
-  EXTEND_BOTTOM ~cut218g.bcs~ ~edwin/baf/tob/er_loc2.baf~
+  EXTEND_TOP ~edwi25.bcs~ ~%MOD_FOLDER%/baf/tob/edwin25.baf~
+  EXTEND_BOTTOM ~cut218g.bcs~ ~%MOD_FOLDER%/baf/tob/er_loc2.baf~
 
   COPY_EXISTING edwi25.bcs override
     DECOMPILE_AND_PATCH BEGIN
@@ -625,7 +625,7 @@ BUT_ONLY
     END
   BUT_ONLY
 
-  COPY ~edwin/cre/er_love1.cre~ ~override/er_love1.cre~
+  COPY ~%MOD_FOLDER%/cre/er_love1.cre~ ~override/er_love1.cre~
     SAY NAME1 @103
     SAY NAME2 @103
     WRITE_ASCII 0x2cc ~er_love1~ #8
@@ -633,7 +633,7 @@ BUT_ONLY
     WRITE_ASCII 0x258 ~~ #8
     WRITE_ASCIIL 0x34 ~~ ~~
 
-  COPY ~edwin/cre/er_calld.cre~ ~override~
+  COPY ~%MOD_FOLDER%/cre/er_calld.cre~ ~override~
     SAY NAME1 @103
     SAY NAME2 @103
     WRITE_ASCII 0x280 ~er_calld~ #32
@@ -654,31 +654,31 @@ BUT_ONLY
     WRITE_BYTE 0x2f 69
 
 
-  COPY_EXISTING ~edwin/dlg/Edwintxt.2da~ ~override/ErEdwin1.2da~
+  COPY_EXISTING ~%MOD_FOLDER%/dlg/Edwintxt.2da~ ~override/ErEdwin1.2da~
     REPLACE ~73928~ @105
 
-  COPY_EXISTING ~edwin/dlg/Edwintxt.2da~ ~override/ErEdwin2.2da~
+  COPY_EXISTING ~%MOD_FOLDER%/dlg/Edwintxt.2da~ ~override/ErEdwin2.2da~
     REPLACE ~73928~ @106
 
-  COPY_EXISTING ~edwin/dlg/Edwintxt.2da~ ~override/Edwinnd.2da~
+  COPY_EXISTING ~%MOD_FOLDER%/dlg/Edwintxt.2da~ ~override/Edwinnd.2da~
     REPLACE ~73928~ @110
 
   STRING_SET 67879 @202
 
-  COMPILE ~edwin/dlg/erlovetalk25.d~ USING
+  COMPILE ~%MOD_FOLDER%/dlg/erlovetalk25.d~ USING
           ~%tra_path%/english/erlovetalk25.tra~
           ~%tra_path%/%LANGUAGE%/erlovetalk25.tra~
-  COMPILE ~edwin/dlg/ertoblo.d~ USING
+  COMPILE ~%MOD_FOLDER%/dlg/ertoblo.d~ USING
           ~%tra_path%/english/ertoblo.tra~
           ~%tra_path%/%LANGUAGE%/ertoblo.tra~
-  COMPILE ~edwin/dlg/finsol.d~ USING
+  COMPILE ~%MOD_FOLDER%/dlg/finsol.d~ USING
           ~%tra_path%/english/erfinsol.tra~
           ~%tra_path%/%LANGUAGE%/erfinsol.tra~
-  COMPILE ~edwin/baf/tob/er_loc1.baf~
-  COMPILE ~edwin/baf/tob/er_loc3.baf~
-  COMPILE ~edwin/baf/tob/er_loc4.baf~
-  COMPILE EVALUATE_BUFFER ~edwin/dlg/summon.d~ USING
-          ~edwin/%tra_path%/english/summon.tra~
+  COMPILE ~%MOD_FOLDER%/baf/tob/er_loc1.baf~
+  COMPILE ~%MOD_FOLDER%/baf/tob/er_loc3.baf~
+  COMPILE ~%MOD_FOLDER%/baf/tob/er_loc4.baf~
+  COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/summon.d~ USING
+          ~%MOD_FOLDER%/%tra_path%/english/summon.tra~
           ~%tra_path%/%LANGUAGE%/summon.tra~
 
 END
@@ -688,7 +688,7 @@ END
 
   ACTION_IF !FILE_EXISTS ~eet/other/eet_functions.tph~ BEGIN
   
-    COMPILE EVALUATE_BUFFER ~edwin/dlg/fatesp.d~ USING
+    COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dlg/fatesp.d~ USING
           ~%tra_path%/english/summon.tra~
           ~%tra_path%/%LANGUAGE%/summon.tra~
   
@@ -743,8 +743,8 @@ END
 BEGIN @50002 //Restore Edwin BG1 component
 DESIGNATED 1
 LABEL ~LaufeysEdwinRomance-RestoreBG1Portrait~
-REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @50003 //This component requires Edwin Romance to be installed.
-FORBID_COMPONENT ~Setup-EdwinRomance.tp2~ 4 @50010 //This component needs to be installed before the Edwina Portrait component.
+REQUIRE_COMPONENT ~EdwinRomance.tp2~ 0 @50003 //This component requires Edwin Romance to be installed.
+FORBID_COMPONENT ~EdwinRomance.tp2~ 4 @50010 //This component needs to be installed before the Edwina Portrait component.
 
 COPY_EXISTING ~EDWINL.bmp~ ~override/NEDWINL.bmp~
 COPY_EXISTING ~EDWINM.bmp~ ~override/NEDWINM.bmp~
@@ -756,16 +756,16 @@ COPY_EXISTING ~EDWINS.bmp~ ~override/NEDWINS.bmp~
 BEGIN @50006 //Edwin flirts
 DESIGNATED 2
 LABEL ~LaufeysEdwinRomance-Flirts~
-REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @50003 //This component requires Edwin Romance to be installed.
+REQUIRE_COMPONENT ~EdwinRomance.tp2~ 0 @50003 //This component requires Edwin Romance to be installed.
 
-COMPILE ~edwin/dlg/flirts.d~ USING ~edwin/tra/english/flirts.tra~ ~edwin/tra/%s/flirts.tra~
+COMPILE ~%MOD_FOLDER%/dlg/flirts.d~ USING ~%MOD_FOLDER%/tra/english/flirts.tra~ ~%MOD_FOLDER%/tra/%s/flirts.tra~
 
-EXTEND_BOTTOM ~Edwin.bcs~ ~edwin/baf/flirts/edwin.baf~
+EXTEND_BOTTOM ~Edwin.bcs~ ~%MOD_FOLDER%/baf/flirts/edwin.baf~
 
-EXTEND_BOTTOM ~Edwind.bcs~ ~edwin/baf/flirts/edwind.baf~
+EXTEND_BOTTOM ~Edwind.bcs~ ~%MOD_FOLDER%/baf/flirts/edwind.baf~
 
 ACTION_IF FILE_EXISTS_IN_GAME ~er_jadda.cre~ BEGIN
-  COMPILE ~edwin/dlg/tflirts.d~ USING ~edwin/tra/english/tflirts.tra~ ~edwin/tra/%s/tflirts.tra~
+  COMPILE ~%MOD_FOLDER%/dlg/tflirts.d~ USING ~%MOD_FOLDER%/tra/english/tflirts.tra~ ~%MOD_FOLDER%/tra/%s/tflirts.tra~
 END
 
 
@@ -775,11 +775,11 @@ DESIGNATED 3
 LABEL ~LaufeysNewViconiaEnding-Main~
 REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @50004
 
-COPY_EXISTING ~edwin/dlg/erviconi.2da~ ~override/ervicoen.2da~
+COPY_EXISTING ~%MOD_FOLDER%/dlg/erviconi.2da~ ~override/ervicoen.2da~
   REPLACE ~86249~ @109
 
 COPY_EXISTING ~AR6200.bcs~ ~override~
-  REPLACE_BCS_BLOCK ~edwin/baf/tob/NNVico.baf~ ~edwin/baf/tob/YNVico.baf~
+  REPLACE_BCS_BLOCK ~%MOD_FOLDER%/baf/tob/NNVico.baf~ ~%MOD_FOLDER%/baf/tob/YNVico.baf~
 
 
 
@@ -787,8 +787,8 @@ BEGIN @50007 /* Give Edwina a Portrait */
 DESIGNATED 4
 LABEL ~LaufeysEdwinRomance-EdwinaPortrait~
 REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @50004
-FORBID_COMPONENT ~Setup-cdtweaks.tp2~ 1180 @50008 //Edwina Portrait component from Tweaks Anthology is installed.
-FORBID_COMPONENT ~setup-ease.tp2~ ~20~ @50009 //Edwina Portrait component from Ease of Use is installed.
+FORBID_COMPONENT ~cdtweaks.tp2~ 1180 @50008 //Edwina Portrait component from Tweaks Anthology is installed.
+FORBID_COMPONENT ~ease.tp2~ ~20~ @50009 //Edwina Portrait component from Ease of Use is installed.
 
 
 ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
@@ -798,15 +798,15 @@ COPY_EXISTING ~spin662.spl~ ~override~ // return to edwin
   LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 1 timing = 1 STR_VAR resource = nedwinl END // large portrait
   LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 0 timing = 1 STR_VAR resource = nedwinm END // small portrait
 
-  ACTION_IF (MOD_IS_INSTALLED ~Setup-EdwinRomance.tp2~ "1") THEN BEGIN
+  ACTION_IF (MOD_IS_INSTALLED ~EdwinRomance.tp2~ "1") THEN BEGIN
 
-    COPY ~edwin/bmp/syntia13/bg1/syntia13_330.bmp~ ~override/edwinam.bmp~
-         ~edwin/bmp/syntia13/bg1/syntia13_330.bmp~ ~override/edwinas.bmp~
+    COPY ~%MOD_FOLDER%/bmp/syntia13/bg1/syntia13_330.bmp~ ~override/edwinam.bmp~
+         ~%MOD_FOLDER%/bmp/syntia13/bg1/syntia13_330.bmp~ ~override/edwinas.bmp~
 
   END ELSE BEGIN
 
-    COPY ~edwin/bmp/syntia13/syntia13_330.bmp~ ~override/edwinam.bmp~
-         ~edwin/bmp/syntia13/syntia13_330.bmp~ ~override/edwinas.bmp~
+    COPY ~%MOD_FOLDER%/bmp/syntia13/syntia13_330.bmp~ ~override/edwinam.bmp~
+         ~%MOD_FOLDER%/bmp/syntia13/syntia13_330.bmp~ ~override/edwinas.bmp~
 
   END
 
@@ -817,14 +817,14 @@ COPY_EXISTING ~spin662.spl~ ~override~ // return to edwin
   LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 1 timing = 1 STR_VAR resource = nedwinm END // large portrait
   LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 0 timing = 1 STR_VAR resource = nedwins END // small portrait
 
-  ACTION_IF (MOD_IS_INSTALLED ~Setup-EdwinRomance.tp2~ "1") THEN BEGIN
-    COPY ~edwin/bmp/syntia13/bg1/syntia13_170.bmp~ ~override/edwinam.bmp~
-         ~edwin/bmp/syntia13/bg1/syntia13_60.bmp~  ~override/edwinas.bmp~
+  ACTION_IF (MOD_IS_INSTALLED ~EdwinRomance.tp2~ "1") THEN BEGIN
+    COPY ~%MOD_FOLDER%/bmp/syntia13/bg1/syntia13_170.bmp~ ~override/edwinam.bmp~
+         ~%MOD_FOLDER%/bmp/syntia13/bg1/syntia13_60.bmp~  ~override/edwinas.bmp~
 
   END ELSE BEGIN
 
-    COPY ~edwin/bmp/syntia13/syntia13_170.bmp~ ~override/edwinam.bmp~
-         ~edwin/bmp/syntia13/syntia13_60.bmp~  ~override/edwinas.bmp~
+    COPY ~%MOD_FOLDER%/bmp/syntia13/syntia13_170.bmp~ ~override/edwinam.bmp~
+         ~%MOD_FOLDER%/bmp/syntia13/syntia13_60.bmp~  ~override/edwinas.bmp~
   END
 
 END 
