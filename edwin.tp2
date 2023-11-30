@@ -743,8 +743,8 @@ END
 BEGIN @50002 //Restore Edwin BG1 component
 DESIGNATED 1
 LABEL ~LaufeysEdwinRomance-RestoreBG1Portrait~
-REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @50003 //This component requires Edwin Romance to be installed.
-FORBID_COMPONENT ~Setup-EdwinRomance.tp2~ 4 @50010 //This component needs to be installed before the Edwina Portrait component.
+REQUIRE_COMPONENT ~edwin.tp2~ 0 @50003 //This component requires Edwin Romance to be installed.
+FORBID_COMPONENT ~edwin.tp2~ 4 @50010 //This component needs to be installed before the Edwina Portrait component.
 
 COPY_EXISTING ~EDWINL.bmp~ ~override/NEDWINL.bmp~
 COPY_EXISTING ~EDWINM.bmp~ ~override/NEDWINM.bmp~
@@ -756,7 +756,7 @@ COPY_EXISTING ~EDWINS.bmp~ ~override/NEDWINS.bmp~
 BEGIN @50006 //Edwin flirts
 DESIGNATED 2
 LABEL ~LaufeysEdwinRomance-Flirts~
-REQUIRE_COMPONENT ~Setup-EdwinRomance.tp2~ 0 @50003 //This component requires Edwin Romance to be installed.
+REQUIRE_COMPONENT ~edwin.tp2~ 0 @50003 //This component requires Edwin Romance to be installed.
 
 COMPILE ~edwin/dlg/flirts.d~ USING ~edwin/tra/english/flirts.tra~ ~edwin/tra/%s/flirts.tra~
 
@@ -798,7 +798,7 @@ COPY_EXISTING ~spin662.spl~ ~override~ // return to edwin
   LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 1 timing = 1 STR_VAR resource = nedwinl END // large portrait
   LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 0 timing = 1 STR_VAR resource = nedwinm END // small portrait
 
-  ACTION_IF (MOD_IS_INSTALLED ~Setup-EdwinRomance.tp2~ "1") THEN BEGIN
+  ACTION_IF (MOD_IS_INSTALLED ~edwin.tp2~ "1") THEN BEGIN
 
     COPY ~edwin/bmp/syntia13/bg1/syntia13_330.bmp~ ~override/edwinam.bmp~
          ~edwin/bmp/syntia13/bg1/syntia13_330.bmp~ ~override/edwinas.bmp~
@@ -817,7 +817,7 @@ COPY_EXISTING ~spin662.spl~ ~override~ // return to edwin
   LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 1 timing = 1 STR_VAR resource = nedwinm END // large portrait
   LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 0 timing = 1 STR_VAR resource = nedwins END // small portrait
 
-  ACTION_IF (MOD_IS_INSTALLED ~Setup-EdwinRomance.tp2~ "1") THEN BEGIN
+  ACTION_IF (MOD_IS_INSTALLED ~edwin.tp2~ "1") THEN BEGIN
     COPY ~edwin/bmp/syntia13/bg1/syntia13_170.bmp~ ~override/edwinam.bmp~
          ~edwin/bmp/syntia13/bg1/syntia13_60.bmp~  ~override/edwinas.bmp~
 
