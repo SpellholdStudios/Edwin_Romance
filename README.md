@@ -1,7 +1,7 @@
 # Edwin Romance
 This is a Baldur's Gate II mod that allows the player to carry out a romantic relationship with Edwin Odesseiron, the Red Wizard of Thay. It also offers a less tragic epilogue for romanced and redeemed Viconia.
 
-Note: For downloading the current version from GitHUb, make sure you go to the releases page and download the [latest release of this mod!](https://github.com/SpellholdStudios/Edwin_Romance/releases)
+Note: For downloading the current version from GitHub, make sure you go to the releases page and download the [latest release of this mod!](https://github.com/SpellholdStudios/Edwin_Romance/releases)
 
 [Visit the mod's forum at Spellhold Studios.](http://www.shsforums.net/forum/69-edwin-romance/)
 
