@@ -5,7 +5,7 @@ Note: For downloading the current version from GitHub, make sure you go to the r
 
 [Visit the mod's forum at Spellhold Studios.](http://www.shsforums.net/forum/69-edwin-romance/)
 
-[Visit the mod's Homepage.](http://www.spellholdstudios.net/ie/edwin)
+[Visit the mod's Readme.](https://spellholdstudios.github.io/readmes/edwinromance-readme.html)
 
 [Download the mod at Spellhold Studios.](http://www.shsforums.net/files/file/1003-edwin-romance/)
 
